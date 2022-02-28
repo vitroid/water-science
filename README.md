@@ -1,4 +1,4 @@
-# water
+# Water Structure and Science
 This is a clone of Prof. Martin Chaplin's great web page on water: https://water.lsbu.ac.uk/water .
 
 ![CCBYNCND](https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png)
