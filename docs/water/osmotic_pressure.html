@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Osmotic pressure" />
+<meta name="Keywords" content="osmotic pressure, osmosis" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Osmotic pressure</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+<style type="text/css">
+<!--
+p.MsoNormal {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+}
+.style16 {
+	font-weight: bold
+}
+-->
+</style>
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+ <div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/osmotic_pressure.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+   <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Osmotic flow countered by the osmotic pressure</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/osmotic_pressure_1.gif" title="Schematic showing the effect of osmotic flow countered by the osmotic pressure (Pi)" alt="Schematic showing the effect of osmotic flow countered by the osmotic pressure (Pi)" width="240" height="168" /></figure> 
+<h1>Osmotic pressure</h1>
+    <p>Osmotic pressure is the tendency of solvent molecules to  move toward lower solvent activity, and it plays a central role in biology.    </p>
+    <p>&nbsp;</p>
+    <p><span class="style16"><img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/></span><span class="style16"> <a href="moles_molarity_molality.html"> Mole fraction : molarity, molality, % w/w and % w/v</a></span></p>
+    <p class="style16"><span class="style16"><img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/></span><a href="colligative_properties.html#over" title="go to sectio"> Overview of colligative properties</a><span class="style16"><br />
+        <img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/><a href="diffusion.html" title="go to new section "> Diffusion</a></span><span class="style16"><br />
+    <img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/><a href="Brownian.html"> Brownian motion</a></span></p>
+    <p class="style16"><span class="style16"><img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/><a href="colligative_generation.html" title="go to new page"> Self-generation of osmotic pressure at interfaces</a></span><span class="style16"><br />
+        <img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/><a href="water_desalination.html#rev" title="go to new page"> Reverse osmosis</a></span><span class="style16"><br />
+          <img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/><a href="water_methods.html#osm" title="go to new page"> Osmotic stress</a></span><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#osm" title="go to section below">Osmotic pressure</a><span class="style16"><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#flux" title="go to section below">Osmotic flux</a></span></p>
+    <p class="style16"><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/>  <a href="#vp" title="go to section below">Relation of osmotic pressure to vapor pressure
+lowering</a>    <br />
+          <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#polym" title="go to section below">The osmotic pressure of polymers</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#pot" title="go to section below">Osmotic potential</a></span><br />
+  </p>
+    <p>&nbsp;</p>
+    <div class="style10">
+      <p align="center"><em>&quot;...the cause of osmosis is the difference that exists between the free energy or activity </em></p>
+      <p align="center"><em>of the solvent in the pure state and in solution...&quot;</em>
+</p>
+</div>  
+    <div  class="style4">
+      <p align="right">Alexander Finlay 'Osmotic Pressure' 1919&nbsp;&nbsp;</p>
+</div>
+   
+    <div style=" float:none; clear:both;">
+      <h2><a name="osm" id="osm"></a> Osmotic pressure </h2>
+      <p>When pure liquid water is separated by a membrane, permeable to water but not solute, from a solution containing a non-volatile solute, water will pass from the pure water side until sufficient extra pressure (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr>) is caused or applied to the solution side  [<a  title="go to cited reference" href="ref19.html#r1872">1872</a><a name="r1872" id="r1872"></a>]. Water moves from high to low water activity due to osmosis and, if allowed, would equalize the water activity on both sides of the membrane. This  osmotically-linked flow has been shown to equal the rate if a similar but  hydrostatic pressure (in the opposite direction) was imposed.  The pressure needed to stop the osmotic flow is the osmotic pressure (see below right). At this equilibrium, the vapor pressures of the solution and the pure water are identical (see <a href="#vapor">below</a>). Note that osmotic pressure is an equilibrium thermodynamic property<a href="#a"><sup>a</sup></a><a name="ba" id="ba"></a> and gives no information concerning the rate of passage of the water, which depends primarily on the properties of the membrane  [<a  title="go to cited reference" href="ref19.html#r1873">1873</a><a name="r1873" id="r1873"></a>]. The osmotic pressure is the most biologically-important colligative property and correlates to other colligative properties [<a  title="go to cited reference" href="ref28.html#r2749">2749</a><a name="r2749" id="r2749"></a>]. Solutes dissolved in a solvent lower both the chemical potential and the activity of the solvent in the solution relative to the chemical potential or activity of the pure solvent. Osmotic pressure, vapor pressure lowering, boiling point elevation, and freezing point depression, are all measures of the same chemical potential of the solvent, which does not have to be water. Either freezing point depression or osmotic pressure can be used to calculate the other.</p>
+     
+        <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center"><a name="net" id="net"></a>The net movement of water towards solutions with lower</p>
+      <p align="center"> water activity, generating osmotic pressure</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/osmotic_pressure2.gif" width="320" height="690" alt="Net movement of water towards lower activity water solution, generating osmotic pressure" title="Net movement of water towards lower activity water solution, generating osmotic pressure" /></figure>
+      
+      <p>&nbsp;</p>
+      <p>There is often confusion in the literature between the thermo-dynamic rationale and the kinetic process of osmosis. <a href="#j"><sup>j</sup></a><a name="bj" id="bj"></a> The thermodynamics of the process (e.g., the colligative property) only describes the tendency for the process to occur but does not describe the mechanism or the rate of  water  flow in an osmotic process, apart from its (impending) direction. As such, all solutions possess the potential for osmotic pressure (but no actual osmotic pressure)  if not adjacent to a semipermeable membrane. Also, there is no distension of the semipermeable membrane under osmotic pressure, but there may well be distension under hydrostatic pressure; the osmotic pressure only apparently acts around the pores of the semipermeable membrane, whereas the hydrostatic pressure acts throughout the system. In this way, osmotic pressure <a href="#m"><sup>m</sup></a><a name="bm" id="bm"></a> differs from hydrostatic pressure. </p>
+      <p>&nbsp;</p>
+      <p>Osmotic pressure is determined at thermodynamic equilibrium in an osmometer similar to the diagram (see <a href="#net">above right</a>) with no net flow through the membrane. In line with the other colligative properties (boiling point raising, freezing point lowering) as determined, it is a pressure difference, not  absolute pressure. It cannot be determined by any kinetic process. Below right is shown the U-tube configuration whereby water flows from the pure water arm to the solution arm until the excess pressure on the solution in the right-hand arm (<a href="constants.html#density">&rho;</a> &#739; <a href="constants.html#gravity">g</a> &#739; h) is balanced by the osmotic pressure.</p>
+      <p align="left">&nbsp;</p>
+      <p>As it takes more energy to remove an amount of water from a volume of low activity water than to remove the same amount of water from the same volume of high activity water, water molecules leaving the lower-water-activity compartment  will require more energy as they cause the formation of a localized even lower activity water in their wake. Therefore, only higher energy water molecules can leave this compartment; necessarily a smaller amount than travel in the opposite direction. Note that the difference in activity may depend on the difference in the concentration of dissolved molecules and ions <a title="go for more information" href="colligative_properties.html">as discussed for other colligative properties</a> or may be due to other causes, such as <a title="go for more information" href="colligative_generation.html">surface interactions</a>. The measured water flux is often much smaller than the theoretical water flux due to concentration polarization at the membrane surface and the membrane resistance, together with an allowance for leakage through the membrane (the osmotic reflection coefficient (&sigma;) [<a  title="go to cited reference" href="ref31.html#r3088">3088</a><a name="r3088" id="r3088"></a>]). </p>
+      <p>&nbsp;</p>
+      <p>At  equilibrium, the water's <a href="thermodynamics.html#pot">chemical potential </a>(&mu;) must be the same on both sides  of the semipermeable membrane.<a href="#c"><sup>c</sup></a><a name="bc" id="bc"></a></p>
+      <p>&nbsp;</p>
+    </div>
+    <div style="float:right; width:40px;">
+      <p>&nbsp;</p>
+      <p>(1)</p>
+</div>
+    <p align="center"><img src="images/muliqp.gif" alt="chemical potential of pure water at pressure P" width="64" height="40" align="middle" /> = <img src="images/musolpi.gif" alt="chemical potential of a solution at pressure P+osmotic pressure (Pi)" width="78" height="40" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p>The effect of the solute may be included as for <a title="go for derivation" href="colligative_properties.html#raoult">Raoult's law</a></p>
+    <div style="float:right; width:125px;">
+      <p>&nbsp;</p>
+      <p>see below <a href="#d"><sup>d</sup></a><a name="bd" id="bd"></a> (2)</p>
+</div>
+    <p align="center"><img src="images/musolpi.gif" alt="chemical potential of a solution at pressure P+osmotic pressure (Pi)" width="78" height="40" align="middle" /> = <img src="images/muliqpi.gif" alt="chemical potential of pure water at pressure P+osmotic pressure (Pi)" width="70" height="40" align="middle" />+&nbsp;RTLn(x<sub>w</sub>)</p>
+    <p> where x<sub>w</sub> is the <a href="moles_molarity_molality.html">mole fraction</a> of the &lsquo;free&rsquo; water (0 &lt; x<sub>w</sub> &lt; 1). <a href="#b"><sup>b</sup></a><a name="bb" id="bb"></a> x<sub>w</sub> = 1 - x<sub>s</sub></p>
+    <p>&nbsp;</p>
+    <p>The change in chemical potential with pressure may be included. </p>
+    <div style="float:right; width:40px;">
+      <p>&nbsp;</p>
+      <p>(3)</p>
+</div>
+    <p align="center"><img src="images/muliqpi.gif" alt="chemical potential of pure water at pressure P+osmotic pressure (Pi)" width="70" height="40" align="middle" /> = <img src="images/muliqp.gif" alt="chemical potential of pure water at pressure P" width="64" height="40" align="middle" />+ <img src="images/intpi.gif" alt="integral from pressure P to P+osmotic pressure of (the molar volume of water) dT" width="103" height="48" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p>Combining equations 1, 2, and 3 and assuming the <a  title="go for value" href="water_properties.html#molvol">molar volume of water</a> (V<sub>m</sub>, m<sup>3</sup> mol<sup>&minus;1</sup> ) varies little within the likely pressure range. </p>
+   
+    <p align="center"><img src="images/musolpi.gif" alt="chemical potential of a solution at pressure P+osmotic pressure (Pi)" width="78" height="40" align="middle" /> = <img src="images/muliqp.gif" alt="chemical potential of pure water at pressure P" width="64" height="40" align="middle" />+ <img src="images/intpi.gif" alt="integral from pressure P to P+osmotic pressure of (the molar volume of water) dT" width="103" height="48" align="middle" />+&nbsp;RTLn(x<sub>w</sub>)</p>
+    <p>Using equation 1</p>
+    <div style="float:right; width:70px;">
+      <p>&nbsp;</p>
+      <p><a name="equ4" id="equ4"></a>(4 )<a href="#l"><sup> l</sup></a><a name="bl" id="bd2"></a> </p>
+</div>
+<p align="center">-RTLn(x<sub>w</sub>) = <img src="images/intpi.gif" alt="integral from pressure P to P+osmotic pressure of (the molar volume of water) dT" width="103" height="48" align="middle" /> = <abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> V<sub>m</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <div style="float:right; width:40px;">
+      <div style="float:right; width:70px;">
+        <p>[<a title="go to cited reference" href="ref3.html#r250">250</a>] (5)</p>
+</div>
+      <p>&nbsp;</p>
+</div>
+    <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> V<sub>m</sub> =  -RTLn(1-x<sub>s</sub>)</p>
+    <p>The <a title="go for values" href="water_properties.html#piezo">piezoscopic constant</a> (k<sub>p</sub> = R/V<sub>m</sub>).</p>
+    <p>&nbsp;</p>
+    <p>When x<sub>s</sub> is low, the following approximation is valid <a href="#k"><sup>k</sup></a><a name="bk" id="bk"></a></p>
+    <div style="float:right; width:40px;">
+      <p>(6)</p>
+</div>
+    <p align="center">Ln(1 - x<sub>s</sub>)  = - x<sub>s</sub>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <div style="float:left; width:60px;">
+      <p>Hence,</p>
+</div>
+    <p align="center">&nbsp;</p>
+    <div style="float:right; width:40px;">
+      <p><a name="eq7" id="eq7"></a>(7)</p>
+</div>
+    <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr>V<sub>m</sub> = x<sub>s</sub>RT </p>
+    <p align="center">&nbsp;</p>
+    <div style="float:right; width:40px;">
+      <p>(8)</p>
+</div>
+    <div style="float:left; width:60px;">
+      <p>At low x<sub>s</sub>,</p>
+</div>
+    <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<sub>s</sub> = n<sub>s</sub>/n<sub>w</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </p>
+    <p>&nbsp;</p>
+    <p>where n<sub>s</sub> is the number of moles of solute and n<sub>w</sub> is the number of moles of water.&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <div style="float:left; width:200px;">
+      <p>Given the volume of water (V),</p>
+</div>
+    <p align="center"> V = n<sub>w</sub>  &#739; V<sub>m</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p align="left">&nbsp;</p>
+
+
+    <p>The molar concentration of the solute (M<sub>s</sub> mol  &#739; m<sup>&minus;3</sup>) is</p>
+    <p>&nbsp;</p>
+    <p align="center">M<sub>s</sub> = n<sub>s</sub>/V = x<sub>s</sub>n<sub>w</sub>/n<sub>w</sub>V<sub>m</sub>&nbsp; = x<sub>s</sub>/V<sub>m</sub></p>
+    <p>&nbsp;</p>
+    <div style="float:right; width:240px;">
+      <p>the <a href="http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1901/hoff-lecture.pdf"   title="opens new site in a pop-up window"    target="otherWin1" onclick="newWin('otherWin1')">van't Hoff</a> equation (9) <a href="#f"><sup>f</sup></a><a name="bf" id="bf">' </a><a href="#g"><sup>g</sup></a><a name="bg" id="bg"></a></p>
+</div>
+    <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> <strong>= M<sub>s</sub>RT</strong></p>
+    <p align="center">&nbsp;</p>
+    <p>or&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<abbr title=" italic capital greek Pi"><em>&Pi;</em></abbr> = &rho;<sub>N</sub><em><a href="constants.html#boltz">k</a></em><a href="constants.html#boltz"><sub>B</sub></a>T &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;where &rho;<sub>N</sub> is the number density of particles (n/V)</p>
+    <p>&nbsp;</p>
+    <p>Note that M<sub>s</sub> is related to the <a href="moles_molarity_molality.html#molal">molarity</a> and not the <a href="moles_molarity_molality.html#molal">molality</a> used to describe the other colligative properties. If the concentration of glucose is 1 M at 20&nbsp;&deg;C, then the osmotic pressure (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr>) is 1 &#739; 1000 (mol  &#739; m<sup>&minus;3</sup>) &#739; 8.314 (<a href="#Pa">Pa </a> &#739; m<sup>3</sup> &#739; mol<sup>&minus;1</sup> &#739; K<sup>&minus;1</sup>) &#739; 298 (K) = 2.478 M<a href="#Pa">Pa</a>  (~ 25 <a href="constants.html#atm">atm</a>). Also, note that the osmotic pressure is related to the thermal energy&nbsp;<em><a href="constants.html#boltz">k</a></em><a href="constants.html#boltz"><sub>B</sub></a>T  as is the diffusivity.</p>
+    <p>&nbsp;</p>
+    <p>Given  that the water activity is different on each side of the membrane (a<sub>A</sub> &lt; a<sub>B</sub>), from equation 5</p>
+    <p>&nbsp;</p>
+    <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = (RT/V<sub>m</sub>) Ln(a<sub>B</sub>/a<sub>A</sub>) </p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;">  
+<figure  class="floatright">
+<figcaption>
+      <p align="center">The osmotic behavior of glucose solutions</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/glucose_osmotic.gif" alt="The osmotic behavior of glucose solutions"  title="The osmotic behavior of glucose solutions"  width="360" height="245" /></figure>
+      <p>&nbsp; </p>
+      <p>Shown opposite is the osmotic behavior of glucose solutions [<a  title="go to cited reference" href="ref42.html#r4102">4102</a><a name="r4102" id="r4102"></a>]. <a href="#e"><sup>e</sup></a><a name="be" id="be"></a> The lower blue line follows the 'ideal' colligative equation, <abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = M<sub>s</sub>RT. The thick red line follows the osmotic pressure as calculated from the experimental freezing point data [<a  title="go to cited reference" href="ref.html#r70">70</a><a name="r70" id="r70"></a>]. The middle green line shows the osmotic pressure calculated from the 'ideal' colligative equation,<em> <abbr title=" italic capital greek Pi"><strong>&Pi;</strong></abbr> </em>= M<sub>s</sub>RT, but correcting the concentration errors made by assuming Ln(1 - x<sub>s</sub>) = - x<sub>s</sub> and x<sub>s</sub> = n<sub>s</sub>/n<sub>w</sub> (but not the error in the molar volume of water). This is also the line given by Morse and Frazer's equation  [<a  title="go to cited reference" href="ref28.html#r2749">2749</a>] </p>
+      <p>&nbsp;</p>
+      <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = (n/V')RT</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">that avoids the approximation; where V&rsquo;  is    the  volume  of  pure   solvent  in  which  n  moles  of  solute  are  dissolved. The dotted black line is the best fit to the equation,</p>
+      <p align="left">&nbsp;</p>
+      <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;&nbsp;<abbr title=" italic capital greek Pi"><strong>&Pi;</strong></abbr> </em>= RT(M<sub>s</sub>+AM<sub>s</sub><sup>2</sup>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10<a name="eq10" id="eq10"></a>)</p>
+      <p align="center">&nbsp;</p>
+      <p>that is a commonly used form of approximation [<a title="go to cited reference" href="ref12.html#r1104">1104</a><a name="r1104" id="r1104"></a>], where the experimentally-determined empirical virial coefficient is A = 0.2 M<sup>&minus;1</sup> in this case, with most of the 'A' parameter due to the approximations used and not due to non-ideality. Further empirical virial coefficients may be used at higher concentrations;<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = RT(M<sub>s</sub>+A<sub>1</sub>M<sub>s</sub><sup>2</sup>+A<sub>2</sub>M<sub>s</sub><sup>3</sup>+A<sub>3</sub>M<sub>s</sub><sup>4</sup>). They are determined empirically by fitting them to the experimental osmotic pressure data and do not have any physical meaning. The thin red line is <a href="#diffusion">described below</a>. Note  that the ideal colligative equation holds well at low osmotic pressures, up to  about five atmospheres pressure (0.5 MPa).  </p>
+</div>
+    <div style=" float:none; clear:both;">
+      <p align="left"><a name="osmotic_coefficients" id="osmotic_coefficients"></a>&nbsp;</p>
+      <figure  class="floatleft"> 
+<figcaption>
+      <p align="center">Osmotic coefficients of bromides and acetates</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+      <img src="images/osmotic_coefficients.gif" alt="Osmotic coefficients of bromides and acetates" title="Osmotic coefficients of bromides and acetates" width="400" height="254" class="floatleft" /></figure>
+      <p align="left">&nbsp;</p>
+      <p align="left">Experimental osmotic pressures (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> ) may be compared with the 'ideally expected' osmotic pressure (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> <sub>0</sub>; as from <a title="go for derivation" href="colligative_properties.html#raoult">Raoult's law</a>) by the <a href="water_activity.html#salt_activity">osmotic coefficient</a> (<em>&#981;</em>); <em>&#981;</em> =<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> /<em><abbr title=" italic capital greek Pi"><strong>&Pi;</strong></abbr><sub>0</sub></em>. The osmotic coefficients of salts vary in a complex ion-specific manner (as ion activities, [<a title="go to cited reference"  href="ref23.html#r2225">2225</a><a name="r2225" id="r2225"></a>], see <a href="hofmeister_series.html#activity" title="go for more information" >Hofmeister series</a>). For example, at a given concentration, the  osmotic coefficients of bromide and iodide salts decreases in the sequence: Li<sup>+</sup> &gt; Na<sup>+</sup> &gt; K<sup>+</sup> &gt; Rb<sup>+</sup> &gt; Cs<sup>+</sup> (see left), whereas the  osmotic coefficients of acetate or fluoride salts decreases in the opposite sequence: Cs<sup>+</sup> &gt; Rb<sup>+</sup> &gt; K<sup>+</sup> &gt; Na<sup>+</sup> &gt; Li<sup>+ </sup>[<a title="go to cited reference"  href="ref23.html#r2224">2224</a><a name="r2224" id="r2224"></a>]. </p>
+  <div style=" float:none; clear:both;"></div>
+      <figure  class="floatright"> 
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Osmotic coefficient of NaCl, broken down</p>
+      <p align="center" class="style4">from [<a title="go to cited reference"  href="ref35.html#r3432">3432</a>]</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+      <img src="images/osmotic_coefficients7.gif" alt="Osmotic coefficient of NaCl, broken down, from [3432]"  title="Osmotic coefficient of NaCl, broken down, from [3432]" width="400" height="282" /></figure>
+      <p>&nbsp;</p>
+      <p>The form of the curves involves a drop in activity due to direct contact ion-pairing reducing the apparent salt concentration counteracted (see the red dashed line on the right, [<a title="go to cited reference"  href="ref35.html#r3432">3432</a><a name="r3432" id="r3432"></a>]) by an increase in  osmotic coefficients due to the binding of water by the salt and its consequential loss from the dissolving solution (see the blue dotted line on the right), so increasing the apparent concentration. The order of the salts is governed by their tendency to form direct contact ion-pair as opposed to solvent separated ion-pairs.
+</p>
+      <p>&nbsp;      </p>
+      <p align="left"><a name="diffusion" id="diffusion"></a>Osmotic pressure and simple diffusion may be treated as distinct, unrelated phenomena [<a  title="go to cited reference" href="ref21.html#r2100">2100</a><a name="r2100" id="r2100"></a>], the first one being thermodynamic and the other kinetic. However, osmotic pressure presents the driving force (osmosis) for  the movement of water from a region of high 'free' water concentration to a region of lower 'free' water concentration (for example. one with higher salt content). Such a relationship cannot exist  between a thermodynamic property (osmotic pressure) and a kinetic process (rate of diffusion). However, osmosis and diffusion can both be treated using thermodynamics or kinetics. The thermodynamic argument connects osmosis with the direction of diffusion, whereas the kinetic argument connects the pressure differences with the movement of molecules. A  diffusion-based theory for osmotic pressure has been described [<a title="go to cited reference" href="ref14.html#r1315">1315</a><a name="r1315" id="r1315"></a>], which involves several assumptions and gives the equation</p>
+      <p align="center"> <img src="images/os.gif" alt="Pi=MsRTx(xwV^2/(1+xsV))" width="143" height="48" align="middle" /> </p>
+      <p align="left">where x<sub>w</sub> and x<sub>S</sub> are the mole fractions of water and solute and V is the volume  of the solution (in liters) containing one liter of water. This equation contains no empirical parameters (such as '<a href="#eq10">A' above in equation 10</a>) and gives a good fit; it is shown as the top thin dashed red line for glucose above. It is noteworthy that this equation is valid for single solutes only and includes the experimentally determined volume (V) term that varies non-linearly with concentration and depends on the size of the solute (that is, it is not a colligative equation). </p>
+      <p>&nbsp;</p>
+      <p align="left">Proteins may remove much of the <a href="moles_molarity_molality.html">'free' water</a> from inside cells, causing much intracellular water to be osmotically unresponsive. As an example, one molecule of bovine serum albumin may bind 5000-43000 molecules of water [<a title="go to cited reference" href="ref12.html#r1103">1103</a><a name="r1103" id="r1103"></a>]. The <a href="moles_molarity_molality.html#osm">osmolality</a> of blood serum is about 282  - 295  m<a href="constants.html#osm">Osm</a>   &#739; (kg water)<sup>&minus;1</sup>, close to that of normal saline (0.90% <a href="moles_molarity_molality.html#ww">w/v</a> of NaCl, 308 m<a href="constants.html#osm">Osm</a>   &#739; L<sup>&minus;1</sup>). Serum values greater than 380 m<a href="constants.html#osm">Osm</a>   &#739; (kg water)<sup>&minus;1</sup> or less than 240 m<a href="constants.html#osm">Osm</a>   &#739; kg water<sup>&minus;1</sup> may be fatal. </p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+      <h2><a name="flux" id="vp2"></a>Osmotic flux</h2>
+      <p>The   water flux goes from the solution with the higher water activity (lower osmotic pressure) towards the solution with the lower water activity (higher osmotic pressure). The (net) rate of water flow depends on the relative   flow rates in the opposite directions. This, in turn, will depend on the ease with which the water molecules may leave the compartments on each side of the membrane, if present (dependent on the mole fraction of 'free' (bulk) water; the <a  title="go for more information" href="water_activity.html">water activity</a>), and the ease with which they can pass through such a membrane.  Although it is not certain that the hydraulic conductivity is identical under hydrostatic pressure (P) and osmotic pressure (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> ), the volume flow (F, L &#739; m<sup>&minus;2</sup>
+      &#739; s<sup>&minus;1</sup>) is often said to depend on the hydraulic conductivity (H, L &#739; N<sup>&minus;1</sup>&#739; s<sup>&minus;1</sup>) of the membrane</p>
+      <p>&nbsp;</p>
+      <p align="center">F = H &#739; (&Delta;P - &Delta;<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> )</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">where &Delta;P is the difference in hydrostatic pressure on the two sides of the membrane and &Delta;<em><abbr title=" italic capital greek Pi"><strong>&Pi;</strong></abbr> &nbsp;</em> is the difference in osmotic pressure between the two solutions. The net flow may be several times greater than that possible by diffusion alone, clearly indicating that it is not diffusion controlled. Where there is no difference in hydrostatic pressure but differences in the solutions' osmotic pressure, this equation reduces to,</p>
+      <p align="center">F = H &#739; &Delta;<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> </p>
+      <p align="center">&nbsp;</p>
+      <p align="left">The net flux will be lower than this if the membrane is leaky. Then, the following equation is sometimes used [<a title="go to cited reference" href="ref33.html#r3277">3277</a><a name="r3277" id="r3277"></a>], </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">F = (1/K) &#739; Ln(<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> /<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> <sub>b</sub>)</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">where K is related to the structural properties of the membrane  (S) and solute diffusion coefficient (D), </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">K = S/D</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+
+      <h2><a name="vp" id="vp"></a>Relation of osmotic pressure to vapor pressure lowering</h2>
+      <p>An alternative definition of the  osmotic pressure of a solution of  uniform concentration at a given temperature is the <strong>liquid pressure</strong> under which the internal vapor pressure of such solution is equal to the vapor pressure of the pure solvent [<a  title="go to cited reference" href="ref28.html#r2750">2750</a><a name="r2750" id="r2750"></a>]. The interface between liquid water and the gas phase is a form of semipermeable membrane, with water molecules able to pass through (by evaporation and condensation) but non-volatile solutes held within the liquid phase. Therefore, it is unsurprising that the osmotic pressure should be related to the lowering of vapor pressure. The relationship is </p>
+      <p>&nbsp;</p>
+      <p align="center"><strong>V &#739; dP = v &#739; dp </strong></p>
+      <p align="center">&nbsp;</p>
+      <p>where <strong>V</strong> is the volume of the vapor at vapor pressure<strong> P</strong> and <strong>v</strong> is the volume of the solvent in the solution at liquid pressure <strong>p</strong> [<a title="go to cited reference"  href="ref28.html#r2786">2786</a><a name="r2786" id="r2786"></a>].</p>
+      <p>&nbsp;</p>
+      <p>The <a href="colligative_properties.html#vpl">vapor pressure lowering</a> is given by &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P<sub>solute</sub> = x<sub>w</sub>P<sub>pure liquid </sub></p>
+      <p>&nbsp;</p>
+      <p>Therefore,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P<sub>pure liquid</sub> - P<sub>solute</sub> = P<sub>pure liquid </sub> &#739; (1 - x<sub>w</sub>)</p>
+      <p>&nbsp;</p>
+      <p>From the gas laws ( PV = RT ) and 
+        &nbsp;( x<sub>s</sub> = &nbsp;1 - x<sub>w </sub>),&nbsp;&nbsp;&nbsp;&nbsp;P<sub>pure liquid</sub> - P<sub>solute</sub> = x<sub>s</sub>RT/V<sub>g</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>where V<sub>g</sub> is the molar volume of the solvent as a gas.</p>
+<figure  class="floatright">
+<figcaption>
+      <p align="center"><a name="vapor" id="vapor"></a>Relation of osmotic pressure to vapor pressure</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/osmotic_pressure3.gif" width="320" height="273" alt="Relation of osmotic pressure to vapor pressure" title="Relation of osmotic pressure to vapor pressure" /></figure>
+      <p>&nbsp;</p>
+      <p>Compare this equation with <a href="#eq7">equation 7 above</a> for dilute solutions </p>
+      <p>&nbsp;</p>
+      <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = x<sub>s</sub>RT/V<sub>m</sub></p>
+      <p align="center">&nbsp;</p>
+      <p>where V<sub>m </sub> is the molar volume of the liquid solvent. For water at <a href="constants.html#stp">STP</a>, the ratio  V<sub>g</sub>/V<sub>m</sub> = 1232.</p>
+      <p>&nbsp;</p>
+      <p>Therefore, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P<sub>pure liquid</sub> - P<sub>solute</sub> =<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> /1232&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at <a href="constants.html#stp">STP</a></p>
+      <p>&nbsp;</p>
+      <p>For example, from an experiment, the vapor pressure lowering of a 1-M solution of NaCl at 100&nbsp;&deg;C, 101,325 Pa is 3.360 kPa. From the <a href="http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1901/hoff-lecture.pdf"   title="opens new site in a pop-up window"    target="otherWin1" onclick="newWin('otherWin1')">van't Hoff</a> equation, the osmotic pressure of this solution is </p>
+      <p>&nbsp;</p>
+      <p align="center">2000 &#739; 8.314 &#739; 373.15 = 6.205 MPa</p>
+      <p align="center">&nbsp;</p>
+      <p>At 100&nbsp;&deg;C,   V<sub>g</sub>/V<sub>m</sub> = 1613 comparing well to the ratio of the pressures of 6205/3.36 = 1846 considering the approximations, experimental data error, and non-ideality involved.</p>
+      <p>&nbsp;</p>
+      <p> Increasing solutes lower the water activity and the vapor pressure of a solution. The vapor pressure of a solution is increased by increasing the hydrostatic pressure on it. The osmotic pressure is the liquid pressure under which the vapor pressure of the solution is equal to the vapor pressure of the pure solvent. Both the osmotic  and  vapor pressures are intensive properties of solutions (do not depend on the amount of substance present in the system). As at constant temperature and composition, </p>
+      <p>&nbsp;</p>
+      <p align="center"><strong>&Delta;G = V &#739; &Delta;p</strong></p>
+      <p align="center">&nbsp;</p>
+      <p>the pressure change is related to the free energy change; that is, the amount of work that the system can perform.</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+      <h2><a name="polym" id="polym"></a>The osmotic pressure of polymers </h2>
+      <p align="left">At low concentrations in suitable solvents, linear polymers obey  the <a href="http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1901/hoff-lecture.pdf"   title="opens new site in a pop-up window"    target="otherWin1" onclick="newWin('otherWin1')">van't Hoff</a> equation but not at higher concentrations. For all solvents at higher concentrations, this gives rise to complex osmotic behavior with far greater than expected (from <a href="http://www.nobelprize.org/nobel_prizes/chemistry/laureates/1901/hoff-lecture.pdf"   title="opens new site in a pop-up window"    target="otherWin1" onclick="newWin('otherWin1')">van't Hoff</a> equation) osmotic pressures that depend on the degree of polymerization and the interaction between the chains.  Polymer  chains have random configurations sweeping through space and occupying  much larger volumes than the molecular partial volume. The empirical equation </p>
+      <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = RT(M<sub>s</sub>+AM<sub>s</sub><sup>2</sup>)&nbsp;</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">is often used, where A is the second virial coefficient that takes into account  the interaction between two chains. Note that <a href="#" target="equ4">equation (4) </a></p>
+      <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> V<sub>m</sub> = -RTLn(x<sub>w</sub>)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p align="center">&nbsp;</p>
+      <p align="left">still holds throughout this section but the approximation </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">Ln(x<sub>w</sub>) = Ln(1 - x<sub>s</sub>) = - x<sub>s</sub> </p>
+      <p align="center">&nbsp;</p>
+      <p align="left">presents a greater error and should not be used. The polymers effectively remove (screen) some of the solvent from the solution by reducing the 'free' volume of solvent available.</p>
+      <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">The osmotic pressure of pullulan from [<a  href="ref28.html#r2709"  title="go to cited reference" >2709</a>]</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img   class="floatright" src="images/pullulan.gif" width="360" height="232" alt="osmotic pressure of pullulan from [2709]" title="osmotic pressure of pullulan from [2709]"/></figure>
+      <p align="left"><a name="pull" id="pull"></a></p>
+      <p align="left">As the concentration of the neutral polymers  increases, an overlap between the chains increases with increasing contacts between the monomers, and the solution is no longer homogenous. Under these conditions, the <strong>des Cloiseaux law</strong></p>
+      <p align="center">  <strong><abbr title=" italic capital greek Pi"><em>&Pi;</em></abbr>  &prop; M<sub>s</sub><sup>9/4</sup></strong> </p>
+      <p align="center">&nbsp;</p>
+      <p align="left">holds[<a  href="ref28.html#r2710" name="r2710" title="go to cited reference" id="r2710">2710</a>] (see right [<a  href="ref28.html#r2709" name="r2709" title="go to cited reference" id="r2709">2709</a>]). At low concentrations, the van't Hoff equation osmotic pressure (&pi;<sub>vH</sub> ) is given by,</p>
+      <p align="left">&nbsp;</p>
+      <p align="center"><img src="images/o1.gif" alt="osmotic pressure equation 1" title="osmotic pressure equation 1" width="208" height="43" /></p>
+      <p align="left"> where C is polymer mass concentration, M<sub>p</sub> is polymer molecular weight, M<sub>m</sub> is monomer molecular weight, and N is the number of monomers in the polymer chain. As the concentration increases (often called the semidilute regime), the osmotic pressure (&pi;) varies as [<a  href="ref28.html#r2710" title="go to cited reference" >2710</a>], </p>
+      <p align="center"><img alt="osmotic pressure equation 2" title="osmotic pressure equation 2" src="images/o2.gif" width="257" height="48" /></p>
+      <p align="left">where C* is a characteristic N-dependent polymer concentration associated with the crossover between the dilute and semidilute regimes (see <a href="#pull">figure above right</a>) and<em> k</em> is a structurally-specific constant. C* has been related to the partial specific volume (<img src="images/o6.gif" alt="V bar" title="V bar" width="9" height="22" align="absmiddle" />) [<a  href="ref28.html#r2710" title="go to cited reference" >2710</a>],</p>
+      <p align="center"><img src="images/o3.gif" alt="osmotic pressure equation 3" title="osmotic pressure equation 3"  width="59" height="48" /></p>
+      <p align="left">giving &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/o4.gif" alt="osmotic pressure equation 5" title="osmotic pressure equation 5"  width="116" height="41" align="absmiddle" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/o5.gif" alt="osmotic pressure equation 5" title="osmotic pressure equation 5"  width="108" height="51" align="absmiddle" /></p>
+      <p align="left">with log-log plots of the osmotic pressure against mass concentration changing from unit gradient  to a gradient of 9/4 around C* (polyelectrolytes change from 9/8 gradient  to a gradient of 9/4 [<a  href="ref28.html#r2710" title="go to cited reference" >2710</a>c]). </p>
+      <p>&nbsp;</p>
+      <p align="left">The osmotic behavior of branched polymers is complicated by the degree and order of the branching with the osmotic pressure dependent on the 'free' volume of solvent available.</p>
+      <p>&nbsp;</p>
+      <p align="left">When the solvent is water, there are two ways that water becomes bound (i.e., it is not 'free' water) due to the number of monomers; (a) water hidden from the bulk due to the above overlapping of the polymer chains and (b) water held firmly to the monomers by electrostatic effects and hydrogen bonds. As there is likely to be overlap between these effects, they may well be only partially or insignificantly additive. As  above, the <a title="go for more information" href="hydrocolloids_gums.html#poly">osmotic behavior of polyelectrolytes</a> in water depends on the mass  concentration relative to the concentration the molecules overlap in solution  [<a  href="ref15.html#r1493" name="r1493" title="go to cited reference" id="r1493">1493</a>]. Polyelectrolyte gels may swell to a much greater extent (e.g., <a href="hydrocolloids_gums.html#gels" title="Go to relevant Section">hydrogels</a>) than neutral gels  due to the presence of counter-ions increasing the osmotic pressure. The elasticity of the gel counteracts this by exerting pressure on the contained water.</p>
+      <p>&nbsp;</p>
+      <figure  class="floatright">
+<figcaption>
+      <p align="center">Shows the area that polymers cannot penetrate</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img   class="floatright" src="images/inert.gif" width="300" height="237" alt="cartoon showing the area that polymers cannot penetrate" title="cartoon showing the area that polymers cannot penetrate"  /></figure>
+      <p>A different effect occurs in suspensions of inert particles in polymer solutions. It is found that such particles do not exert any osmotic pressure. However, the solution between them (see right) exerts a negative pressure that drives the particle together and destabilizes their suspension [<a title="go to cited reference"  href="ref28.html#r2786">2786</a>]. This <a href="ice_xvi.html#a" title="go for more explanation">negative pressure</a> causes an outward flow of water from the high activity polymer free volume between the inert particles towards the lower activity polymer bulk solution, and consequently an attraction between these inert particles. The magnitude of this force depends on the product of the osmotic pressure and the cross-sectional area of the excluded volume. Effectively, the limited access to biomolecules between the inert particles acts as a semipermeable membrane. It should be noted that the osmotic drive does not require a material membrane to separate the two solutions  [<a  title="go to cited reference" href="ref18.html#r1744">1744</a><a name="r1744" id="r2"></a>], provided that there are two distinct volumes (e.g.,  [<a title="go to cited reference" href="ref17.html#r1669">1669</a><a name="r1669" id="r1669"></a>]).
+      </p>
+      <p>&nbsp;</p>
+      <p align="left">The same phenomenon applies to inert  surfaces with narrow clefts and pores, such as the ZIF-8 material <a href="#h"><sup>h</sup></a><a name="bh" id="bh"></a> that has great energy storage capacity (up to 30 MPa negative osmotic pressure in 2M NaCl) due to its sub-nanometric pores [<a title="go to cited reference"  href="ref28.html#r2791">2791</a><a name="r2791" id="r2791"></a>].</p>
+      <p>&nbsp;</p>
+     <div style=" float:none; clear:both;"></div>
+     
+  
+      <p align="left"><a href="colligative_generation.html" title="go for more information">Interfaces can also generate osmotic pressure</a> without the requirement for dissolved solutes [<a  title="go to cited reference" href="ref18.html#r1772">1772</a><a name="r1772" id="r1772"></a>, <a  title="go to cited reference" href="ref21.html#r2057">2057</a><a name="r2057" id="r2057"></a>]. </p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+      <h2><a name="pot" id="pot"></a>Osmotic potential</h2>
+      The osmotic potential measures the  tendency  of  a  solution  to  withdraw  water  from  pure  water  by osmosis across  a  differentially  permeable  membrane. Net diffusion of water occurs from regions of less negative  potential to ones of more negative (or lower) potential and continues  until the potentials become equal. The osmotic potential (<abbr title="Psi"><strong>&Psi;</strong></abbr><strong><sub>&pi;</sub></strong>) of pure water is defined to be zero (= 0 Pa), with all solutions having negative values in pressure units. Thus at low concentrations, <abbr title="Psi"><strong>&Psi;</strong></abbr><strong><sub>&pi;</sub></strong> is given by  
+      the <a href="#g">van't Hoff equation</a>,
+      <p>&nbsp;</p>
+      <p align="center"><abbr title="Psi"><strong>&Psi;</strong></abbr><strong><sub>&pi;</sub></strong> = - M<sub>s</sub>RT</p>
+      <p align="center">&nbsp;</p>
+      <p> If a living cell is surrounded by a more concentrated solution (with more negative osmotic potential), the   cell (hypotonic) will tend to lose water to the surrounding environment.   If the living cell is surrounded by a less concentrated solution (less negative osmotic potential), the   cell (hypertonic) will tend to gain water from the surrounding environment. Water flows from higher osmotic potential to lower osmotic potential. In osmosis, water molecules move down the water potential gradient, from   a high water potential to a lower water potential. Water moves from the ground surrounding trees to their upper branches in response to differences in the osmotic potential between the roots and the leaves; where water evaporates (transpiration  [<a title="go to cited reference"  href="ref25.html#r2434">2434</a><a name="r2434" id="r2434"></a>]) to increase solute concentration and decrease water potential. The maximum height that a tree (122-130 m) can grow [<a title="go to cited reference" href="ref39.html#r3842">3842</a><a name="r3842" id="r3842"></a>] depends on the maximum water potential (&asymp; 2 MPa) that can be generated in the leaves compatible with retaining the water within the leaf cells [<a title="go to cited reference"  href="ref23.html#r2246">2246</a><a name="r2246" id="r2246"></a>]. </p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+</div>
+    <hr />
+    <h2>Footnotes</h2>
+    <p><a name="a" id="a"></a><sup>a </sup>The <a href="Brownian.html">inherent thermal motion of Brownian particles</a> causes osmotic pressure that is is a pressure difference existing at equilibrium between two solutions separated by a semipermeable membrane. An  osmotic pressure is a physical quantity dependent only on the solution's  concentration(s) and temperature.   Water moves from a solution with low osmotic pressure to a solution with high osmotic pressure  due to osmosis and, if allowed, would equalize the pressure on both sides of the membrane. Osmotic pressure can also apply to gases and supercritical fluids [<a  title="go to cited reference" href="ref21.html#r2100">2100</a>]. Osmotic pressure was first descibed by the Abbe Jean-Antoine  Nollet in 1748; &quot;L 'Abbn Nollet, Recherches sur les Causes du  Bouillonnement des Liquides. M&eacute;moires de l'Acad&eacute;mie Royale des Sciences (Paris), June, 1748&quot;.  [<a href="#ba">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><sup>b<a name="b" id="b"></a></sup>Thus,  the mole fraction of water is critical, not the water concentration by itself. </p>
+    <p>&nbsp;</p>
+    <p><a name="c" id="c"></a><sup>c</sup> Similar derivations hold for the osmotic pressures in liquids other than water. [<a href="#bc">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><sup>d<a name="d" id="d"></a></sup> The energy change occurring over a small change (dx) in the mole fraction of water (x<sub>w</sub>) is RTdx/x<sub>w</sub>. Therefore the total energy change going from pure water (x<sub>w</sub>= 1) to this new value (x<sub>w</sub>) is <img src="images/int.gif" alt="RT times the integral dx of 1/xw" title="RT times the integral dx of 1/xw" width="77" height="42" align="absmiddle" /> = RTLn(x<sub>w</sub>/1) = RTLn(x<sub>w</sub>). [<a href="#bd">Back</a>] </p>
+    <p>&nbsp; </p>
+    <p><a name="e" id="e"></a><sup>e</sup> The osmotic properties of carbohydrate aqueous solutions from vapor pressure determinations have been described [<a title="go to cited reference"  href="ref26.html#r2556">2556</a><a name="r2556" id="r2556"></a>]. [<a href="#be">Back</a>] </p>
+    <p>&nbsp; </p>
+    <p><a name="f" id="f"></a><sup>f</sup> This van't Hoff equation for the osmotic pressure (<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> = M<sub>s</sub>RT) has the same algebraic form as the Ideal Gas Law (PV = nRT) as n/V = M<sub>s</sub>. Thus the (ideal) osmotic pressure of a solute behaves as though it is alone as an (ideal) gas within the space occupied by the volume of the solution. If N<sub>2</sub> gas is assumed ideal, and a glucose solution is assumed ideal, then the pressure exerted by one mole of N<sub>2</sub> gas in a one-liter container (2.437 MPa) is identical to the osmotic pressure exerted by a one molar aqueous solution of glucose (2.437 MPa). The average kinetic energy of molecules is the same in gases and liquids (3/2 RT  &#739; mol<sup>&minus;1</sup>). As first stated by van't Hoff in 1892, however, <span class="style6"><strong>this conceptual picture may mislead</strong></span> as, although gas pressure is due to the bombardment pressure of the gas molecules against its container, the osmotic pressure is <strong><span class="style6">not</span></strong> the bombardment pressure of the solute molecules against the barrier. </p>
+    <p>&nbsp;</p>
+    <p>The van't Hoff equation may be expressed in the alternative units as <abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> =<em><a href="constants.html#boltz">k</a></em><a href="#boltz"><sub>B</sub></a>cT , where c is the number of solute particles  per unit volume (e.g., m<sup>3</sup>). [<a href="#bf">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><a name="g" id="g"></a><sup>g</sup> Jacobus Henricus van't Hoff, Jr. (30 August 1852 - 1 March 1911) derived his equation in 1885. He was a Dutch chemist and the first winner of the Nobel Prize in Chemistry (1901), with Nobel; lecture &quot;<a href="https://www.nobelprize.org/uploads/2018/06/hoff-lecture.pdf"  title="opens new site in a pop-up window"  target="otherWin3" onclick="newWin('otherWin3')">Osmotic pressure and chemical equilibrium</a>&quot;. [<a href="#bg">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><a name="h" id="h"></a><sup>h</sup> Zeolitic imidazolate frameworks (ZIFs)  are topologically isomorphic with zeolites, but with the tetrahedrally-coordinated transition metal ions connected by imidazolate linkers rather than silica. [<a href="#bh">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><a name="j" id="j"></a><sup>j</sup> Osmosis is an essential topic in microbial, plant and animal physiology, physical chemistry, and water purification. In the research literature and relevant textbooks, there are almost as many different descriptions and derivations of the process of 'osmosis' as there are 'osmosis' articles; some descriptions are  mistaken or misleading, whereas others are inadequate or opaque. Some are knowingly wrong while attempting to 'simplify' the subject. The result is one of the most muddled areas of modern science with little consistency or agreement and with most authors vehemently rejecting each other's views. As this is a field that has stretched many great minds, including Albert Einstein, it may be concluded that it is difficult to find clarity. This confusion is compounded as the word 'osmosis' has been defined by both thermodynamics (the tendency of  water to pass through a semipermeable membrane) and kinetics (the actual diffusion of water through a semipermeable membrane). Osmotic pressure models using molecular dynamics have appeared, but these may mislead if they do not behave in a colligative manner. [<a href="#bj">Back</a>] </p>
+    <p>&nbsp;</p>
+    <p><a name="k" id="k"></a><sup>k</sup> The logarithmic term Ln(1 - x) may be expanded in terms of a Maclaurin series</p>
+      <p>&nbsp;</p>
+      <p align="center">Ln(1 - x) = -(x + x<sup>2</sup>/2   + x<sup>3</sup>/3 + x<sup>4</sup>/4 + x<sup>5</sup>/5 + x<sup>6</sup>/6 + x<sup>7</sup>/7 + <strong>. . . . . . . .</strong>)</p>
+    <p>&nbsp;</p>
+    <p align="left">This series converges for -1 &#x2264; x
+      &lt; 1 and quickly converges for x close to zero. [<a href="#bk">Back</a>] </p>
+    <p align="left">&nbsp;</p>
+    <p align="left"><a name="l" id="l"></a><sup>l</sup> This equation is also applicable to non-ideal solutions.</p>
+    <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> V<sub>m</sub> = -RTLn(x<sub>w</sub>) </p>
+    <p align="center"><abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr> V<sub>m</sub> = -RTLn(a<sub>w</sub>) </p>
+    <p align="right">[<a href="#bl">Back</a>] </p>
+    <p align="left">&nbsp;</p>
+    <p><a name="m" id="m"></a><sup>m</sup> It is relevant that the units of osmotic pressure (Pa, kg &#739; m<sup>&minus;1</sup> &#739; s<sup>&minus;2</sup>) are identical to the units of energy per volume (J &#739; m<sup>&minus;3</sup>, kg &#739; m<sup>&minus;1 </sup>&#739; s<sup>&minus;2</sup>). Osmotic pressure is  an intensive property of the solution rather than just associated with  a membrane. It is also capable of doing work, like raising the level of a solution. Considering osmotic pressure as energy per volume allows easier comprehension of its links to the water potential, solution potential, and the other colligative properties. [<a href="#bm">Back</a>] </p>
+    <p align="left">&nbsp;</p>
+    <div style=" float:none; clear:both;">  </div>
+    <div style=" float:none; clear:both;">
+
+     
+      <p align="right"> <a title="go to top of page" href="#top">[<span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" />] </a></p>
+</div>
+    <!-- print end -->
+    <div class="spacer"></div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="moles_molarity_molality.html">Molality and molarity</a> | <a href="water_activity.html">Water activity</a> | <a href="colligative_properties.html">Colligative properties</a> | <a href="clusters_introduction.html">Water: Introduction </a>| <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html">The 
+      icosahedral water clusters</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2006 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->22 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

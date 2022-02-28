@@ -1,0 +1,721 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Intracellular water" />
+<meta name="Keywords" content="Intracellular water" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Intracellular water</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<script language="javascript" type="text/javascript">
+<!--
+n=0;
+img="images/c1.gif, images/c2.gif, images/c3.gif, images/c4.gif, images/c5.gif, images/c6.gif, images/c7.gif, images/c8.gif, images/c9.gif, images/c10.gif,  images/c11.gif" .split(", ");
+nimg=img.length;
+imgs=new Array();
+for (i in img){
+	imgs[i]=new Image();
+	imgs[i].src=img[i];
+	}
+function sho(src,dir){
+n=n+dir;
+if (n==nimg) n=0;
+if (n==-1) n=nimg-1;
+document.images[src].src=imgs[n].src;
+}
+//-->
+</script>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif','images/v1.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/intracellular_water.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+<div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+       <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Cytoskeleton in the human cell</p>
+      <p align="center" class="style4">re-colorized from wellcomimages</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+<img src="images/human_cell.gif" title="Human cell, recolorized from http://wellcomeimages.org/ showing the cytoskeleton (reds and violets) and nucleus (cyan), surrounded by intracellular water" alt="Human cell, recolorized from http://wellcomeimages.org/ showing the cytoskeleton (reds and violets) and nucleus (cyan), surrounded by intracellular water" width="240" height="187" class="floatright" /></figure>
+    <h1>Intracellular 
+      Water</h1>
+    <p>There is a dynamic coupling between intracellular water and  active metabolic processes.</p>
+    <p>&nbsp;</p>
+    <p><span class="style15"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#trans" title="go to section below">Water transfer across membranes</a></span></p>
+    <p><span class="style15"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#intra" title="go to section below">Intracellular water</a></span></p>
+    <p><span class="style15"> <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#pot" title="go to section below">Intracellular solutions contain more K<sup>+</sup> ions</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#ld" title="go to section below">Membranes help create a tendency towards low-density water in cells</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#prot" title="go to section below">The effect of intracellular protein on water structuring</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#carb" title="go to section below">The importance of protein carboxylate groups</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#mob" title="go to section below">The importance of protein mobility</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#coop" title="go to section below">Cooperative conversion of the water structuring</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#e" title="go to section below">Actin, tubulins, and the intermediate filaments</a></span></p>
+    <p><br />
+</p>
+    <p align="center"><span class="style10"><em>&quot;the molecular structure of water is the 
+        essence of all life&quot; <sup><a title="click for an explanation" href="#a">&nbsp;</a></sup></em></span></p>
+    <p align="right"><span class="style4">Dr. Albert Szent-Gyorgy, Nobel Prize 
+        winner.&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+
+    <h2><a name="trans" id="trans"></a>Water transfer across membranes</h2>
+    <p>How does water cross the <a href="membrane_hydration.html">membranes</a> that form hydrophobic barriers between aqueous compartments? The answer lies in <a href="diffusion.html">diffusion</a> and <a href="osmotic_pressure.html">osmosis</a>  [<a title="go to cited reference" href="ref42.html#r4113">4113</a><a name="r4113" id="r4113"></a>]. Under 'normal' conditions, the water content of a cell is maintained near-constant. Water diffusion across a cell membrane occurs either by the slow   partition process into the lipid bilayers, somewhat enabled by membrane protein, followed by its escape from the other side, or via a faster process involving aquaporins (water-permeable trans-membrane proteins)  [<a title="go to cited reference" href="ref42.html#r4114">4114</a><a name="r4114" id="r4114"></a>]. Also, transport of Na<sup>+</sup>, K<sup>+</sup> and other ions and osmolytes are accompanied by the movement of water into and out of the cell. There will generally be water movement in both directions across lipid membranes, but any net water movement is powered by osmosis. The activation energy of  water exchange through yeast plasma membranes is about that of a single water-water hydrogen bond, indicating the amount of the water structure that must be lost during its movement across the membranes   [<a title="go to cited reference" href="ref42.html#r4115">4115</a><a name="r4115" id="r4115"></a>]. High water permeabilities are found in renal proximal-tubule and red blood cells. Low water permeability is found where there are no aquaporins and with the membrane rich in water-blocking cholesterol molecules.</p>
+    <p>&nbsp;</p>
+    <p>Natural physiological cell death (apoptosis) involves cell shrinkage with K<sup>+</sup> ion loss, whereas accidental cell death (necrosis) causes swelling with water gain, eventually resulting in cell lysis [<a title="go to cited reference" href="ref42.html#r4178">4178</a><a name="r4178" id="r4178"></a>].</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+  
+		
+    <h2><a name="intra" id="intra"></a>Intracellular water<br />
+    </h2>
+    <p align="center"><span class="style10"><em>&quot;water is an enemy to be excluded as rigorously as possible&rdquo;<sup><a title="click for an explanation" href="#a">&nbsp;</a></sup></em></span></p>
+    <p align="right"><span class="style4">Robert Shapiro, Origins, 1986.&nbsp;</span></p>
+    <p><br />
+    </p>
+    <p align="left">Intracellular water is the water inside cells that bathes all the necessary biological molecules, including  proteins and nucleic acids.<em><sup><a title="click for an explanation" href="#a"> a</a><a name="ba" id="ba"></a></sup></em> This water has severely moderated properties so reducing its chemical and biological activity [<a title="go to cited reference" href="ref42.html#r4176">4176</a><a name="r4176" id="r4176"></a>]. The interior of the mammalian cell is a very crowded environment containing &asymp; 250 mg &#739; mL<sup>&minus;1</sup> protein, &asymp; 110 mg &#739; mL<sup>&minus;1</sup> RNA,   &asymp; 10<sup>3</sup> m<sup>2</sup> &#739; L<sup>&minus;1</sup> cytoskeleton: surface,  &asymp; 250 mM ions, and many other solutes. Consequently, the internal osmotic pressure is high, and the water activity is low. Most water is associated with these structures and there is relatively little 'free' bulk-like water. Crowding affects molecular diffusion    conformation, dynamics and kinetics [<a title="go to cited reference" href="ref35.html#r3426">3426</a><a name="r3426" id="r3426"></a>], and the properties of the aqueous environment [<a title="go to cited reference" href="ref32.html#r3175">3175</a><a name="r3175" id="r3175"></a>]; with viscosity ~10<sup>6</sup> times higher than bulk water and diffusion ~10<sup>6</sup> times lower than bulk water. Intracellular water is necessarily different from extracellular water  [<a title="go to cited reference" href="ref31.html#r3006">3006</a><a name="r3006" id="r3006"></a>]. Aggregation is prevented by the mostly negative charge of the solutes (e.g., proteins)  [<a title="go to cited reference" href="ref40.html#r3941">3941</a><a name="r3941" id="r3941"></a>]. There are also differences between sub-cellular compartments, such as  the cytoplasm and nucleus [<a title="go to cited reference" href="ref40.html#r3942">3942</a><a name="r3942" id="r3942"></a>]. Cells contain differing amounts of water; dependent 
+      more on their purpose (and hence expressed proteins) rather 
+      than their source organism (for example, the % water contents 
+      of red blood cells are about 64% whether from man or dog whereas 
+      frog heart contains 80% but a frog egg only 49% water) [<a title="go to cited reference"  href="ref8.html#r762">762</a><a name="r762" id="r762"></a>]. Intracellular water is in a more ordered state
+      (coherent.    [<a title="go to cited reference"  href="ref38.html#r3714">3714</a><a name="r3714" id="r3714"></a>]) than pure water, as demonstrated by its significantly shorter (<a title="go for more information" href="water_methods.html#nmr">NMR</a>) spin-lattice and spin-spin relaxation times   [<a title="go to cited reference"  href="ref24.html#r2321">2321</a><a name="r2321" id="r2321"></a>]. Very little of this water can be considered as solely a medium [<a title="go to cited reference" href="ref28.html#r2753">2753</a><a name="r2753" id="r2753"></a>] <sup><a title="click for an explanation" href="#g">g</a><a name="bg" id="bg"></a></sup> but is a metabolic reactant, product, catalyst, chaperone, messenger, and controller (see, for example, [<a title="go to cited reference" href="ref12.html#r1194">1194</a><a name="r1194" id="r1194"></a>]). Intracellular water cannot be pressed out of the cell even at 100 MPa and is likely to consist of  organized nanoscale water channels rather than a homogeneous gel-like cytoplasm [<a title="go to cited reference" href="ref37.html#r3633">3633</a><a name="r3633" id="r3633"></a>]; the compressed water preferring to be absorbed into the protein structures.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Intracellular water is responsible for the conformations and functions of all biomolecules through direct interaction with their hydration shells  [<a title="go to cited reference"  href="ref29.html#r2845">2845</a><a name="r2845" id="r2845"></a>, <a title="go to cited reference"  href="ref30.html#r2921">2921</a><a name="r2921" id="r2921"></a>]. However and importantly, the water's structuring may also be controlled by some cellular constituents. Cellular macromolecules &lsquo;&lsquo;dance&rsquo;&rsquo; to the tune of intracellular water and, to a more limited extent, <em>vice versa</em>. Water forms an integral part of biomolecular structures and functions [<a title="go to cited reference"  href="ref30.html#r2949">2949</a><a name="r2949" id="r2949"></a>]. The water is essential for biomolecular recognition   [<a title="go to cited reference"  href="ref18.html#r1787">1787</a><a name="r1787" id="r1787"></a>] and orchestrates the cell machinery   [<a title="go to cited reference"  href="ref18.html#r1785">1785</a><a name="r1785" id="r1785"></a>]. The complexity and organization within the cytoplasm are expressed in a
+      comprehensive review of intracellular water  [<a title="go to cited reference"  href="ref12.html#r1191">1191</a><a name="r1191" id="r1191"></a>]. An interesting 2017, review has considered the versatility and adaptability of intracellular water in engaging in a wide range of cellular biochemistry [<a title="go to cited reference" href="ref14.html#r1359">1359</a><a name="r1359" id="r1359"></a>]. A key feature of intracellular water is its ability to convert between high and low-density states [<a title="go to cited reference" href="ref14.html#r1364">1364</a><a name="r1364" id="r1364"></a>] (as exemplified by the <abbr title="Expanded icosahedral water cluster structure"><a title="click for an explanation" href="icosahedral_water_clusters.html#ES">ES</a></abbr><a title="click for an explanation" href="icosahedral_water_clusters.html#Fig2"><img border="0" src="images/rarrow.gif" width="20" height="12"  alt="reversible arrow" /></a><abbr title="Collapsed icosahedral water cluster structure"><a title="click for an explanation" href="icosahedral_water_clusters.html#CS">CS</a></abbr><a title="click for an explanation" href="icosahedral_water_clusters.html#Fig2"> equilibrium</a>). Such changes have been  linked to the state of autothixotropy [<a title="go to cited reference"  href="ref19.html#r1898">1898</a><a name="r1898" id="r1898"></a>]. The  extent of intracellular hydrogen bonding can be determined using an amphipathic  fluorescent nanodot. This shows time-dependent imaging contrasts due to the  different hydrogen bonding extents of the intracellular water. The nanodot&rsquo;s  amphiphilic nature in different local hydrogen-bonding environments produces  contrast images in lifetime and directly monitors the extent of the hydrogen-bonding  networks [<a title="go to cited reference"  href="ref36.html#r3512">3512</a><a name="r3512" id="r3512"></a>]. The assessment of the cellular state in live tissues has been established by <a href="water_methods.html#diel">microwave dielectric spectroscopy</a> (MDS) in determining the hydration state of the intracellular environment of live <em>Caenorhabditis elegans</em> nematodes. This approach was successful at predicting the protein folding stress-tolerance state of the worms [<a title="go to cited reference"  href="ref40.html#r3974">3974</a><a name="r3974" id="r3974"></a>]. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">An increase in cell size following cell membrane depolarization 
+      occurs together with a reduction in water's diffusivity, indicating 
+      the very different characteristics that <a href="http://www.the-scientist.com/2004/11/08/14/1" title="opens new site in a pop-up window"   target="otherWin2" onclick="newWin('otherWin2')">intracellular 
+      water </a>appears to possess compared to extracellular 
+      water.<sup><a title="click for an explanation" href="#b"> b</a><a name="bb" id="bb"></a></sup> Experimentally, 
+      this area presents a difficult problem as the properties and 
+      functioning of the cell <em>in vivo</em> cannot be readily 
+      determined from the sum of its parts<em> in vitro</em>; indeed 
+      the commonly practiced <em>in vitro</em> experiments on the 
+      homogenized and dilute contents of dead cells may be entirely 
+      misleading. For example, CO<sub>2</sub> production in metabolizing cells may give rise to complex changes in water movement and osmotic pressure changes as neutral CO<sub>2</sub> diffuses readily but ions formed from it on hydration do not [<a title="go to cited reference"  href="ref12.html#r1137">1137</a><a name="r1137" id="r1137"></a>], and actively metabolizing cells may be producing a significant amount of their intracellular water [<a title="go to cited reference"  href="ref12.html#r1139">1139</a><a name="r1139" id="r1139"></a>]. Study of the live cell is fraught with difficulty 
+      as most procedures may alter the <em>in vivo</em> conditions, although  dynamic phase microscopy shows promise [<a title="go to cited reference"  href="ref14.html#r1332">1332</a><a name="r1332" id="r1332"></a>]. 
+      The structure and hydrogen bonding of intracellular water are central to any theory concerning intracellular cell dynamics with intracellular protein dynamics and internal protein fluctuations both slaved to the water dynamics [<a title="go to cited reference"  href="ref19.html#r1856">1856</a><a name="r1856" id="r1856"></a>]. Two theories concerning intracellular water have greatly influenced current thinking concerning the complex roles of intracellular water [<a title="go to cited reference"  href="ref40.html#r3992">3992</a><a name="r3992" id="r3992"></a>]. These are the 'polarized 
+      multilayer theory' of Gilbert Ling [<a title="go to cited reference"  href="ref7.html#r634">634</a><a name="r634" id="r634"></a>, <a title="go to cited reference"  href="ref29.html#r2807">2807</a><a name="r2807" id="r2807"></a>], and the 'gel-sol transition' of Gerald Pollack [<a title="go to cited reference"  href="ref4.html#r351">351</a><a name="r351" id="r351"></a>, <a title="go to cited reference"  href="ref7.html#r635">635</a><a name="r635" id="r635"></a>]. On this 
+      page, the combination of aspartic and glutamic acid ion-pairing 
+      with K<sup>+</sup> ions, changes in the mobility of key proteins 
+      and the natural low-density clustering within the intracellular 
+      water are all shown to contribute to intracellular metabolic 
+      transitions and information transfer. Both prior theories 
+      are accommodated within this hypothesis [<a title="go to cited reference" href="ref11.html#r1093">1093</a><a name="r1093" id="r1093"></a>].</p>
+    <p>&nbsp;</p>
+    <p align="left"> Water in cancerous breast tissue is markedly different from that in healthy tissue, in having more water plus a greater concentration of free hydroxyl groups [<a title="go to cited reference"  href="ref23.html#r2280">2280</a><a name="r2280" id="r2280"></a>]. The intracellular water lifetime may be considered as a hallmark of cancer, with cancerous cells showing increased cell  volumes as cells undergo proliferation  [<a title="go to cited reference"  href="ref35.html#r3495">3495</a><a name="r3495" id="r3495"></a>].</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="pot" id="pot"></a>Intracellular solutions contain more K<sup>+</sup> ions </h2>
+   <figure  class="floatright">
+<figcaption>
+      <p align="center">The cytoskeleton including a microtubule (largest), an intermediate </p>
+      <p align="center">filament (knobby one) and two actin filaments (smallest)</p>
+      <p align="center" class="style4">Illustration by David S. Goodsell, the Scripps Research Institute</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+   <img src="images/cytoplasm.gif" alt="A small portion of cytoplasm is shown, including three types of filaments that make up the cytoskeleton: a microtubule (the largest), an intermediate filament (the knobby one) and two actin filaments (the smallest ones). The large blue molecules are ribosomes; Illustration by David S. Goodsell, the Scripps Research Institute"  title="A small portion of cytoplasm is shown, including three types of filaments that make up the cytoskeleton: a microtubule (the largest), an intermediate filament (the knobby one) and two actin filaments (the smallest ones). The large blue molecules are ribosomes; Illustration by David S. Goodsell, the Scripps Research Institute" width="400" height="400" class="floatright" /></figure>
+   <p align="left"><a name="cyt" id="cyt"></a>The different characteristics of the intracellular 
+      and extracellular environments manifest themselves particularly 
+      in restricted diffusion (see cartoon representing the crowded cytoplasm, right) and a high concentration 
+      of <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropic</a> inorganic ions and <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropic</a> other solutes within 
+      the cells. Note that both <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropic</a> inorganic ions and <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropic</a> other 
+      solutes encourage low-density water structuring. The difference 
+      in concentration of the ions is particularly apparent between 
+      Na<sup>+</sup> and K<sup>+</sup> (see below); Na<sup>+</sup> ions (2.38 &Agrave; distant from water O-atoms. [<a href="ref39.html#r3868" name="r3868" title="go to cited reference" id="r3868">3868</a>] ) creating more broken hydrogen-bonding and preferring 
+      a high aqueous density whereas K<sup>+</sup> ions (2.76 &Agrave; distant from water O-atoms [<a href="ref39.html#r3868" title="go to cited reference">3868</a>]) prefer a 
+      low-density aqueous environment [<a href="ref38.html#r3796" name="r3796" title="go to cited reference" id="r3796">3796</a>]. A 1000-fold preference for 
+      K<sup>+</sup> over Na<sup>+</sup> has been found in a halophilic 
+      organism without any energy expenditure but with a highly 
+      reduced intracellular water mobility [<a title="go to cited reference"  href="ref9.html#r817">817</a><a name="r817" id="r817"></a>]. 
+      As explained in the discussion of the <a title="go to find more on ionic effects" href="hofmeister_series.html">Hofmeister 
+      effect</a>, and shown by the negative ionic volumes 
+      (that is, the addition of the ions reduces the volume of 
+      the water, see below), the interactions between water and 
+      Na<sup>+</sup> are stronger than those between water molecules, 
+      which in turn are stronger than those between water and K<sup>+</sup> ions. Thus, water may be stripped more easily from the K<sup>+</sup> ions, and K<sup>+</sup> maintains the solubility of cell components in which carboxylate and phosphate are the principal anions [<a href="ref38.html#r3796"  title="go to cited reference" >3796</a>].The  differences in surface charge density may explain these comparisons.  The interaction strength is reflected in that the distances between the Na<sup>+</sup> ions and water are shorter than  between pairs of water molecules which are shorter than those between K<sup>+</sup> ions and water. Ca<sup>2+</sup> ions have even stronger destructive 
+      effects on the hydrogen bonding than Na<sup>+</sup> ions. 
+      K<sup>+</sup> ions are preferred within the intracellular 
+      environment and are, after water, the second most abundant component of the cell by number [<a title="go to cited reference"  href="ref40.html#r3992">3992</a>]</p>
+    <p>&nbsp;</p>
+    <table width="100%"  border="1" cellspacing="2" cellpadding="2" summary="Comparative data on calcium, sodium and potassium ions">
+      <caption>
+      <strong>Comparison of critical cellular ions</strong>
+      </caption>
+      <tr>
+        <th scope="col"><div align="center"><strong>Ion</strong></div></th>
+        <th scope="col"><div align="center"><strong>Ionic radius</strong></div></th>
+        <th scope="col"><div align="center"><strong>Surface charge density</strong></div></th>
+        <th scope="col"><div align="center"><strong>Molar ionic volume</strong></div></th>
+        <th scope="col"><div align="center"><strong>Intra-cellular</strong></div></th>
+        <th scope="col"><div align="center"><strong>Extra-cellular</strong></div></th>
+        <th scope="col"><div align="center"><strong>Water preference</strong></div></th>
+</tr>
+      <tr>
+        <th scope="row"><div align="center"><span class="style7">Ca<sup>2+</sup></span></div></th>
+        <td width="10%" ><div align="center"><span class="style7">100 pm</span></div></td>
+        <td width="20%"><div align="center"><span class="style7">2.11</span></div></td>
+        <td width="15%"><div align="center"><span class="style7">-28.9 cm<sup>3</sup></span></div></td>
+        <td width="15%"><div align="center"><span class="style7">0.1 &mu;M</span></div></td>
+        <td width="15%"><div align="center"><span class="style7">2.5 mM</span></div></td>
+        <td width="20%"><div align="center"><span class="style7">High-density</span></div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="center"><span class="style7">Na<sup>+</sup></span></div></th>
+        <td><div align="center"><span class="style7">102 pm</span></div></td>
+        <td><div align="center"><span class="style7">1.00</span></div></td>
+        <td><div align="center"><span class="style7">-6.7 cm<sup>3</sup></span></div></td>
+        <td><div align="center"><span class="style7">10 mM</span></div></td>
+        <td><div align="center"><span class="style7">150 mM</span></div></td>
+        <td><div align="center"><span class="style7">High-density</span></div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="center"><span class="style8">K<sup>+</sup></span></div></th>
+        <td><div align="center"><span class="style8">138 pm</span></div></td>
+        <td><div align="center"><span class="style8">0.56</span></div></td>
+        <td><div align="center"><span class="style8">+3.5 cm<sup>3</sup></span></div></td>
+        <td><div align="center"><span class="style8">159 mM</span></div></td>
+        <td><div align="center"><span class="style8">4 mM</span></div></td>
+        <td><div align="center"><span class="style8">Low-density</span></div></td>
+</tr>
+</table>
+    <p>&nbsp;</p>
+    <p align="left">Although somewhat contentious, it has been reported 
+      that the cellular membrane <a href="http://www.gilbertling.org/Debunking.pdf" title="opens new site in a pop-up window"   target="otherWin1" onclick="newWin('otherWin1')">ion-pumps 
+      cannot produce these significant differences</a> in ionic composition without other mechanisms. The (ATP) energy 
+      required appears to exceed the energy that is available to 
+      the cell, and the gradients are maintained in the absence of 
+      intact membranes and the absence of active energy (that is, ATP) production [<a title="go to cited reference"  href="ref7.html#r634">634</a>, <a title="go to cited reference"  href="ref7.html#r635">635</a>]. 
+      Also, in contrast to that written in several undergraduate 
+      textbooks, many studies show that cells do not need an intact 
+      membrane to function [<a title="go to cited reference"  href="ref7.html#r635">635</a>]. Instead, 
+      the intracellular water tends towards a low-density structuring 
+      due to the kosmotropic character of the majority of the solutes, 
+      the confined space within the cell stretching the hydrogen-bonded 
+      water and the extensive surface effects of the membranes [<a title="go to cited reference"  href="ref11.html#r1094">1094</a><a name="r1094" id="r1094"></a>]. 
+      The ions partition according to their preferred aqueous environment; 
+      particularly, the K<sup>+</sup> ions partition into the cells. 
+      Ion pumps must thus be present for other (perhaps fail-safe) 
+      purposes, such as speeding up the partition process after 
+      metabolically linked changes in ionic concentration. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="ld" id="ld"></a>Membranes help create a tendency towards low-density water in cells</h2>
+     <figure  class="floatright">
+<figcaption>
+      <p align="center">Phosphatidylethanolamine</p>
+</figcaption>
+<img class="floatright" src="images/phosphoethanolamine.gif" title="phosphatidylethanolamine" alt="phosphatidylethanolamine" width="478" height="208" /></figure>
+    <p>&nbsp;</p>
+    <p><a href="membrane_hydration.html">Membrane lipids</a> contain hydrophilic kosmotropic groups such 
+      as the phosphatidylethanolamine, shown opposite, which encourages 
+      the lower density water structuring inside cells. This is particularly 
+      relevant as there is extensive membrane interfacial water within 
+      cells, <em>e.g., </em>liver cells contain &asymp; 100000 &mu;m<sup>2</sup> membrane surface area. The aqueous interface next to the membranes forms a functional unit linking the membrane to the water-soluble proteins of the cytosol, facilitating the rapid exchange of structural, dynamic, and physiological information  [<a title="go to cited reference"  href="ref16.html#r1553">1553</a><a name="r1553" id="r1553"></a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <div style=" float:none; clear:both;">
+      <h2><a name="prot" id="prot"></a>The effect of intracellular protein on water structuring</h2>
+      <p>The degree of density lowering inside cells is determined by the 
+        solutes, their concentration and the conformations and state 
+        of motion of the proteins; mobile proteins creating more disorder 
+        in the clustering compared with more static proteins. Many 
+        intracellular proteins are globular, so retaining rotational 
+        entropy notwithstanding the crowded environment. Water has 
+        conflicting effects in the mixed environments around proteins. 
+        Weak hydrogen bonding between the protein and water molecules allows 
+        greater flexibility and strong hydrogen-bonding endows the protein with 
+        greater stability and solubility. There is an ordered structure 
+        in the first shell around the protein, with both hydrophobic clathrate-like 
+        and hydrogen-bonded water molecules helping the other  optimize 
+        water's hydrogen-bonding network. Changes in the proteins' conformations 
+        may result in water influx into the cell or efflux from the 
+        cell [<a title="go to cited reference"  href="ref10.html#r949">949</a><a name="r949" id="r949"></a>] 
+        and density changes. Protein carboxylate groups are 
+        generally surrounded by strongly hydrogen-bonded water, whereas 
+        the water surrounding basic chaotropic groups (arginine, histidine, 
+        and lysine) tends towards a clathrate structuring. Clathrate 
+        formation over hydrophobic areas maximizes non-bonded interactions 
+        without loss of hydrogen bonds, whereas carboxylate groups usually 
+        only fit a collapsed water structure creating a reactive fluid 
+        zone. The diffusional movement of the proteins will cause 
+        changes in the water structuring outside the first hydration 
+        shell.</p>
+</div>
+    <p><img class="floatleft" src="images/protein_rotation.gif" title="Rotation and translation of proteins" alt="Rotation and translation of proteins" width="456" height="193" /></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Translational diffusion involves breaking water-water links 
+      at a distance from the surface whereas rotational diffusion involves 
+      breaking close water-water and protein-water links [<a title="go to cited reference"  href="ref7.html#r640">640</a><a name="r640" id="r640"></a>]. 
+      The surface area for translation and rotation is the same, but 
+      the velocity differential is constant for all radial distances 
+      (r) for translation but varies with r<sup>2</sup> with rotation. </p>
+    <div style=" float:none; clear:both;">
+      <p>Half the hydrogen bonds are ruptured at the breaking surface, creating a zone of higher density water (as <a href="clusters_overview.html">explained 
+        elsewhere</a>). Protein rotation thus creates a relatively 
+        close and surrounding high-density water zone with many broken 
+        hydrogen bonds, as shown by some NMR studies. The volume 
+        of this interfacial region of perturbed water around the proteins 
+        is comparable to the volumes of the proteins. </p>
+      <p>&nbsp;</p>
+      <p>Cells  control the spatiotemporal organization of their many components through <a href="aqueous_biphasic.html">aqueous biphasic</a> separation (liquid-liquid phase separation, LLPS) [<a title="go to cited reference" href="ref42.html#r4144" name="r4144" id="r4144">4144</a>] that take part in many processes including cell division, signal transduction, higher-order genome organization and gene regulation. Proteins are responsible for the major organizational driving force within cells and produce liquid-like membrane-less organelles called biomolecular condensates, such as nucleoli  [<a  href="ref40.html#r3939" name="r3939" title="go to cited reference" id="r3939">3939</a>]. 
+		 It has been demonstrated that  the concentration of weak  inter-protein attractions determines the stability of these multi-component condensates [<a  href="ref40.html#r3939"  title="go to cited reference" >3939</a>].       The protein nucleophosmin  is known to be a key driver of nucleolar phase separation. </p>
+      <p>&nbsp;</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+      <p align="right">&nbsp;</p>
+    </div>
+    <img class="floatright" src="images/carboxylate.gif" title="carboxylate group showing the closeness of the oxygen atoms, 2.23 Angstrom" alt="The carboxylate group showing the closeness of the oxygen atoms, 2.23 Angstrom" width="209" height="200" />
+    <h2><a name="carb" id="carb"></a>The importance of protein carboxylate groups</h2>
+    <p>The side-chain carboxylate groups (that is, aspartic and glutamic acids) in proteins possess high 
+      dipole moments. They contain two oxygen atoms that are nearer 
+      to each other (&asymp; 2.23 <a href="constants.html#ang" title="Angstrom">&Aring;</a>) than occurs between water molecules in bulk liquid water 
+      (&asymp; 2.82 <a href="constants.html#ang" title="Angstrom">&Aring;</a>). These carboxylate oxygen atoms, preferably hydrogen bond &asymp; 4 [<a href="ref12.html#r1169">1169</a><a name="r1169" id="r1169"></a>] to &asymp; 6 [<a href="ref18.html#r1781">1781</a><a name="r1781" id="r1781"></a>] water molecules which account for about 40% of the hydration-free energy, with the remainder mainly derived from outer aqueous shells  [<a href="ref18.html#r1781">1781</a> a].<sup><a title="click for an explanation" href="#f"> f</a><a name="bf" id="bf"></a></sup> This hydrogen bonding causes a localized high-density water 
+      clustering due to the closeness of 
+      the water molecules as they gather around the carboxylate 
+      groups [<a href="ref11.html#r1063">1063</a><a name="r1063" id="r1063"></a>]. The binding of water to the two oxygen atoms is anti-cooperative, and instantaneously the oxygen atoms and C-O bonds are non-identical [<a href="ref16.html#r1587">1587</a><a name="r1587" id="r1587"></a>].</p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;">
+      <p><a name="carboxy" id="carboxy"></a>Such hydrogen-bonding induces a more negative 
+        charge on the carboxyl oxygen atoms, increasing the group's dipole. This leads to an increase 
+        in the carboxylate p<em>K</em><sub>a</sub>, as is shown below.</p>
+</div>
+    <p>&nbsp;</p>
+        <figure  class="floatleft">
+<figcaption>
+      <p align="center">Carboxylate group dipoles versus their p<em>K</em><sub>a</sub></p>
+      <p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatleft" src="images/carboxylate_pka.gif" title="Carboxylate group dipoles versus their p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt;" alt="Dipoles of the carboxylate groups of carboxylic acids plotted against their p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt;" width="400" height="227" /></figure>
+    <p>&nbsp;</p>
+    <p>The atomic charges  and geometry of related carboxylate groups were determined using <em>ab initio</em> molecular dynamics with the  6-31G** basis set in <a href="http://www.hyper.com/" title="opens new site in a pop-up window"   target="otherWin2" onclick="newWin('otherWin2')">Hyperchem</a>. The dipoles of the carboxylate groups were  calculated in Debye units. A linear trend can be seen between the carboxylate  group dipole and the p<em>K</em><sub>a</sub> of the acids: a, trifluoroacetate; b, trichloroacetate;  c, dichloroacetate; d, difluoroacetate; e, fluoroacetate; f, chloroacetate; g,  thioglycollate; h, thiolactate; i, glycollate; j, lactate; k, 3-thiopropanoate;  l, acetate; m, 2-methylpropanoate; n, propanoate; o, 2,2&rsquo;-dimethylpropanoate.  Most of the acidity constants were obtained from [<a title="go to cited reference"  href="ref12.html#r1142">1142</a><a name="r1142" id="r1142"></a>].
+    </p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;"> 
+<figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Carboxylate groups p<em>K</em><sub>a</sub> and oxygen charge</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/carboxylate_charge.gif" title="Carboxylate groups p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; and oxygen charge, using ab initio modeling (6-31 G**)" alt="The relationship between the p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; of carboxylate groups and the charge on the carboxylate oxygen atoms, as determined using ab initio modeling (6-31 G**)" width="240" height="222" /></figure>
+      <p>&nbsp;</p>
+      <p> If the charges on the carboxylate oxygen groups 
+        are reduced by neighboring electron-withdrawing substituent 
+        groups or imposed negative electric field, the p<em>K</em><sub>a</sub> is reduced. Note that the charge on the oxygen atoms lies between 
+        that on the ionic kosmotrope sulfate (&ndash;0.87; with hydrogen bonds 
+        to water) and the ionic chaotrope perchlorate (&ndash;0.71; 
+        preferring to be surrounded by clathrate water). Thus, only a 5%  reduction in the negative charge on the carboxylate oxygen atoms is necessary  to switch from kosmotropic to chaotropic behavior. It is found 
+        that Na<sup>+</sup> ions prefer binding to the weaker carboxylate 
+        groups (pK<sub>a</sub> &gt; 4.5),, whereas K<sup>+</sup> ions 
+        prefer the stronger acids (pK<sub>a</sub> &lt; 3.5) [<a title="go to cited reference"  href="ref7.html#r634">634</a>]. </p>
+      <p>&nbsp;</p>
+      <p>It should be noted that, in the absence of an aqueous solution, Na<sup>+</sup> ions bind with a covalent character to the glutamate carboxylate groups, whereas K<sup>+</sup> ions do not  [<a title="go to cited reference"  href="ref31.html#r3070">3070</a><a name="r3070" id="r3070"></a>]. </p>
+      <p>&nbsp;</p>
+      <p>Raman multivariate curve resolution vibrational spectroscopy measurements demonstrate that Zn<sup>2+</sup> binds about four times more strongly to acetate than  Ca<sup>2+</sup> or Mg<sup>2+ </sup>[<a title="go to cited reference"  href="ref42.html#r4140">4140</a><a name="r4140" id="r4140"></a>]. </p>
+      <p>&nbsp;</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    </div>
+    <div style=" float:none; clear:both;"> 
+<figure  class="floatright">
+<figcaption>
+      <p align="center">Part of the F-actin structure</p>
+      <p align="center" class="style4">structure from Holmes KC and Eschenburg S</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/actin_2.gif" title="Part of the F-actin structure; 5 actin units (structure from Holmes KC and Eschenburg S (unpubl.))" alt="Part of the F-actin structure; 5 actin units (structure from Holmes KC and Eschenburg S (unpubl.))" width="400" height="224" /></figure>
+      <h2><a name="mob" id="mob"></a>The importance of protein mobility</h2>
+      <p>Actin is a highly conserved and widespread eukaryotic protein 
+        (42-43 kDa)<sup><a title="click for an explanation" href="#e"> e</a><a name="be" id="be"></a></sup> responsible for many functions in cells. Non-muscle 
+        cells contain 5-10% (of all protein) actin, whereas muscle 
+        cells contain about 20%. All actin molecules contain a 
+        conserved acidic N-terminus with several neighboring aspartic 
+        or glutamic acids (emphasized right) and a post-translation acetylated 
+        terminal amino group (for example, N-Ace-Asp-Glu-Asp-Glu 
+        in rabbit muscle &alpha;-actin). 
+        When actin forms a filament structure, this highly charged 
+        grouping is placed on the outer exposed edge of the helix, 
+        where it may be additionally used as a binding site for 
+        other proteins, such as myosin. The positionings of the 
+        acidic N-terminal antennae are shown in red in the cartoon 
+        below. Tubulin and the intermediate filaments are further structural proteins that form 
+        immobile structures with ordered hydration within 
+        cells, possessing conserved acidic  
+        groupings that serve similar functions.<sup><a title="click for an explanation" href="#e"> e</a></sup></p>
+      <p>&nbsp;</p>
+</div>
+    <div align="center">
+    <p><a name="actin1" id="actin1"></a><strong class="style15">Cartoon of the semi-flexible actin filament, showing the positioning of the acidic N-termini (shown red)</strong></p>
+<img src="images/actin_1.gif" title="Cartoon of the actin filament, showing the positioning of the acidic N-termini}" alt="Cartoon of the actin filament, showing the positioning of the acidic N-termini}" width="640" height="95" /></div>
+    <p align="center"><img src="images/f_actin.gif" title="ATP conversion of G-actin to F-actin"  alt="ATP conversion of G-actin to F-actin" width="600" height="70" /></p>
+    <p align="left">The structural transitions of F-actin upon ATP hydrolysis at near-atomic resolution have been revealed by cryo-EM, demonstrating  how ATP hydrolysis links to F-actin&rsquo;s conformational dynamics and protein interaction  [<a href="ref33.html#r3295" name="r3295" title="go to cited reference" id="r3295">3295</a>]. Actin is converted between a freely rotating molecule 
+      (G-actin; about 4 - 6 nm diameter) and a static right-handed double-helical protein filament (F-actin; up to several microns in length) 
+      by ATP; a process involving the conversion of an &alpha;-helix 
+      to a &beta;-turn in one of the structural 
+      domains [<a title="go to cited reference"  href="ref7.html#r636">636</a><a name="r636" id="r636"></a>]. Each 
+      molecule of the freely rotating G-actin can influence a large volume 
+      of water within its effective radius of gyration, causing a reduction 
+      in the intracellular low-density aqueous clustering. Filamentous 
+      actin (F-actin) is a much more ordered structure creating more 
+      order in its surrounding water. Protein fibers trap water, which 
+      has decreased entropy. The water has to form bonds with a more negative  enthalpy to keep  the water activity constant.  This results in stronger bonds, causing significant structuring 
+      and lower density. Also, the enclosure of the water involves capillary action 
+      forming 'stretched' confined water that is much more highly structured 
+      (hence lower density) than the bulk water.</p>
+    <p>&nbsp;</p>
+    <img class="floatright" src="images/polyacrylate.gif" alt="Comparison of isobutyrate with polyacrylate" title="Comparison of isobutyrate with polyacrylate" width="307" height="222" />
+    <p>&nbsp;</p>
+    <p>As  overlapping fields from nearby groups enhance counter-ion association,  F-actin's extensive negatively charged N-terminus causes the partitioning of  cations into its vicinity, similar to that well known from i<a href="enztech/partition.html">immobilized 
+    enzyme</a> studies. This partitioning effect was initially 
+      shown by Kern [<a title="go to cited reference"  href="ref7.html#r638">638</a><a name="r638" id="r638"></a>], who established that the activity of Na<sup>+</sup> with isobutyric 
+      acid is &gt;0.9, whereas similarly with polyacrylate, it is &lt;0.32, 
+      thus proving the more significant partitioning of cations within the 
+    microenvironment of the multiply-charged polymer.</p>
+    <div style=" float:none; clear:both;"><p>&nbsp;</p>
+      <p align="left">Na<sup>+</sup> and K<sup>+</sup> ions behave differently 
+        when close to the carboxylate groups; K<sup>+</sup> ions prefer forming ion pairs whereas Na<sup>+</sup> ions form 
+        solvent separated pairings [<a title="go to cited reference"  href="ref7.html#r637">637</a><a name="r637" id="r637"></a>, <a title="go to cited reference"  href="ref21.html#r2035">2035</a><a name="r2035" id="r2035"></a>]. This is due to the Na<sup>+</sup> ions holding on to their water 
+        strongly. The inner shell polarized water molecules are ideally 
+        situated for forming strong hydrogen bonds to the carboxylate oxygen 
+        atoms. The K<sup>+</sup> ions prefer an inner shell clathrate water 
+        structuring that is reinforced by its direct ion-pairing to the carboxylate 
+        group. Also, Na<sup>+</sup> ions cannot participate in clathrate structuring, 
+        whereas K<sup>+</sup> prefers this environment [<a title="go to cited reference"  href="ref7.html#r641">641</a><a name="r641" id="r641"></a>]. 
+        As the distance between the neighboring amino acid carboxylate groups 
+        (about 7.3 <a href="constants.html#ang" title="Angstrom">&Aring;</a>) is about the same as the diameter of clathrate 
+        water clusters (about 7.6 <a href="constants.html#ang" title="Angstrom">&Aring;</a>), extensive ion-pairing of the 
+        adjacent carboxylate groups may be accommodated by neighboring clathrate 
+        clustering. K<sup>+</sup> RCO<sub>2</sub><sup>&minus;</sup> pairs move 
+        from solvent separated to ion-pair with the reduction in the p<em>K</em><sub>a</sub>. 
+        K<sup>+</sup> ions prefer strong acids (that is, low p<em>K</em><sub>a</sub>), 
+        whereas Na<sup>+</sup> prefers weak acids (that is, higher p<em>K</em><sub>a</sub>). Direct ion-pair association discourages aqueous 
+        hydrogen bonding to the carboxylate oxygen atoms but encourages 
+        clathrate formation surrounding the ion-paired carboxylate group.</p>
+</div>
+    <p>&nbsp;</p>
+    <p align="left">Note that the association of K<sup>+</sup> with proteins' 
+      aspartate and glutamate groups is the central theme of Ling's fixed 
+      charge hypothesis [<a title="go to cited reference"  href="ref7.html#r634">634</a>]. He presented as evidence 
+      for the molecular mechanism of the association, including (1) the 
+      low intracellular electrical conductance, (2) the strongly reduced 
+      mobility of intracellular K<sup>+</sup> ions, (3) the altered X-ray 
+      absorption fine edge structure, (4) the widely different activity 
+      coefficients of K<sup>+</sup> ions in different cells, (5) K<sup>+</sup> ion absorption shows one to one stoichiometric absorption to the 
+      carboxylate groups, and (6) identification of K<sup>+</sup> ion absorption 
+      sites as aspartate and glutamate side chains.</p>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Equilibria involving the static polymerized protein</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/protein_carboxylate_1.gif" title="Equilibria involving the static protein" alt="Equilibria involving the static protein" width="360" height="358" /> </figure>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Under conditions when the carboxylate groups possess high p<em>K</em><sub>a</sub>, both K<sup>+</sup> and Na<sup>+</sup> form solvent 
+      separated species when partitioned into the carboxylate environment. 
+      This gives a preference for Na<sup>+</sup> and high-density 
+      water. However, rotation of the protein will  sweep such 
+      ions and their associated water away. If the protein stops 
+      rotating, Na<sup>+</sup> ions tend to destroy any low-density 
+      structuring around carboxylate groups of the protein. However, 
+      the intracellular Na<sup>+</sup> ion concentration 
+      is usually far lower than that of K<sup>+</sup> ions (see above). At 
+      low p<em>K</em><sub>a</sub>, K<sup>+</sup> ion pairs to carboxylate groups, 
+      particularly when partitioned into their microenvironment due 
+      to the presence of several contiguous acidic amino acids. </p>
+    <p>&nbsp;</p>
+    <p>This hypothesis is compatible with the view that the water on either side of a membrane is different, and this encourages the differences in  K<sup>+</sup> and Na<sup>+</sup> concentrations [<a title="go to cited reference" href="ref31.html#r3006">3006</a>].</p>
+    <div style=" float:none; clear:both;">  
+<figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Equilibria involving the freely rotating protein</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/protein_carboxylate_2.gif" title="Equilibria involving the rotating protein" alt="Equilibria involving the rotating protein" width="412" height="320" /></figure>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p> When ion-paired, the hydrogen bonding to the carboxylate 
+        oxygen atoms is prevented, and a surrounding clathrate structuring 
+        is preferred. The clathrate clustering can signal their state 
+        to other neighboring carboxylate groups (see later). </p>
+      <p>When the static protein filaments convert to freely diffusing 
+        proteins, the ions are swept away due to the multiple contacts 
+        with surrounding water molecules and their inability to keep 
+        up with the rotating protein at increasing radial distances. 
+        This results in the conversion of any localized clathrate 
+        water structuring to high-density water involving hydrogen-bonded 
+        carboxylate groups. </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+
+    <div style=" float:none; clear:both;">
+      <h2><a name="coop" id="coop"></a>Cooperative conversion of the water structuring</h2>
+      <p align="left">The binding of K<sup>+</sup> by the carboxylate groups 
+          lowers the <a href="water_dissociation.html#o">ionic strength</a> of the intracellular solution. As this 
+          ionic strength decreases, the p<em>K</em><sub>a</sub> of phosphate groups 
+          increases resulting in  converting the more kosmotropic intracellular 
+          doubly-charged HPO<sub>4</sub><sup>2&minus;</sup> ions to the singly-charged 
+          more chaotropic H<sub>2</sub>PO<sub>4</sub><sup>&minus; </sup>ions.<sup><a title="click for an explanation" href="#d"> d</a><a name="bd" id="bd"></a></sup> All 
+          intracellular phosphate entities (about 100 milli-equivalents L<sup>&minus;1</sup>) 
+          <sup><a title="click for an explanation" href="#h">h</a><a name="bh" id="bh"></a></sup> will behave similarly, so increasing the tendency towards the low-density 
+          water. Thus the cooperative effects of the change between static 
+          filament formation and freely-diffusional protein can be summarized 
+          as below.</p>
+      <p align="left">&nbsp;</p>
+</div>
+    <p align="center"><strong class="style15">Cooperative changes creating low-density water when actin is polymerized</strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><img src="images/actin_polymerization.gif" alt="Summary of cooperative changes creating low density water when a protein, such as actin, is polymerized" title="Summary of cooperative changes creating low density water when a protein, such as actin, is polymerized" width="600" height="399" /></p>
+    <p>&nbsp;</p>
+    <p align="left">Further support for this process is given by F-actin 
+        becoming more static in the presence of about 100 mM K<sup>+</sup> [<a title="go to cited reference"  href="ref7.html#r642">642</a><a name="r642" id="r642"></a>].</p>
+    <p><a name="cyl" id="cyl"></a></p>
+    <div class="floatright" style="width:480px;">    
+<figure  class="floatright">
+<figcaption>
+      <p align="center">Cartoon showing the cooperative buildup of low-density clustering around </p>
+      <p align="center">K<sup>+</sup> on-paired carboxylate groups in proteins</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/c1.gif" title="Cartoon showing the cooperative buildup of low density clustering around K+ on-paired carboxylate groups in proteins" alt="Cartoon showing the cooperative buildup of low density clustering around K+ on-paired carboxylate groups in proteins" name="pic" width="480" height="272" border="0" id="pic" /></figure>
+      <p align="center"><a title="click for an explanation" href="#" onclick="sho('pic',1);return false;">Forward</a> &nbsp;&nbsp;&nbsp;&nbsp; <a title="click for an explanation" href="#" onclick="sho('pic',-1);return false">Backward</a> </p>
+      <p align="center"><strong class="style4">Only the oxygen atoms of the water network are shown above</strong>. </p>
+</div>
+      Formation of K<sup>+</sup>-carboxylate 
+      ion-pairs leads to the formation of a surrounding clathrate 
+      water structuring that further leads to <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html">icosahedral 
+    water structuring</a> (so ensuring maximal hydrogen-bond formation) 
+      and informing neighboring carboxylate groups. This signaling 
+      cooperatively reinforces the <a title="go to 'Water molecular structure' page"  href="water_hydrogen_bonding.html#e">tetrahedrality</a> of the water structuring 
+      found between these groups. The mechanism is indicated on 
+      the right (press the <span class="style8"><strong><a title="click for an explanation" href="#" onclick="sho('pic',1);return false;">Forward</a></strong></span> button). Note that the clathrate arrangement allows cluster 
+      mobility (like a ball-and-socket joint), enabling the hydrogen 
+      bonding to search out cooperative partners.
+      The expected greater rigidity of such structures with lower temperatures has been proven [<a title="go to cited reference"  href="ref15.html#r1466">1466</a><a name="r1466" id="r"></a>].
+      <div style=" float:none; clear:both;">
+      <p>&nbsp;</p>
+      <p align="left">The diameter of the cylindrical water cluster appears to be less than 3% different from  that invoked to explain the hydrophobic effect between flat hydrophobic surfaces and to extendi over some tens of nanometers [<a title="go to cited reference"  href="ref14.html#r1316">1316</a><a name="r1316" id="r1316"></a>], indicating that the same clustering may be involved in both cases. </p>
+</div>
+    <p>&nbsp;</p>
+    <p align="left">The cooperative nature of this signaling  explains the signal amplification seen in the conduction of impulses along the microtubules and actin [<a title="go to cited reference"  href="ref15.html#r1434">1434</a><a name="r1434" id="r1434"></a>],<sup><a title="click for an explanation" href="#e"> e</a></sup> and perhaps linking to other parts of the cytoskeleton<sup><a title="click for an explanation" href="#e"> e</a></sup> [<a title="go to cited reference"  href="ref14.html#r1307">1307</a><a name="r1307" id="r1307"></a>]. The importance of this cannot be overstated as microtubules are implicated in information processing and memory  [<a title="go to cited reference"  href="ref14.html#r1307">1307</a>]. The structuring of water may, therefore, be critical for the conscious mind [<a title="go to cited reference"  href="ref14.html#r1337">1337</a><a name="r1337" id="r1337"></a>]. Dynein (a cytoskeletal motor protein that moves along the cytoskeleton's microtubules) binds to <a href="#e">tubulin</a> through two coiled-coil stalks and a stalk head. The energy used to alter the head binding and propel cargo along tubulin is supplied by ATP, 1,500 amino acids away. The energetic connection over this microscopically vast distance has been explained by surface water waves, which transmit the chemical energy over very long distances  [<a title="go to cited reference"  href="ref42.html#r4112">4112</a><a name="r4112" id="r4112"></a>].</p>
+<p align="left">.    </p>
+    <p align="left">Although the clustering (above right) involves 
+        a significant drop in entropy (increased coherence) , this is compensated by a more negative 
+        enthalpy due to the stronger bonding of the fully tetrahedral <a title="go to 'Hydrogen bonding in water' page"  href="water_hydrogen_bonding.html">hydrogen-bonded structure</a>. The phase transition between ordered and disordered water has been regarded as a mechanism to release energy for biological work rather than the membrane (pump) theory [<a title="go to cited reference"  href="ref20.html#r1960">1960</a><a name="r1960" id="r1960"></a>]. It is 
+        consistent with Ling's association-induction polarized multilayer 
+        model [<a title="go to cited reference"  href="ref7.html#r634">634</a>],<sup><a title="click for an explanation" href="#c"> c</a><a name="bc" id="bc"></a></sup> as can be seen from the net dipoles emanating from the clathrate 
+        arrangement, but offers a more realistic explanation. The 
+        initial icosahedral size (3 nm diameter) also equals the water 
+        domain size proposed by Watterson [<a title="go to cited reference"  href="ref6.html#r546">546</a><a name="r546" id="r546"></a>]. 
+        Extensive (1.4 nm) long-lived (&gt; 300 ps) aqueous dipole 
+        arrangements between biomolecules have been found in molecular 
+        dynamics studies [<a title="go to cited reference"  href="ref4.html#r329">329</a><a name="r329" id="r329"></a>]. 
+        Further support for this model is given by several studies 
+        concerning different types of intracellular water, such as 
+        &quot;normal&quot; bulk and &quot;abnormal&quot; osmotically 
+        inactive interfacial water [<a title="go to cited reference"  href="ref7.html#r639">639</a><a name="r639" id="r639"></a>]. Also, the water in the extreme halophile <em>Haloarcula marismortui</em>, which contains unusually large amounts of bound intracellular K<sup>+</sup> ions, shows particularly slow translational diffusion [<a title="go to cited reference"  href="ref13.html#r1253">1253</a><a name="r1253" id="r1253"></a>].&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="center" class="style15"><strong>Idealized tetrahedral clustering caused by neighboring K<sup>+</sup> carboxylate ion pairs </strong></p>
+    <p align="center" class="style15">&nbsp;</p>
+    <p align="left"><img class="floatleft" src="images/c13.gif" alt="Idealized tetrahedral clustering caused by neighboring K+ carboxylate ion pairs, view 1" title="Idealized tetrahedral clustering caused by neighboring K+ carboxylate ion pairs, view 1" width="263" height="252" /> <img class="floatright" src="images/c14.gif" alt="Idealized tetrahedral clustering caused by neighboring K+ carboxylate ion pairs, view 2" title="Idealized tetrahedral clustering caused by neighboring K+ carboxylate ion pairs, view 2" width="248" height="252" /> </p>
+    <p>These orthogonal diagrams show the maximum limit of fully 
+        tetrahedral water clustering due to the cooperative clustering 
+        (see above) from two K<sup>+</sup>-carboxylate ion-pairs. 
+        This fully tetrahedral structuring, which resembles a mixture 
+        of hexagonal and cubic ice structures but with 5-fold symmetry 
+        (such that it cannot form extensive crystals), is idealized in the 
+        cartoons. An interactive structure is given (<a href="link.html" title="go to 'Jmol' java animation">Jmol</a>).<br />
+</p>
+		<div style=" float:none; clear:both;"><p>&nbsp;</p></div>
+    <div style=" float:none; clear:both;">
+      <p align="left">Extension of the clathrate network and its associated 
+          low-density water enables K<sup>+</sup> ion binding to all aspartic 
+          and glutamic acid groups, not just the key ones within the extensive 
+          acidic centers. Thus, the gel-sol transition of Pollack [<a title="go to cited reference"  href="ref7.html#r635">635</a>] 
+          is interpreted as the conversion to low-density water clustering 
+          (the gel state) due to clathrate clustering around K<sup>+</sup>-carboxylate 
+          ion-pairs. The changes in the  cell's functional state and its organisms have been shown to be reflected in the changes in the cell's refractivity [<a title="go to cited reference"  href="ref20.html#r1997">1997</a><a name="r1997" id="r1997"></a>]. Indeed, the stiffness of the cytoplasm depends on the structure of the water, as shown by changing the H<sub>2</sub>O water to D<sub>2</sub>O heavy water when the intracellular relaxation frequency reduces by between two and four orders of magnitude depending on the timescale [<a title="go to cited reference"  href="ref19.html#r1856">1856</a>].</p>
+</div>
+    <p>&nbsp;</p>
+    <p align="left">In the presence of raised Na<sup>+</sup> or Ca<sup>2+</sup> ionic concentrations, as occasionally occurs during some 
+        cell functions, these ions will replace some of the bound K<sup>+</sup> ions. These newly-formed solvent-separated Na<sup>+</sup> or 
+        Ca<sup>2+</sup> ion-pairings destroy the low-density clathrate structures 
+        and initiate a cooperative conversion of the associated water towards 
+        a denser structuring.</p>
+    <p>&nbsp;</p>
+    <p>In conclusion, the information transfer within the cell involves 
+        the following:</p>
+    <ul>
+      <li>Intracellular water favors K<sup>+</sup> ions over Na<sup>+</sup> ions.</li>
+      <li>Freely rotating proteins create zones of higher density water, 
+          which tend towards a lower density clustering if the rotation 
+          is prevented.</li>
+      <li>Static charge-dense intracellular macromolecular structures 
+          prefer K<sup>+</sup> ion-pairs over freely soluble K<sup>+</sup> ions.</li>
+      <li>Ion paired K<sup>+</sup>-carboxylate groupings prefer a local 
+          clathrate water structuring.</li>
+      <li>Clathrate water prefers local low-density water structuring.</li>
+      <li>Low-density water structuring can reinforce the low-density 
+          character of neighboring site water structuring.</li>
+      <li>Na<sup>+</sup> and Ca<sup>2+</sup> ions can cooperative destroy the low-density structuring. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</li>
+</ul>
+    <p>&nbsp;</p>
+    <hr />
+    <h2>Footnotes</h2>
+    <p><a name="a" id="a"></a><sup>a</sup>&nbsp;&nbsp;Philosophical, historical, and scientific  views of water in living systems have been reviewed [<a title="go to cited reference"  href="ref11.html#r1011">1011</a><a name="r1011" id="r1011"></a>] [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup>b<a name="b" id="b"></a> &nbsp;&nbsp;</sup>The cytoplasm of cells is described 
+        in [<a title="go to cited reference"  href="ref9.html#r892">892</a><a name="r892" id="r892"></a>]. Nuclear 
+        magnetic resonance signal widths are much broader inside cells, 
+        showing that intracellular water is far more structured than 
+        extracellular or pure water; for example, see [<a title="go to cited reference"  href="ref9.html#r884">884</a><a name="r884" id="r884"></a>]. 
+        For a review of the relationship between the intracellular 
+        water and the cytoskeleton, see [<a title="go to cited reference"  href="ref9.html#r880">880</a><a name="r880" id="r880"></a>]). It is noteworthy that the amount of 'free' versus 'bound' water [<a title="go to cited reference"  href="ref10.html#r969">969</a><a name="r969" id="r969"></a>], the concentration of K<sup>+</sup> ions, and the cytoskeleton are all intimately linked together by the differences between normal and cancer cells [<a title="go to cited reference"  href="ref14.html#r1333">1333</a><a name="r1333" id="r1333"></a>].
+        [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><sup>c<a name="c" id="c"></a> &nbsp;&nbsp;</sup>The polarized multilayer 
+        theory relies on the hypothesis that static proteins in the 
+        cell change their secondary structure from compact to extended 
+        forms so that the newly formed extensive lengths of polypeptide 
+        'polarize' the water using their amide (N-H and C=O) 
+        backbone. Although there is support for the existence of polarized 
+        multilayers of water [<a title="go to cited reference"  href="ref7.html#r634">634</a>], there 
+        is no experimental support for this explanation for their presence. 
+        Indeed, most experimental data is contra-indicative, resulting 
+        in only minority support from scientists in this area. [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup>d</sup><a name="d" id="d"></a> &nbsp;&nbsp;The chaotropic/kosmotropic nature of these ions has been confirmed by <abbr title="Fourier Transform Inra-Red spectroscopy">FTIR</abbr> [<a title="go to cited reference" href="ref11.html#r1072">1072</a><a name="r1072" id="r1072"></a>]. [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <div style=" float:left; width:16px;"><sup>e</sup><a name="e" id="e"></a></div>
+    <div style=" float:left;">
+      <h2>Actin, tubulins, and the intermediate filaments</h2>
+</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Eukaryotic cells are dynamic structures, able to move, and divide. Such activities are achieved through the use of cytoskeletal filaments (actin, tubulins, and intermediate filaments [<a title="go to cited reference"  href="ref31.html#r3051">3051</a><a name="r3051" id="r3051"></a>], see the <a href="#cyt">cartoon above</a>) and molecular motors (such as myosin) within the cell. The filaments lengthen, shorten and cross-link, regulated by other proteins. The <a href="#actin1">actin filament </a>is a helical ribbon formed of two parallel helical strands that each comprise a linear strand of small G-actin proteins (42 k<a href="constants.html#Da">Da</a>) molecules with uniform orientation along the ribbon axis. The ribbon has a width of &sim;8 nm, a thickness of &sim;5 nm, and a helical repeat of 36 nm. An analysis of the  known actin structures from the <a href="http://www.ebi.ac.uk/uniprot/" title="opens new site in a pop-up window"   target="otherWin1" onclick="newWin('otherWin1')">UniProt Knowledgebase</a> showed the 32 complete &alpha;-actin  structures recorded from fish, birds, snakes, and mammals all to have the  conserved acidic N-terminal structure  Acetyl- <span class="style7" >D</span>/<span class="style7">E</span>- <span class="style7" >D</span>/<span class="style7">E</span>- <span class="style7" >D</span>/<span class="style7">E</span>- <span class="style7" >D</span>/<span class="style7">E</span>- T/S/V- T- A- L- V- C- <span class="style7">D</span>- N- G- S- G- L- V- K- A- G- F- A- G- <span class="style7">D</span>- <span class="style7">D</span>- A- P- R- A- V- F- P- S- I- V- G- R- P- R- H- Q- G- V- M- V- G- M- G  and the 70 complete &beta;-  and &gamma;-actin structures recorded, from a similar range  of species, to all have the conserved and closely related N-terminal structures  of Acetyl- <span class="style7" >D</span>/<span class="style7">E</span>- <span class="style7" >D</span>/<span class="style7">E</span>- <span class="style7" >D</span>/<span class="style7">E</span>- I/V/T- A/T- A/S- L- V- V/I/C- <span class="style7">D</span>/A- N- G- S- G- M/L- C- K- A- G- F- A/G- G/R- <span class="style7">D</span>- <span class="style7">D</span>/G- A- P- R- A- V/A- F- P- S- I- V- G- R- P- R- H- Q- G- V- M- V- G/R- M- G  with even the variations limited to one or a very few molecules. </p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">Tubulin showing the &alpha;/&beta; units with acidic C-termini (red)</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/tubulin.gif" title="Cartoon of tubulin showing the alpha/beta units and the acidic C-termini (red)" alt="Tubulin showing the alpha/beta units and the acidic C-termini" width="320" height="140" /></figure>
+      <p>Eukaryotic tubulin is another structural protein that forms 
+      immobile structures with ordered hydration 
+      within 
+      cells [<a title="go to cited reference"  href="ref7.html#r689">689</a><a name="r689" id="r689"></a>]. It  forms fat hollow and stiff microtubules (&asymp; 25 nm in diameter, containing low-density water), making tracks through  the intracellular space for the movement of organelles. These tubular structures  are built up from pairs of similar subunits (&alpha;  and &beta;), each of about 450 amino acids [<a title="go to cited reference"  href="ref12.html#r1140">1140</a><a name="r1140" id="r1140"></a>].
+      
+      Tubulins have a GTP binding domain near their N-terminal and two separate &beta;-sheets each surrounded by &alpha;-helices.  The microtubules are formed from head to tail arrangement of &alpha;/ &beta; dimers  with the beta-subunit GTP at the open end. Only this GTP is hydrolyzed  following polymerization. Outside the molecular core, two exterior anti-parallel &alpha;-helices lead to highly acidic C-termini, which are  thus situated outside of the microtubule and away from the tubulin surface [<a title="go to cited reference"  href="ref14.html#r1306">1306</a><a name="r1306" id="r1306"></a>]. The &alpha;-tubulin  structure is highly conserved with C-terminal consensus sequence - A- R- <span class="style7">E</span>- <span class="style7">D</span>- M- A- A- L- <span class="style7">E</span>- K- <span class="style7">D</span>- Y- <span class="style7">E</span>- <span class="style7">E</span>- V- G- V- <span class="style7">D</span>- S- V-   followed by an extremely variable but highly acidic C- terminus exemplified by the human  &alpha;- tubulin (type &lsquo;ubiquitous&rsquo;) structure - <span class="style7">E</span>- G- <span class="style7">E</span>- G- <span class="style7">E</span>- <span class="style7">E</span>- <span class="style7">E</span>- G- <span class="style7">E</span>- <span class="style7">E</span>- COOH.  The &beta;- tubulin structure is also highly conserved with  C- terminal consensus sequence - A- <span class="style7">E</span>- S- N- M- N- <span class="style7">D</span>- L- V- S- <span class="style7">E</span>- Y- Q- Q- Y- Q- <span class="style7">D</span>- A- T- A-   followed by an extremely variable highly acidic C- terminus exemplified by the human  &beta;- tubulin (type &lsquo;4Q&rsquo;) structure  - <span class="style7">E</span>- <span class="style7">E</span>- <span class="style7">E</span>- <span class="style7">E</span>- <span class="style7">D</span>- <span class="style7">E</span>- <span class="style7">E</span>- Y- A- <span class="style7">E</span>- <span class="style7">E</span>- <span class="style7">E</span>- V- COOH. As with the actins, these examples indicate   that very strongly conserved structures exist for tubulins except for at  an end (here the C-terminus) where glutamic acid and aspartic acid occur   interchangeably and in variable but always very acidic  sub-structures. Improper functioning of tubulin has been linked with  intracellular water clustering in the origin of cancer [<a title="go to cited reference"  href="ref20.html#r1901">1901</a><a name="r1901" id="r1901"></a>].
+      </p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">Vimentim tetramer fragment, a type III intermediate filament</p>
+      <p align="center">&nbsp;</p>
+</figcaption> 
+<img src="images/vimentin.gif" alt="Vimentim tetramer fragment, a type III intermediate filament; 3KLT" title="Vimentim tetramer fragment, a type III intermediate filament; 3KLT" width="360" height="81" class="floatright" /></figure>
+      <p>Intermediate  filaments are fibrous, flexible, and elastic proteins formed mainly from coiled  coils (&lsquo;ropes&rsquo;, &asymp; 11 nm diameter) of multi-stranded acidic &alpha;-helices [<a title="go to cited reference"  href="ref12.html#r1141">1141</a><a name="r1141" id="r1141"></a>]. There are some families of associated proteins such as the nuclear lamins, sarcomere desmins,  neuron neurofilaments, and epithelial cytokeratins. In addition, the vimentins  (see right) generally support the organelles and maintain cellular integrity. All these  proteins possess &alpha;-helical central &lsquo;rod&rsquo; domains (&asymp; 48 nm long) that  contain about 310 amino acids plus more variable end domains,. At the same time, some  acidic groups form salt links with basic groups in other strands to build  up and lengthen the resulting &lsquo;elastic rope&rsquo; structure, there exists an excess  of acidic groups on the surface of the filaments. Within the &alpha;-helices are acidic bulges (formed from single &pi;-helical loops) containing clusters of three glutamic  acids within four residues and creating flexible &lsquo;linker&rsquo; regions. As different  strands come together to form the fibrous &lsquo;ropes&rsquo;, these acidic clusters are  grouped  with contributing acidic clusters from about 20 helices on the  surface of the filaments. [<a title="click for an explanation" href="#be"><span title="go back to the text">Back</span></a>]&nbsp;
+</p>
+    <img class="floatright" src="images/acetate_hydration.gif" alt="favored acetate hydration"  title="favored acetate hydration" width="240" height="157" />
+    <p>&nbsp;</p>
+    <p><a name="f" id="f"></a><sup>f</sup>&nbsp;&nbsp;Time-resolved infrared pump-prime spectroscopy of acetate in D<sub>2</sub>O suggests the bridge structure (right) as the most stable (single-hydrated) structure [<a title="go to cited reference"  href="ref19.html#r1804">1804</a><a name="r1804" id="r1804"></a>], but other water molecules are also involved. </p>
+    <p>&nbsp;</p>
+    <p>The optimal configurations, energy parameters, and typical vibrational frequencies of the hydrates of the acetic acid and acetate molecular hydrates have been calculated using density functional theory. The preferred structures CH<sub>3</sub>COOH&sdot;(H<sub>2</sub>O)<sub>2</sub>, CH<sub>3</sub>COOH&sdot;(H<sub>2</sub>O)<sub>8</sub>,  CH<sub>3</sub>CO<sub>2</sub><sup>&minus;</sup>&sdot;(H<sub>2</sub>O)<sub>2</sub>,  CH<sub>3</sub>CO<sub>2</sub><sup>&minus;</sup>&sdot;(H<sub>2</sub>O)<sub>6</sub>,  and CH<sub>3</sub>CO<sub>2</sub><sup>&minus;</sup>&sdot;(H<sub>2</sub>O)<sub>16 </sub> [<a title="go to cited reference"  href="ref32.html#r3151">3151</a><a name="r3151" id="r3151"></a>].    [<a title="click for an explanation" href="#bf"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup>g</sup><a name="g" id="g"></a> &nbsp;&nbsp;Ultrafast vibrational spectroscopy and dielectric-relaxation spectroscopy have shown somewhat higher amounts of bulk-like water in <em>Escherichia coli</em> and <em>Saccharomyces cerevisiae</em> [<a title="go to cited reference" href="ref35.html#r3494">3494</a><a name="r3494" id="r3494"></a>]. [<a title="click for an explanation" href="#bg"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup>h</sup><a name="h" id="h"></a>  The equivalent of an acid supplies one mole of hydrogen ions (H<sup>+</sup>) in an acid-base reaction. [<a title="click for an explanation" href="#bh"><span title="go back to the text">Back</span></a>]</p>
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+    <p align="right"> [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="protein_hydration.html" title="more on protein hydration" >Protein hydration</a> | <a title="go to more on nucleic acid hydration" href="nucleic_acid_hydration.html">Nucleic acid hydration</a> | <a href="aqueous_biphasic.html">Aqueous 
+      biphasic systems</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2004 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->6 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

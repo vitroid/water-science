@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Water activity" />
+<meta name="Keywords" content="water activity,activity coefficient" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Water activity</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/water_activity.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">The water activity of glucose solutions,</p>
+      <p align="center" class="style4">from [<a title="go to cited reference"  href="ref23.html#r2220">2220</a>]</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/water_activity_1.gif" width="360" height="219" alt = "Water activity of glucose solutions see ref [2220]" title = "Water activity of glucose solutions see ref [2220]"  name="activity" id="activity" onmouseover="mm_swapImage('activity','','images/water_activity_3.gif',1)" onmouseout="mm_swapImgRestore()" /> </figure> 
+<h1> Water 
+      Activity </h1>
+    <p>Water activity (a<sub>w</sub>) is a measure of how easy the water content may be utilized. </p>
+    <p>&nbsp;</p>
+      <p align="left" class="style15"><img src="images/redown.gif" alt="V" width="13" height="12" border="0" /> <a href="#defn" title="go to section below" >Definition of water activity</a></p>
+      <p align="left" class="style15"><img src="images/redown.gif" alt="V" width="13" height="12" border="0" /> <a href="#salt_activity" title="go to section below" >The effect of salt</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#temperature" title="go to section below">The effect of temperature</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#food"> The control of activity in foodstuffs</a></p>
+      <p align="left" class="style15"><a href="#fug"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> Fugacity</a></p>
+      <p>&nbsp;</p>
+      <p><span class="style10">'<em>The  water vapour pressure of the solution expressed as a fraction of the vapour  pressure' of pure water at the same temperature (or the equilibrium humidity  expressed as a fraction) is numerically equal to the activity of the water (a<sub>w</sub>)  in the solution.</em> '</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style4">W.J Scott 1953, <a title="go to cited reference"  href="ref39.html#r3817">3817</a><a name="r3817" id="r3817"></a>] </span></p>
+      <p>&nbsp;</p>
+    <div style="float:none; clear:both;"> </div>
+    <p><em><span class="style10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'a<sub>w</sub> has become one of the most important intrinsic properties used for predicting the survival and growth of microorganisms in food</span></em>&nbsp;'&nbsp;<span class="style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chirife and Fontana, 2007 [<a title="go to cited reference"  href="ref25.html#r2476">2476</a><a name="r2476" id="r2476"></a>] </span></p>
+    <div style="float:none; clear:both;"> </div>
+     
+    <p>&nbsp;</p>
+    <p>The concept of 'water activity' was introduced in the 1920s, as relative humidity, and then in the 1950s<sup><a name="bl" id="bl"></a><a title="click for an explanation" href="#l">l</a></sup> as a limiting factor in microorganism growth and an essential parameter in food preservation.</p>
+   
+    <h2><a name="defn" id="defn"></a>Definition of water activity</h2>
+        <p>A material has unit activity (a = 1, dimensionless)<sup><a name="bk" id="bk"></a><a title="click for an explanation" href="#k">k</a></sup> in its pure stat,e and this drops below unity ( a &lt; 1)  when mixed with any other substances. The term 'water activity' (a<em><sub>w</sub></em>) describes the (equilibrium) amount of water available for hydration of materials (i.e., water activity &equiv; water availability; the ratio of the thermodynamic activity to the analytical concentration). </p> <figure  class="floatleft">
+<figcaption>
+  <p align="center">&nbsp;</p>
+  <p align="center">&nbsp;</p>
+  <p align="center">The water activity of glycerol solutions,</p>
+      <p align="center" class="style4">from [<a title="go to cited reference"  href="ref39.html#r3816">3816</a>]</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+<img src="images/glyaw.gif" width="368" height="200" alt="The water activity of glycerol solutions, from [3816]" title="The water activity of glycerol solutions,  from [3816]"/></figure><p align="left">&nbsp;</p>
+<p align="left">When liquid water is all available for hydration of materials,<em> a<sub>w</sub></em> = 1, and when none is available, <em>a<sub>w</sub></em> = 0. The term<em> a<sub>w</sub></em> is dimensionless. If water interacts with solutes and surfaces, 
+      it is unavailable for other hydration interactions, and its effective concentration in the solution is reduced. A water activity value 
+      of unity indicates pure water, whereas a water activity value 
+      of zero indicates the total 
+      absence of 'free' water molecules; the addition of solutes consistently  lowers  the water activity (see above right  [<a title="go to cited reference"  href="ref23.html#r2220">2220</a>]).  Unity water activity does not imply the bulk water is unstructured, only that it is indistinguishable from 'pure' water. Water activity has been reviewed in aqueous [<a title="go to cited reference"  href="ref8.html#r788">788</a><a name="r788" id="r788"></a>] 
+    and biological systems [<a title="go to cited reference"  href="ref19.html#r1813">1813</a><a name="r1813" id="r1813"></a>] and has particular relevance in food chemistry and preservation. <a href="kosmotropes_chaotropes.html#cryo">Glycerol&ndash;water mixtures</a> may be used to control the equilibrium relative humidity in a closed space (see figure above left), where the <em>a<sub>w</sub></em> = <a href="water_vibrational_spectrum.html#l">equilibrium 
+    relative humidity</a> [<a title="go to cited reference"  href="ref39.html#r3816">3816</a><a name="r3816" id="r3816"></a>]. Below <em>a<sub>w</sub></em> ~ 0.7, there are no signs of freezing and melting of glycerol-water mixtures. At higher <em>a<sub>w</sub></em> (0.7 &lt; <em>a<sub>w</sub></em>&lt; 0.8) freezing occurs, whereas at higher <em>a<sub>w</sub></em> (0.8 <em>&lt; a<sub>w</sub></em> &lt; 1.0), water behaves essentially as bulk water in its physical properties.</p>
+    <p align="left">&nbsp;</p>
+
+    <p align="left">In Food Science, the water activity may be thought easier to conceptualize as a measure of the water vapor generated by the   moisture present in a hygroscopic product.  It allows an understanding of the water   that is not bound to food molecules  and that has a marked   effect on the chemical, microbiological, and enzymic stability of foods. When the water activity of a material is less than the surrounding water vapor pressure, there is a driving force for the water molecules into the material, whereas when the material's water activity is greater than the surrounding water vapor pressure, the material will lose water and dry out. At equilibrium, all water activities equal the surrounding water vapor pressure. However, equilibrium is often slow to achieve.</p>
+    <p>&nbsp;</p>
+    <p align="left">Water activity (<em>a<sub>w</sub></em>, at equilibrium) is defined as equal 
+      to the ratio of the fugacity of the water to its fugacity 
+      under reference conditions (f<sub>0</sub>). The fugacity (f) is the real gas equivalent of an 
+      <a href="steam.html#d">ideal gas</a>'s partial pressure. It may be thought of as the escaping tendency of a substance, where f<sub>0</sub> is escaping tendency of pure material at the same temperature. It approximates well to the 
+      more easily determined ratio of partial pressures (<em>P</em>) of water under normal 
+      working conditions.<sup><a href="#j" name="bj" id="bj">j</a></sup> Water diffuses from areas of high <em>a<sub>w</sub></em> to areas of low <em>a<sub>w</sub></em>.</p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><strong>a<sub>w</sub> = <em>&gamma;<sub>w</sub></em> &#739; x<sub>w</sub>= (f/f<sub>0</sub>)<sub>T</sub> &asymp;  <em>(P/P<sub>0</sub></em>&nbsp;)<sub>T</sub></strong></p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <figure  class="floatright">
+<figcaption>
+      <p align="center"><a name="potact" id="potact"></a></p>
+      <p align="center">Effect of water activity on its chemical potential</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/activity-potential.gif" alt="Effect of water activity on its chemical potential" title="Effect of water activity on its chemical potential" width="360" height="254"  class="floatright"/></figure>
+    <p align="left">&nbsp;</p>
+    <p align="left">Where <em>&gamma;<sub>w</sub></em> is the  activity coefficient, x<sub>w</sub> is the mole fraction of water, and T is the temperature. The activity coefficient has dependence on the partial molar volume and hydrogen bond 
+      strength (which includes dependence on the temperature and 
+      dielectric constant) of the water and only in dilute solutions 
+      (that is, <em>a<sub>w</sub></em>&nbsp;&gt;&nbsp;0.95) 
+      can it be approximated by unity. The water activity (<em>a<sub>w</sub></em>) 
+      is related to the <a title="go to cited reference"  href="ref10.html#r987">chemical 
+      potential</a> (&mu;<em><sub>w</sub></em>; 
+      at equilibrium, &mu;<em><sub>w</sub></em> of liquid water and its vapor phase are identical) by </p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><strong>&mu;<em><sub>w</sub></em>&nbsp;=&nbsp;&mu;<em><sub>w</sub></em>&deg;&nbsp;+&nbsp;RTLn(<em>a<sub>w</sub></em>) </strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="left">where Ln is the <a href="constants.html#b">natural logarithm</a>, &mu;<em><sub>w</sub></em>&deg; is <a href="water_properties.html#Gibbs">the standard chemical potential of water</a>; and to the <a href="osmotic_pressure.html">osmotic pressure</a> and <a href="colligative_proterties.html">colligative properties</a> by</p>
+    <p align="center">&nbsp;</p>
+    <p align="left
+			  ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="144" height="51" src="images/water_activity_5.gif" alt="-Ln(aw)= PixMw/(RxTxrhow)"  title="-Ln(aw)= PixMw/(RxTxrhow)"/></p>
+    <p align="center">&nbsp;</p>
+     <p align="left
+			  ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="155" height="55" src="images/water_activity_6.gif"  alt="-Ln(aw)= DHfxDTf/(RxTf^2)"  title="-Ln(aw)= DHfxDTf/(RxTf^2)"/>&nbsp;</p>
+     <p align="left
+			  ">&nbsp;</p>
+<p align="left
+			  ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="167" height="25" src="images/water_activity_7.gif"  alt="-Ln(aw)= vxmxMwxPhi" title="-Ln(aw)= vxmxMwxPhi"/></p>
+<p align="left">&nbsp;</p>
+<p align="left">where &Pi; is the osmotic pressure, M<em><sub>w</sub></em> is the molar mass,  &rho;<em><sub>w</sub></em> is the density, &Delta;H<sub>f</sub> is the heat of fusion of water, &Delta;T<sub>f</sub>  is the freezing point depression, T<sub>f</sub> is the normal freezing point of water, &nu; is the number of species (e.g., ions) that form on dissolution, m is the molality of the solute and M<em><sub>w</sub></em> is the molecular mass of water. At equilibrium, &mu;<em><sub>w</sub></em> is   the same everywhere in the system, establishing this equilibrium by the movement of water from regions of high water activity to regions of low water activity. Multiplication of water activity by 100 gives the <a href="water_vibrational_spectrum.html#l">equilibrium 
+      relative humidity</a> (ERH) in percent.</p>
+    <p align="left">&nbsp;</p>  
+    <p align="center"><strong>a<sub>w </sub>&asymp; <em>P/P<sub>0</sub></em>&nbsp; = ERH (%)/100 </strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="left">Thus, water activity is  accurately determined from <a href="water_vibrational_spectrum.html#l">equilibrium 
+      relative humidity. </a>Water activity is the effective mole fraction of water, defined 
+      as <em>a<sub>w</sub></em>&nbsp;=&nbsp;<em>&gamma;<sub>w</sub></em>x<em><sub>w</sub></em>&nbsp;=&nbsp;<em>P/P<sub>0 </sub></em><sup><a name="ba" id="ba"></a><a title="click for an explanation" href="#a">a</a></sup> where <em>&gamma;<sub>w</sub></em> is the activity coefficient of water,<em> </em>x<em><sub>w</sub></em> is the mole fraction<sup><a href="#g" name="bg" id="bg">g</a></sup> of water in the aqueous fraction, <em>P</em> is the partial 
+      pressure of water above the material, and <em>P<sub>0</sub></em> is the partial pressure of pure water at the same temperature. 
+      The water activity is equal to the <a href="water_vibrational_spectrum.html#l">equilibrium 
+      relative humidity</a> (ERH), expressed as a fraction. It may 
+      be experimentally determined from the dew-point temperature 
+      of the atmosphere in equilibrium with the material [<a title="go to cited reference"  href="ref5.html#r473">473</a><a name="r473" id="r473"></a>, <a title="go to cited reference"  href="ref8.html#r788">788</a>]; for example,  using 
+      a chilled mirror (in a hygrometer) to show the temperature when the air becomes saturated in equilibrium with water.<sup><a href="#f" name="bf" id="bf">f</a>,<a href="#h" name="bh" id="bh">h</a></sup> A high <em>a<sub>w</sub></em> (that is, &gt;&nbsp;0.8) 
+      indicates a 'moist' or 'wet' system, and a low <em>a<sub>w</sub></em> (that is, &lt;&nbsp;0.7) generally indicates a 'dry' 
+      system. Water activity reflects a combination of water-solute 
+      and water-surface interactions plus capillary forces. The      <a href="hydrocolloids_gums.html">hydrocolloid</a> or protein 
+      polymer network can thus affect the water activity, crosslinking 
+      reducing the activity [<a title="go to cited reference"  href="ref8.html#r759">759</a><a name="r759" id="r759"></a>]. 
+      Note that the water activity of all aqueous solutions in equilibrium 
+		with ice (<em>a<sub>w</sub></em>)<a href="#i" name="bi" id="bi"><sup>i</sup></a> is equal to 
+      the water vapor pressure over ice to the water pressure over 
+      pure liquid water and does not depend on the solute's nature 
+      or concentration [<a title="go to cited reference"  href="ref5.html#r457">457</a><a name="r457" id="r457"></a>]. 
+      Solutions with the same ice melting point, therefore, have the 
+      same water activity. </p>
+    <p>&nbsp;</p>
+    <p align="left">There appears to be a common water-activity living limit (<em>a<sub>w</sub></em> &asymp;  0.61)  for all life forms (Archaea, Bacteria, and Eukarya)  [<a title="go to cited reference"  href="ref25.html#r2427">2427</a><a name="r2427" id="r2427"></a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The water activity (<em>a<sub>w</sub></em>) is related to the net isosteric heat of sorption (<em>q<sub>st</sub></em>) by the following expressions derived from the Clausius-Clapeyron equation,</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"> <img src="images/ccwater_activity.gif" alt="delta(ln(aw)/delta T=isosteric heat of sorption/RT^2" title="delta(ln(aw)/delta T=isosteric heat of sorption/RT^2" width="95" height="36" align="absmiddle" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/qst.gif" alt="isosteric heat of sorption/=-R(delta(ln(aw)/delta(1/T)" title="isosteric heat of sorption/=-R(delta(ln(aw)/delta(1/T)" width="112" height="40" align="absmiddle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>q<sub>st</sub></em> = Q<em><sub>st</sub></em> - &Delta;H<sub>vap</sub></p>
+    <p align="center">&nbsp;</p>
+    <p align="left">where  T is the absolute temperature (K),    R is the universal gas constant (kJ &#739; kg<sup>&minus;1</sup>  &#739; K<sup>&minus;1</sup>), <em>q<sub>st</sub></em> is the net isosteric heat of sorption (kJ &#739; kg<sup>&minus;1</sup>), Q<em><sub>st</sub></em> is the isosteric heat of sorption (kJ &#739; kg<sup>&minus;1</sup>), and &Delta;H<sub>vap</sub> is the heat of vaporization of water (kJ &#739; kg<sup>&minus;1</sup>). The net isosteric  heat  of adsorption is defined as the negative of the differential  change  in  total  enthalpy  (&Delta;H&deg;,  kJ &#739; kg<sup>&minus;1</sup>)    for  a differential  change  in  the  surface excess of water at aconstant system temperature (T). As the binding is strongest for the first water molecules that bind, the heats of sorption increase with decreasing moisture content [<a title="go to cited reference"  href="ref31.html#r3094">3094</a><a name="r3094" id="r3094"></a>].</p>
+    <p align="right">&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+<h2><a name="salt_activity" id="salt_activity"></a>The effect of salt </h2>
+      <figure  class="floatright">
+<figcaption>
+      <p align="center">Molality - activity for some salts</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/water_activity_4.gif" alt="Molality - activity for some salts"  title="Molality - activity for some salts" width="400" height="248"  class="floatleft" /></figure>
+    <p>The  presence of salts reduces water activity  (see left). Ideally, the water activity should follow a straight line with molality. Deviations from ideality are best shown using the <a href="osmotic_pressure.html#osmotic_coefficients" title="go for more information">osmotic coefficient</a> (<em>&#981;</em>).
+    </p>
+      <p>&nbsp;</p>
+    <p>The relationship between the osmotic coefficient and water activity is: </p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/water_activity_equation.gif" alt="Phi=-LN(water activity)/(Mw x nu x molality)" title="Phi=-LN(water activity)/(Mw x nu x molality)" width="233" height="40" /></p>
+    <p>&nbsp;</p>
+    <p>where  M<sub>w</sub> is&nbsp;the molar   	mass of water in kg &#739; mol<sup>&minus;1</sup>, <em>&nu;</em> is the number of ions formed when one   	mole of salt is dissolved in water (in these cases = 2), <em>m</em><sub>s</sub> is the salt <a href="constants.html#molal" title="go for more information">molality</a>, n<sub>w</sub> is the moles of water, and n<sub>s</sub> is the moles of salt.</p>
+<div style="float:none; clear:both;"></div>
+  
+    <figure  class="floatleft">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">The effect of surfaces on the interfacial water activity</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/activity-1.gif" alt="Cartoon showing the effect of surfaces on the interfacial water activity" title="Cartoon showing the effect of surfaces on the interfacial water activity" width="360" height="259" class="floatleft" /></figure>
+
+    <p align="left">&nbsp;</p>
+    <p align="left"><a name="surface" id="surface"></a>Surfaces control the water activity of neighboring water pools compared with the activity of bulk water (see right). At hydrophobic surfaces, the water molecules have 'dangling' hydrogen bonds and consequently high water activity. Such water has a tendency to move towards the lower activity bulk. If the surfaces are flexible, they will tend to close up the pore, as happens in protein structural formation and between hydrophobic and nanobubble-covered surfaces. If the surface forms strong hydrogen bonds to the interfacial water,  this water will have lower water activity than the bulk. As <a href="colligative_generation.html">described elsewhere,</a> this causes the tendency of external water to move inwards and so causes increased osmotic pressure. A consequence of these water flows is the opposite behavior of solutes, as shown in the diagram. </p>
+    <p>&nbsp;</p>
+    <p align="left">A solution of high activity water can be made by treatment with gold nanoparticles illuminated by green-light-emitting diodes  [<a title="go to cited reference"  href="ref29.html#r2831">2831</a><a name="r2831" id="r2831"></a>]). This high-activity water is negatively-charged, has a lifetime of about a week, and possesses (from its high activity)  the expected higher vapor pressure and lower specific heat.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Heavy water (D<em><sub>2</sub></em>O) solutions of saturated salt   give higher&nbsp;<em>a<sub>w</sub></em>&nbsp;values than similar saturated salt solutions made with H<em><sub>2</sub></em>O at 20&nbsp;&deg;C   [<a title="go to cited reference"  href="ref42.html#r4182">4182</a><a name="r4182" id="r4182"></a>]. </p>
+    <p align="right">&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    
+    <h2><a name="temperature" id="temperature"></a>The effect of temperature
+      <figure  class="floatright">
+<figcaption>
+      <p align="center">Water activity versus sorption isotherm</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/water_activity_2.gif" width="480" height="388" title="Water activity versus sorption isotherm" alt="Water activity versus sorption isotherm" /></figure>
+</h2> 
+    <p>Shown right is an indicative water activity 
+      isotherm displaying the hysteresis often encountered depending 
+      on whether the water is being added to the dry material or 
+      removed (drying) from the wet material. This hysteresis is 
+      due to non-reversible structural changes and non-equilibrium 
+      effects. The water activity 
+      isotherm is a curve of the equilibrium moisture content  versus the water activity. It can be determined  by measuring water content when <em>a<sub>w</sub></em> is controlled [<a title="go to cited reference"  href="ref31.html#r3093">3093</a><a name="r3093" id="r3093"></a>] or  by measuring the sample&rsquo;s <em>a<sub>w</sub></em> when the water content is fixed  [<a title="go to cited reference"  href="ref31.html#r3092">3092</a><a name="r3092" id="r3092"></a>]. These methods have been compared [<a title="go to cited reference"  href="ref31.html#r3091">3091</a><a name="r3091" id="r3091"></a>].</p>
+    <p>&nbsp;</p>
+    <p>Many  empirical equations  (and tables) that 
+      attempt to describe this behavior, but although indicative, 
+      none predict with sufficient accuracy, and the water activity 
+      isotherm should be experimentally determined for each material. 
+      In the food industry, such empirical equations combine contributions 
+      from the ingredients to give an estimate of a<sub>w</sub>, 
+      which is then used to estimate the mold-free shelf life (MFSL; 
+      Log<sub>10</sub>(MFSL, days) = 7.91 - (8.1 &#739; <em>&alpha;<sub>w</sub></em>), 21&nbsp;&deg;C, [<a title="go to cited reference"  href="ref5.html#r443">443</a><a name="r443" id="r443"></a>]).</p>
+ <div style="float:none; clear:both;"> </div>
+    <p>&nbsp;</p>
+    <p>The water activity (<em>a<sub>w</sub></em>) usually increases with 
+      temperature and pressure increases.<sup><a name="be" id="be"></a><a title="click for an explanation" href="#e"> e</a></sup> For small temperature increases (T<sub>1</sub> <img src="images/reg.gif" alt="-&gt;" width="22" height="10" /> T<sub>2</sub>) at low <em>a<sub>w</sub></em>, an often-applicable 
+      relationship is:</p>
+    <p>&nbsp;</p>
+    <p align="center">&nbsp;<img src="images/act1.gif" width="169" height="45" alt="Natural log of (the water activity at T2 over water activity at T1)=(enthalpy change/gas constant)x(1/T1 - 1/T2)" align="middle" /> </p>
+    <p>&nbsp;</p>
+    <p>where &Delta;H is an enthalpy change (for example, absorption or mixing), R is the <a title="go to 'Water properties data' page"  href="constants.html#gas">gas 
+      constant</a>, and T is in Kelvin. A similar equation is derived on the <a title="go to find more on colligative properties" href="colligative_properties.html">colligative properties</a> page. Such changes in water activity 
+      may cause water migration between food components, and increasing 
+      the temperature reduces the mold-free shelf life. The water activity of supercooled water is given <a href="supercooled_water.html#superact">elsewhere.</a></p>
+    <p>&nbsp;</p>
+    <p align="left">The multi-ingredient nature of food and its processing 
+      (for example, cooking) commonly results in a range of water activities 
+      being present  [<a title="go to cited reference"  href="ref41.html#r4049">4049</a><a name="r4049" id="r4049"></a>]. Foods containing macroscopic or micro-structural aqueous 
+      pools of differing water activity will be prone to time and temperature-dependent water migration from areas with high <em>a<sub>w</sub></em> to those with low <em>a<sub>w</sub></em>, a valuablel property used 
+      in the salting of fish and cheese but in other cases may have disastrous 
+      organoleptic consequences. Such changes in water activity may cause 
+      water migration between food components. As the humidity of the 
+      air is typically 50-80% (<em>a<sub>w</sub></em>&nbsp;=&nbsp;0.5-0.8), 
+      foods with lower <em>a<sub>w</sub></em> will tend to gain water 
+      while those with higher <em>a<sub>w</sub></em> tend to lose water.&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">It has been found that lipids can protect some microorganisms from thermal inactivation at low water activity during thermal processing  [<a title="go to cited reference"  href="ref41.html#r4072">4072</a><a name="r4072" id="r4072"></a>]. It is  suggested that heating the oil sharply reduces its  water activity for the same water content, e.g., from a<sub>w</sub>=0.9 to 0.3 for an 0.04-mole fraction of water in peanut oil on going from 20&nbsp;&deg;C to 100&nbsp;&deg;C. This results in the desiccation of bacteria, such as <em>Salmonella</em> and <em>Enterococcus faecium</em>, with  the desiccated bacteria becoming more resistant to heat. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="food" id="food"></a>The control of activity in foodstuffs</h2>
+    <p>Control of water activity (rather than water 
+      content) is essential in the food industry as low water 
+      activity prevents microbial growth, increasing shelf life. 
+      A low activity also causes substantial changes in textural characteristics such as crispness 
+      and crunchiness (for example, the sound produced by 'crunching' 
+      breakfast cereal disappearing above about <em>a<sub>w</sub></em>&nbsp;=&nbsp;0.65). Additionally, it changes the rate of chemical reactions, increasing hydrophobe 
+      lipophilic reactions but reducing hydrophile aqueous-diffusion-limited 
+      reactions, and altering the flavor and smell of food. The balance between these factors is such that there is an optimum water activity for dehydrated foods, which is usually equated with a monolayer coverage of water and an <em>a<sub>w</sub></em> of about 0.2 - 0.3 [<a title="go to cited reference"  href="ref12.html#r1127">1127</a><a name="r1127" id="r1127"></a>]. Highly perishable foodstuffs have <em>a<sub>w</sub></em>&nbsp;&gt;&nbsp;0.95 
+      (equivalent to about 43 % w/w sucrose). Growth of most bacteria 
+      is inhibited below about <em>a<sub>w</sub></em>&nbsp;=&nbsp;0.91 
+      (equivalent to about 57 % w/w sucrose); similarly, most yeasts stop growing below <em>a<sub>w</sub></em>&nbsp;=&nbsp;0.87 
+      (equivalent to about 65 % w/w sucrose) and most molds cease 
+      growing below <em>a<sub>w</sub></em>&nbsp;=&nbsp;0.80 (equivalent 
+      to about 73 % w/w sucrose). The absolute limit of microbial 
+      growth is about <em>a<sub>w</sub></em>&nbsp;=&nbsp;0.6.<sup><a name="bb" id="bb"></a><a title="click for an explanation" href="#b"> b</a></sup> As the solute concentration required to produce <em>a<sub>w</sub></em>&nbsp;&lt;&nbsp;0.96 
+      is high (typically &gt; 1 <a href="moles_molarity_molality.html" title="click for an explanation">molal</a>), the solutes (and surface 
+      interactions at low water content) will control the structuring 
+      of the water within the range where <em>a<sub>w</sub></em> knowledge is usefully applied. Changes in the natural clustering 
+      of water due to low concentrations of solutes will only occur 
+      at<em> a<sub>w</sub></em>&nbsp;&gt;&nbsp;0.98. Although low-density water (<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">ES</a>) will possess 
+      less <em>a<sub>w</sub></em> than collapsed water clustering 
+      (<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS</a>), and the consequences are 
+      very important in biological systems, such changes in the 
+      absolute value of <em>a<sub>w</sub></em> are small. </p>
+    <p>&nbsp;</p>
+    <table width="370" border="1" align="center" summary="Indicative values of water activities">
+      <caption>
+      <span class="style15"><strong>Indicative values of water activities</strong></span><strong><br />
+      <br />
+      </strong>
+      </caption>
+      <tr>
+        <th scope="col" width="188">Substance</th>
+        <th scope="col" width="56"><div align="center"><em>&gamma;<sub>w</sub></em></div></th>
+        <th scope="col" width="50"><div align="center">x<em><sub>w</sub></em></div></th>
+        <th scope="col" width="48"><div align="center"><em>a<sub>w</sub></em></div></th>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">seawater</div></th>
+        <td width="56"><div align="center">1.0</div></td>
+        <td width="50"><div align="center">0.98</div></td>
+        <td width="48"><div align="center">0.98</div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Saturated LiCl</div></th>
+        <td><div align="center">0.19</div></td>
+        <td><div align="center">0.57</div></td>
+        <td><div align="center">0.11</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Saturated MgCl<sub>2</sub></div></th>
+        <td width="56"><div align="center">0.83</div></td>
+        <td width="50"><div align="center">0.40</div></td>
+        <td width="48"><div align="center">0.33</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Saturated SrCl<sub>2</sub> </div></th>
+        <td width="56"><div align="center">1.03<sup><a name="bc" id="bc"></a><a title="click for an explanation" href="#c">c </a></sup></div></td>
+        <td width="50"><div align="center">0.69</div></td>
+        <td width="48"><div align="center">0.71</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Saturated BaCl<sub>2</sub></div></th>
+        <td width="56"><div align="center">1.18<sup><a title="click for an explanation" href="#c"> c</a></sup></div></td>
+        <td width="50"><div align="center">0.76</div></td>
+        <td width="48"><div align="center">0.90</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Bread</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">35<sup><a name="bd" id="bd"></a><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.96</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Cheese</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">37<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.97</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Dried fruit (for example, sultanas)</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">18<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.76</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"> <div align="left">Raw meat </div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">60<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.98</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Dry pasta</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">12<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.50</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Cooked pasta</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">72<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.97</div></td>
+</tr>
+      <tr>
+        <th scope="row" width="188"><div align="left">Preserves (for example, jam)</div></th>
+        <td width="56"><div align="center">-</div></td>
+        <td width="50"><div align="center">28<sup><a title="click for an explanation" href="#d"> d</a></sup></div></td>
+        <td width="48"><div align="center">0.88</div></td>
+</tr>
+</table>
+    <p>&nbsp;</p>
+    <p>The  pH also controls the safe storage of food at lower water activities;  thus,  at a water activity of 0.92, only pH's above pH 4.2 present potential microbiological hazards in non-heat-treated food  [<a title="go to cited reference"  href="ref12.html#r1127">1127</a>].&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>A review of the water activity  of sugars and model honey solutions has been produced [<a href="ref43.html#r4204" name="r4204" title="go to cited reference" id="r4204">4204</a>] </p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2><a name="fug" id="fug"></a>Fugacity</h2>
+    <p>For gaseous water, the activity is simply the fugacity divided by a reference pressure (usually 101,325 <a href="constants.html#Pa">Pa</a>) to give a dimensionless quantity. The fugacity (f, <a href="constants.html#Pa">Pa</a>) of a real gas is the escaping tendency of the substance; the effective pressure which replaces the true mechanical pressure due to the non-ideality;</p>
+    <p>&nbsp;</p>
+    <p align="center"> <strong>f = &phi; x P</strong> </p>
+    <p align="center">&nbsp;</p>
+    <p>where &phi; is the fugacity coefficient and P is the pressure. For an ideal gas, <strong>&phi;</strong> = 1 and <strong>f = P</strong> and, at constant temperature (d<em>T</em> = 0),</p>  
+   <p align="center">&nbsp; </p>
+   <p align="center"><strong>d&mu;          =          RTd          ln          &#8289;P </strong></p>
+ 
+    <p>&nbsp;</p>
+    <p>where <strong>&mu;</strong> is the chemical potential. If the gas is non-ideal,</p>
+    <p>&nbsp;</p>
+    <p align="center"><strong>d&mu;          =          RTd          ln          &#8289;f </strong></p>
+    <p>&nbsp;</p>
+    <p>The fugacity coefficient of water at 100,000 <a href="constants.html#Pa">Pa</a> and 300 K is 0.998. At lower pressures, the fugacity coefficient may be approximated to:</p>
+    <p align="center"><strong>&phi; = </strong><strong>PV/RT</strong></p>
+    <p>&nbsp;</p>
+    <p>The fugacity coefficient  rises towards 1.0 at higher temperatures but reduces  at higher pressures before rising again at very high pressures [<a title="go to cited reference"  href="ref33.html#r3218">3218</a><a name="r3218" id="r3218"></a>]. </p>
+    <table width="738" border="1" cellspacing="1" cellpadding="1"  align="center">
+      <tr></tr>
+      <caption class="style15">
+      Fugacity coefficients (<strong>&phi;</strong>) of water, from [<a title="go to cited reference"  href="ref33.html#r3218">3218</a>]
+      <br />
+      <br />
+      </caption>
+      <tr>
+      <td width="90" align="center"><strong>Temperature, K</strong></td>
+      <td width="78" align="center"><strong>Pressure, MPa</strong></td>
+      <td width="42" align="center"><strong>&phi;</strong></td>
+      <td width="2" align="center">&nbsp;</td>
+      <td width="90" align="center"><strong>Temperature, K</strong></td>
+      <td width="78" align="center"><strong>Pressure, MPa</strong></td>
+      <td width="42" align="center"><strong>&phi;</strong></td>
+      <td width="2" align="center">&nbsp;</td>
+      <td width="90" align="center"><strong>Temperature, K</strong></td>
+      <td width="78" align="center"><strong>Pressure, MPa</strong></td>
+      <td width="42" align="center"><strong>&phi;</strong></td>
+  </tr>
+      <tr>
+      <td align="center">300</td>
+      <td align="center">0.1</td>
+      <td align="center">0.998</td>
+      <td align="center">&nbsp;</td>
+      <td align="center">500</td>
+      <td align="center">0.1</td>
+      <td align="center">0.999</td>
+      <td align="center">&nbsp;</td>
+      <td align="center">1000</td>
+      <td align="center">0.1</td>
+      <td align="center">1.0</td>
+  </tr>
+      <tr>
+      <td align="center">300</td>
+      <td align="center">100</td>
+      <td align="center">0.111</td>
+      <td align="center">&nbsp;</td>
+      <td align="center">500</td>
+      <td align="center">100</td>
+      <td align="center">0.473</td>
+      <td align="center">&nbsp;</td>
+      <td align="center">1000</td>
+      <td align="center">100</td>
+      <td align="center">0.914</td>
+  </tr>
+      <tr>
+      <td align="center">300</td>
+      <td align="center">1000</td>
+      <td  align="center">0.337</td>
+      <td  align="center">&nbsp;</td>
+      <td align="center">500</td>
+      <td align="center">1000</td>
+      <td align="center">0.929</td>
+      <td  align="center">&nbsp;</td>
+      <td align="center">1000</td>
+      <td align="center">1000</td>
+      <td align="center">1.68</td>
+  </tr>
+  </table>
+    &nbsp;
+<p align="right">&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+<hr />
+    <h2>Footnotes</h2>
+    <p align="left"><sup> <a name="a" id="a"> a</a></sup>&nbsp;&nbsp;Prediction equations 
+      for the water activity of multicomponent systems have been 
+      developed [<a title="go to cited reference"  href="ref6.html#r552">552</a><a name="r552" id="r552"></a>], 
+      based on the Gibbs-Duhem equation, 
+      which at constant temperature and pressure simplifies to <img src="images/gib1.gif" alt="sum from i=1 to i=N of the relative proportion of component i times its change in chemical potential" width="87" height="48" align="middle" /> and therefore, 
+      where the terms <em>n<sub>i</sub></em> are the relative proportions 
+      of components <em>n</em> of chemical potential &mu; and activity <em>a</em>. Although  starting on this firm theoretical base, the resultant equations  require empirical 
+      simplifications due to the problems involving the interactions 
+      between the components and the paucity in our knowledge of 
+      the molecular interactions of the components with water. Water 
+      activity prediction may also be achieved by combining the 
+      effects of the chemical groups (rather than molecules) present, 
+      where suitable parameters are available [<a title="go to cited reference"  href="ref6.html#r557">557</a><a name="r557" id="r557"></a>]. 
+      In conclusion, prediction of the water activity of mixed components 
+      presents difficulty and, except in cases of simple interpolation, 
+      is best determined experimentally. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="b" id="b">b </a></sup>&nbsp;&nbsp;Note that the required <em>a<sub>w</sub></em> necessary to prevent growth will depend somewhat 
+      on the solutes present; for example, glycerol lowers <em>a<sub>w</sub></em> efficiently but still may allow microbial growth. [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="c" id="c">c </a></sup>&nbsp;&nbsp;An activity coefficient 
+      (<em>&gamma;</em>) less 
+      than unity for ions may be due to non-ideal behavior caused by the removal of water by binding to the ions (see <a href="colligative_properties.html">colligative properties page</a>). An activity coefficient 
+      (<em>&gamma;</em>) greater 
+      than unity for ions may be due to non-ideal behavior caused by the 
+      volume taken up by large ions (and other solutes, for example, sucrose) at high concentrations [<a title="go to cited reference"  href="ref5.html#r442">442</a><a name="r442" id="r442"></a>]. 
+      An activity coefficient 
+      (<em>&gamma;<sub>w</sub></em>) greater 
+      than unity for water  may be  seen  as merely due to the removal 
+      of some of the ions as separate solutes by the formation of ion-pairs (see for example, [<a title="go to cited reference"  href="ref10.html#r997">997</a><a name="r997" id="r997"></a>]). 
+      [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="d" id="d"></a><sup>d</sup> &nbsp;&nbsp;<a href="moles_molarity_molality.html#ww">% w/w</a> not x<em><sub>w</sub></em>. [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="e" id="e">e &nbsp;&nbsp;</a></sup>For example, corn starch with  <em>a<sub>w</sub></em> = 0.60 at 5&nbsp;&deg;C has <em>a<sub>w</sub></em> = 0.73 at 35&nbsp;&deg;C. In some materials (for example, salts and some sugars) water activity may reduce with temperature 
+      increase. At high pressures, water behaves similarly to solutions 
+      with increasing salt content in that the water activity apparently 
+      reduces with increased pressure [<a title="go to cited reference"  href="ref5.html#r457">457</a>]. 
+      [<a title="click for an explanation" href="#be"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="f" id="f">f </a></sup>&nbsp;&nbsp;There are several methods for measuring water content [<a title="go to cited reference"  href="ref5.html#r470">470</a><a name="r470" id="r470"></a>], 
+      including the poorly understood Karl Fischer titration [<a title="go to cited reference"  href="ref5.html#r471">471</a><a name="r471" id="r471"></a>]. 
+      [<a title="click for an explanation" href="#bf"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="g" id="g">g </a></sup> &nbsp;&nbsp;The <a title="go for more information" href="moles_molarity_molality.html">mole fraction</a> of water equals the 
+      number of moles of water divided by the total number of moles 
+      of all materials, including water, in the same volume. On this page, this value is not corrected for non-ideality. [<a title="click for an explanation" href="#bg"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup><a name="h" id="h">h </a></sup> &nbsp;&nbsp;The activity coefficients for 
+      solutes may be determined in several ways, including <a title="go for more information" href="colligative_properties.html#ebu">boiling 
+      point elevation</a>, <a title="go for more information" href="colligative_properties.html#fptd">freezing point depression</a>,<a title="go for more information" href="colligative_properties.html#vpl"> equilibrium vapor 
+      pressure</a>, <a href="water_vibrational_spectrum.html#l">equilibrium 
+      relative humidity</a> (ERH, <em>a<sub>w</sub></em> &asymp;  ERH/100)  [<a title="go to cited reference"  href="ref23.html#r2294">2294</a><a name="r2294" id="r2294"></a>], <a href="osmotic_pressure.html" title="go for more information">osmotic pressure</a> (<em>a<sub>w</sub></em> = exp(-<abbr title=" italic capital greek Pi"><em><strong>&Pi;</strong></em></abbr>;V<sub>m</sub>/RT)), 
+      heat of dilution, and excess heat capacity [<a title="go to cited reference"  href="ref10.html#r929">929</a><a name="r929" id="r929"></a>] and  the Raman absorption at 180 cm<sup>&minus;1</sup> [<a title="go to cited reference"  href="ref20.html#r1963">1963</a><a name="r1963" id="r1963"></a>]. 
+      Due to deviations from the theoretical relationships applied, 
+      different methods may give different results, particularly 
+      at high solute concentrations. [<a title="click for an explanation" href="#bh"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="i" id="i">i </a></sup> &nbsp;&nbsp;The activity coefficient is an equilibrium property that is introduced to correct concentrations to fit with the expected chemical equilibria. Note that most food (and other biological) materials during preparation and processing will not be at equilibrium, and so their properties may diverge from those expected from their activity coefficients. Although  varying with water content, water activity is a distinct property. Activity coefficients and activity values are empirical values determined by experiment.  The use of activity coefficients may be discarded if the solutes '<a href="colligative_properties.html">bound water</a>' is used as part of the solute. Here the activity coefficient remains essentially constant at unity [<a  title="go to cited reference" href="ref41.html#r4100">4100</a><a name="r4100" id="r4100"></a>]. [<a title="click for an explanation" href="#bi"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="j" id="j">j </a></sup> &nbsp;&nbsp;The effect of pressure is given by,    </p>
+    <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/water_activity2.gif" alt="" width="126" height="45" align="absmiddle" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<a title="go to cited reference" href="ref35.html#r3434">3434</a><a name="r3434" id="r3434"></a>]</p>
+    <p align="left">where P is the applied pressure (not the partial pressure), P<sub>0</sub> is the standard pressure (101.325 kPa), and V<sub>m</sub> is the molar volume of liquid water. [<a title="click for an explanation" href="#bj"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="k" id="k">k </a></sup> &nbsp;The &nbsp;<abbr title="The International Association for the Properties of Water and Steam">IAPWS</abbr> definitions for activity are; &quot;for ionic species (H<sup>+</sup>, H<sub>3</sub>O<sup>+</sup>, OH<sup>&minus;</sup>), the  standard state is the hypothetical ideally dilute solution at m<sup>0</sup> = 1  mol &#739; kg<sup>&minus;1</sup>. For H<sub>2</sub>O, the standard state is pure H<sub>2</sub>O at the same  temperature and pressure.&quot; [<a title="click for an explanation" href="#bk"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup><a name="l" id="l">l </a></sup> &nbsp;R. G. Tomkins, Studies of the growth of moulds. I,<em> Proceedings of the Royal Society</em>, <strong>105</strong> (1929) 375-401.</p>
+    <p>W. J. Scott, Water relations of <em>Staphylococcus aureus</em> at 30&deg;C, &nbsp;<em>Australian Journal of Biological Sciences</em>,<strong> 6</strong> (1953) 549-564. [<a title="click for an explanation" href="#bl"><span title="go back to the text">Back</span></a>] </p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+    <hr />
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="colligative_properties.html">Colligative properties</a> | <a title="go to find more on ionic effects" href="hofmeister_series.html">Hofmeister series</a> | <a href="protein_hydration.html" title="more on protein hydration" >Protein hydration</a> | <a href="sugar_hydration.html">Sugar 
+      hydration</a> | <a href="polysaccharide_hydration.html#ionic">Polysaccharide 
+      hydration</a> | <a title="go to 'Hydrogen bonding in water' page"  href="water_hydrogen_bonding.html">hydrogen-bonding</a> | <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">Kosmotropes and chaotropes</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2003 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->31 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

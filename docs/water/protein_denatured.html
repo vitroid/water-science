@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Protein folding and hydration" />
+<meta name="Keywords" content="protein denaturation,protein folding,denaturation" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Protein folding and denaturation</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/protein_denatured.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Human aquaporin, PDB 1FQY</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/aquaporin.gif" alt="Human aquaporin, PDB 1FQY" title="Human aquaporin, PDB 1FQY" width="360" height="229" class="floatright" /></figure>
+    <h1>Protein 
+      Folding and Denaturation</h1>
+    <p>The aqueous environment drives protein folding.</p>
+    <p>&nbsp;</p>
+    <p><span class="style16"> <img src="images/redleft.gif" alt="V" width="12" height="13" border="0"/> <a href="protein_hydration.html" title="go for more information">Protein hydration</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#fold" title="go to section below">Protein folding</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#crys" title="go to section below">Protein crystallization</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#denat" title="go to section below">Protein denaturation</a></span><span class="style16"><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#b" title="go to section below">Prions</a></span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="style10">
+    <p align="center"><em>'The denatured protein molecule we consider to be characterized by the absence of a uniquely defined configuration.'</em></p>
+</div>
+    <div  class="style4">
+      <p align="right"><em><a href="water.html#linus">Linus Pauling</a> and Alfred Mirsky</em> 1936&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+    <h2><a name="fold" id="fold"></a>Protein folding</h2>
+    <p align="center"><img src="images/proteinfolding.gif" width="750" height="85" alt="Derivative of image by Vincent Voelz" title="Derivative of image by Vincent Voelz"/></p>
+    <p align="left">Protein folding is driven by its interaction with water as it emerges from ribosomal synthesis into the bulk aqueous phase of the cytoplasm. The folding is very fast, partly because the number of possible conformations is far far lower than that described in the Levinthal paradox [<a title="go to cited reference" href="ref27.html#r2608">2608</a><a name="r2608" id="r2608"></a>],<sup><a href="#c" name="bc" id="bc">b</a></sup> and mainly because of the guided conformations rapidly found by means of the aqueous interactions. The rearrangement of water around wholly unfolded protein chains releases energy to start the folding process [<a href="ref33.html#r3210" name="r3210" title="go to cited reference" id="r3210">3210</a>]. This particularly involves the hydrophobic interactions, 
+       reducing their large surface 
+      area  with water which otherwise would cause an unfavorable entropy decrease (mostly translational 
+      [<a name="r686" id="r686"></a><a title="go to cited reference" href="ref7.html#r686">686</a>a, <a  href="ref16.html#r1577" name="r1577" title="go to cited reference" id="r1577">1577</a>]).&nbsp;Consider a water 
+      molecule next to a surface to which it cannot hydrogen-bond. 
+      The incompatibility of this surface with the <a href="hydrophobic_hydration.html">low-density 
+      water that forms</a> over such a surface [<a href="ref.html#r29" name="r29" title="go to cited reference" id="r29">29</a>] 
+      encourages the surface minimization that drives the proteins' 
+      tertiary structure formation (for example, see [<a href="ref14.html#r1312" name="r1312" title="go to cited reference" id="r1312">1312</a>]). An alternative view of this process is that the protein conformation tends to minimize the disruption of the water matrix [<a href="ref21.html#r2037" name="r2037" title="go to cited reference" id="r2037">2037</a>]. Such sequential hydrophobic collapse is 
+      necessarily accompanied and guided by (secondary) structural 
+      hydrogen-bond formation between favorable peptide linkages 
+      in parallel with their desolvation [<a title="go to cited reference" href="ref5.html#r467">467</a><a name="r467" id="r467"></a>] and the formation of strong ion-paired salt links  [<a href="ref24.html#r2311" name="r2311" title="go to cited reference" id="r2311">2311</a>].<sup><a href="#a" name="ba" id="ba">a</a></sup> A driving force for this, in crowded <a href="intracellular_water.html">intracellular 
+      environments</a>, is the release of water to be available 
+      for the hydration of other solutes and maximizing its entropy [<a title="go to cited reference" href="ref7.html#r686">686</a>b].  Charge-charge interactions, due to molecular crowding inside cells, may slow protein folding. Proteins are not necessarily stabilized inside cells (compared with <em>in vitro</em> studies) but reducing these charge-charge interactions may increase protein stability [<a href="ref25.html#r2495" name="r2495" title="go to cited reference" id="r2495">2495</a>]. The folding route is controlled 
+      by the desolvation barriers [<a title="go to cited reference" href="ref7.html#r676">676</a><a name="r676" id="r676"></a>] 
+      plus charge-charge interactions and aided and directed by water-mediated contacts zipping up neighboring residues [<a title="go to cited reference" href="ref15.html#r1417">1417</a><a name="r1417" id="r1417"></a>]. An  additional factor is reducing the aqueous sheath surrounding the growing  polypeptide chain by folding into secondary structures, releasing water to  hydrate elsewhere  [<a href="ref23.html#r2288" name="r2288" title="go to cited reference" id="r2288">2288</a>]. Similar 
+      factors help organize proteins involved in quaternary and 
+      equilibrium cluster formation, where each water-mediated interaction 
+      has been estimated to contribute an average of 4.4 kJ  &#739; mol<sup>&minus;1</sup> to protein-protein interface stabilization [<a title="go to cited reference" href="ref7.html#r688">688</a><a name="r688" id="r688"></a>]. 
+      Water is thus intimately involved in guiding protein folding 
+      as the protein is synthesized and needs to be included in the structural prediction 
+      of protein [<a title="go to cited reference" href="ref7.html#r643">643</a><a name="r643" id="r643"></a>]. 
+      The importance of subtle hydration forces is shown in the &alpha;-helix to &beta;-sheet 
+      conformational transition that accompanies the racemic self-assembly 
+      of polylysine [<a title="go to cited reference" href="ref8.html#r727">727</a><a name="r727" id="r727"></a>].</p>
+    <div style=" float:none; clear:both;">
+      <div class="floatright" style="width:360px;">
+<figure  class="floatright">
+<figcaption>
+      <p align="center" class="style15">&nbsp;</p>
+      <p align="center" class="style15"><a name="landscape" id="landscape"></a>Folding energy landscaper, drier (top) and wetter (bottom)</p>
+      <p align="center" class="style15">&nbsp;</p>
+</figcaption>
+<img src="images/dry_surface.gif" title="The folding energy landscape in the presence of low hydration" alt="The folding energy landscape in the presence of low hydration" width="360" height="317" /></figure>
+
+<img src="images/wet_surface.gif" title="When a protein is sufficiently hydrated, a smoothed potential energy landscape is evident" alt="When a protein is sufficiently hydrated, a smoothed potential energy landscape is evident" width="360" height="309" /></div>
+     
+     <p>&nbsp;</p>
+<p>Opposite is shown schematic  potential energy funnel for the folding of proteins without sufficient water present. It highlights the many  barriers to the preferred minimum energy structure on the folding pathway.  Numerous local minima might trap the protein in an inactive  three-dimensional molecular conformations. The top rim  represents the high energy of the unfolded protein with folding, lowering the  energy towards a minimum energy structure  at the bottom of the funnel.  It should be noted that these funnels represent three-dimensional landscapes,  whereas the actual energy landscapes are multidimensional.</p>
+     <p>&nbsp;</p>
+     <p>The unfolded states of most foldable sequences are expanded in water, even if they are quite hydrophobic  [<a  href="ref31.html#r3066" name="r3066" title="go to cited reference" id="r3066">3066</a>]. Thus, when a protein is  fully hydrated, the potential energy landscape is seen to be considerably smoother.<sup><a href="#a">a</a></sup> Under conditions of sufficient hydration, this  allows proteins to attain their active minimum-energy conformation in a  straightforward and rapid manner. The potential energy barriers are lowered and smoothed due to the ease with which water molecules can lubricate the movement of the amino acid backbone and side groups by the rapid formation and exchange of hydrogen bonds. The amino-acid side-chains also facilitate this process by reducing the hydration of peptide groups (a shielding effect) that promotes  protein folding   [<a title="go to cited reference" href="ref31.html#r3090">3090</a><a name="r3090" id="r3090"></a>].</p>
+     <p>&nbsp;</p>
+     <p>Similar effects may be seen in the activity of enzymes with hydration  [<a title="go to cited reference" href="ref9.html#r822">822</a><a name="r822" id="r822"></a>], although complete hydration is unnecessary for some activity to be evident. Under physiological conditions inside cells, the water is known to be more ordered (see <a title="go to 'Intracellular water' page" href="intracellular_water.html">intracellular water</a>). Such water promotes both the folding rate and stability of the protein [<a title="go to cited reference" href="ref13.html#r1250">1250</a><a name="r1250" id="r1250"></a>] even further.</p>
+      <p>&nbsp;</p>
+      <p>Although indicated as such in the cartoons, there is no one 'minimum' structure but a collection of substates, with small energetic differences. Jumps between these substates, eased by hydration, allow and determine the flexibility that the protein needs for its biological actions.</p>
+      <p>&nbsp;</p>
+      <p>Incorporating water-mediated interactions in the folding process has allowed protein structure prediction from the sequence data [<a title="go to cited reference" href="ref28.html#r2782">2782</a><a name="r2782" id="r2782"></a>]. </p>
+</div>
+    <div style=" float:none; clear:both;">
+      <div class="floatleft"> 
+<figure  class="floatleft">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center"><a name="amide" id="amide"></a>Amide I vibration</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/amidei.gif" title="amide I vibration" alt="amide I vibration" width="296" height="165" /></figure>
+      </div>
+      <p>&nbsp;</p>
+      <p>As the amide <span class="style1">I</span> stretch vibration (&asymp; 1680 cm<sup>&minus;1</sup>) is similar to 
+        liquid <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">water's bend vibration</a> (<em>v</em><sub>2</sub>, &asymp; 1645 cm<sup>&minus;1</sup>), transfer 
+        of energy from water hydrogen-bonded to protein asparagine 
+        and glutamine groups is facilitated [<a title="go to cited reference" href="ref10.html#r913">913</a><a name="r913" id="r913"></a>]. 
+        This explains the increased structural instability of 
+        proteins containing higher numbers of surface asparagine 
+        and glutamine residues and, in particular, is of relevance 
+        to the &alpha;-helix - &beta;-sheet 
+        structural instability in <a href="#b">prions</a> [<a title="go to cited reference" href="ref10.html#r913">913</a>]. Also, the protein backbone motions can thus be energetically coupled with protein-bound water molecules, a process that does not occur  in D<sub>2</sub>O solutions [<a title="go to cited reference" href="ref38.html#r3705">3705</a><a name="r3705" id="r3705"></a>].</p>
+      <p>&nbsp;</p>
+    </div>
+    <div style=" float:none; clear:both;">
+      <p>Although the native state of a protein resides 
+        at a minimum on the potential energy surface, there is no 
+        reason to suppose that this structure is the global minimum 
+        free energy structure as its folding route is a guided, rather 
+        than random, process. It is clear that other structures with lower minima exist, such as those often irreversibly produced on denaturation, for example on heating followed by cooling, which utilizes other intermolecular interactions  [<a title="go to cited reference" href="ref12.html#r1152">1152</a><a name="r1152" id="r1152"></a>].</p>
+</div>
+    <p>&nbsp;</p>
+    <p align="left">Compatible solutes (<a href="kosmotropes_chaotropes.html#g">osmolytes</a>, for example, betaine, trimethylamine N-oxide, proline, glycerol, and trehalose), that stabilize the surface low-density water and 
+      increase the surface tension, will also maintain the protein's 
+      structure (see also the <a title="go to find more on ionic effects" href="hofmeister_series.html">Hofmeister 
+      effect</a> and the <a title="go to find more information"  href="material_anomalies.html#min">solubility of 
+      nonpolar gases</a>). In contrast to protein denaturants (for example, alcohol, urea, and guanidinium chloride), osmolytes stay away from the proteins surface  [<a title="go to cited reference" href="ref35.html#r3460">3460</a><a name="r3460" id="r3460"></a>]. Osmolytes vary in their effects depending on their concentration, the presence of other osmolytes and denaturants, the pH, the temperature, the pressure, and the nature of the protein.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Many proteins are glycosylated with increased solubility. The role of the carbohydrate groups has been debated for many years. It now appears that this increased solubility  is mainly as the low intermolecular interaction between surface glycans reduces the tendency for aggregation (and crystallization) rather than the glycan groups increasing the interactions with water [<a title="go to cited reference" href="ref12.html#r1164">1164</a><a name="r1164" id="r1164"></a>, <a title="go to cited reference" href="ref22.html#r2104">2104</a><a name="r2104" id="r2104"></a>]. Somewhat unexpectedly, deglycosylated proteins appear to have a stronger interaction with water (by weight) and more extensive water-binding (by molecule) than their glycoproteins [<a title="go to cited reference" href="ref12.html#r1164">1164</a>]; perhaps because some carbohydrate hydroxyl groups replace several of the polypeptide surface water interactions.  
+    [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2><a name="crys" id="denat2"></a>Protein crystallization</h2>
+    <p>Proteins may form crystals when <a title="go to find more on salting out" href="hofmeister_series.html#b">precipitated</a> slowly  from an aqueous solution (e.g., of ammonium sulfate). Slow precipitation is required to produce small numbers of larger crystals rather than very large numbers of tiny crystals. Crystals of undenatured proteins for structural analysis are best formed with water molecules retained within the crystal lattice. Crystallization of native proteins appears to have a three-step mechanism involving nucleation, in which mesoscopic metastable protein clusters of dense liquid serve as precursors to the ordered crystal nuclei followed by crystal growth [<a title="go to cited reference" href="ref18.html#r1800">1800</a><a name="r1800" id="r1800"></a>]. This process seems to involve an <a title="go to find more on aqueous biphasic systems" href="aqueous_biphasic.html">aqueous biphasic separation</a> and fits nicely with the <a title="go to find more on the two-state structuring" href="cluster_evidence.html#2phas">two-state structuring in liquid water</a>, where crystallization occurs within the dense phase.</p>
+    <h2><a name="denat" id="denat"></a>Protein denaturation</h2>
+     <figure  class="floatright">
+<figcaption>
+      <p align="center"><em>E. coli</em> growth rate and protein denaturation, from [<a title="go to cited reference" href="ref22.html#r2200">2200</a>]</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img  src="images/ecoli.gif" alt="E. coli growth rate and protein denaturation, based on [2200]" title="E. coli growth rate and protein denaturation, based on [2200]" width="360" height="260" class="floatright" /></figure>
+    <p>Protein denaturation involves a change in the protein structure (generally an unfolding) with activity  loss. It has been described using the small protein, hen egg-white lysozyme  
+    [<a title="go to cited reference" href="ref26.html#r2545">2545</a><a name="r2545" id="r2545"></a>]. Water is critical, not only for the correct folding of proteins 
+    but also for the maintenance of this structure. Heat denaturation 
+    and loss of biological activity have been linked to the breakup 
+    of the 2-D-spanning water network (see above) around the protein 
+    [<a title="go to cited reference" href="ref13.html#r1215">1215</a><a name="r1215" id="r1215"></a>] (due to increased  breakage of the hydrogen bonds with temperature), 
+    which otherwise acts restrictively on protein vibrational 
+    dynamics [<a title="go to cited reference" href="ref10.html#r976">976</a><a name="r976" id="r976"></a>]. 
+    As proteins denature, their structures initially become looser, allowing them to take up more water with the water-exposed surface increasing by up to 50% [<a title="go to cited reference" href="ref29.html#r2803">2803</a><a name="r2803" id="r2803"></a>] as might be expected from reversing protein folding. It is a cooperative process (see right) [<a title="go to cited reference" href="ref22.html#r2200">2200</a><a name="r2200" id="r2200"></a>]. The free energy change on folding or unfolding is due to the 
+    combined effects of protein folding/unfolding and hydration 
+    changes  [<a title="go to cited reference" href="ref41.html#r4036">4036</a><a name="r4036" id="r4036"></a>]. These compensate to such a large extent that the 
+    free energy of stability of a typical protein is only 40-90 
+    kJ  &#739; mol<sup>&minus;1</sup> (equivalent to very few hydrogen bonds), 
+    whereas the enthalpy change (and temperature times the entropy 
+    change) may be greater than &plusmn;500 kJ  &#739; mol<sup>&minus;1</sup> different. There are both enthalpic and entropic contributions 
+    to this free energy that  change with temperature and  give 
+    rise to heat denaturation and, in some cases, cold denaturation. 
+    Protein unfolding  at higher temperatures (heat denaturation) is easily understood.  However, the widespread existence of protein unfolding at low temperatures 
+    is surprising, particularly as it is unexpectedly accompanied 
+    by a decrease in entropy [<a title="go to cited reference" href="ref5.html#r416">416</a><a name="r416" id="r416"></a>]. Heat denaturation is endothermic (on heating), but cold denaturation is exothermic (on cooling) [<a title="go to cited reference" href="ref16.html#r1548">1548</a><a name="r1548" id="r1548"></a>]. Cold denaturation occurs only in aqueous solutions due to water's anomalous density behavior and the small size of H<sub>2</sub>O molecules [<a title="go to cited reference" href="ref23.html#r2253">2253</a><a name="r2253" id="r2253"></a>].
+    There is a cold-denaturation of proteins at the ice-water interface due to the lowering of the unfolding free-energy barrier [<a title="go to cited reference" href="ref40.html#r3906">3906</a><a name="r3906" id="r3906"></a>]. Surprisingly, at even lower temperatures (&lt;194 K), proteins may return to the folded state due to the desolvation of their hydrophobic core [<a title="go to cited reference" href="ref44.html#r4343">4343</a><a name="r4343" id="r4343"></a>].</p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;"> 
+<figure  class="floatright">
+<figcaption>
+      <p align="center">Indicative variation of free energy, enthalpy, and entropy </p>
+      <p align="center">of the exposure of polar and nonpolar amino acids with temperature</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/pdg.gif" width="400" height="260" title="Indicative variation of free energy, enthalpy and entropy of the exposure of polar and nonpolar amino acids with temperature" alt="Indicative variation of free energy, enthalpy and entropy of the exposure of polar and nonpolar amino acids with temperature" /></figure>
+      <p>The free energy, on changing from the native 
+        (N) state to the denatured (D) state, is given by </p>
+      <p>&nbsp;</p>
+        <p  align="center">
+        <img src="images/free.gif" width="131" height="24" align="middle" alt="free energy change from native to denatured states = enthalpy change from native to denatured states minus temperature times entropy change from native to denatured states " /></p>
+      <p  align="center">&nbsp;</p>
+      <p>The overall free energy change (<img src="images/dg.gif" width="34" height="24" align="middle" alt="Gibbs free energy change from native to denatured states " />) 
+        depends on the combined effects of the exposure of the 
+        internal polar and nonpolar groups and their interaction 
+        with water together with the consequential changes in 
+        the water-water interactions on <img src="images/ds.gif" width="31" height="24" align="middle" alt="Entropy change from native to denatured states " /> and <img src="images/dh.gif" width="33" height="24" align="middle" alt="Enthalpy change from native to denatured states " />. The graph is meant to be indicative only. Denaturation 
+        is only allowed when <img src="images/dg.gif" width="34" height="24" align="middle" alt="Gibbs free energy change from native to denatured states " /> is negative; its rate is then dependent on circumstances 
+        and may be fast or immeasurably slow. On heat denaturation, <img src="images/dh.gif" width="33" height="24" align="middle" alt="Enthalpy change from native to denatured states " />and <img src="images/ds.gif" width="31" height="24" align="middle" alt="Entropy change from native to denatured states " /> are generally both positive, but on cold denaturation, they are both negative. The extra thermal stability of globular proteins from thermophilic microorganisms,  relative to proteins from mesophilic microorganisms, is likely due to the protein structure being such that it decreases the conformational entropy gain associated with denaturation [<a href="ref30.html#r2975" name="r2975" title="go to cited reference" id="r2975">2975</a>]. </p>
+      <figure  class="floatright">
+  <figcaption>
+      <p align="center">Yeast frataxin. </p>
+      <p align="center" class="style4">from the Protein DataBank</p>
+</figcaption>
+<img src="images/frataxin.gif" width="180" height="255" alt="yeast frataxin. from the Protein DataBank" title="yeast frataxin. from the Protein DataBank" class="floatleft" /></figure>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Yeast frataxin, a protein involved in the assembly of iron-sulfur clusters, has been observed in both cold and hot denatured states  at 272 K and 323 K, respectively  [<a title="go to cited reference" href="ref28.html#r2780">2780</a><a name="r2780" id="r2780"></a>]. In the cold denatured state, the water has more hydrogen bonds (3.77 rather than 3.66 mol &#739; mol <sup>&minus;1</sup>), but -4.54 kJ &#739; mol <sup>&minus;1</sup> &#739; K <sup>&minus;1</sup> entropy loss, the protein-water interface gains energy of -2900 kJ &#739; mol <sup>&minus;1</sup> but loses the rotational energy of 347 water molecules &#739; mol <sup>&minus;1</sup> protein net and the protein loses +919 kJ &#739; mol <sup>&minus;1</sup> but gains the entropy of 8 main microstates. In the hot denatured state, the water has fewer hydrogen bonds (3.55 mol &#739; mol <sup>&minus;1</sup>) but +3.67 kJ &#739; mol <sup>&minus;1</sup> &#739; K <sup>&minus;1</sup> entropy gain, the protein-water interface loses energy of +137 kJ &#739; mol <sup>&minus;1</sup>. However, it  loses the rotational energy of 233 water molecules &#739; mol <sup>&minus;1</sup> protein net, and the protein loses +481 kJ &#739; mol <sup>&minus;1</sup> but gains the entropy of 15 main microstates [<a title="go to cited reference" href="ref28.html#r2780">2780</a>]. These results suggest that proteins do not lose hydrogen bonds with respect to bulk water  but mostly lose their rotational entropy due to greater exposed surfaces.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+<div style=" float:none; clear:both;"></div>
+
+</div>
+    <div style=" float:none; clear:both;">
+      <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">The temperature dependence of the heat capacity </p>
+      <p align="center">and denaturation</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/sh-denature.gif" width="320" alt="the temperature dependence of the heat capacity and denaturation"  title="the temperature dependence of the heat capacity and denaturation" height="173" class="floatright"/></figure>
+<a name="tm" id="tm"></a>
+<p>The midpoint temperatures of both heat and cold denaturation 
+      may be determined from peaks in the temperature dependence 
+      of the heat capacity, where the intermediate structures  absorb the additional heat.  The temperature range is relatively narrow (&asymp; 15&nbsp;&deg;C) with the &lsquo;&lsquo;melting temperature&rsquo;&rsquo; (T<sub>m</sub> ), of the protein defined as the midpoint of the unfolding transition, where the Gibbs free energy of unfolding, &Delta;G<sub>u</sub> = 0. The unfolding is due to the competition between the enthalpy of the hydrogen bonding between amino acid residues and the hydration of amino acid residues. The extent of the effect of<a href="kosmotropes_chaotropes.html"> kosmotropic and chaotropic</a> solutes on protein stability has been found to depend on the <a href="water_activity.html">water activity</a> (a<sub>w</sub>).  For example, the melting point of ribonuclease at pH 5.5 (60&nbsp;&deg;C) increases with rising kosmotropic trehalose content (and consequent reduction in a<sub>w</sub>) whereas with the chaotropic molecule urea, the melting point reduces with increasing urea content (and consequent reduction in a<sub>w</sub>) [<a title="go to cited reference"  href="ref28.html#r2732">2732</a><a name="r2732" id="r2732"></a>].
+      </p>
+      <p><br />
+</p>
+      <p>The enthalpy of transfer of polar groups from the protein 
+        interior into water is positive at low temperatures and negative 
+        at higher temperatures [<a href="ref2.html#r150" name="r150" title="go to cited reference" id="r150">150</a>]. 
+        This is due to the polar groups creating their own ordered 
+        water, which generates a negative enthalpy change due to the 
+        increased molecular interactions. Balanced against this is 
+        the positive enthalpy change as the pre-existing water structure 
+        and the polar interactions within the protein both have to 
+        be broken. As water naturally has more structure at lower 
+        temperatures, the breakdown of the water structure makes a 
+        significant positive contribution to the overall enthalpy at lower 
+        temperatures.&nbsp;<a title="go to top of page" href="#top"><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a></p>
+</div>
+    <p>&nbsp;</p>
+    <p>In contrast, the enthalpy of transfer of nonpolar groups 
+      from the protein interior into water is negative below about 
+      25&nbsp;&deg;C and positive above [<a title="go to cited reference" href="ref2.html#r150">150</a>]. 
+      At lower temperatures, nonpolar groups enhance pre-existing 
+      order, such as the clathrate-related <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES"><abbr title="Expanded icosahedral water cluster structure">ES</abbr></a> structure [<a href="ref3.html#r270" name="r270" title="go to cited reference" id="r270">270</a>], discussed <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html">elsewhere</a>, generating enthalpy. However, this effect is lost with increasing temperature, as any 
+      pre-existing order is also lost. At higher temperatures, the 
+      creation of these clathrate structures requires an enthalpic 
+      input. Thus, there is an overall positive enthalpy of unfolding 
+      at higher temperatures. An equivalent but alternative way 
+      of describing this process is that at lower temperatures, the 
+      clathrate-type structure optimizes its multiple <a href="hydrogen_bonds.html#b" title="go for more information">van der Waals</a> molecular interactions, whereas at higher temperatures such 
+      favorable structuring is no longer available.</p>
+    <p>&nbsp;</p>
+    <p>At ambient temperature, the entropies of hydration of both 
+      nonpolar and polar groups are negative [<a href="ref2.html#r151" name="r151" title="go to cited reference" id="r151">151</a>], 
+      indicating that both create order in the aqueous environment. 
+      However, these entropies differ with respect to how they change 
+      with increasing temperature. The entropy of hydration of nonpolar 
+      groups increases through zero with increasing temperature, 
+      indicating that they are less able to order the water at higher 
+      temperatures and may, indeed, contribute to its disorder by 
+      interfering with the extent of the hydrogen-bonded network 
+      and allowing an easier molecular rotation of water. Also, 
+      there is an entropy gain from the greater freedom of the nonpolar 
+      groups when the protein is unfolded. In contrast, the entropy 
+      of hydration of polar groups decreases, becoming more negative 
+      with increasing temperature, as they can create ordered 
+      hydration shells even from the more disordered water that 
+      exists at higher temperatures. Consequently,  the water is more ordered around hydrophilic groups, compared with just water, as the temperature is raised and that this hydrophilic hydration has negative heat capacity [<a  href="ref16.html#r1578" name="r1578" title="go to cited reference" id="r1578">1578</a>].</p>
+    <p>&nbsp;</p>
+    <p>Overall, protein stability depends on the balance between 
+      these enthalpic and entropic changes. For globular proteins, 
+      the &Delta;G of unfolding has a maximum 
+      10-30&nbsp;&deg;C, decreasing both colder and hotter through zero 
+      with the thermodynamic consequences of both cold and heat 
+      denaturation. The hydration of the internal nonpolar groups 
+      is mainly responsible for cold denaturation as their energy 
+      of hydration is greatest when cold. Thus,  the increased natural structuring of water at lower temperatures causes cold  destabilization of proteins in solution (that is, the entropic cost of  denaturation, due to the structuring of the water molecules around the exposed  groups, is reduced)   [<a title="go to cited reference" href="ref14.html#r1371">1371</a><a name="r1371" id="r1371"></a>]. 
+      An equivalent alternative view is that the <a title="go to a new page for more information" href="hydrophobic_hydration.html">hydrophobic interactions</a> increase as the temperature is raised from a low value, such that the extended polypeptide chain, present at very low temperatures,  folds up to produce an active globular protein so releasing water molecules to the bulk environment.</p>
+    <p>&nbsp;</p>
+    <p>Heat denaturation is primarily due to the increased entropic 
+      effects of the nonpolar residues (that is, the increased 
+      entropy gain of the unfolded chain is not much reduced by 
+      the small amount of entropy loss caused to the solute). Although 
+      both processes have been reported to lead to irreversible 
+      changes, which often occur cooperatively, cold inactivation 
+      in supercooled water is usually likely to be reversible. 
+      It is  ice crystal formation that leads to observed irreversible 
+      effects. Interestingly, proteins from thermophilic microorganisms 
+      tend to have higher amounts of nonpolar residues and lower 
+      amounts of polar residues  compared to comparable proteins 
+      from mesophilic organisms [<a title="go to cited reference" href="ref10.html#r982">982</a><a name="r982" id="r982"></a>]. 
+      This is related to decreased bound water around thermophilic enzymes in crystals and solution [<a title="go to cited reference" href="ref13.html#r1291">1291</a><a name="r1291" id="r1291"></a>] as part of their strategy for stability 
+      (other factors being increased salt bridges and main chain 
+      hydrogen bonds) [<a title="go to cited reference" href="ref10.html#r982">982</a>]. However, such  thermophilic enzymes may be stabilized by internal buried structural water molecules [<a  href="ref25.html#r2422" name="r2422" title="go to cited reference" id="r2422">2422</a>]. It was noted in 1978 that smaller globular proteins had higher denaturation temperatures [<a  href="ref41.html#r4019" name="r4019" title="go to cited reference" id="r4019">4019</a>]. Such smaller proteins show a smaller denaturation entropy change than might have been expected [<a  href="ref41.html#r4018" name="r4018" title="go to cited reference" id="r4018">4018</a>],  leading to an increase in the denaturation temperature. This is proposed due to their large surface-to-interior ratio leading to a decrease in the conformational entropy gain associated with heat-induced denaturation.    </p>
+    <figure  class="floatright">
+      <figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">&nbsp;</p>
+      <p align="center">Ellipse of protein stability, from [<a href="ref15.html#r1480" title="go to cited reference" >1480</a>];</p>
+      <p align="center">mouse over for thermodynamics</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/protein_denaturation.gif"  name="denature" id="denature" alt="Ellipse of protein stability (see ref 1480)" width="400" height="288"  onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('denature','','images/protein_denaturation2.gif',1)"/>
+ </figure>
+    <p>&nbsp;</p>
+    <p><a name="denatfig" id="denatfig"></a>Protein stability has been directly tied to the equilibrium 
+      structuring of water between low-density and higher density 
+      forms [<a href="ref3.html#r210" name="r210" title="go to cited reference" id="r210">210</a>, <a title="go to cited reference" href="ref5.html#r416">416</a>, <a href="ref15.html#r1481" name="r1481" title="go to cited reference" id="r1481">1481</a>] 
+      (<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2">see also</a>). This provides 
+      an equivalent but alternative way of looking at the above 
+      analysis. Opposite shows a representation of the pressure-temperature (P/T) phase diagram for proteins showing heat-, cold- and pressure-denaturation [<a href="ref15.html#r1480" name="r1480" title="go to cited reference" id="r1480">1480</a>]. Using simulations, it has been demonstrated that aqueous density fluctuations at the surface of the proteins [<a title="go to cited reference" href="ref38.html#r3706">3706</a><a name="r3706" id="r3706"></a>] help give rise to these  elliptic shapes for protein stability  [<a href="ref25.html#r2402" name="r2402" title="go to cited reference" id="r2402">2402</a>]. The diagram is related to the pressure-temperature relationship of the <a title="go to find more information"  href="density_anomalies.html#Pexpan">thermal expansion of water</a> [<a href="ref15.html#r1481" title="go to cited reference">1481</a>]. The pressure denaturation is accompanied by a significantly large gain of water entropy [<a href="ref39.html#r3870" name="r3870" title="go to cited reference" id="r3870">3870</a>]. Thermophilic proteins are generally also  more stable with respect to pressure [<a href="ref30.html#r2974" name="r2974" title="go to cited reference" id="r2974">2974</a>]. They possess slightly greater hydrophilic surfaces than mesophilic proteins and much more  hydrophilic surfaces than ice-binding proteins. These differences between thermophilic and mesophilic protein structures are slight, as too extensive a hydrophilic surface leads to  a reduced  stability range in both temperature and pressure, due to poorly balanced interactions with water [<a href="ref30.html#r2974" title="go to cited reference" >2974</a>]. The diagram (above right; mouse over for thermodynamics) represents the solubility of other polymers, such as <a title="go to find more information" href="starch.html">starch</a> and the aggregation of nonpolar solutes [<a title="go to cited reference"  href="ref20.html#r1959">1959</a><a name="r1959" id="r1959"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>Denaturation may be effectively treated as an increased 
+      solubility of the unfolded form like that 
+      given in the treatment of the <a title="go to find more information"  href="material_anomalies.html#min">anomalous 
+      solubility behavior of nonpolar gases</a>. Thus, protein aggregates and amyloid fibrils (such as are found in prion and Alzheimer's diseases) may be dissolved on cooling or under high pressure [<a href="ref15.html#r1490" name="r1490" title="go to cited reference" id="r1490">1490</a>]. </p>
+    <p>&nbsp;</p>
+    <p>The effect of 
+      pH on denaturation (for example, low pH causing easier heat 
+      denaturation [<a title="go to cited reference" href="ref9.html#r846">846</a><a name="r846" id="r846"></a>]) 
+      may be understood by recognizing that extremes of pH cause 
+      an increase in higher density clustering which may be partially 
+      reversed by the presence of <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">non-ionic 
+      kosmotropes</a> [<a title="go to cited reference" href="ref9.html#r846">846</a>].&nbsp;<a title="go to top of page" href="#top"><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a></p>
+    <p>&nbsp;</p>
+    <p align="left">There is a change in volume with denaturation (<img src="images/dv.gif" width="34" height="24" align="absmiddle" alt="dV" />) 
+      varying with the protein concerned but typically from negative (i.e., the overall volume of water and protein is smaller 
+      on denaturation) at low temperatures to slightly positive 
+      at high temperatures. This is due to the released nonpolar 
+      residues producing less-dense water (for example, <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES"><abbr title="Expanded icosahedral water cluster structure">ES</abbr></a>) 
+      at low temperatures but less able to do this at high temperatures. 
+      Whereas, the released polar groups cause a greater increase 
+      in density at low temperatures, due to their destruction of 
+      the low-density water, than at high temperatures, where there 
+      is less destroyable low-density water. A small pressure increase 
+      may reduce the size of proteins due to reduced hydrogen bond length  [<a title="go to cited reference"  href="ref24.html#r2324">2324</a><a name="r2324" id="r2324"></a>], but stabilize the protein against both cold and heat denaturation. 
+      At low temperatures, a small pressure increase reduces the 
+      size of the enthalpic contribution of nonpolar group hydration 
+      due to the reduced aqueous structuring. At high temperatures, 
+      the enthalpic cost of hydrating these nonpolar groups is 
+      increased when under a small pressure increase, and this may help the increased thermal stability of proteins seen in crowded environments [<a href="ref11.html#r1052">1052</a><a name="r1052" id="r1052"></a>]. Under higher 
+      pressure, proteins take up water into empty cavities  [<a href="ref20.html#r1940">1940</a><a name="r1940" id="r1940"></a>]. This 
+      penetrating water eases the process of denaturation by destabilizing 
+      the internal links. The negative volume change at higher pressures, due to cavity filling, 
+      helps shift the enthalpy change in favor of denaturation across 
+      the temperature range but has been particularly noted at low temperatures, in line with the <a title="go to Figure" href="#denatfig">Figure above</a> (for further discussion, see [<a title="go to cited reference" href="ref9.html#r847">847</a><a name="r847" id="r847"></a>]). Notwithstanding the destabilization of proteins at high pressure (due to water ingress, as above), individual helices may be stabilized due to their smaller total volume (water + helix) compared to their denatured structure [<a title="go to cited reference"  href="ref23.html#r2279">2279</a><a name="r2279" id="r2279"></a>]. High pressures strongly increase the roughness of the free energy landscape of the system (see <a href="#landscape">above</a>) as it compacts the structure without significantly affecting the magnitude of the energy states [<a title="go to cited reference"  href="ref32.html#r3198">3198</a><a name="r3198" id="r3198"></a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Proteins may be damaged at the air/water interface with a correlation between the hydrophobicity and structure of<br />
+    the protein [<a title="go to cited reference"  href="ref40.html#r3962">3962</a><a name="r3962" id="r3962"></a>]. This is the reason why protein solutions should not be shaken, causing foaming.</p>
+    <p>&nbsp;</p>
+    <p>Elastin is an important protein with properties governed by its interactions with water. It consists of a high proline, high glycine hydrophobic chain (for example, typical section <abbr title="proline-glycine-valine-glycine-valine">PGVGV</abbr>) that cannot form regular &alpha;-helices or &beta;-sheets but does form an extended structure, mainly triggered by hydrophobic interactions [<a  href="ref24.html#r2370" name="r2370" title="go to cited reference" id="r2370">2370</a>], probably containing &beta;-spiral sections with most of the peptide links hydrogen-bonded to water [<a title="go to cited reference" href="ref12.html#r1149">1149</a><a name="r1149" id="r1149"></a>]. On warming, the structure undergoes a structural collapse due to difficulty  maintaining the low-density clathrate structures around its hydrophobic groups.</p>
+    <p align="right"> [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2><a name="b" id="b"></a> Prions</h2> 
+    <p>The word 'Prions' (pronounced Pree-Ons) is  short for <strong>pr</strong>oteinaceous infect<strong>ion</strong> particles and has been found to be small  mutated protein molecules related to infectious diseases like that of mad cow  disease and scrapie in  animals and including kuru and Creutzfeldt-Jakob diseases in humans. The term prions itself was first coined in 1982 by Stanley B. Prusiner<sup><a href="#d" name="bd" id="bd">c</a></sup>, an  American scientist who  for two decades struggled to convince his peers that  certain proteins were possibly responsible for various unusual brain diseases,  which in medical terms are called spongiform encephalopathies. Prusiner was  later in 1997 presented with the Nobel prize in medicine. Prion proteins are, as stated in their  name, protein molecules and have no nucleic acid genetic information. Instead, the  proteins are made up of amino acids, which due to a defect, subsequently  direct the prion protein to fold into fibrils in a dysfunctional manner which then aggregates [<a title="go to cited reference" href="ref32.html#r3142">3142</a><a name="r3142" id="r3142"></a>]. This abnormal  folding occurs when the normal mainly-helical PrP<sup>c</sup> protein refolds to form an  abnormal PrP<sup>sc</sup> protein with a substantial &beta;-sheet substructure (see below right). </p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">Prion structural change</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/prion.gif" title="Prion structural change" alt="Prion structural change" width="400" height="258"  class="floatright"/></figure>
+    <p>Each and every protein, when activated,  folds in a specific way; prion proteins are no different. When an abnormal PrP<sup>sc</sup> protein folds, it folds in an unusual way, adversely affecting the neuronal cells. The PrP<sup>sc</sup> protein then attaches to other  healthy PrP<sup>c</sup> proteins, building a template that changes the normal conformation of  the healthy prion protein to that of the disease-causing  highly stable proteins   [<a title="go to cited reference" href="ref32.html#r3142">3142</a>]. </p>        
+    <p>&nbsp;</p>
+    <p>This continual cycle occurs until the  neuronal cell dies and disperses the infectious prion protein to surrounding  brain cells, ultimately  leading to&nbsp; brain damage. </p>
+    <hr />
+    <p>&nbsp;</p>
+    <p>Prion fibril formation has  been explained  as due to the increase of water trimers and hydrophobicity of the Mn-linked (as opposed to the normal Cu-linked) protein in solution. [<a title="go to cited reference" href="ref17.html#r1614">1614</a><a name="r1614" id="r1614"></a>].  Water release has an important effect on the rate of initial fibril formation  due to the slow rate with which it is expelled from the hydrophilic amide side chains [<a title="go to cited reference" href="ref19.html#r1838">1838</a><a name="r1838" id="r1838"></a>]. Similar filamentous &beta;-amyloid aggregates are crucial for the pathology of Alzheimer&rsquo;s disease, where simulations suggest that  the fibril assembly involves collective water motions driving the transition from monomer to fibril. These first involve water pools efficiently binding the fibril fragments over a distance of about 3 nm before this water is removed, guiding the  creation of a dry binding interface [<a title="go to cited reference" href="ref26.html#r2579">2579</a><a name="r2579" id="r2579"></a>].    The gain in entropy of the escaping water molecules compensates for the increased entropy at the new dry surface.</p>
+    <p align="right"> [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2>Footnotes</h2>
+    <p><sup>a<a name="a" id="a"></a> </sup>Correct folding is also aided by the molecular chaperones (chaperonins) [<a title="go to cited reference" href="ref11.html#r1047">1047</a><a name="r1047" id="r1047"></a>]. The chaperones both increase the density and hydration of the water surrounding the misfolded protein to drive correct re-folding [<a title="go to cited reference" href="ref15.html#r1483">1483</a>a<a name="r1483" id="r1483"></a>] and  screen out the  solvent, so allowing only a limited amount of water molecules to be in a chaperone cavity and leading to dehydration of interior of protein  [<a title="go to cited reference" href="ref15.html#r1483">1483</a>b].  [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup>b<a name="c" id="c"></a></sup> In 1969, Cyrus Levinthal gave a <a href="http://web.archive.org/web/20110523080407/http://www-miller.ch.cam.ac.uk/levinthal/levinthal.html"  title="opens new site in a pop-up window"   target="otherWin2" onclick="newWin('otherWin2')">talk</a> that noted that a protein with N amino acids should have 10<sup>2N</sup> degrees of freedom. Thus a small protein (e.g., 150 amino acids) would have 10<sup>300</sup> degrees of freedom. There is not enough time in the Universe to try each of these combinations, yet the protein is folded within a second. This is known as Levinthal's paradox and has been reviewed  [<a title="go to cited reference" href="ref34.html#r3362">3362</a><a name="r3362" id="r3362"></a>]. [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup>c<a name="d" id="d"></a></sup> S. B. Prusiner, Novel proteinaceous infectious particles cause scrapie, <em>Science,</em> <strong>216</strong> (1982) 136-144. [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>]</p>
+    <p>
+      <!-- print end -->
+</p>
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="protein_hydration.html">Protein hydration</a> | <a title="go to more on polysaccharide hydration" href="polysaccharide_hydration.html">Polysaccharide 
+      hydration</a> | <a title="go to more on nucleic acid hydration" href="nucleic_acid_hydration.html">Nucleic acid hydration</a> | <a title="go to find more on ionic effects" href="hofmeister_series.html">Hofmeister 
+      effect</a> | <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">Kosmotropes and chaotropes</a> | <a href="intracellular_water.html">Intracellular water</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2001 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+    <!-- #BeginDate format:Sw1 -->25 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

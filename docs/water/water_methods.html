@@ -1,0 +1,1002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Outline of methods for investigating water structure, including IR,Raman, NMR, dielectric and X-ray spectroscopy" />
+<meta name="Keywords" content="water,water structure,cluster,network,liquid water,methods,investigation,clusters,clustering,NMR,IR,Raman,dielectric,spectroscopy,X-ray,XAS,SAXS,XES" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Water structure methods</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://water.lsbu.ac.uk/water/water_methods.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Galileo Galilei, </p>
+      <p align="center" class="style4">the father of modern science</p>
+      <p align="center" class="style4">&nbsp;</p>
+</figcaption>
+<img src="images/Galileo_Galilei.gif" title="Galileo Galilei, the father of modern science" alt="Galileo Galilei, the father of modern science" width="240" height="240" class="floatright" /></figure>
+    <h1>Water structure: Methods</h1>
+    <p class="style16"> <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <strong><a href="#reas" title="go to section below">Why do different methods give different water structures? </a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#diel" title="go to section below">Dielectric spectroscopy</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#diff" title="go to section below">Diffraction methods</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#mod" title="go to section below">Modeling</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#nmr" title="go to section below">Nuclear Magnetic Resonance (NMR)</a><span class="style16"><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#osm" title="go to section below">Osmotic stress</a></span><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#phys" title="go to section below">Physical properties</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#vib" title="go to section below">Vibrational spectra</a><span class="style16"> (<a href="#h">Raman and infrared</a>)<br />
+        <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#tera" title="go to section below">Terahertz (THz) absorption spectroscopy</a><span class="style1611"><br />
+            <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#micro" title="go to section below">Microwave (GHz) absorption spectroscopy</a></span></span><span class="style1611"><br />
+              <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#sfg" title="go to section below">Sum frequency generation</a></span><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#xas" title="go to section below">X-ray spectroscopy</a></strong></p>
+    <p class="style16"><strong><a href="#c"><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/></span> Gaussian and Lorentzian curves</a></strong></p>
+    <p class="style16"><strong><a href="#c"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/></a><a href="#h" title="go to section below"> Raman versus infrared spectroscopy</a></strong></p>
+    <p>&nbsp;</p>
+    <div class="style10">
+    <p align="center">Water structuring is not easy to study</p>
+</div>
+      
+      
+    <p align="left">&nbsp; </p>
+    <p align="left">Several independent methods have been used to investigate 
+      the structure of liquid water and aqueous and biomolecular [<a title="go to cited reference"  href="ref28.html#r2729">2729</a><a name="r2729" id="r2729"></a>] solutions. Although 
+      each method is often promoted as producing accurate results, 
+      the different methods produce conflicting conclusions. This 
+      not only generates academic disputes but also, and more importantly, 
+      causes general confusion and bewilderment leading to scientific 
+      disorientation.</p>
+    <p>&nbsp;</p>
+    <p><strong><a name="reas" id="reas"></a>Why do different methods give different water structures? </strong></p>
+    <p>&nbsp;</p>
+    <p>Each method produces data, but this data does not directly 
+      give the structure of water. It has to be interpreted. Any 
+      analysis depends on a theoretical base to interpret the data. 
+      More importantly, the results are only as good as this theoretical 
+      base, however excellent the quality of the data collected. 
+      In addition, different methods give information at particular 
+      time-, or size-scales and so may naturally differ.<a title="click for an explanation" href="#a"><sup>a</sup></a><a name="ba" id="ba"></a> Here is shown the principles behind the most important analytical 
+      methods (<a title="click for an explanation" href="#diel">Dielectric spectroscopy</a>, <a title="click for an explanation" href="#diff">Diffraction</a>, <a title="click for an explanation" href="#mod">Models</a>, <a title="click for an explanation" href="#nmr">Nuclear 
+      magnetic resonance</a>, <a title="click for an explanation" href="#phys">Physical properties</a>, <a title="click for an explanation" href="#vib">Vibrational spectra</a>, <a title="click for an explanation" href="#xas">X-Ray 
+      spectroscopy</a>) and the main assumptions made to interpret 
+      their resulting data.</p>
+    <p>The structural forms and timescales for the different techniques are 
+      given below:</p>
+    <p>&nbsp;</p>
+    <table width="100%" border="1" cellpadding="2" summary="Timescales for different methods">
+      <caption>
+      <strong>Approximate timescales for different methods</strong>
+      </caption>
+      <tr>
+        <th scope="col" width="24%"><div align="center"><strong>Structure</strong></div></th>
+        <th scope="col" width="32%"><div align="center"><strong>Method(s)</strong></div></th>
+        <th scope="col" width="44%"><div align="center"><strong>Time and size 
+            scales</strong></div></th>
+</tr>
+      <tr>
+        <th scope="row"><div align="left"><strong><span class="style7">I</span></strong>nstantaneous </div></th>
+        <td>X-ray absorption</td>
+        <td>&asymp; 10<sup>&minus;15 </sup>s, single molecule</td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Almost instantaneous</div></th>
+        <td>Infrared, Raman</td>
+        <td>&asymp; 10<sup>&minus;14</sup>- 10<sup>&minus;13</sup> s, single molecule - local cluster</td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left"><strong><span class="style7">V</span></strong>ibrationally 
+            averaged </div></th>
+        <td>Models, Pump-probe laser</td>
+        <td>&asymp; 10<sup>&minus;12</sup>- 10<sup>&minus;10 </sup>s, single molecule - local cluster</td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left"><strong><span class="style7">D</span></strong>iffusionally 
+            averaged </div></th>
+        <td>Neutron scattering, NMR shift</td>
+        <td>&asymp; 10<sup>&minus;9</sup>-10<sup>&minus;6</sup> s, local cluster</td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left"><span class="style7"><strong>P</strong></span>robability </div></th>
+        <td>X-ray diffraction, thermodynamics</td>
+        <td>&gt; s, local cluster</td>
+</tr>
+</table>
+    <p>&nbsp;</p>
+    <p>The structuring found depends on the timescale of the investigating methodology  [<a title="go to cited reference"  href="ref28.html#r2712">2712</a><a name="r2712" id="r2712"></a>]. Instantaneous structures show the actual positions and orientations of molecules, but these will be disordered relative to each other due to vibrational and linear and rotational diffusional motions; thus they will not show, or will show only poorly, any long-term or extensive order in the system. Slow processes, such as diffraction, show 'averaged' structures that may be a very poor representation of any structuring consisting of two rapidly interchanging structures. <a title="click for an explanation" href="#e"><sup>e</sup></a><a name="be" id="be"></a> Diffraction data shows long-term order but cannot determine whether the order is due to the same molecules being present in the same positions throughout or whether there are simply 'favored' positions with the molecules exchanging rapidly between them.</p>
+    <p>&nbsp;</p>
+    <p>Attempts are being made to combine different techniques (X-ray absorption and emission, NMR shielding, and X-ray diffraction), with different time dependencies, to best fit  various models [<a title="go to cited reference"  href="ref38.html#r3716">3716</a><a name="r3716" id="r3716"></a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <div class="floatright" style="height:247px;">
+       <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp; </p>
+      <p align="center"> Dielectric loss spectrum for ribonuclease</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+      <span class="floatright" style="height:247px;"><img src="images/dielsp.gif" alt="Dielectric loss spectrum for ribonuclease" title="Dielectric loss spectrum for ribonuclease" width="320" height="231" /></span></figure>
+    </div>
+    <h2> <a name="diel" id="diel"></a>Dielectric spectroscopy</h2>
+    <p>Dielectric spectroscopy [<a title="go to cited reference"  href="ref10.html#r950">950</a><a name="r950" id="r950"></a>, <a title="go to cited reference"  href="ref34.html#r3359">3359</a><a name="r3359" id="r3359"></a>] measures water tumbling and can detect water quantitatively 
+      in different clusters if they are held by different average 
+      hydrogen bond strengths. The dielectric loss is determined 
+      over a wide frequency range (kHz-GHz). Slow tumbling (&asymp;  
+      ns) is due to tightly bound water, whereas fast tumbling 
+      (&asymp;  ps) is due to loosely bound water. Shown opposite is an example spectrum of a protein solution [<a title="go to cited reference"  href="ref8.html#r785">785</a><a name="r785" id="r785"></a>], 
+      where the non-bulk water dielectric loss spectrum (<span class="style7">red</span>) 
+      can be divided into three underlying Gaussian peaks.<a title="click for an explanation" href="#c"><sup> c</sup></a><a name="bc" id="bc"></a> Difficulty remains in unambiguously assigning the molecular 
+      structures that produce these peaks. Dielectric spectroscopy does seem to show that long-range interactions (&asymp; 0.1 mm) are present in water [<a title="go to cited reference"  href="ref17.html#r1630">1630</a><a name="r1630" id="r1630"></a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="diff" id="diff"></a>Diffraction methods</h2>
+    <figure  class="floatright">
+<figcaption>
+  <p align="center">Bragg's law for diffraction </p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/Braggs.gif" width="400" height="190" alt="Braggs law for diffraction" title="Braggs law for diffraction" /></figure>
+    <p>Diffraction methods make use of Bragg's law, involving the constructive interference of scattering (wavelength &lambda; &asymp; 1 <a href="constants.html#ang">&Aring;</a>, integer n) from regularly spaced atoms (shown as blue dots with spacing d, see right). Neutron diffraction determines nuclear atomic coordinates, whereas X-ray diffraction refers to the maxima of the electron density distribution. The timescale of X-ray and neutron scattering is very brief. Thus, diffraction methods  [<a title="go to cited reference"  href="ref26.html#r2553">2553</a><a name="r2553" id="r2553"></a>] involve the sum of a large number of instantaneous data from the many effectively frozen configurations of the sample. Thus, they measure the time-averaged distances between the atoms 
+      of water molecules. However, they cannot directly determine the cluster 
+    geometry. Also, the long-range hydrogen-bonded structure and correlations in liquid water cannot be determined by  diffraction as there is no long-range positional order of  molecules in a liquid, so any such conclusions drawn are meaningful only on the short scale (&lt; &asymp; nm).</p>
+    <figure  class="floatleft">
+      <figcaption>
+  <p align="center">&nbsp;</p>
+  <p align="center">Scattering from liquid water</p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img src="images/diffr7.gif" alt="Scattering from liquid water" title="Scattering from liquid water" width="240" height="160"   class="floatleft"/></figure>
+    <p>&nbsp; </p>
+    <p>X-ray diffraction (~10 k<a href="constants.html#eV">eV</a>) is sensitive to the concentration 
+      of electrons (so not sensitive to isotopes). For ordered materials, such as the crystalline ices, the diffraction produces a series of regular spots  related to the crystal symmetry.  For disordered materials, like liquid water, the diffraction pattern consists of broad rings. It is first given in terms of the scattering vector (see left) and then translated into a derived radial distribution function. Even though there are twice as many hydrogen atoms as oxygen atoms in water,  these electron-poor 
+      atoms contribute little (hydrogen atoms have &asymp; 1/13 the electron density of the oxygen atoms and 2  &#739; 1/13 &asymp; = 0.15), with &asymp; 85% of the data being provided  by  the g<sub>OO</sub>(r) radial 
+      distribution function  and the remainder from the g<sub>OH</sub>(r) radial 
+    distribution function [<a title="go to cited reference"  href="ref11.html#r1024">1024</a><a name="r1024" id="r1024"></a>] (H - H interactions being less than 0.6 %). Methodology for detecting hydrogen atoms and X-H bonds has been developed, and this may be of great use in the future so long as the temperature is below 140 K and that the resolution is at least 0.6 <a href="constants.html#ang" title="Angstrom">&Aring;</a>  [<a title="go to cited reference"  href="ref27.html#r2604">2604</a><a name="r2604" id="r2604"></a>].</p>
+<p>&nbsp;</p>
+        <figure  class="floatright">
+<figcaption>
+  <p align="center"><strong>Radial distributions in ice Ih by neutron diffraction   [<a title="go to cited reference"  href="ref2.html#r154">154</a><a name="r154" id="r154"></a>]</strong></p>
+  <p align="center">&nbsp;</p>
+</figcaption><img src="images/iceneu.gif" title="Neutron diffraction of hexagonal ice at 220 K, from [154]" alt="Neutron diffraction of hexagonal ice at 220 K, from [154]" width="480" height="321" /></figure>
+
+    <p><a name="neutron" id="neutron"></a>Neutron diffraction utilizes the wave property of slow neutrons produced in an atomic reactor (&asymp;  0.1 <a href="constants.html#eV">eV</a>, &equiv; &asymp; 1 <a href="constants.html#ang" title="Angstrom">&Aring;</a>). It is sensitive 
+      to nuclei (including isotopes) and can  determine the positions of light atoms, such as hydrogen. The strength of the interaction between the neutron and a nucleus is called the scattering length, which is specific to each isotopic nucleus (b, in femtometers, <a href="constants.html#unit">fm</a>). Interference terms in the scattering from pairs of atoms give rise to coherent scattering, whereas scattering from all individual atoms gives rise to incoherent scattering. For water, neutron diffraction needs mixtures of D<sub>2</sub>O, HDO, and 
+      H<sub>2</sub>O as H atoms are strong incoherent scatterers, whereby the scatter contains no structural information. Such mixtures produce data with less precision and accuracy 
+      as such mixtures structure water differently from pure H<sub>2</sub>O. </p>
+    <p>&nbsp;</p>
+    <p align="center"><strong>Selected   neutron  scattering  lengths and  cross  sections</strong> <a title="click for an explanation" href="#g"><sup>g</sup></a><a name="bg" id="bg"></a> </p>
+    <p align="center">&nbsp;</p>
+    <table width="760" border="1" cellspacing="1" cellpadding="1">
+    <tr>
+    <td><div align="center"><strong>Isotopic nucleus </strong></div></td>
+    <td><div align="center"><strong>b<sub>coherent</sub>
+      , <a href="constants.html#unit">fm</a></strong></div></td>
+    <td><div align="center"><strong>b<sub>incoherent</sub> , <a href="constants.html#unit">fm</a></strong></div></td>
+    <td><div align="center"><strong>cross section<sub>coherent</sub> , <a href="constants.html#barn">b</a></strong></div></td>
+    <td><div align="center"><strong>cross section<sub>incoherent</sub> , <a href="constants.html#barn">b</a></strong></div></td>
+  </tr>
+    <tr>
+    <td><div align="center"><strong><sup>1</sup>H</strong></div></td>
+    <td><div align="center">-3.7406</div></td>
+    <td><div align="center">25.274</div></td>
+    <td><div align="center">1.7583</div></td>
+    <td><div align="center">80.27</div></td>
+  </tr>
+    <tr>
+    <td><div align="center"><strong><sup>2</sup>H</strong></div></td>
+    <td><div align="center">6.671</div></td>
+    <td><div align="center">4.04</div></td>
+    <td><div align="center">2.05</div></td>
+    <td><div align="center">7.64</div></td>
+  </tr>
+    <tr>
+    <td><div align="center"><strong><sup>12</sup>C</strong></div></td>
+    <td><div align="center">6.6511</div></td>
+    <td><div align="center">0</div></td>
+    <td><div align="center">5.559</div></td>
+    <td><div align="center">0</div></td>
+  </tr>
+    <tr>
+      <td><div align="center"><strong><sup>13</sup>C</strong></div></td>
+    <td><div>
+      <div align="center">6.19</div>
+    </div>
+      </td>
+    <td><div align="center">-0.52</div></td>
+    <td><div align="center">4.81</div></td>
+    <td><div align="center">0.034</div></td>
+  </tr>
+    <tr>
+      <td><div align="center"><strong><sup>14</sup>N</strong></div></td>
+    <td><div align="center">9.37</div></td>
+    <td><div align="center">2.0</div></td>
+    <td><div align="center">11.03</div></td>
+    <td><div align="center">0.5</div></td>
+  </tr>
+    <tr>
+      <td><div align="center"><strong><sup>16</sup>O</strong></div></td>
+    <td><div align="center">5.803</div></td>
+    <td><div align="center">0</div></td>
+    <td><div align="center">4.232</div></td>
+    <td><div align="center">0</div></td>
+  </tr>
+    <tr>
+    <td><div align="center"><strong><sup>31</sup>P</strong></div></td>
+    <td><div align="center">5.13</div></td>
+    <td><div align="center">0.2</div></td>
+    <td><div align="center">3.307</div></td>
+    <td><div align="center">0.005</div></td>
+  </tr>
+    <tr>
+    <td><div align="center"><strong><sup>32</sup>S</strong></div></td>
+    <td><div align="center">2.804</div></td>
+    <td><div align="center">0</div></td>
+    <td><div align="center">0.9880</div></td>
+    <td><div align="center">0</div></td>
+  </tr>
+  </table>
+    <p>&nbsp;</p>
+    <figure  class="floatleft">
+      <figcaption>
+        <p>&nbsp;</p>
+        <p align="center">First radial distances    </p>
+        <p align="center">&nbsp;</p>
+      </figcaption>
+    <img src="images/rr.gif" width="240" height="90" alt="first radial distances" title="first radial distances" /></figure> 
+    <p>Neutron diffraction gives g<sub>OO</sub>(r), g<sub>OD</sub>(r), 
+      and g<sub>DD</sub>(r) radial distribution data, which does 
+      allow some, if incomplete, orientation information to be 
+      extracted for neighboring water molecules. The results generally need much interpretation and help from modeling [<a href="ref25.html#r2405" name="r2405" title="go to cited reference" id="r2405">2405</a>]. Thus even crystalline ice Ih gives rise to artifactual peaks, see the O&middot;&middot;&middot;O peaks at 2.43 <a href="constants.html#ang" title="Angstrom">&Aring;</a> and 3.45  <a href="constants.html#ang" title="Angstrom">&Aring;</a> opposite. Also, the widths of the peaks are greater than might be expected for a crystalline structure. The major drawback of neutron diffraction is the cost of the nuclear reactor facility  with its intrinsic risk and poor accessibility for research.</p>
+    <p>&nbsp;</p>
+    <p>Electron diffraction can only be used on thin films (~1 &micro;m even at M<a href="constants.html#eV">eV</a> energies) due to its strong scattering   [<a title="go to cited reference"  href="ref42.html#r4150">4150</a><a name="r4150" id="r4150"></a>]. Wide-angle X-ray diffraction  has confirmed the existence of two distinctly different hydrogen-bonded environments in liquid water  [<a title="go to cited reference"  href="ref18.html#r1755">1755</a><a name="r1755" id="r"></a>]. The (coarse) radial distribution function of liquid water using electron scattering has been achieved    [<a title="go to cited reference"  href="ref42.html#r4200">4200</a><a name="r4200" id="r4200"></a>].</p>
+    <p>&nbsp;</p>
+    <p>The use of diffraction methods for studying the hydration structure of alkali ions has been reviewed [<a  title="go to cited reference"  href="ref11.html#r1062">1062</a><a name="r1062" id="r1062"></a>].  Diffraction data 
+      may be refined by fitting <a title="more information on molecular models for water" href="water_models.html">water model</a> simulations [<a title="go to cited reference"  href="ref13.html#r1245">1245</a><a name="r1245" id="r1245"></a>]. The resulting fit, however, is insensitive 
+      to the model chosen [<a title="go to cited reference"  href="ref9.html#r888">888</a><a name="r888" id="r888"></a>], such that optimizing the model to the fit does not, perforce, produce a better model. 
+      Diffraction results are discussed further <a href="cluster_evidence.html#fine">elsewhere</a>. Diffraction methods give data little different from bulk water beyond the first hydration shell, where other methods indicate changed structure [<a title="go to cited reference"  href="ref15.html#r1427">1427</a><a name="r1427" id="r1427"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>Diffraction methods are excellent for testing models of 
+      water structure but less helpful for delivering the &nbsp;fundamental structure 
+      of water due to the difficulty in obtaining orientation 
+    information and correlations at intermediate distances. However,  as the instrumentation has improved, the local dynamics of water in real space and time, such as viscosity and diffusion, have been visualized by inelastic X-ray and neutron scattering measurements. It makes use of the Van Hove function (VHF)</p>
+    <p>&nbsp;</p>
+    <p align="center"><img width="273" height="45" src="images/vanhove.gif" alt="Van Hove function"  title="Van Hove function" /></p>
+    <p><br />
+      where r<sub>i</sub>(t) is the position of the atom i at time t, i = 1, 2, . . . N, and &rho;<sub>0</sub> is the atomic number density of the system [<a title="go to cited reference"  href="ref38.html#r3741">3741</a><a name="r3741" id="r3741"></a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="mod" id="mod"></a>Modeling</h2>
+    <p>Many molecular models for water are described on <a title="more information on molecular models for water" href="water_models.html">another 
+      page</a> of this site. An underlying assumption of these 
+      models is that the structure of liquid water may be modeled 
+      using just two-body effects (that is, molecule A affects 
+      molecule B independently of molecule C affecting molecule 
+      B) and do not include any contribution from any <a title="go to 'Hydrogen bonding in water' page"  href="hydrogen_bonding.html#b">covalency</a> in their interaction. Models for liquid water have, so far, 
+      proved to be poor predictors for physical and molecular 
+      properties outside those used in their development and parameterization. 
+      Modeling studies may result in a picture of an 'average' 
+      liquid water molecule, which may be misleading as such 'average' 
+      structures do not exist in most ice phases and may not be 
+      relevant to liquid water. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2> <a name="nmr" id="nmr"></a>Nuclear Magnetic Resonance (NMR)</h2>
+    <p>Water contains three isotopes of use in NMR. <a title="click for an explanation" href="#d"><sup>d</sup></a><a name="bd" id="bd"></a> </p>
+    <p>&nbsp;</p>
+    <table width="100%" border="2" cellpadding="2" summary="Properties of hydrogen nuclei">
+      <caption>
+      <strong>Properties of hydrogen nuclei</strong>
+      <br />
+      <br />
+      </caption>
+      <tr>
+        <th scope="col"  width="39%"><div align="center"><strong>NMR, H<sub>2</sub>O atoms</strong></div></th>
+        <th scope="col"  width="18%"><div align="center"><strong><sup>1</sup>H</strong></div></th>
+        <th scope="col"  width="14%"><div align="center"><strong><sup>2</sup>H</strong></div></th>
+        <th scope="col"  width="29%"><div align="center"><strong><sup>17</sup>O</strong></div></th>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Spin states</div></th>
+        <td><div align="center">+&frac12;, -&frac12;</div></td>
+        <td><div align="center">1, 0, -1</div></td>
+        <td><div align="center">5/2, 3/2, 1/2, -1/2, -3/2, -5/2</div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Relative natural abundance (%)</div></th>
+        <td><div align="center">99.985</div></td>
+        <td><div align="center">0.015</div></td>
+        <td><div align="center">0.048</div></td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">Relative sensitivity at natural abundance</div></th>
+        <td><div align="center">1</div></td>
+        <td><div align="center">1.4 &#739; 10<sup>&minus;6</sup></div></td>
+        <td><div align="center">1.1 &#739; 10<sup>&minus;5</sup></div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Gyromagnetic ratio, <a href="constants.html#rad">rad</a>   &#739; <a href="constants.html#T">T</a><sup>&minus;</sup><sup>1</sup>   &#739; s<sup>&minus;1 *</sup></div></th>
+        <td><div align="center">26.7522 &#739; 10<sup>7</sup></div></td>
+        <td><div align="center">4.1066 &#739; 10<sup>7</sup></div></td>
+        <td><div align="center">-3.6281 &#739; 10<sup>7</sup></div></td>
+</tr>
+      <tr>
+        <th scope="row"><div align="left">Frequency at 2.3488 T (M<a href="constants.html#Hz">Hz</a>) *</div></th>
+        <td><div align="center">100</div></td>
+        <td><div align="center">15.3506</div></td>
+        <td><div align="center">13.5565</div></td>
+</tr>
+</table>
+    <div align="center" class="style3">
+      <p>* data from <a href="http://www.webelements.com/" title="opens new site in a pop-up window"   target="otherWin328" onclick="newWin('otherWin328')">WebElements</a>.</p>
+</div>
+    <p>&nbsp;</p>
+    <p>The <sup>1</sup>H and <sup>2</sup>H NMR spectra can be used to quantify the deuterium atom content of H<sub>2</sub>O, HDO, D<sub>2</sub>O mixtures from the natural abundance to nearly 100%  
+      [<a title="go to cited reference"  href="ref19.html#r1817">1817</a><a name="r1817" id="r1817"></a>]. As it has been reported that <a href="magnetic_electric_effects.html">magnetic 
+      fields</a> may alter the clustering of water ([<a  href="ref2.html#r192" name="r192" title="go to cited reference" id="r192">192, </a><a title="go to cited reference"  href="ref5.html#r485">485</a><a name="r485" id="r485"></a>, <a title="go to cited reference"  href="ref7.html#r647">647</a><a name="r647" id="r647"></a>]), 
+      then the results of NMR must be considered with this possibility 
+      in mind. Another possible weakness  of using NMR is that only <em><a title="go to 'Water molecular structure' page"  href="water_molecule.html">ortho</a></em><a title="go to 'Water molecular structure' page"  href="water_molecule.html">-water</a> is NMR-active, <em>para</em>-water having no intrinsic magnetic moment 
+      [<a title="go to cited reference"  href="ref9.html#r835">835</a><a name="r835" id="r835"></a>]. However, all unpaired protons are NMR-active (not just <em><a title="go to 'Water molecular structure' page"  href="water_molecule.html">ortho</a></em><a title="go to 'Water molecular structure' page"  href="water_molecule.html">-water</a>), and the exchange of protons may be  rapid compared with gathering the NMR signal 
+      [<a title="go to cited reference"  href="ref22.html#r2118">2118</a><a name="r2118" id="r2118"></a>].</p>
+    <p>&nbsp;</p>
+    <p>NMR analysis generally gives reduced information due to 
+      proton exchange and movement of water between environments. 
+      The average proton residence time on a water molecule is 
+      about a millisecond at 25&nbsp;&deg;C and pH 7, being less than 
+      that at other pHs or higher temperatures. Therefore, only 
+      single, population-weighted averaged <sup>1</sup>H, <sup>2</sup>H, 
+      or <sup>17</sup>O NMR peaks are generally seen in aqueous 
+      solutions. The exception to this is where separate non-exchanging 
+      or very slowly exchanging pools of water molecules are 
+      found. </p>
+    <p>&nbsp;</p>
+    <p>Water's NMR chemical shifts (<sup>17</sup>O and <sup>1</sup>H) 
+      are affected by ions in solution with increasing ionic radius 
+      generally causing an increased deshielding effect on the 
+      water oxygen atoms but a decreased deshielding effect on 
+      the water's protons [<a title="go to cited reference"  href="ref8.html#r781">781</a><a name="r781" id="r781"></a>]. 
+      The effects are linearly concentration-dependent with a 
+      change in the slope found above the concentration that causes a minimum 
+      in the specific heat (&asymp;  2-3 M) [<a title="go to cited reference"  href="ref6.html#r556">556</a><a name="r556" id="r556"></a>]. 
+      Here, the charge density effect (greater charge density 
+      causing greater deshielding), as seen in the division of 
+      ions into <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropes and chaotropes,</a> is less important than the ionic size effect [<a title="go to cited reference"  href="ref8.html#r781">781</a>]. 
+      As larger ionic size results in an increased number of first 
+      shell water molecules interacting with the ion's field within 
+      the clathrate surroundings, the apparent shielding change 
+      may be due to an increased effect on the average shift.</p>
+    <p>&nbsp;</p>
+    <p>NMR spectroscopy is one of the most valuable   methods for experimentally characterizing H-bond interactions in biological systems <a title="go for more information" href="water_methods.html#nmr"><abbr title="Nuclear Magnetic Resonance"> </abbr></a>[<a title="go to cited reference" href="ref34.html#r3347">3347</a><a name="r3347" id="r3347"></a>] and often provides the strongest evidence for any partial covalent character. The <sup>1</sup>H-shielding values of the H-bond proton are determined by the depletion of electronic density around the bonding hydrogen atom, which stems from  the H-bond formation. Both <sup>1</sup>H and <sup>17</sup>O NMR peaks shift to 
+      downfield (greater <a href="constants.html#ppm">ppm</a>) with increasing hydrogen bond strength; 
+      in the case of <sup>17</sup>O, the donor O shift increasies 
+      more than the acceptor O reduces. However, only &lsquo;averaged&rsquo; 
+      water environments may be obtained. Where several aqueous 
+      environments exist, the <sup>1</sup>H NMR spectrum (mainly 
+      just one broad peak) may be deconvoluted into Gaussian sub-bands 
+      due to differing degrees of hydrogen-bonded water with greater 
+      chemical shift (that is, <a href="constants.html#ppm">ppm</a>), indicating stronger hydrogen 
+      bonding and greater <a title="go to 'Water molecular structure' page"  href="water_hydrogen_bonding.html#e">tetrahedrality</a> of the water clustering 
+      [<a title="go to cited reference"  href="ref9.html#r851">851</a><a name="r851" id="r851"></a>].</p>
+    <p>&nbsp;</p>
+    <p>The changes in the motion of interfacial water molecules on thawing their ices, detected using NMR, can characterize the dynamic structure of proteins so adding considerably to the information available from protein 3-D structural determination   [<a title="go to cited reference" href="ref23.html#r2249">2249</a><a name="r2249" id="r2249"></a>]. NMR has been used to estimate changes in water's hydrogen 
+      bond lengths and strengths [<a title="go to cited reference"  href="ref5.html#r458">458</a><a name="r458" id="r458"></a>]. 
+      Such investigation makes use <em>ab initio</em> calculations 
+      to interpret changes in the longitudinal relaxation &tau;<sub>1</sub> (see below) of HDO in D<sub>2</sub>O solution by assuming 
+      (somewhat incorrectly) that this mixture has a similar structure 
+      to pure H<sub>2</sub>O.</p>
+    <p>&nbsp;</p>
+    <p>The NMR signal undergoes two relaxation processes; spin-lattice 
+      (longitudinal) relaxation resulting in the decay of the 
+      spin distribution (&tau;<sub>1</sub>) and spin-spin (transverse) 
+      relaxation (&tau;<sub>2</sub>) resulting in the loss of the 
+      spin coherence. &tau;<sub>2</sub> is inversely proportional 
+      to the width (at half height) of the NMR peak. &tau;<sub>1</sub> is 3.6 s at 25&nbsp;&deg;C due mostly to dipole-dipole couplings 
+      [<a title="go to cited reference"  href="ref5.html#r430">430</a><a name="r430" id="r430"></a>]. As 
+      &tau;<sub>1</sub> reduces with increasing dissolved molecular 
+      oxygen concentration (due to its paramagnetic nature) [<a title="go to cited reference"  href="ref8.html#r782">782</a><a name="r782" id="r782"></a>] 
+      and dissolved oxygen concentrations are expected to be greater 
+      in more hydrophobic environments near hydrophobic surfaces, 
+      dissolved oxygen is capable of giving rise to artifacts 
+      in the NMR spectra of water. Such effects may change over 
+      a period of several days [<a title="go to cited reference"  href="ref3.html#r294">294</a><a name="r294" id="r294"></a>]. </p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+      <figcaption>
+  <p align="center"><strong>Variation of NMR relaxation times, from [<a title="go to cited reference"  href="ref6.html#r581">581</a>]</strong></p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img class="floatright"  alt="Variation of NMR relaxation times with order in liquid water; from [581]"  title="Variation of NMR relaxation times with order in liquid water; from [581]" src="images/nmr_relaxation.gif" width="320" height="316" /></figure>
+    <p><a name="corr" id="corr3"></a>Shorter &tau;<sub>2</sub> values indicate less molecular mobility. 
+      The <sup>1</sup>H &tau;<sub>2</sub> of water at 25&nbsp;&deg;C, viscous 
+      water and ice at 0&nbsp;&deg;C are about 3 s, &asymp; 1 ms, and &asymp; 5 &mu;s 
+      respectively. However, the T<sub>2</sub> relaxation times 
+      are also reduced by exchange reactions with, for example, proteins carboxyl, hydroxyl, and amine groups. Generally 
+      only single, population-weighted averaged, <sup>1</sup>H, <sup>2</sup>H or <sup>17</sup>O relaxation rates are seen 
+      in aqueous solutions. The exception to this is where separate 
+      non- (or very slowly) exchanging pools of water molecules 
+      exist such as occur in porous media including biological 
+      tissue and many foodstuffs. &tau;<sub>1</sub> and &tau;<sub>2</sub> are approximately equal for liquid water, both dropping 
+      with increased hydrogen-bonded clustering (for example, increased viscosity) under normal conditions. However, as 
+      the degree of tetrahedral clustering increases further, 
+      &tau;<sub>1</sub> increases as&tau;<sub>2</sub> decreases [<a title="go to cited reference"  href="ref6.html#r581">581</a><a name="r581" id="r581"></a>]. 
+      &tau;<sub>1</sub> thus shows a minimum at intermediate viscosity (rotational correlation time), <a title="click for an explanation" href="#f"><sup>f</sup></a><a name="bf" id="bf"></a> at the NMR resonant frequency,
+      whereas &tau;<sub>2</sub> decreases continuously with increasing 
+      viscosity. Note that NMR relaxation is a non-equilibrium 
+      kinetic event and cannot give thermodynamic quantities such 
+    as <a href="water_activity.html">water activity</a>. </p>
+    <p>&nbsp;</p>
+    <div style="float:none; height:194px;"> <img class="floatright" src="images/nmrO17.gif" alt="Comparison of the widths of the 17O-NMR peak at 25C and 400C" width="320" height="188" />
+      <p><sup>17</sup>O has been used to estimate water 
+        clustering using NMR line-width measurements where strongly clustered water gives broader peaks. However, this reasoning is faulty, and the data is often 
+        imprecise and probably affected by dissolved O<sub>2</sub> and pH; see also, <a href="http://www.csun.edu/&asymp; alchemy/Caveat_Emptor.pdf">Paul 
+        Shin's critique of this method</a>.</p>
+      <p>&nbsp;</p>
+      <p>Shown opposite are the <sup>17</sup>O NMR peaks for 
+        water at widely different temperatures, showing how 
+        little the width changes even under such different conditions 
+        [<a title="go to cited reference"  href="ref8.html#r783">783</a><a name="r783" id="r783"></a>].</p>
+</div>
+    <p>&nbsp;</p>
+    <p>Nuclear Overhauser effects (NOEs) may be used to identify 
+      relatively static water molecules within the first hydration 
+    shell (&lt;&asymp; 0.5 nm) around biological molecules [<a title="go to cited reference"  href="ref8.html#r784">784</a><a name="r784" id="r784"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>Apparent diffusion rates of water are measured using magnetic 
+      field gradients [<a title="go to cited reference" href="ref7.html#r652">652</a><a name="r652" id="r652"></a>,<a  href="ref22.html#r2112" name="r2112" title="go to cited reference" id="r2112">2112</a>] and may be incorporated into magnetic resonance 
+      images (MRI). As diffusion is restricted in more extensive 
+      aqueous clusters, this method can differentiate different 
+      pools of water by their mean diffusion rates. NMR relaxation measurements can give the rotational diffusion coefficients using the natural <sup>17</sup>O abundance  [<a title="go to cited reference" href="ref7.html#r652">652</a>, <a  href="ref22.html#r2112" title="go to cited reference" >2112</a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2> <a name="osm" id="osm"></a>Osmotic stress</h2>
+    <p>Osmotic stress [<a  href="ref21.html#r2006" name="r2006" title="go to cited reference" id="r2006">2006</a>, <a  href="ref22.html#r2113" name="r2113" title="go to cited reference" id="r2113">2113</a>] is complementary to other physical techniques in that it probes the changes in hydration that accompany biologically relevant processes  from their dependence on osmotic pressure (water activity). For example, the number of thermodynamically unique water molecules associated with the double helix and released from the single strands upon melting may be determined from the depression of melting temperature upon decreasing the water activity [<a href="ref22.html#r2113" title="go to cited reference" >2113</a>]. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="phys" id="phys"></a>Physical properties</h2>
+    <p>Physical properties such as <a title="go to find more information"  href="physical_anomalies.html#Tvisc">viscosity</a>, <a title="go to find more information"  href="density_anomalies.html#Tcomp">compressibility</a>, <a title="go to find more information"  href="density_anomalies.html#sound">the speed 
+      of sound</a>, <a title="go to find more information"  href="thermodynamic_anomalies.html#Cpmin">heat capacity</a>, <a title="go to find more information"  href="density_anomalies.html#refract">refractive index</a>, <a title="go to find more information"  href="thermodynamic_anomalies.html#cond">thermal 
+      conductivity,</a> and <a title="go to find more information"  href="physical_anomalies.html#ST">surface tension</a> can all be used to gather information concerning the structure 
+      of water. The interpretation of this data is not clear-cut, 
+      however. Note that only the surface properties, not the 
+      bulk properties, are discovered using surface tension. The 
+      surface structure of water is very different from the bulk 
+      structure and may mislead. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]    </p>
+    <div style="float:none; height:786px;">
+      <div class="floatright" style="width:320px;"> <figure  class="floatright">
+      <figcaption>
+  <p align="center">&nbsp;</p>
+  <p align="right"><strong>Water's  OH stretch peak, divided into gaussian peaks</strong></p>
+  <p align="center">&nbsp;</p>
+  <p align="center"><img src="images/busing.gif" width="320" height="199" alt="Water's OH stretch peak, divided into two gaussian peaks, from [4411]" title="Water's OH stretch peak, divided into two gaussian peaks, from [4411]"/></p>
+      </figcaption><img src="images/ramanpk2.gif" alt="The OH stretch peak of water at about 3400 cm-1, divided into three underlying gaussian peaks"  title="The OH stretch peak of water at about 3400 cm-1, divided into three underlying gaussian peaks" width="320" height="193" /> <img src="images/ramanpk3.gif" alt="The OH stretch peak of water at about 3400 cm-1, divided into four underlying gaussian peaks, from [1980]" title="The OH stretch peak of water at about 3400 cm-1, divided into four underlying gaussian peaks, from [1980]" width="320" height="193" /> <img src="images/ramanpk.gif" alt="The OH stretch peak of water at about 3400 cm-1, divided into five underlying gaussian peaks, from [4408]" title="The OH stretch peak of water at about 3400 cm-1, divided into five underlying gaussian peaks, from [4408]" width="320" height="193" /> <img src="images/irpk.gif" alt="The IR OH stretch peak of water at about 3400 cm-1, divided into six underlying gaussian peaks, see ref. 1318" title="The IR OH stretch peak of water at about 3400 cm-1, divided into six underlying gaussian peaks, see ref. 1318" width="320" height="192" /></figure>
+		  <p class="style3">&nbsp; <br />
+		  </p>
+		  <p class="style3">The curve fittings attempt to optimize the overlapping band  profile starting from a predetermined set of individual bands and the estimated baseline [<a title="go to cited reference"  href="ref45.html#r4416">4416</a><a name="r4416" id="r4416"></a>]. As each band  (Gaussian peak) uses three optimized parameters (position, height, and width at half height), the number used varies between  six&nbsp;and eighteen. The more parameters fitted to an experimental curve, the  better the fit. However, this number of fitting parameters should be minimized.  Using even more sub-bands would inevitably lead to better fits (despite what is  concluded in [<a title="go to cited reference"  href="ref14.html#r1318">1318</a>])&nbsp;but at a high cost in fitted parameters. This is  particularly true as the Gaussian peaks (if used) have differing widths (as  seen above) because they contain different numbers of underlying structures.  The envelopes can give rise to different well-fitted sub-peaks but with the  same number of peaks. The appropriateness of the final fit is down to the  experience and judgment of the researcher with little input from the computer,  as similar results may be obtained from different computer analyses. The fitted  parameters for the Gaussian peaks, assignations, and residuals vary between  researchers and between works by the same author. The choice of initial  parameters influences the final result. Allowing for minimizing the number of  required fitted parameters, perhaps the most acceptable fits are produced by  just three sub-peaks. The final peaks may not necessarily be symmetrical as a  continuum of many individual bands contributes to them. The envelope has an  isosbestic point on increasing the temperature, between the two prominent peaks  where the 3200 cm<sup>&minus;1</sup> peak goes down as the 3400 cm<sup>&minus;1</sup> peak goes up.</p>
+<p class="style3">&nbsp;</p>
+      </div>
+      <h2> <a name="vib" id="vib"></a>Vibrational spectra      </h2>
+      <p>Water gives complex infrared and Raman spectra [<a title="go to cited reference" href="ref18.html#r1738" name="r1738" id="r1738">1738</a>, <a title="go to cited reference" href="ref27.html#r2627" name="r2627" id="r2627">2627</a>],<a title="click for an explanation" href="#h"><sup>h</sup></a><a name="bh" id="bh"></a> and seriously affects the spectroscopy of aqueous solutions [ <a title="go to cited reference" href="ref41.html#r4071" name="r4071" id="r4071">4071</a>]. Analysis  of these, together with changes caused by variations in temperature or  pressure, the presence of solutes, or the presence of D<sub>2</sub>O, is thought to  provide detailed information concerning liquid water structuring. Liquid water  spectra reportedly correspond to linear mixtures of just two contributing forms [<a title="go to cited reference" href="ref18.html#r1738">1738</a>].<a title="click for an explanation" href="#b"><sup>b</sup></a><a name="bb" id="bb"></a> Due to peak broadening caused by the varying interactions between  neighboring molecules, the spectra may be analyzed by supposing several  Gaussian-shaped<a title="click for an explanation" href="#c"><sup>c</sup></a> vibrational absorptions underlying the complex peaks.  Difficulties in the analysis concern determining how many absorption peaks are  present and the molecular origins of these vibrations. The more vibrations that  are thought to contribute to a complex absorption peak, and thus the more  parameters involved, the better may be any produced fit. </p>
+      <p>&nbsp;</p>
+      <p>For many years Raman spectroscopy of liquid water has been  used to understand the structuring of the hydrogen bonding in liquid water. In  particular, the 3400 cm<sup>&minus;1</sup> Raman peak envelope has been analyzed using several  Gaussian or Lorentzian curves,<a title="click for an explanation" href="#c"><sup>c</sup></a> see right. The envelopes are preferentially  fitted to underlying peaks and then smoothed. In general, the more parameters  fitted to the experimental curve, the better the fit. It is not surprising that  the more fitted curves, the smaller the residuals. There are very many  questions to be asked within this argument. What shape should the underlying  peaks be? How many structures are associated with the individual peaks? How  certain can the structures associated with the peaks be described? Should the  residuals or the number of fitting parameters be minimized? Are these peaks  quantitatively associated with the number of included vibrating structures? If  so, should the peak height or area be the quantitative factor? Can analysis of  the spectra drive the understanding of the structuring in liquid water or vice  versa? </p>
+      <p>&nbsp;</p>
+      <p>Raman spectroscopy has been closely tied to discovering the  structure of water. The 3400 cm<sup>-1</sup> Raman peak envelope appears to give helpful  information concerning the structure of liquid water. But does it? The derived  information depends on the theory used, and circular arguments support  themselves. Many researchers over almost 100 years have tackled this task.  Their papers develop wide-ranging and confusingly different analyses.&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>However,  water structuring is now firmly established from other methodologies as best  interpreted using a two-state water mixture [<a title="go to cited reference" href="ref27.html#r2653">2653</a>]. This idea may help the Raman  analysis, but other factors must be considered. The assignment of symmetric stretch,  asymmetric stretch, and bending overtone is usually discarded in favor of the  assumption that combined O-H stretch vibrations are shifted due to local  hydrogen-bonding arrangements. However, and importantly, there is no consensus  about the number of underlying absorption peaks with different researchers  using two, three, four, five, or six absorptions, as shown indicatively  opposite.</p>
+      <p>&nbsp;</p>
+      <p>The vibrations associated with the O-H groups depend on any  attached hydrogen bonding strength. Strong hydrogen bonding is associated with  lower frequencies (smaller wavenumbers), and weaker hydrogen bonding is  associated with higher frequencies (greater wavenumbers). If the O-H hydrogen  atom is free, without any hydrogen bonding, then the frequencies of the  vibrations are at their highest with a higher wavenumber (~3600 cm<sup>&minus;1</sup>). As the  relative strength of hydrogen bonding is determinable by modeling, the ordering  of the peaks across the envelope might be expected to be clear-cut from the  most strongly hydrogen-bonded, through the slightly hydrogen-bonded, to the  non-hydrogen-bonded.      </p>
+      <p>&nbsp;</p>
+      <p>Initially, the peaks forming the 3400 cm<sup>-1</sup> envelope were  thought due to the symmetric stretch and asymmetric stretch vibrations and the  first overtone of the bend vibration. Over time it has been realized that the  individual stretch vibrations of each O-H bond contributed separately but  additively, and the bend overtones have lesser importance. This is because few  O-H bonds are energetically symmetrical about their oxygen atoms. All probably have  some hydrogen bond character. This fact has become apparent from the mixed  vibrations found in H<sub>2</sub>O, HOD, and D<sub>2</sub>O mixtures, where no significant vibrations  have been found separately from the combinations of the vibrations from the HOD  molecules.&nbsp;Further confusion of the Raman spectroscopy is that the Raman excitation wavelength affects the peaks in the 3000-3700 cm<sup>-1</sup> range [<a title="go to cited reference" href="ref16.html#r1536">1536</a><a name="r1536" id="r1536"></a>]. In particular, the component at about 3200 cm<sup>-1</sup> is in resonance with visible red light from a vibrational overtone.      </p>
+      <p>&nbsp;</p>
+<p>The two most significant peaks at about 3200 cm<sup>-1</sup> and 3400 cm<sup>-1</sup> are  most likely due to the expected greatest DDAA-OH (H<sub>2</sub>O with four hydrogen bonds,  two donor and two acceptor at about 3200 cm<sup>-1</sup>) and DA-OH (H<sub>2</sub>0 with two hydrogen  bonds, one donor and one acceptor at about 3400 cm<sup>-1</sup>) vibrations,  respectively, containing many second-neighbor variations. These sub-peaks  change their relative sizes (the DDAA-OH peak decreasing and the DA-OH peak  increasing) with increasing temperatures [<a title="go to cited reference" href="ref45.html#r4408">4408</a><a name="r786" id="r6"></a>, <a title="go to cited reference" href="ref45.html#r4417">4417</a><a name="r4417" id="r7"></a>]. Both peaks reduce and then disappear  at high temperatures. Although the 3200 cm<sup>-1</sup> peak was initially assigned to the  second overtone of the bending peak  [<a title="go to cited reference" href="ref45.html#r4413">4413</a><a name="r4413" id="r8"></a>], this peak is now generally accepted  as a stretch peak. These peaks probably include lesser peaks within their  areas. Assigning these significant peaks to the expected greatest DDAA-OH and  DA-OH vibrations agrees with the two-state structuring hypothesis for liquid  water that has gained wide acceptance [<a title="go to cited reference" href="ref27.html#r2653">2653</a><a name="r2653" id="r9"></a>]. The peaks, however, are not due  to single vibrations but to a multitude of related vibrations due to different  hydrogen bonding strengths. It remains to hypothesize what shapes these  combined peaks should have. Often Gaussian or Lorentzian peaks are used for  convenience,<a title="click for an explanation" href="#c"><sup>c</sup></a> but there is no solid underlying theory for such a mixture of  vibrations. Both Gaussian and Lorentzian curves fit well into the envelope,  taking up three fitting parameters. As the 3400 cm<sup>-1</sup> envelope has a broadened  base, the Lorentzian peaks fit somewhat better at the extremes without fitting  any less well with the upper parts of the peaks. The residuals of the most  prominent peaks contribute the most to the 'fit' rather than those at the  extrema and perhaps should be scaled in any comparisons. However, the choice  for the mathematical formula used is personal rather than scientific.</p>
+      <p>&nbsp;</p>
+
+      <p>The hydrogen-bond strengths of the two hydrogen bonds  associated with the stretch vibrations of H<sub>2</sub>O depend on positioning the first  four neighbors to the central water molecule and its twelve outer neighbors. The positioning of these neighbors gives between about nine (at different  energies or different primary structures [<a title="go to cited reference" href="ref45.html#r4412">4412</a><a name="r4412" id="r4412"></a>]) and 400 (with different  structures including the first and secondary hydrations) optimum structures  with continua of in-between values being allowed [<a title="go to cited reference" href="ref9.html#r852">852</a><a name="r852" id="r852"></a>]. A helpful way of  describing the cooperative/anti-cooperative nature of the water dimer hydrogen  bond is to use the nomenclature d'a'DAd''a'' where DA represents the  donor-acceptor nature of the hydrogen bond in question, the d'a' represents the  remaining donor-acceptor status of the donating water molecule and d''a''  represents the remaining donor-acceptor status of the accepting water molecule (for  examples see <a href="hydrogen_bonding.html#vibr">elsewhere</a>) [<a title="go to cited reference" href="ref9.html#r852">852</a>]. Individually, the most energetically favored  donating water molecules have the structures 02DAxx, 12DAxx, 01DAxx, and  11DAxx, with 00DAxx and 10DAxx disfavored. The most energetically favored  accepting water molecules have structures xxDA20, xxDA21, xxDA10, and xxDA11,  with xxDA00 and xxDA01 disfavored. </p>
+<p>&nbsp;</p>
+      <p>The Raman O-H stretch envelope around 3400 cm<sup>-1</sup> is often  broken down into a few symmetrical Gaussian peaks that were thought to correspond  to hydrogen-bonded water molecules with different donor (D) and acceptor (A)  hydrogen bonds. The possession of a donor hydrogen bond O-H···OH<sub>2</sub>, (shown by  the dots)&nbsp;reduces the vibrational frequency. This hydrogen bond is  strengthened by the oxygen atom accepting hydrogen bonds from neighboring water  molecules. Assignations of the lesser surrounding peaks at about 3000 cm<sup>-1</sup> and  3600 cm<sup>-1</sup> are less clear. The DAA-OH peak as assigned at about 3000 cm<sup>-1</sup> seems  out of place at first compared with the DDAA-OH peak; why is it at a shorter  wavenumber, rather than lying between the DDAA-OH and DA-OH peaks. It was  initially assigned based on calculated spectra [<a title="go to cited reference" href="ref45.html#r4409">4409</a><a name="r4409" id="r4409"></a>]. Indeed, the hydrogen  bond associated with the DAA-OH is marginally stronger than either of the  hydrogen bonds associated with DDAA-OH. This DAA-OH &nbsp;vibration is a single stretch and does not  involve the free O-H&nbsp;left on the H<sub>2</sub>O molecule, probably associated with  the 3600 cm<sup>-1</sup> peak. However, this small 3000 cm<sup>-1</sup> band may be an overtone bend  vibration and not belong to those associated with the stretch vibrations, with  the small DAA-OH&nbsp;peak lying under the DDAA-OH peak. The band or bands  close to 3600 cm<sup>-1</sup> are also likely mistakenly ascribed. Assignment of any peak  to the free H<sub>2</sub>O is not probable as there is little support elsewhere for the  presence of totally free H<sub>2</sub>O molecules in liquid water at ambient temperatures.  However, singly-linked H<sub>2</sub>O molecules may be present if held by their acceptor  hydrogen bond(s).&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>There are no free water molecules present, but the peak at  the greatest wavenumber may be due to the combination of A-OH and AA-OH peaks.  It is expected that the DDA-OH peak should lie at a lower wavenumber than the  DA-OH peak. It is not likely to be very different, however, and may be hidden  under the DA-OH peak. Any free O-H associated with the DAA-OH, DDA-OH, DA-OH, A-OH,  and AA-OH groups should all be at about the 3600 cm<sup>-1</sup> end of the envelope. The  expectedly prominent peak is not found here, rather upsetting this hypothesis  and concluding that these&nbsp;peaks may be hidden under the DA-OH peak. Thus  the two prominent peaks at about 3200 cm<sup>-1</sup> and 3400 cm<sup>-1</sup> may be mostly due to the  hydrogen-bonded and non-hydrogen-bonded O-H peaks. However, as neither the peak  heights nor the more precise peak areas are proven to correspond to the amounts  of material present, it is difficult to derive much directly from the peaks  fitted to the envelope. </p>
+<p>&nbsp;</p>
+      <p>These temperature variations may be linked to the  more-recently discovered two-state liquid water. There are many more structural  possibilities that should also be included, if they are present. The spectra  must be associated with water's dipole moment (through their polarization), and  the induced dipole moments are generated by their interaction with all the  surrounding water molecules. The calculated dipole moments of water molecules  with their immediate neighbors are shown below [<a title="go to cited reference" href="ref36.html#r3597">3597</a><a name="r3597" id="r3597"></a>]. The actual dipole  moments depend on the total of all surrounding water molecules, but this  indicates the increase in dipole moment with the increase in hydrogen bonding.  On this basis, there should be between seven and nine sub-peaks. The accessible  and singly-linked H<sub>2</sub>O would give Raman signals with the greatest wavenumbers and  the completely hydrogen-bonded DDAA-OH structure at the lowest wavenumber.      </p>
+      <p>&nbsp;</p>
+<p align="center" class="style15">Calculated dipole moments of water molecules with their immediate neighbors  [<a title="go to cited reference" href="ref36.html#r3597">3597</a>]</p>
+<p align="center" class="style15">&nbsp;</p>
+<p align="center"><img src="images/dipmo.gif" width="691" height="110" alt=""/></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>At 295 K and 0.1 MPa, the Raman spectra of H<sub>2</sub>O and D<sub>2</sub>O have  often been deconvoluted into five sub-bands (see the Raman spectra above left, from  [<a title="go to cited reference" href="ref29.html#r2830">2830</a><a name="r2830" id="r2830"></a>]. Note that the outline curves have been considerably smoothed.  Substantial residuals vary with the wavenumber and give many peaks and troughs  on smoothing [<a title="go to cited reference"  href="ref45.html#r4408">4408</a>]. Such analysis requires many (fifteen) fitted parameters. [<a title="go to cited reference" href="ref20.html#r1925">1925</a><a name="r1925" id="r1925"></a>] In this case, the five sub-bands are located at 3043 cm<sup>&minus;1</sup>, 3225 cm<sup>&minus;1</sup>, 3432 cm<sup>&minus;1</sup>, 3575 cm<sup>&minus;1</sup>,  and 3638 cm<sup>&minus;1</sup> (H<sub>2</sub>O), or 2265 cm<sup>&minus;1</sup>, 2382 cm<sup>&minus;1</sup>, 2503 cm<sup>&minus;1</sup>, 2590 cm<sup>&minus;1</sup>, and 2666  cm<sup>&minus;1</sup> (D<sub>2</sub>O), which the authors assign to O-H (O-D) vibrations engaged in DAA-OH,  DDAA-OH, DA-OH, and DDA-OH hydrogen-bonding, and free vibrations [<a title="go to cited reference" href="ref20.html#r1980">1980</a><a name="r1980" id="r1980"></a>, <a title="go to cited reference" href="ref29.html#r2894">2894</a><a name="r2894" id="r2894"></a>]. The  fitted parameters for the Gaussian peaks, assignations, and residuals vary  between researchers and between works by the same author. They should not be  thought of as exact. The two most significant vibrations are assigned to the  doubly donor-acceptor (DDA-OH) or singly donor-acceptor (DA-OH) water  molecules. Other workers assign different Gaussian peaks to this group, using  different positions, and ascribe them to different causative structures [<a title="go to cited reference" href="ref30.html#r2972">2972</a><a name="r2972" id="r2972"></a>].</p><table width="100%" border="1" cellpadding="2" summary="Assignments from different authors">
+      <caption>
+      <strong><br />
+    
+      Assignments from different authors</strong>
+      <br />
+      <br />
+      </caption>
+      <tr>
+        <th scope="col" width="8%"><div align="center"><strong>Peak</strong><sup><a title="click for an explanation" href="#a1"> a</a></sup></div></th>
+        <th scope="col" colspan="4"><div align="center"><strong>Water's assigned 
+            hydrogen bond molecular linkages</strong></div></th>
+</tr>
+      <tr>
+        <th scope="col"><div align="center">0</div></th>
+        <td width="17%" align="center">unlinked</td>
+        <td width="25%">1 bifurcated<sup><a title="click for an explanation" href="#b1"> b</a></sup>, 
+          1 trifurcated<sup><a title="click for an explanation" href="#c1"> c</a></sup></td>
+        <td width="25%">2 H-bond, donors broken</td>
+        <td width="25%">3636 cm<sup>&minus;1</sup>, unlinked</td>
+</tr>
+      <tr>
+        <th scope="col"><div align="center">1</div></th>
+        <td align="center">1 H-bond</td>
+        <td>2 bifurcated</td>
+        <td>2 H-bond, acceptors broken</td>
+        <td>3572 cm<sup>&minus;1</sup>, 3 H-bond, acceptor broken</td>
+</tr>
+      <tr>
+        <th scope="col"><div align="center">2</div></th>
+        <td align="center">2 H-bond</td>
+        <td>1 O-H H-bonded, 1 bifurcated </td>
+        <td>3 H-bond, donor broken</td>
+        <td>3430 cm<sup>&minus;1</sup>,2 H-bond, acceptor and donor broken</td>
+</tr>
+      <tr>
+        <th scope="col"><div align="center">3</div></th>
+        <td align="center">3 H-bond</td>
+        <td>Both O-H are weakly H-bonded</td>
+        <td>3 H-bond, acceptor broken</td>
+        <td>3220 cm<sup>&minus;1</sup>, 4 H-bond</td>
+</tr>
+      <tr>
+        <th scope="col"><div align="center">4</div></th>
+        <td align="center">4 H-bond</td>
+        <td>Both O-H are strongly H-bonded</td>
+        <td>4 H-bond</td>
+        <td>3014 cm<sup>&minus;1</sup>, 3 H-bond, donor broken</td>
+</tr>
+      <tr>
+        <th scope="col"><div align="center"><strong>Ref.</strong></div></th>
+        <td><div align="center">[<a title="go to cited reference"  href="ref8.html#r786">786</a>]</div></td>
+        <td><div align="center">[<a title="go to cited reference"  href="ref6.html#r573">573</a>]</div></td>
+        <td><div align="center">[<a title="go to cited reference"  href="ref7.html#r699">699</a>b]</div></td>
+        <td><div align="center">[<a title="go to cited reference"  href="ref20.html#r1925">1925</a>]</div></td>
+</tr>
+		</table></p> <p>&nbsp;</p>  <p class="style3"><sup>a<a name="a1" id="a1"></a></sup> From high to low wavenumber; 
+      0 = greatest wavenumber.<br />
+      <sup>b<a name="b1" id="b1"></a></sup> The O-H hydrogen bond is shared between two accepting 
+      water molecules.<br />
+      <sup>c<a name="c1" id="c1"></a></sup> The 
+      O-H hydrogen bond is shared between three accepting 
+      water molecules.</p>
+<p>&nbsp;</p>
+<p>More confusion 
+  in the analysis is due to the lack of a consensus 
+  view as to what these underlying absorption peaks represent. 
+  It is unclear whether the numbers of hydrogen bonds 
+  are important [<a title="go to cited reference" href="ref8.html#r786">786</a><a name="r786" id="r786"></a>], 
+  or is it the type of hydrogen bond (single, bifurcated, 
+  or trifurcated) [<a title="go to cited reference" href="ref6.html#r573">573</a><a name="r573" id="r573"></a>], 
+  the hydrogen bond bending angles [<a title="go to cited reference" href="ref5.html#r439">439</a><a name="r439" id="r439"></a>], 
+  the nature of the formed or broken donor 
+  and acceptor hydrogen bonds [<a title="go to cited reference" href="ref7.html#r699">699</a><a name="r699" id="r699"></a>b], or the length of the hydrogen bonds [<a title="go to cited reference" href="ref14.html#r1318">1318</a><a name="r1318" id="r1318"></a>].Each of these has been argued (for example, see below), but  the contributing vibrational peaks must contain all of these (and other)  contributions. The absorption bands also reflect coherent vibrational transfer  involving several to many water molecules [<a title="go to cited reference" href="ref21.html#r2003">2003</a><a name="r2003" id="r2003"></a>]. It is now believed that analysis  involving individual water molecules and Gaussian peaks may be inherently  flawed.</p>
+<p>&nbsp;</p>
+<p>As we still do not fully understand the complex vibrations  present in liquid water, setting up a model to understand the constituent  contributions to the vibrational envelope is nigh impossible. This is why most  analyses start with the spectrum and try to fit the most reasonable structures  to the number of the sub-peaks present. Both Lorentzian and Gaussian curves  [<a title="go to cited reference" href="ref45.html#r4414">4414</a>] are derived from the broadening of single vibrations due to  environmental interactions. Neither are meant to represent large numbers of  contributing peaks with different peak positions and widths. Gaussian curves  are the best at representing this continuum of sub-peaks. As found, Lorentzian  peaks can best represent peaks with extended bases but may give overall more  significant residuals. A combination of the Gaussian and Lorentzian  peaks in Voigt profiles does not  improve the situation.</p>
+		<p>&nbsp;</p>
+		<p>It should be recognized that the best mathematical (least  squares) fit might not be the best fit for the underlying structures. Also,  there will probably be several fits that ly close to the best fit, where the  natural noise in the data allows for no clear-cut favorite. Any good fit has  small residuals, but even then, various fits may have acceptably small  residuals, with the operator's choice between them being down to their personal  choice.</p></div><p>&nbsp;</p>
+    <p>&nbsp;</p>   
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+    
+   
+   
+    
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;                                                                                                                                                             </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+   
+                            
+
+    <p>&nbsp;</p> <p>&nbsp;                                                                                                                             </p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p> 
+    <p>&nbsp;</p>
+    <p>Two-dimensional Raman spectroscopy has been shown to provide information concerning water's intermolecular dynamics and may eventually provide data on the hydrogen bond network rearrangements responsible for <a title="go for more details" href="water_anomalies.html">water's anomalies</a> [<a title="go to cited reference" href="ref11.html#r1097">1097</a><a name="r1097" id="r5"></a>]. </p>
+<p>&nbsp;</p> 
+<p>A thorough and careful analysis of the combination band 
+  centered at about 5260 cm<sup>-1</sup> failed to distinguish 
+  the substructures that correlate with the vibrational sub-bands 
+  [<a title="go to cited reference" href="ref10.html#r909">909</a><a name="r909" id="r10"></a>].</p>
+<p>&nbsp;</p>
+<p>Using a pump-probe laser with 70-fs pulses at 3350 
+      cm<sup>-1</sup> (O-H stretch) and detecting the resultant 
+      molecular vibrations within the hydrogen-bonded clusters 
+      over a range of frequencies with time shows efficient energy 
+      redistribution [<a title="go to cited reference" href="ref8.html#r750">750</a><a name="r750" id="r750"></a>]. 
+      However, this method is not yet able to show structuring 
+      details. Stimulated Raman excited fluorescence (SREF) microscopy using an IR fiber laser at 1031.2 nm has been developed into a water-sensing tool by coupling it with vibrational solvatochromism using Rhodamine 800. This technique has allowed the direct visualization of the spatially-resolved distribution of water states inside single mammalian cells  [<a title="go to cited reference" href="ref38.html#r3787">3787</a><a name="r3787" id="r3787"></a>].</p>
+    <p>&nbsp;</p>
+    <p>Care must be taken if  the spectra of solutions are obtained by subtracting baseline Gaussian-like curves. This may give rise to peaks and troughs in unexpected non-physical positions (see below). In (A), the base peak (solid black line, given at 3000 cm<sup>-1</sup> is shifted by the new conditions (solid red line) by -50 cm<sup>-1</sup>. The result of the subtraction of these peaks (dashed red line) gives a new peak (at -70 cm<sup>-1</sup>) in a position different  from the peak, and a trough at +20  cm<sup>-1</sup> with no apparent physical cause.  In (B), the base peak (solid black line, given at 3000 cm<sup>-1</sup> is broadened (solid blue line) or narrowed (solid red line) by the new conditions. The results of subtraction of these peaks (dashed lines) give new peaks and troughs with no apparent physical cause. The position of the peak has not shifted, but its subtracted curve may give a peak or a trough in this position plus neighboring peaks or troughs (see below). </p>
+<p>&nbsp;</p>
+    <p align="center"><span class="style15">The results of subtracting Gaussian curves</span>.</p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><img src="images/gausubtract.gif" title="The results of subtracting Gaussian curves."  alt="The results of subtracting Gaussian curves." width="740" height="352" /></p>
+    <h2> <a name="tera" id="tera"></a>Terahertz (THz) absorption spectroscopy</h2>
+    <p><a href="constants.html#thz" title="go for more details">Terahertz</a> (THz) spectroscopy, two-dimensional  Raman-THz spectroscopy  [<a title="go to cited reference"  href="ref21.html#r2050">2050</a><a name="r2050" id="r2050"></a>] (0.3 - 20 THz &equiv; 10 - 600 cm<sup>&minus;1</sup>), and THz-FTIR spectroscopy may be used to investigate hydrogen bond network resonances, hydration dynamics, and water dynamics on the  picosecond timescale [<a title="go to cited reference"  href="ref44.html#r4352">4352</a><a name="r4352" id="r4352"></a>].  While NMR, and X-ray techniques are inadequate for describing the dynamics of the hydration layer  (2 nm - 4 nm) surrounding  biomolecules, THz spectroscopy has shown itself to be a powerful technique for this purpose [<a title="go to cited reference"  href="ref43.html#r4286">4286</a><a name="r4286" id="r4286"></a>]. THz absorption spectroscopy probes the reorientation of permanent and induced dipole moments of clusters and, from the time-dependence of these fluctuations, it is able to determine the frequency and strength of the cluster motions  [<a title="go to cited reference"  href="ref18.html#r1783">1783</a><a name="r1783" id="r1783"></a>], and the effect of a solute on the collective motions of the hydrogen-bonded network. In particular, the librational resonances of liquid water that reflect water's hydrogen bonding, can be studied. Such spectroscopy can also be used to investigate the hydration layers around biomolecules [<a title="go to cited reference"  href="ref12.html#r1196">1196</a><a name="r1196" id="r1196"></a>, <a title="go to cited reference"  href="ref15.html#r1427">1427</a>] and how they change during biological processes [<a title="go to cited reference"  href="ref23.html#r2237">2237</a><a name="r2237" id="r2"></a>]. This spectroscopy is powerful  for examining changes in water mobility and shows changes in the water structuring at greater distances from biomolecules than those found using <a href="#nmr">NMR</a> or <a href="#diff">diffraction</a> methods [<a title="go to cited reference" href="ref14.html#r1368">1368</a><a name="r1368" id="r3"></a>, <a title="go to cited reference" href="ref19.html#r1811">1811</a><a name="r1811" id="r1811"></a>].  The hydration state of solutions may be examined using terahertz time-domain attenuated total reflection spectroscopy, which makes use of the complete complex dielectric function; both the dielectric loss,  due to relaxation motion of water, and the changes in the real part of the relative permittivity (dielectric constant) [<a title="go to cited reference"  href="ref15.html#r1437">1437</a><a name="r1437" id="r1437"></a>].    </p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2> <a name="micro" id="micro"></a>Microwave (GHz) absorption spectroscopy</h2>
+    <p>Rotational spectroscopy can be used in the gas phase for small water clusters.  For example, broadband rotational spectroscopy has unambiguously identified the cage, prism, and book isomers of the water hexamer (H<sub>2</sub>O)<sub>6 </sub>[<a title="go to cited reference"  href="ref23.html#r2260">2260</a><a name="r2260" id="r2260"></a>]. </p>
+    <h2><strong><a name="sfg" id="sfg"></a>Sum frequency generation</strong></h2>
+   <figure  class="floatright">
+      <figcaption>
+  <p align="center">Sum frequency generation</p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img src="images/sfg.gif" alt="SFG; the output visible light signal (vis out) is due to the sum of the input visible beam (vis) and a resonant infrared beam" title="SFG; the output visible light signal (vis out) is due to the sum of the input visible beam (vis) and a resonant infrared beam" width="320" height="211" class="floatright" /></figure>
+   <p>Sum frequency generation (SFG) and second  harmonic generation (SHG) surface spectra are spectroscopic methods for  investigating the surface of water without interference from the bulk liquid [<a title="go to cited reference" href="ref40.html#r3980">2627</a>, <a title="go to cited reference"  href="ref40.html#r3980">3980</a><a name="r3980" id="r3980"></a>]. The  output spectra derive from a summed combination of input beams when the infrared frequency is in resonance with a vibration within the interface (for example, the O-H vibration of water, see right). As both the bulk  aqueous solution and the gas phase are isotropic, they are not active in this  spectroscopy, leaving just the anisotropic interfacial layer to provide the  spectra due to a net orientation of surface molecular dipoles. </p>
+   <p>&nbsp;</p>
+  
+<figure  class="floatleft">
+      <figcaption>
+  <p align="center">SFG spectrum of the water-vapor interface</p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img src="images/sfgwater.gif" alt="SFG spectrum of the water-vapor interface" title="SFG spectrum of the water-vapor interface"  width="240" height="209"  class="floatleft" /></figure>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>The depth of  this anisotropy governs the depth probed but is not independently determined. It may extend out to the limit of the wavelength or <a href="colligative_generation.html#g">Nernst</a> layer although mostly affected within nanometers of the interface with a definite bias towards the very outside of an aqueous interface (containing a lower density of water molecules) rather than towards the bulk. As the spectra are acquired over  periods of seconds, it is of interest that the surface mono-layer may be  exchanged millions of times during this period [<a title="go to cited reference"  href="ref25.html#r2408">2408</a><a name="r2408" id="r2408"></a>]. The result is that any  spectral features are formed from a complex combination of spectra from within this ever-changing environment.  For uncharged surfaces, the surface is only a  molecule or two thick. However, when the surface is charged as is the case with water, the implied surface-specificity of this methodology is not warranted [<a title="go to cited reference"  href="ref44.html#r4392">4392</a><a name="r4392" id="r4392"></a>]. The surface has the largest effect as can be seen from the SFG spectrum of the water-vapor interface shown left, where the surface-dangling OH groups give the most  prominent peak at  3700 cm<sup>&minus;1</sup>.   As well as not determining the depth of the surface, a further limitation of the method is that it cannot give how the orientation of the molecules varies with distance from the surface. Simulations can help to uncover these factors    [<a title="go to cited reference" href="ref40.html#r3946">3946</a><a name="r3946" id="r3946"></a>]. </p>
+   <p>&nbsp;</p>
+   <p>A version of this second harmonic generation methodology uses  soft x-rays (between 100 eV and 1 keV) [<a title="go to cited reference"  href="ref34.html#r3305">3305</a><a name="r3305" id="r3305"></a>]. This gives  high interfacial specificity of the first few molecular layers of an exposed bulk sample or either side of a buried interface.   </p>
+   <div style=" float:none; clear:both;"></div>
+   <h2><a name="xas" id="xas"></a>X-ray spectroscopy (&asymp; 500 eV) </h2>
+    <p><img class="floatleft" src="images/xray_absorption_1.gif" alt="mechanism for XAS and XES"  title="mechanism for XAS and XES" width="385" height="543" />X-ray-based techniques can be used to study the hydrogen-bond network of liquid water [<a title="go to cited reference"  href="ref20.html#r1965">1965</a><a name="r1965" id="r1965"></a>, <a title="go to cited reference"  href="ref27.html#r2623">2623</a><a name="r2623" id="r2623"></a><a title="go to cited reference"  href="ref41.html#r4051">4051</a><a name="r4051" id="r4051"></a>]. As the techniques have  attosecond timescales, they reflect the instantaneous molecular configuration of the water molecules. Difficulties interpretating these techniques are due to the lack of a robust theoretical understanding [<a title="go to cited reference"  href="ref27.html#r2623">2623</a>].</p>
+<p>&nbsp;</p>
+    
+      <p>X-ray absorption spectroscopy (XAS) involves the absorption 
+      of high-energy photons to excite core (1s, 2s) electrons 
+      to unoccupied p-character valence levels. (see the molecular orbital energy levels left). The energies required 
+      are sensitive to the local environment mostly providing information 
+      concerning the hydrogen bond donating orbitals of the absorbing molecule at very 
+      short timescales (&asymp;  10<sup>&minus;18</sup>s) [<a title="go to cited reference"  href="ref4.html#r373">373</a><a name="r373" id="r373"></a>, <a title="go to cited reference"  href="ref7.html#r690">690a</a><a name="r690" id="r690"></a>, <a title="go to cited reference"  href="ref18.html#r1757">1757</a><a name="r1757" id="r1757"></a>]. 
+		  The experimental XAS transition energies 
+		  [<a href="ref34.html#r3370" title="go to cited reference">3370</a><a name="r3370" id="r3370"></a>] are </p>
+    <p>&nbsp;</p>
+      <p align="center">1a<sub>1</sub> <sub><img src="images/reg.gif" alt="-&gt;" width="22" height="10" /></sub> 4a<sub>1</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;534.0 <a href="constants.html#ev">ev</a> </p>
+    <p align="center">1a<sub>1</sub> <sub><img src="images/reg.gif" alt="-&gt;" width="22" height="10" /></sub> 2b<sub>2</sub>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;535.9<a href="constants.html#ev"> ev</a></p>
+<p>&nbsp;</p>
+      <p>The energies given left are those calculated for isolated molecules using the Restricted Hartree-Fock wave 
+        function (RHF) using the <a href="h2o_orbitals.html#b" title="go for more information" >6-31G**</a> basis set. Some electron movements are forbidden, such as 2a<sub>1</sub> to half-empty1a<sub>1</sub> hydrogen-bonding affects the energy levels.</p>
+<p>&nbsp;</p>
+      <p> XAS has been used to investigate the hydration of concentrated salt solutions [<a title="go to cited reference"  href="ref22.html#r2170">2170</a><a name="r2170" id="r2170"></a>]. At high photon energy, expelled electrons have sufficient 
+      energy to escape from their atom (to the continuum), 
+      and at higher energies, these escaped electrons may produce 
+      signals due to backscattering. Care must be taken to avoid artifacts at the water-air surface due to desorption [<a title="go to cited reference"  href="ref15.html#r1440">1440</a><a name="r1440" id="r1440"></a>]. Soft X&#8209;ray (between 100 eV and 1 keV) absorption spectroscopy has been used on liquid microjets and flow-cells. This has enabled the general study of  liquids and solutions [<a title="go to cited reference"  href="ref34.html#r3306">3306</a><a name="r3306" id="r3306"></a>].</p>
+  <p>&nbsp;</p>
+      <p>X-ray Raman scattering (XRS) gives similar results to XAS and involves the inelastic scattering of x-rays from the core electrons.</p>
+  <div align="center" style=" float:none; clear:both;"></div>
+      <figure  class="floatright">
+      <figcaption>
+  <p align="center"><strong>X-ray absorption spectrum of liquid water</strong></p>
+  <p align="center">&nbsp;</p>
+      </figcaption>
+    <img class="floatright" src="images/xray_absorption_2.gif"  alt="X-ray absorption spectrum of liquid water, showing possible underlying gaussian contributions" title="X-ray absorption spectrum of water, showing possible underlying gaussian contributions" width="359" height="193" /></figure>
+    <p>&nbsp;</p>
+      <p>Shown right is  the O K-edge (1s) XAS of liquid water 
+      (<span class="style7">red</span>) with possible underlying 
+      Gaussian (<span class="style8">blue</span>) and continuum 
+      (<span class="style12">green</span>) contributions. </p>
+  <p>&nbsp;</p>
+      <p>The 
+      first peak in the X-Ray absorption spectrum (right) at about 535 eV (pre-edge) is due to excitation from the 
+      1s orbital to the vacant O-H <a href="h2o_orbitals.html">4a<sub>1</sub> antibonding orbital</a>. It concerns water molecules with broken and weakened H-bonds. The  post-edge bulge (~541 eV) is due to tetrahedral water molecules  with intact hydrogen bonds. Assignment of these Gaussian peaks 
+      to electron transitions depends heavily on the underlying 
+      theory (for example, see the <a title="go to 'Hydrogen bonding in water' page"  href="water_hydrogen_bonding.html#f">current 
+        dispute</a>) as there is little structure in the experimental 
+      spectrum; this spectrum varies from run to run [<a title="go to cited reference"  href="ref7.html#r690">690c</a>], 
+      between methods and between different energies of the X-rays.</p>
+      <p>&nbsp;</p>
+      <p>Thus, data fitting is error-prone. An interesting discussion 
+      of these differences has been  published [<a title="go to cited reference"  href="ref9.html#r834">834</a><a name="r834" id="r834"></a>]. </p>
+       <div align="center" style=" float:none; clear:both;"></div>
+    <p>&nbsp;</p>
+     
+      <figure  class="floatright">
+      <figcaption>
+  <p align="center"><strong>X-ray emission spectrum of water</strong></p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img class="floatright" src="images/xremit.gif" alt="X-ray emission spectrum of water, showing possible underlying gaussian contributions"  title="X-ray emission spectrum of water, showing possible underlying gaussian contributions" width="350" height="166" /></figure>
+    <p>Related to XAS is the X-ray emission spectra (XES, shown right, [<a title="go to cited reference"  href="ref18.html#r1757">1757</a>]) involving 
+      transitions from the three outermost occupied <a href="h2o_orbitals.html">molecular 
+        orbitals</a> 1b<sub>1</sub>, 3a<sub>1</sub>, and 1b<sub>2</sub> to fill the vacancy (produced as above) in the 1a<sub>1</sub> (1s) orbital [<a title="go to cited reference"  href="ref5.html#r411">411</a><a name="r411" id="r411"></a>]; 
+      peaks occurring in the 520-528 eV range and corresponding to instantaneous local structuring (&asymp;  3-4  &#739; 10<sup>&minus;15 </sup>s). X-ray emission spectroscopy shows the presence within liquid water of two well-separated peaks (split from the lone-pair non-bonding 1b<sub>1</sub> peak) that interconvert but do not broaden with changes in temperature [<a title="go to cited reference" href="ref17.html#r1639" name="r1639" id="r1639">1639</a>]. This strongly supports  a <a href="cluster_history.html#outer">two-state 
+        network model</a> such as <a href="cluster_evidence.html#2phas">presented here</a>, although it has been proposed that it may be alternatively due to ultrafast dynamics during the core-hole lifetime [<a title="go to cited reference"  href="ref22.html#r2196">2196</a><a name="r2196" id="r2196"></a>]. Further work suggests that the splitting of the 1b<sub>1</sub>  peak possibly has more than two underlying hydrogen-bonding causes [<a title="go to cited reference"  href="ref44.html#r4367">4367</a><a name="r4367" id="r4367"></a>].</p>
+<p>&nbsp;</p>
+<p>Another  improved X-ray technique is small-angle X-ray scattering (SAXS, [<a title="go to cited reference"  href="ref18.html#r1757">1757</a>]) which is sensitive to  density inhomogeneities in the nm range  has confirmed the existence of two distinctly different hydrogen-bonded environments in liquid water  [<a title="go to cited reference"  href="ref18.html#r1757">1757</a>]. </p>
+    <div class="spacer">
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+</div>
+    <hr />
+    <h2>Footnotes</h2>
+    <p> <a name="a" id="a"></a><sup>a</sup> Consider, for example, the very 
+      different photographs obtained at night of cars on the road 
+      between the use of fast flash and a natural light long exposure. Short exposures show the cars but not the roads; long exposures show the roads but not the cars.
+      An excellent illustration of the differences resulting in looking only at different aspects of a structure is given in [<a title="go to cited reference"  href="ref43.html#r4202">4202</a><a name="r4202" id="r4202"></a>] with their depiction of the tale of &ldquo;<a href="https://en.wikisource.org/wiki/The_poems_of_John_Godfrey_Saxe/The_Blind_Men_and_the_Elephant">The Blind Men and the Elephant</a>&quot; by John Godfrey Saxe. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup>b<a name="b" id="b"></a> </sup>There is evidence, however, that 
+      the spectra may be due to a continuous variation in the hydrogen 
+      bonding and not due to discrete but overlapping populations 
+      [<a title="go to cited reference"  href="ref9.html#r875">875</a><a name="r875" id="r875"></a>]. [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]</p>
+  <figure  class="floatright">
+      <figcaption>
+  <p align="center"><strong>Gaussian  curve</strong></p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img src="images/normal.gif" alt="Normal distribution curve with W=1 and centered on lambda max" title="Normal distribution curve with W=1 and centered on lambda max" width="320" height="217" class="floatright" /> </figure> 
+<p>&nbsp;</p>
+    <p><sup>c<a name="c" id="c"></a></sup><strong>Gaussian curve</strong>.There are two main ways of fitting vibrational spectra to underlying curves [<a title="go to cited reference"  href="ref45.html#r4414">4414</a><a name="r4414" id="r4414"></a>],. A Gaussian curve (<a href="http://mathworld.wolfram.com/NormalDistribution.html" title="opens new site in a pop-up window"   target="otherWin32" onclick="newWin('otherWin32')">normal 
+      distribution curve</a>) may be represented by the relationship:</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/gauss2gif.gif" alt="A(x)=e^(-x^2/(2sigma^2))" width="177" height="46" /></p>
+    <p>&nbsp;</p>
+    <p>where &sigma; is the standard deviation and b is the offset.</p>
+    <p>&nbsp;</p>
+    <p align="left">therefore, for vibrational peaks,</p>
+    <p align="center"><img src="images/gauss.gif" alt="Amplitude = maximum amplitude x exp(-0.5 x {(wavenumber -  wavenumber of peak)/(2.355 x width at half height)}squared)" width="240" height="59" /></p>
+    <p>&nbsp;</p>
+    <p>where <em>A</em> is the amplitude, <em>A</em><sub>max</sub> is the peak height, &lambda; is the wavenumber, &lambda;<sub>max</sub> is the 
+      wavenumber at the peak and <em>W</em> is the width of the 
+      peak at half-height, and the standard deviation <span class="style2">(s</span>) of the distribution <span class="style2">s</span> = W/(2   &#739; <span class="style2">&Ouml;(2 </span>  &#739; Ln (2)). Spectroscopic peaks can therefore be reduced to just three variable parameters, the position, the height,  the width at half height.</p>
+    <p>&nbsp;</p>
+    <p>The Gaussian curve assumes there are no outliers. It should be noted that although there is no theoretical reason why the actual sub-peaks should correspond precisely with Gaussian-shaped peaks,  they generally fit well. </p>
+    <p>&nbsp;</p>
+      <figure  class="floatright">
+      <figcaption>
+  <p align="center"><strong>Lorentzian  curve</strong></p>
+  <p align="center">&nbsp;</p>
+    </figcaption><img src="images/lorentz2.gif" alt="Lorentzian curve" title="Lorentzian curve" width="320" height="217" class="floatright" /></figure><p><strong>Lorentz distribution</strong>. (sometimes called the <strong>Cauchy distribution</strong>) The spectral distribution is sometimes better represented as a Lorentzian function </p>
+    <p align="center"><img src="images/lorentz.gif" alt="Lorentz distribution"  title="Lorentz distribution" width="195" height="43" /></p>
+    <p>where A<sub>max  </sub>is the maximum peak height, &lambda; is the wavenumber, &lambda;<sub>max</sub> is the position of the maximum wavenumber, and &omega;<sub>L</sub>
+    is the full width at half maximum height. </p>
+    <p>&nbsp;</p>
+    <p>When the line widths are adjusted, Lorentz and Gaussian  bands are essentially 'identical' for the upper 75% of the bands. Visual  inspection cannot tell the difference. Neither are meant to represent large  numbers of contributing peaks with different peak positions and widths.  Gaussian curves are the best at representing this continuum of sub-peaks. As found,  Lorentzian peaks can best represent peaks with extended bases but may give  overall more significant residuals. A combination of the peaks in Voigt profiles  does not improve the situation. It should be recognized that the best  mathematical (least squares) fit might not be the best fit for the underlying  structures. Also, there will probably be several fits that ly close to the best  fit, where the natural noise in the data allows for no clear-cut favorite. Any  good fit has small residuals, but even then, different fits may have acceptably  small residuals, with the operator's choice between them being down to their  personal choice. [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>, <a title="click for an explanation" href="#bc2">2</a>]    </p>
+    <p>&nbsp;</p>
+    <p><sup>d<a name="d" id="d"></a> </sup><sup>16</sup>O and <sup>18</sup>O have zero nuclear spins. [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup><a name="e" id="e"></a>e</sup> As an example of this, consider the 'average' structure of a person; nothing like a man or a woman, but somewhere in between. [<a title="click for an explanation" href="#be"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup><a name="f" id="f"></a>f</sup> The rotational correlation time is&nbsp;the  time it takes the average molecule to rotate one radian. It may  be determined by dielectric spectroscopy. [<a title="click for an explanation" href="#bf"><span title="go back to the text">Back</span></a>]
+    <!-- print end -->
+    </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="g" id="g"></a>g</sup>  V. F. Sears, Neutron scattering lengths and cross-sections, <em>Neutron News</em>, <strong>3</strong> (1992.) 26-37. [<a title="click for an explanation" href="#bg"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="h" id="h"></a>h</sup> <strong>Raman versus infrared spectroscopy</strong></p>
+    <p>&nbsp;</p>
+    <p><img src="images/co2raman.gif" width="360" height="159" alt="carbon dioxide vibrations" title="carbon dioxide vibrations" class="floatright" />Infrared spectroscopy requires that the molecular dipole moment is affected by the vibration. In Infrared  (IR) spectroscopy the electric vector of the rediation field oscillates with the same frequency as does the molecular dipole moment.    </p>
+    <p>&nbsp;</p>
+    <p>Raman spectroscopy requires that the molecular polarizability  is affected by the vibration. In Raman spectroscopy, the molecule is exposed to an electric field so forcing the electrons and nuclei to move in opposite directions. and inducing a dipole moment. This dipole moment is proportional to the electric field strength and to the molecular polarizability.    [<a title="click for an explanation" href="#bh"><span title="go back to the text">Back</span></a>]    </p>
+    <p>&nbsp;</p>
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a title="go to 'Hydrogen bonding in water' page"  href="water_hydrogen_bonding.html">Hydrogen bond</a> | <a href="clusters_overview.html">Water 
+      structuring</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2005 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->19 February, 2022<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Shell radii and occupancy of the expanded icosahedral cluster structure of water" />
+<meta name="Keywords" content="water,icosahedral,cluster,clusters,radii,shell,occupancy" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Shell radii and occupancy of water icosahedral clusters</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+  </select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/tabl1.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+    <h1><a name="Tab1" id="Tab1"></a>Radii 
+      and Occupancy of the Shells of Expanded Clusters</h1>
+    <br />
+    <p align="left">The occupancies of the shells of <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">expanded</a> clusters are shown below. The radii are given from the center of 
+      a modeled super-cluster (thirteen complete but overlapping icosahedra; 
+      6&frac12; &#739; 280&nbsp; =1820 water molecules) to the center of the outermost oxygen atoms. The number of water molecules 
+      and&nbsp; interstitial cavities are given, together with the percentage 
+      of singly (n<sub>1</sub>), doubly (n<sub>2</sub>), trebly (n<sub>3</sub>), 
+      and tetra (n<sub>4</sub>) hydrogen-bonded water molecules, assuming 
+      that no outer water molecules are further hydrogen-bonded. On this 
+      basis, the second to last column gives the percentage hydrogen bonding (100% = each water molecule has a share in four hydrogen bonds) within 
+      the cluster (see <a title="click for an explanation" href="#graph">Graph</a> below). The number of </p>
+    <p>H&ndash;bonds/H<sub>2</sub>O give an indication of the enthalpic stability/H<sub>2</sub>O of the cluster, with the entropic stability inversely indicated by the number of water molecules present. The larger clusters, therefore, become relatively more stable at lower temperatures and higher enthalpic stability per H<sub>2</sub>O molecule.</p>
+    <p>&nbsp;</p>
+    <div align="center">
+      <table width="600px" border="1" cellpadding="4" cellspacing="0" summary="Shell content in the expanded cluster">
+        <caption>
+        <strong class="style15">Shell content in the expanded cluster</strong>
+        </caption>
+        <tr style="height:12.75pt">
+          <th width="7%" height="17" align="center" style="width:8%" scope="col" ><strong>Shell</strong></th>
+          <th width="10%" align="center" style="width:12%" scope="col" ><strong>Radius<br />
+            nm</strong></th>
+          <th width="13%" align="center" style="width:16%" scope="col" ><strong>Water<br />
+            molecules</strong></th>
+          <th width="11%" align="center" style="width:12%" scope="col" ><strong>Cavities</strong></th>
+          <th width="6%" align="center" style="width:9%" scope="col" ><strong>% n<sub>1</sub></strong></th>
+          <th width="6%" align="center" style="width:9%" scope="col" ><strong>% n<sub>2</sub></strong></th>
+          <th width="6%" align="center" style="width:9%" scope="col" ><strong>% n<sub>3</sub></strong></th>
+          <th width="6%" align="center" style="width:9%" scope="col" ><strong>% n<sub>4</sub></strong></th>
+          <th width="17%" align="center" style="width:14%" scope="col" ><strong>%<br />
+            H-bonds</strong></th>
+          <th width="18%" align="center" style="width:14%" scope="col" ><p><strong>H-bonds</strong>          </p>
+          <p><strong>/H<sub>2</sub>O</strong></p></th>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">0.00</th>
+          <td align="center">&nbsp;</td>
+          <td align="center" scope="row">1</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center">1</th>
+          <td align="center">0.38</td>
+          <td align="center">20</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">100</td>
+          <td align="center">0</td>
+          <td align="center">75.0</td>
+          <td align="center">1.50</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">0.54</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">2</th>
+          <td align="center">0.66</td>
+          <td align="center">20</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">50</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">50</td>
+          <td align="center">62.5</td>
+          <td align="center">1.25</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">3</th>
+          <td align="center">0.80</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">60</td>
+          <td align="center">40</td>
+          <td align="center">85.0</td>
+          <td align="center">1.70</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">0.97</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">4</th>
+          <td align="center">1.07</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">38</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">63</td>
+          <td align="center">71.9</td>
+          <td align="center">1.44</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">5</th>
+          <td align="center">1.14</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">55</td>
+          <td align="center">45</td>
+          <td align="center">86.4</td>
+          <td align="center">1.73</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">6</th>
+          <td align="center">1.23</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">43</td>
+          <td align="center">57</td>
+          <td align="center">89.3</td>
+          <td align="center">1.79</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">1.35</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">7</th>
+          <td align="center">1.43</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">18</td>
+          <td align="center">0</td>
+          <td align="center">18</td>
+          <td align="center">65</td>
+          <td align="center">82.4</td>
+          <td align="center">1.65</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">8</th>
+          <td align="center">1.48</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">30</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">70</td>
+          <td align="center">77.5</td>
+          <td align="center">1.55</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">9</th>
+          <td align="center">1.51</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">13</td>
+          <td align="center">26</td>
+          <td align="center">61</td>
+          <td align="center">87.0</td>
+          <td align="center">1.74</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">1.51</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">10</th>
+          <td align="center">1.59</td>
+          <td align="center">30</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">18</td>
+          <td align="center">12</td>
+          <td align="center">69</td>
+          <td align="center">87.8</td>
+          <td align="center">1.76</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">11</th>
+          <td align="center">1.63</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">16</td>
+          <td align="center">11</td>
+          <td align="center">73</td>
+          <td align="center">89.1</td>
+          <td align="center">1.78</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">12</th>
+          <td align="center">1.75</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">10</td>
+          <td align="center">20</td>
+          <td align="center">70</td>
+          <td align="center">90.2</td>
+          <td align="center">1.80</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">13</th>
+          <td align="center">1.78</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center"><p>9</p></td>
+          <td align="center">9</td>
+          <td align="center">9</td>
+          <td align="center">73</td>
+          <td align="center">86.6</td>
+          <td align="center">1.73</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">1.81</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">14</th>
+          <td align="center">1.82</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">8</td>
+          <td align="center">8</td>
+          <td align="center">8</td>
+          <td align="center">75</td>
+          <td align="center">87.7</td>
+          <td align="center">1.75</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">15</th>
+          <td align="center">1.87</td>
+          <td align="center">20</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">16</td>
+          <td align="center">11</td>
+          <td align="center">73</td>
+          <td align="center">89.3</td>
+          <td align="center">1.79</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">16</th>
+          <td align="center">1.91</td>
+          <td align="center">120</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">14</td>
+          <td align="center">9</td>
+          <td align="center">77</td>
+          <td align="center">90.8</td>
+          <td align="center">1.82</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">17</th>
+          <td align="center">2.06</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">6</td>
+          <td align="center">13</td>
+          <td align="center">2</td>
+          <td align="center">78</td>
+          <td align="center">88.2</td>
+          <td align="center">1.76</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">18</th>
+          <td align="center">2.07</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">6</td>
+          <td align="center">6</td>
+          <td align="center">14</td>
+          <td align="center">74</td>
+          <td align="center">88.9</td>
+          <td align="center">1.78</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">19</th>
+          <td align="center">2.10</td>
+          <td align="center">120</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">5</td>
+          <td align="center">13</td>
+          <td align="center">82</td>
+          <td align="center">94.1</td>
+          <td align="center">1.88</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">2.12</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">20</th>
+          <td align="center">2.17</td>
+          <td align="center">20</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">2</td>
+          <td align="center">5</td>
+          <td align="center">11</td>
+          <td align="center">82</td>
+          <td align="center">93.4</td>
+          <td align="center">1.87</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <td height="17" style="height:12.75pt" align="center">&nbsp;</td>
+          <th align="center" scope="row">2.17</th>
+          <td align="center">&nbsp;</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">21</th>
+          <td align="center">2.19</td>
+          <td align="center">30</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">2</td>
+          <td align="center">3</td>
+          <td align="center">16</td>
+          <td align="center">80</td>
+          <td align="center">93.5</td>
+          <td align="center">1.87</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">22</th>
+          <td align="center">2.23</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">2</td>
+          <td align="center">2</td>
+          <td align="center">15</td>
+          <td align="center">81</td>
+          <td align="center">93.9</td>
+          <td align="center">1.88</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">23</th>
+          <td align="center">2.27</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">7</td>
+          <td align="center">14</td>
+          <td align="center">79</td>
+          <td align="center">93.0</td>
+          <td align="center">1.86</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">24</th>
+          <td align="center">2.33</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">4</td>
+          <td align="center">4</td>
+          <td align="center">13</td>
+          <td align="center">78</td>
+          <td align="center">91.0</td>
+          <td align="center">1.82</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">25</th>
+          <td align="center">2.35</td>
+          <td align="center">120</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">12</td>
+          <td align="center">12</td>
+          <td align="center">75</td>
+          <td align="center">90.8</td>
+          <td align="center">1.82</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">26</th>
+          <td align="center">2.41</td>
+          <td align="center">120</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">23</td>
+          <td align="center">77</td>
+          <td align="center">94.3</td>
+          <td align="center">1.89</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">&nbsp;</th>
+          <td align="center">2.43</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">27</th>
+          <td align="center">2.47</td>
+          <td align="center">120</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">7</td>
+          <td align="center">11</td>
+          <td align="center">82</td>
+          <td align="center">93.8</td>
+          <td align="center">1.88</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">28</th>
+          <td align="center">2.47</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">20</td>
+          <td align="center">80</td>
+          <td align="center">94.9</td>
+          <td align="center">1.90</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">&nbsp;</th>
+          <td align="center">2.47</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">&nbsp;</th>
+          <td align="center">2.54</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">20</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">29</th>
+          <td align="center">2.66</td>
+          <td align="center">60</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">0</td>
+          <td align="center">0</td>
+          <td align="center">20</td>
+          <td align="center">80</td>
+          <td align="center">95.1</td>
+          <td align="center">1.90</td>
+    </tr>
+        <tr style="height:12.75pt">
+          <th height="17" style="height:12.75pt" align="center" scope="row">&nbsp;</th>
+          <td align="center">2.94</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">12</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><strong>Hydrogen bonding in expanded water <a href="strand.html#Fig6">clusters</a>.</strong></p>
+    <p align="center"><br />
+      <a name="graph" id="graph"><img src="images/spher1.gif" width="400" height="329" alt="H-bonding graph" title="H-bonding graph"  /></a></p>
+    <p align="center">&nbsp;</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html">Icosahedral water clusters </a>| <a href="strand.html">Super-cluster structures</a> | <a title="go to 'Evidence for water clusters' page"  href="cluster_evidence.html">Evidence for icosahedral clusters</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2003 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->29 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Hydrogen bonding and information transfer" />
+<meta name="Keywords" content="hydrogen bonding, information transfer,water" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Hydrogen bonding and information transfer</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<script language="javascript" type="text/javascript">
+<!--
+n=0;
+img="images/10da01.gif, images/10da00.gif, images/10da10.gif, images/10da20.gif, images/10da11.gif, images/10da21.gif, images/00da01.gif, images/00da00.gif, images/00da10.gif, images/00da20.gif, images/00da11.gif, images/00da21.gif, images/11da01.gif, images/11da00.gif, images/11da10.gif, images/11da20.gif, images/11da11.gif, images/11da21.gif, images/01da01.gif, images/01da00.gif, images/01da10.gif, images/01da20.gif, images/01da11.gif, images/01da21.gif, images/12da01.gif, images/12da00.gif, images/12da10.gif, images/12da20.gif, images/12da11.gif, images/12da21.gif, images/02da01.gif, images/02da00.gif, images/02da10.gif, images/02da20.gif, images/02da11.gif, images/02da21.gif, " .split(", ");
+nimg=img.length;
+imgs=new Array();
+for (i in img){
+	imgs[i]=new Image();
+	imgs[i].src=img[i];
+	}
+function sho(src,dir){
+n=dir;
+document.images[src].src=imgs[n].src;
+}
+//-->
+</script>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://water.lsbu.ac.uk/water/hydrogen_bonding.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+    <h1>Hydrogen-bonding and information transfer</h1>
+    <p> <img src="images/hbond_r.gif" alt="Mobile protons and electrons" title="Mobile protons and electrons" width="280" height="160" class="floatright" />Hydrogen bonds are responsible for the life-giving properties of water.</p>
+    <p>&nbsp;</p>
+    <p><span class="style16"><img src="images/redleft.gif" alt="V" width="13" height="12" border="0"/> <a href="hydrogen_bonds.html" title="go to the ection">Hydrogen bonds</a><br />
+      <img src="images/redleft.gif" alt="V" width="13" height="12" border="0"/><a href="water_hydrogen_bonding.html" title="go to first page"> Water hydrogen bonds</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#coop" title="go to section below"> Hydrogen bond cooperativity</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#quantum" title="go to section below"> Quantum effects</a><br/>
+<img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#wire" title="go to section below">Water hydrogen bond 'wires'</a><br />
+        <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#rear" title="go to section below"> Rearranging hydrogen bonds</a><br />
+        <img src="images/redown.gif" alt="V" width="13" height="12" border="recog"/><a href="#recog" title="go to section below"> Hydrogen bonding and molecular recognition</a><br />
+        <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#bif" title="go to section below"> Bifurcated hydrogen bonds</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#inf" title="go to section below"> Information transfer</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#solacid" title="go to section below"> Hydrogen bonds and solubility</a></span>
+</p>
+    <p>&nbsp;</p>
+    <div class="style10">
+    <p align="center"><em>'I believe ... it will be found  that the significance   of the hydrogen bond for physiology is greater than that of any other   single structural feature.'</em></p>
+</div>
+    <div  class="style4">
+      <p align="right"><a href="water.html#linus">Linus Pauling</a>, 1939&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+    <h2><a name="coop" id="coop"></a>Hydrogen bond cooperativity</h2>
+    <p>When a hydrogen bond forms between two water molecules, the 
+      redistribution of electrons changes the ability for further 
+      hydrogen bonding. The water molecule donating the hydrogen 
+      atom has increased electron density in its 'lone pair' region 
+      [<a title="go to cited reference" href="ref6.html#r577">577</a><a name="r577" id="r577"></a>], which 
+      encourages hydrogen bond acceptance. The accepting water 
+      molecule has reduced electron density centered on its hydrogen 
+      atoms and its remaining 'lone pair' region [<a title="go to cited reference" href="ref6.html#r577">577</a>], 
+      which encourages further donation but discourages further 
+      acceptance of hydrogen bonds. This electron redistribution 
+      thus results in  cooperativity (<em>e.g., </em>accepting 
+      one hydrogen bond encourages the donation of another) and 
+      anti-cooperativity (for example, accepting one hydrogen bond 
+      discourages acceptance of another) in hydrogen bond formation 
+      in water networks. Cooperative hydrogen-bonding increases 
+      the O-H bond length while causing a 20-fold greater reduction 
+      in the H&middot;&middot;&middot;&middot;O and O&middot;&middot;&middot;&middot;O 
+      distances [<a title="go to cited reference" href="ref5.html#r436">436</a><a name="r436" id="r436"></a>]. The increase in bond length has been correlated with the hydrogen bond strength and resultant O-H stretch vibrations [<a title="go to cited reference"  href="ref14.html#r1318">1318</a><a name="r1318" id="r1318"></a>]. Thus O&middot;&middot;&middot;&middot;O 
+      distances within clusters are likely to be shorter than those 
+      at the periphery, in agreement with the <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html">icosahedral 
+      cluster model</a>. If the hydrogen bond is substantially bent 
+      then it follows that the bond strength is weaker. The main 
+      criteria to determine the strength of hydrogen bonds are their 
+      (relatively inaccurately determined) intermolecular distances 
+      and the (more precise) wavenumbers of their stretching <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">vibrational 
+      modes</a> and those of the donor hydrogen covalent bond.<sup><a title="click for an explanation" href="#a"> a</a><a name="ba" id="ba"></a></sup> Any factor, such as <a title="click for an explanation" href="dielectric_constant.html#polar">polarization</a>, that reduces the hydrogen 
+      bond length, is expected to increase its covalency. </p>
+    <p>&nbsp;</p>
+    <p><a name="b" id="b"></a>There 
+      is still some dispute over the size of this partial covalency in water with both 'in favor' (for example, [<a title="go to cited reference" href="ref5.html#r411">411</a><a name="r411" id="r411"></a>] gives 
+      the <a href="h2o_orbitals.html">3<em>a</em><sub>1</sub> orbital</a> as most responsible for the hydrogen-bonding via orbital mixing and  [<a title="go to cited reference" href="ref35.html#r3423">3423</a><a name="r3423" id="r3423"></a>]  finding that charge transfer likely accounts for over half of the hydrogen bond energy), 
+      'against' (for example, [<a title="go to cited reference" href="ref5.html#r437">437</a><a name="r437" id="r437"></a>] 
+      favors 'antibonding' rather than bonding due to the charge 
+      transfer and  [<a title="go to cited reference" href="ref5.html#r438">438</a><a name="r438" id="r438"></a>] suggests that the covalency hypothesis is heavily contaminated with basis-set superposition error [<a title="go to cited reference" href="ref32.html#r3140">3140</a><a name="r3140" id="r3140"></a>]) and 'neutral', in the recent literature. If the water hydrogen bond is considered 
+      within the context of the complete range of molecular hydrogen 
+      bonding, then it appears most probable that it is not solely 
+      electrostatic [<a title="go to cited reference" href="ref5.html#r447">447</a><a name="r447" id="r447"></a>]. Indeed, (a) the <a title="go for more information" href="water_dissociation.html">dissociation of water</a>, (b) the formation of the <a title="go for more information" href="water_dissociation.html">symmetrical 'Zundel' H<sub>5</sub>O<sub>2</sub><sup>+</sup><sub> </sub>ion</a>, (c) the continuous transformation of <a title="go to find more on structure"  href="ice_vii.html">ice <span class="style1">VII</span></a> to <a title="go to find more on structure"  href="ice_x.html">ice <span class="style1">X</span></a>, and (d) the lower <a href="water_properties.html#ip">ionization potential</a> for liquid water relative to water vapor would all seem to indicate a continuity of electron sharing between 
+      water molecules. Although N-H&middot;&middot;&middot;&middot;N 
+      and N-H&middot;&middot;&middot;&middot;O hydrogen bonds are 
+      known to be weaker than the O-H&middot;&middot;&middot;&middot;O 
+      hydrogen bonds in water, there is clear evidence for these bonds' 
+      covalent natures from <a title="go for more information" href="water_methods.html#nmr"><abbr title="Nuclear Magnetic Resonance">NMR </abbr></a>[<a title="go to cited reference" href="ref34.html#r3347">3347</a><a name="r3347" id="r3347"></a>]. In nucleic acids, inter-nucleotide 
+      N-H&middot;&middot;&middot;&middot;N coupling (<sup>2</sup><em>J</em><sub>NN</sub>, 
+      using <sup>15</sup>N nuclei) confirms some covalent nature 
+      in the N-H&middot;&middot;&middot;&middot;N hydrogen bond 
+      [<a title="go to cited reference" href="ref8.html#r779">779</a><a name="r779" id="r779"></a>]. Also, 
+      3-bond NMR (<sup>3</sup><em>J</em><sub>NC</sub>) splitting 
+      has been found through peptide N-H&middot;&middot;&middot;&middot;O=C 
+      hydrogen bonds in proteins, confirming some covalent nature 
+      in the N-H&middot;&middot;&middot;&middot;O hydrogen bond 
+      [<a title="go to cited reference" href="ref8.html#r780">780</a><a name="r780" id="r780"></a>]. A quantitative relationship between the calculated covalency of hydrogen bonds in liquid water and the experimental anisotropy of the proton magnetic shielding tensor has been established. This has enabled the estimation of 0.01 e<sup>&minus;</sup> electron transfer between the hydrogen-bonded water molecules with associated stabilization energy of 15 kJ  &#739; mol<sup>&minus;1</sup> due to this charge transfer  [<a title="go to cited reference" href="ref25.html#r2437">2437</a><a name="r2437" id="r24373"></a>]. The <a href="hydrogen_bonds.html">current definition for a hydrogen bond </a>involves  evidence for bond formation, which necessarily requires  electron delocalization. Such electron delocalization in the water dimer has been estimated to involve a charge transfer of 0.0146 e<sup>&minus;</sup> [<a title="go to cited reference" href="ref23.html#r2202">2202</a><a name="r2202" id="r2202"></a>]. </p>
+    <p>&nbsp;</p>
+    <p> However, any covalency will increase the network stability 
+      relative to purely electrostatic effects. The hydrogen bond 
+      in water dimers is sufficiently strong to result in the dimers 
+      persisting within the gas state within the lower atmosphere (troposphere) at significant concentrations 
+      [<a href="ref20.html#r1977" name="r1977" title="go to cited reference" id="r1977">1977</a>] (for example, &asymp; 0.1% H<sub>2</sub>O at 25&nbsp;&deg;C 
+      and 85% <a href="water_vibrational_spectrum.html#l">humidity</a>) to contribute significantly to the <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">absorption 
+      of sunlight</a> and atmospheric reaction kinetics [<a href="ref3.html#r266" name="r266" title="go to cited reference" id="r266">266</a>]. 
+      The molecular orbitals involved in the hydrogen bonding between <a href="h4o2_orbitals.html" title="go to a page with further details of these molecular orbitals">two water molecules</a> and <a href="h10o5_orbitals.html" title="go to a page with further details of these molecular orbitals">five water molecules</a> in 
+      a cyclic pentamer are given on other pages.</p>
+    <p>&nbsp;</p>
+    <p>Liquid water contains  the densest hydrogen bonding 
+      of any solvent, with almost as many hydrogen bonds as there 
+      are covalent bonds. These hydrogen bonds can rapidly rearrange 
+      in response to changing conditions and environments (for example, solutes). The hydrogen-bonding patterns are random in water 
+      (and ice Ih); 
+      for any water molecule chosen at random, there is equal probability 
+      (50%) that the four hydrogen bonds (that is, the two 
+      hydrogen donors and the two hydrogen acceptors) are located 
+      at any of the four sites around the oxygen. Water molecules 
+      surrounded by four hydrogen bonds tend to clump together, 
+      forming clusters, for both statistical [<a href="ref.html#r11" name="r11" title="go to cited reference" id="r11">11</a>] 
+      and energetic reasons. Hydrogen-bonded chains (that is, O-H&middot;&middot;&middot;&middot;O-H&middot;&middot;&middot;&middot;O) 
+      are cooperative [<a title="go to cited reference" href="ref4.html#r379">379</a><a name="r379" id="r379"></a>]; 
+      the breakage of the first bond is the hardest, then the next 
+      one is weakened, and so on (see the <a href="h10o5_orbitals.html"  title="go to a page with further details of these molecular orbitals">cyclic 
+      water pentamer</a>). Thus unzipping may occur with complex 
+      macromolecules held together by hydrogen-bonding, for example, nucleic acids. Such cooperativity is a fundamental property 
+      of liquid water where hydrogen bonds are up to 250% stronger 
+      than the single hydrogen bond in the <a href="h4o2_orbitals.html" title="go to a page with further details of these molecular orbitals">dimer</a> [<a href="ref.html#r77" name="r77" title="go to cited reference" id="r77">77</a>]. This cooperativity gives rise to a collective nature in the water vibrations   [<a title="go to cited reference" href="ref29.html#r2837">2837</a><a name="r2837" id="r2837"></a>]. A strong base at 
+      the end of a chain may strengthen the bonding further. The 
+      cooperative nature of the hydrogen bond means that acting 
+      as an acceptor strengthens the water molecule acting as a 
+      donor [<a href="ref.html#r76" name="r76" title="go to cited reference" id="r76">76</a>]. <a name="anti" id="anti"></a>However, 
+      there is an anti-cooperative aspect in so far as acting as 
+      a donor weakens the capability to act as another donor, for example, O&middot;&middot;&middot;&middot;H-O-H&middot;&middot;&middot;&middot;O 
+      [<a title="go to cited reference" href="ref.html#r77">77</a>]. Therefore, It is clear that 
+      a water molecule with two hydrogen bonds, where they act as 
+      both donor and acceptor, is somewhat stabilized relative to 
+      one where it is either the donor or acceptor of two  [<a href="ref40.html#r3951" name="r3951" title="go to cited reference" id="r3951">3951</a>]. This 
+      is the reason why it is suspected that the first two hydrogen 
+      bonds (donor and acceptor) give rise to the strongest hydrogen 
+      bonds [<a href="ref.html#r79" name="r79" title="go to cited reference" id="r79">79</a>]. <a name="DA" id="DA"></a>A useful way of describing the cooperative/anti-cooperative 
+      nature of the water dimer hydrogen bond is to use the nomenclature 
+      d'a'DAd''a'' where DA represents the donor-acceptor nature 
+      of the hydrogen bond, the d'a' represents the remaining donor-acceptor 
+      status of the donating water molecule, and d''a'' represents 
+      the remaining donor-acceptor status of the accepting water 
+      molecule [<a title="go to cited reference" href="ref9.html#r852">852</a><a name="r852" id="r852"></a>]. 
+      Individually, the most energetically favored donating water 
+      molecules have the structures 02DAxx, 12DAxx, 01DAxx, and 11DAxx with 00DAxx 
+      and 10DAxx disfavored whereas the most energetically favored 
+      accepting water molecules have the structures xxDA20, xxDA21, xxDA10, 
+      and xxDA11 with xxDA00 and xxDA01 disfavored. Related analyses have utilized the (H<sub>2</sub>O)<sub>6</sub> clusters [<a title="go to cited reference" href="ref28.html#r2798">2798</a><a name="r2798" id="r2798"></a>],  (H<sub>2</sub>O)<sub>8</sub>, (H<sub>2</sub>O)<sub>20</sub> and (H<sub>2</sub>O)<sub>24</sub> clusters including next-neighbor water molecules [<a title="go to cited reference" href="ref28.html#r2800">2800</a><a name="r2800" id="r2800"></a>], and an interesting push-pull mechanism [<a title="go to cited reference" href="ref30.html#r2984">2984</a><a name="r2984" id="r2984"></a>, <a title="go to cited reference" href="ref30.html#r2999">2999</a><a name="r2999" id="r2999"></a>].</p>
+    <p>&nbsp;</p>
+    
+    <table width="100%" border="1" cellpadding="2" cellspacing="0" summary="Water hydrogen bonding cartoon">
+      <caption>
+      <strong><a name="vibr" id="vibr"></a>Water hydrogen-bonding</strong>
+      <br />
+      <br />
+      </caption>
+      <tr>
+        <td colspan="7"><div align="center">anti-cooperative&nbsp;<img src="images/ar2.gif" width="40" height="12" align="middle" alt="-&gt;" />&nbsp;cooperative 
+            (=&nbsp;-d'+a'+d''-a'')</div></td>
+        <td width="49%" rowspan="19" align="center" valign="middle"><div align="center"><img src="images/12da21.gif" alt="Hydrogen bonding around a central donor-acceptor hydrogen bond; d'a'DAd''a''" name="pic" align="middle" id="pic" /></div></td>
+</tr>
+      <tr> </tr>
+      <tr>
+        <td><div align="center">-2</div></td>
+        <td><div align="center">-1</div></td>
+        <td><div align="center">0</div></td>
+        <td><div align="center">1</div></td>
+        <td><div align="center">2</div></td>
+        <td><div align="center">3</div></td>
+        <td><div align="center">4</div></td>
+</tr>
+      <tr>
+        <td colspan="7"><div align="center"><img src="images/ar1.gif" width="40" height="20" align="middle" alt="-" />&nbsp;increasing 
+            hydrogen bond strength&nbsp;<img src="images/ar2.gif" width="40" height="12" align="middle" alt="-&gt;" /></div></td>
+</tr>
+      <tr>
+        <td><div align="center">0<sup><a name="bc" id="bc"></a><a title="click for an explanation" href="#c">b</a></sup></div></td>
+        <td><div align="center">6</div></td>
+        <td><div align="center">12</div></td>
+        <td><div align="center">18</div></td>
+        <td><div align="center">24</div></td>
+        <td><div align="center">30</div></td>
+        <td><div align="center">36</div></td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',0);return false;">10DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',1);return false;">10DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',2);return false;">10DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',3);return false;">10DA20</a></span></div></td>
+        <td rowspan="2">&nbsp;</td>
+        <td rowspan="6">&nbsp;</td>
+        <td rowspan="10">&nbsp;</td>
+</tr>
+      <tr>
+        <td rowspan="11">&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',4);return false;">10DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',5);return false;">10DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',6);return false;">00DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',7);return false;">00DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',8);return false;">00DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',9);return false;">00DA20</a></span></div></td>
+</tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',10);return false;">00DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',11);return false;">00DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',12);return false;">11DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',13);return false;">11DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',14);return false;">11DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',15);return false;">11DA20</a></span></div></td>
+</tr>
+      <tr>
+        <td rowspan="7">&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',16);return false;">11DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',17);return false;">11DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',18);return false;">01DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',19);return false;">01DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',20);return false;">01DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',21);return false;">01DA20</a></span></div></td>
+</tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',22);return false;">01DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',23);return false;">01DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',24);return false;">12DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',25);return false;">12DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',26);return false;">12DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',27);return false;">12DA20</a></span></div></td>
+</tr>
+      <tr>
+        <td rowspan="3">&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',28);return false;">12DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',29);return false;">12DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+      <tr>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',30);return false;">02DA01</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',31);return false;">02DA00</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',32);return false;">02DA10</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',33);return false;">02DA20</a></span></div></td>
+</tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',34);return false;">02DA11</a></span></div></td>
+        <td><div align="center"><span class="style3"><a title="click for an explanation" href="#" onclick="sho('pic',35);return false;">02DA21</a></span></div></td>
+        <td>&nbsp;</td>
+</tr>
+</table>
+    <p>&nbsp;</p>
+    <p>The dipole moment of each water molecule changes due to the induced dipole moments which are generated by its interaction with all the surrounding molecules. The calculated dipole moments of water molecules with their immediate neighbors are shown below [<a title="go to cited reference" href="ref36.html#r3597">3597</a><a name="r3597" id="r3597"></a>] (A = oxygen acceptor hydrogen bond, D = hydrogen donor hydrogen bond). The actual dipole moments will depend on the sum total of all surrounding water molecules but this  indicates the increase in dipole moment with the increase in hydrogen bonding.</p>
+    <p>&nbsp;</p>
+    <p align="center" class="style15">Calculated dipole moments of water molecules with their immediate neighbors  [<a title="go to cited reference" href="ref36.html#r3597">3597</a>]</p>
+    <p align="center" class="style15">&nbsp;</p>
+    <p align="center"><img src="images/dipmo.gif" width="691" height="110" alt=""/></p>
+    <p>&nbsp;</p>
+    <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">The calculated hydrogen bond strength versus bond length [<a href="ref19.html#r1829" name="r1829" title="go to cited reference" id="r">1829</a>]</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/hydrogen_bond_strength.gif" width="400" height="217" alt="Change in the maximum hydrogen bond strength with bond length, calculated [1829]" title="Change in the maximum hydrogen bond strength with bond length, calculated [1829]"/></figure>
+    <a name="hbstr" id="hbstr"></a>
+    <p>Using a quantum chemical calculation of different clusters of water molecules has shown that the hydrogen-bonding strength can vary for as much as 90% between extreme cases of cooperativity and anti-cooperativity with cooperativity increasing  (&asymp; 3 kJ  &#739; mol<sup>&minus;1</sup>) the bond strength and reducing (&asymp; 0.03 <a href="constants.html#ang" title="Angstrom">&Aring;</a>)  the hydrogen bond length per added molecule and anti-cooperativity reversing these effects by the same amounts. The hydrogen bond strength is computed to vary for as much as 90% between extreme cases of cooperativity and anti-cooperativity  [<a href="ref19.html#r1829" title="go to cited reference">1829</a>]. From this calculation, the difference in effect between the two anti-cooperative and four cooperative interactions in the above table would be &asymp; 18  kJ  &#739; mol<sup>&minus;1</sup> and &asymp; 0.18 <a href="constants.html#ang" title="Angstrom">&Aring;</a>.
+    </p>
+    <p>&nbsp;</p>
+    <p>Cations may induce strong cooperative hydrogen-bonding around 
+      them due to the polarization of water O-H by cation-lone pair 
+      interactions (Cation<sup>+</sup>&middot;&middot;&middot;&middot;O-H&middot;&middot;&middot;&middot;O-H). 
+      Luck <em>et al. </em>[<a href="ref.html#r78" name="r78" title="go to cited reference" id="r78">78</a>] 
+      introduced a cooperativity factor for this effect, which varied 
+      as the <a title="go to find more on ionic effects" href="hofmeister_series.html">Hofmeister series</a> from 
+      K<sup>+</sup> (1.08) to Zn<sup>2+ </sup>(2.5). Total hydrogen 
+      bonding around ions may be disrupted as if the electron 
+      pair acceptance increases (for example, in the water around cations) 
+      so the electron pair donating power of these water molecules 
+      is reduced, with opposite effects in the hydration water around 
+      anions. These changes in the relative hydration ability of 
+      salt solutions are responsible for the swelling and deswelling 
+      behavior of hydrophilic polymer gels [<a href="ref4.html#r317" name="r317" title="go to cited reference" id="r317">317</a>].</p>
+    <p>&nbsp;</p>
+    <p>The substantial cooperative strengthening of the hydrogen bond 
+      in water is dependent on long-range interactions [<a href="ref.html#r98" name="r98" title="go to cited reference" id="r98">98</a>]. 
+      This cooperative effect may be stronger in chains of <a title="go to 'Water molecular structure' page"  href="water_molecule.html#ortho">ortho-water</a> molecules due to spin coupling [<a href="ref21.html#r2041" name="r2041" title="go to cited reference" id="r2041">2041</a>]. Breaking one bond generally weakens<sup><a title="click for an explanation" href="#d"> c</a><a name="bd" id="bd"></a></sup> those around, whereas making one bond generally strengthens 
+      those around, and this, therefore, encourages larger clusters 
+      for the same average bond density. The hydrogen-bonded cluster 
+      size in water at 0&nbsp;&deg;C has been estimated to be 400 [<a title="go to cited reference" href="ref.html#r77">77</a>, <a  href="ref18.html#r1791" name="r1791" title="go to cited reference" id="r1791">1791</a>]. 
+      A weakly hydrogen-bonding surface restricts the hydrogen-bonding 
+      potential of adjacent water so that these make fewer and weaker 
+      hydrogen bonds. As hydrogen bonds strengthen each other in 
+      a cooperative manner, such weak bonding also persists over 
+      several layers and may cause locally changed solvation. Conversely, 
+      strong hydrogen bonding will be evident at a distance. The weakening 
+      of hydrogen bonds, from about 23 kJ  &#739; mol<sup>&minus;1</sup> to about 
+      17 kJ  &#739; mol<sup>&minus;1</sup>, is observed when many bonds are broken 
+      at superheating temperatures (&gt; 100&nbsp;&deg;C) so reducing 
+      the cooperativity [<a title="go to cited reference" href="ref2.html#r173">173</a>]. The breakage 
+      of these bonds is not only due to the more energetic conditions 
+      at high temperatures but also results from a related reduction 
+      in the hydrogen bond donating ability by about 10% for each 
+      100&nbsp;&deg;C increase [<a href="ref3.html#r218" name="r218" title="go to cited reference" id="r218">218</a>]. 
+      The loss of these hydrogen bonds results in a small increase 
+      in the hydrogen bond accepting ability of water, possibly 
+      due to increased accessibility [<a title="go to cited reference" href="ref3.html#r218">218</a>].&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Every hydrogen bond formed increases the hydrogen bond status 
+      of two water molecules, and every hydrogen bond that breaks reduces 
+      the hydrogen bond status of two water molecules. The network 
+      is essentially complete at ambient temperatures; that is, (almost) all molecules are linked by at least one unbroken 
+      hydrogen-bonded pathway. Hydrogen bond lifetimes are 1 - 20 
+      ps [<a href="ref3.html#r255" name="r255" title="go to cited reference" id="r255">255</a>], whereas broken 
+      bond lifetimes are about 0.1 ps, with the proportion of 'dangling' 
+      hydrogen bonds persisting for longer than a picosecond being 
+      insignificant [<a title="go to cited reference" href="ref9.html#r849">849</a><a name="r849" id="r849"></a>]. Hydrogen bonds vibrate with a period of almost 200 fs (&asymp; 180 cm<sup>&minus;1</sup>). Hydrogen bonds that may break during this vibrational period usually reform the same bond  within approximately150 fs. Broken bonds are  unstable [<a title="go to cited reference" href="ref9.html#r849">849</a>] 
+      but will probably re-form to give the same hydrogen bond (as shown 
+      by the slow <a title="go to 'Water molecular structure' page"  href="water_molecule.html#ortho">ortho-water/para-water</a> equilibrium process [<a title="go to cited reference" href="ref5.html#r410">410</a><a name="r410" id="r410"></a>]), 
+      particularly if the other three hydrogen bonds are in place; 
+      hydrogen bond breakage being more dependent on the local structuring 
+      rather than the instantaneous hydrogen bond strength [<a title="go to cited reference" href="ref9.html#r833">833</a><a name="r833" id="r833"></a>]. 
+      If not, breakage usually leads to rotation around one of the 
+      remaining hydrogen bond(s) [<a title="go to cited reference" href="ref7.html#r673">673</a><a name="r673" id="r673"></a>] 
+      and not to translation away, as the resultant 'free' hydroxyl 
+      group and 'lone pair' are both quite reactive. Also significant, 
+      if seldom recognized, is the possibility of the hydrogen bond 
+      breaking, as evidenced by physical techniques such as IR, 
+      Raman or NMR and caused by loss of hydrogen bond 'covalency' 
+      due to electron rearrangement, without any angular change 
+      in the O-H&middot;&middot;&middot;&middot;O atomic positions. 
+      Thus, clusters may persist for much longer times [<a href="ref4.html#r329" name="r329" title="go to cited reference" id="r329">329</a>] 
+      than a common interpretation of data from these methods indicates. 
+      Evidence for this may be drawn from the high degree of hydrogen 
+      bond breakage seen in the IR spectrum of ice [<a title="go to cited reference" href="ref7.html#r699">699</a><a name="r699" id="r699"></a>], 
+      where the clustering is taken as lasting essentially forever. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span> <img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2><a name="quantum" id="quantum"></a>Quantum effects</h2>
+    <p>The zero-point energy of the water molecule (H<sub>2</sub>O gas, 0 K, 55.44 k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1</sup>; D<sub>2</sub>O: gas, 0 K, 40.54  k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1</sup>: [<a title="go to cited reference"  href="ref.html#r8">8</a><a name="r8" id="r8"></a>] ) is the lowest energy that it can have (even at zero kelvin). As the hydrogen atoms of the water molecule are light, their motion is relatively extensive, and the molecules retain significant vibrational energy even at absolute zero. It is a consequence of the ground state (lowest possible) vibrational and rotational energies. This is particularly relevanti in hydrogen bonding as any vibration in the direction of the hydrogen bond increases the strength of the hydrogen bond. In contrast, any vibration at right angles to the direction of the hydrogen bond decreases the strength. These may partially compensate. The rationale is that the shorter the hydrogen bond, the stronger the hydrogen bond. As deuterium (and tritium) is much heavier than protium (hydrogen; D/H = 1.998, T/H = 2.993) any vibrations that it is involved in are less extensive (shorter), and this lessens any effect on the hydrogen bond strength. At the same time, the O-D bond is 7.5 k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1</sup>stronger than the O-H bond due mainly to this zero-point energy. However, deuterium atoms also form stronger hydrogen bonds in water. The zero-point energy of liquid water has been estimated as &sim;21 k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1</sup> per O&minus;H stretch, &sim;15 k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1 </sup>per O&minus;D stretch, and &sim;12 k<a href="constants.html#J" title="joule">J</a>       &#739; mol<sup>&minus;1</sup> per O&minus;T stretch. This explains  the large variation in the <a href="material_anomalies.html">size of the isotope effects</a> that are observed in water   [<a title="go to cited reference" href="ref27.html#r2621">2621</a><a name="r2621" id="r2621"></a>].</p>
+    <p>&nbsp;</p>
+    <p>When water molecules are forced closer together  at high pressure, or at metal interfaces, proton tunneling  between hydrogen-bonded water molecules can occur    [<a title="go to cited reference" href="ref27.html#r2622">2622</a><a name="r2622" id="r2622"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>Nuclear quantum effects   in water molecules have been directly observed using liquid ultrafast electron scattering    [<a title="go to cited reference" href="ref44.html#r4310">4310</a><a name="r4310" id="r4310"></a>]. The  femtosecond response  was determined to the excitation of liquid water's O-H stretching vibration (3,315 cm<sup>&minus;1</sup>) with atomic spatial resolution. It showed that the hydrogen atoms tug and push neighboring water molecules when excited with laser light. A transient hydrogen bond contracted about 0.04 &Aring; in 80 femtoseconds, followed by relaxation over about one picosecond.</p>
+    <p align="right">&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span> <img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Hydrogen-bonding is complemented by electron delocalization</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/hydrogen_bonding.gif" alt="Hydrogen bonding in one direction is matched by electron delocalisation in the opposite direction" title="Hydrogen bonding in one direction is matched by electron delocalisation in the opposite direction" width="400" height="370"   class="floatright" /><a name="wire" id="wire"></a></figure>
+<h2>Water hydrogen bond 'wires' </h2>
+    <p>Hydrogen bonds facilitate correlated electron movement between molecules    [<a title="go to cited reference" href="ref25.html#r2460">2460</a><a name="r2460" id="r2460"></a>]. Clusters linked by extensive hydrogen bonding can be considered as being connected by extensive but complementary electron delocalization. Long-range organization (&gt; 100 nm) has been detected by hyper-Rayleigh light scattering (HRS)  [<a title="go to cited reference" href="ref23.html#r2268">2268</a><a name="r2268" id="r2268"></a>]. As electrons are not held by individual molecules but are easily distributed amongst water clusters   [<a title="go to cited reference" href="ref25.html#r2431">2431</a><a name="r2431" id="r2431"></a>], they can give rise to coherent (<a href="cluster_evidence.html#k">orderly</a>) regions [<a title="go to cited reference" href="ref17.html#r1691">1691</a><a name="r1691" id="r1691"></a>], with correlated many-body quantum-mechanical tunneling [<a title="go to cited reference" href="ref23.html#r2297">2297</a><a name="r2297" id="r2297"></a>], and collective oscillations, interacting with local electromagnetic radiation and increased by shorter hydrogen bonds. It has been found that bulk water can be efficiently aligned by THz laser fields around 12 THz (400 cm<sup>&minus;1</sup>), matching the single molecule's reorientational time in the bulk phase at equilibrium  [<a title="go to cited reference" href="ref35.html#r3489">3489</a><a name="r3489" id="r3489"></a>]. The water protons are not held by individual molecules but may switch partners in an ordered manner within distinct networks  [<a  href="ref16.html#r1504" name="r1504" title="go to cited reference" id="r1504">1504</a>, <a title="go to cited reference" href="ref17.html#r1699">1699</a><a name="r1699" id="r1699"></a>], similar to that occurring in hexagonal ice [<a title="go to cited reference" href="ref24.html#r2301">2301</a><a name="r2301" id="r2301"></a>]. Also, phonons (vibrational energy) can propagate through the hydrogen-bond network over several nanometers despite the hydrogen-bonded chains continually being broken  [<a title="go to cited reference" href="ref25.html#r2488">2488</a><a name="r2488" id="r2488"></a>].</p>
+    <p>&nbsp;</p>
+    <p>Usually, only one proton at a time may be transferred  as   a rearrangement of the water molecules is required between transfers. However, collective proton transfer of several protons may occur around ring systems (see also <a href="h10o5_orbitals.html">pentameric rings</a>) as may be found in the hexameric rings of ordinary ice  [<a title="go to cited reference" href="ref29.html#r2836">2836</a><a name="r2836" id="r2836"></a>] and water tetramers   [<a title="go to cited reference" href="ref32.html#r3138">3138</a><a name="r3138" id="r3138"></a>].</p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;"></div>
+    
+    <figure class="floatleft">
+<figcaption>
+<p align="center">Instantaneous tunneling in the water prism</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/h2o6prism.gif" alt="Instantaneous tunneling in the water prism" title="Instantaneous tunneling in the water prism" width="400" height="187"  class="floatleft"/></figure>
+    <p>Direct visualization of such  concerted tunneling has been achieved by the clever use of a cryogenic scanning tunneling microscope  [<a title="go to cited reference" href="ref23.html#r2287">2287</a><a name="r2287" id="r2287"></a>]. Over short hydrogen bonded water wires (see <a href="#wire">upper right</a>), there can be a correlated movement of protons and electrons due to  quantum fluctuations [<a title="go to cited reference" href="ref21.html#r2025">2025</a><a name="r2025" id="r2025"></a>], reinforcing the concept of water <strong>not</strong> being a molecular liquid. <a name="trimer" id="trimer"></a>The protonated water trimer serves as a prototype 'proton wire that can transport two protons nearly concertedly, assisted by its vibrational state.(see below right)   [<a title="go to cited reference" href="ref33.html#r3245">3245</a><a name="r3245" id="r3245"></a>].</p>
+<p>&nbsp;</p>
+<figure class="floatright">
+<figcaption>
+<p align="center">Instantaneous tunneling in the protonated trimer</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/trimer+.gif" alt="Instantaneous tunneling in the protonated trimer, arrows show the major vibrational state" title="Instantaneous tunneling in the protonated trimer, arrows show the major vibrational state" width="280" height="322"  class="floatright"/></figure>
+<p>&nbsp;</p>
+<p>Such quantum tunneling, with the concerted breaking of hydrogen bonds, has also been found in the isolated water (H<sub>2</sub>O)<sub>6</sub> prism (the so-called smallest drop of water, see above left )  [<a title="go to cited reference" href="ref26.html#r2533">2533</a><a name="r2533" id="r2533"></a>]. Using diode laser vibration-rotation-tunneling spectroscopy near 15 THz (500 cm<sup>&minus;1</sup> ), vibrational sub-bands show enhanced (ca. 1000 &#739; ) tunneling splittings relative to the ground state [<a title="go to cited reference" href="ref34.html#r3303">3303</a><a name="r3303" id="r3303"></a>].</p>
+    <p>&nbsp;</p>
+    <p>X-ray spectroscopic probing indicates that the 
+      electron transitions between molecular orbitals (changing 
+      with the local hydrogen-bonding topology) with differing such 
+      contributions may shift on a time scale of less than a femtosecond. 
+      Contributing to the strength and dynamics  [<a  title="go to cited reference"  href="ref17.html#r1673">1673</a><a name="r1673" id="r1673"></a>] of water's hydrogen-bonding are 
+      nuclear quantum effects (<a href="material_anomalies.html#p">zero-point</a> vibrational energy) which 
+      bias the length of the O-H covalent bond longer than its 'equilibrium' 
+      position length (as the shorter HO-H&middot;&middot;&middot;&middot;OH<sub>2</sub> hydrogen bonds are stronger), so also increasing the average 
+      dipole moment [<a title="go to cited reference" href="ref6.html#r554">554</a><a name="r554" id="r554"></a>]. Nuclear quantum effects  give rise to high proton swapping between neighboring water molecules plus strengthening of hydrogen bonds at low temperatures and their weakening at high temperatures [<a title="go to cited reference"  href="ref23.html#r2286">2286</a><a name="r2286" id="r2286"></a>]. Thus, quantum effects weaken weak hydrogen bonds between water molecules and strengthen strong hydrogen bonds [<a title="go to cited reference"  href="ref26.html#r2547">2547</a><a name="r2547" id="r2547"></a>]; an effect that is reversed at salt-water interfaces. On forming the hydrogen bond, the donor hydrogen atom stretches 
+      away from its oxygen atom. The acceptor lone-pair stretches 
+      away from its oxygen atom and towards the donor hydrogen atom 
+      [<a title="go to cited reference" href="ref6.html#r585">585</a><a name="r585" id="r585"></a>], both 
+      oxygen atoms being pulled towards each other. The stronger the hydrogen bond, the longer-lived and the less easy does the proton escape the two water molecules involved. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span> <img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+  
+    <h2><a name="rear" id="rear"></a>Rearranging hydrogen bonds</h2>
+    <p>Water's hydrogen bonds only reorient when an available partner can accept the bond, with the strength of the broken hydrogen bond playing little or no role [<a title="go to cited reference" href="ref12.html#r1135">1135</a><a name="r1135" id="r2"></a>]. The <a href="h2o_orbitals.html">molecular orbitals</a> of water 
+      indicate that the two 'lone pairs' of electrons do not give 
+      distinct directed electron density in isolated <a title="go to 'Water molecular structure' page"  href="water_molecule.html">molecules</a>, 
+      with tetrahedral nature of water's hydrogen bonding due to 
+      four-coordination involving two donor and two acceptor hydrogen 
+      bonds. However, trigonal (approximately planar) hydrogen-bonding 
+      is also possible with two donor and one acceptor hydrogen 
+      bonds associated with individual water molecules. The lack of substantial tetrahedrally positioned '<a href="water_molecule.html#lp" title="go for an explanation">lone pair</a>' electrons may ease this process at the cost of one hydrogen bond energy. Also, the acceptor 
+      hydrogen bond in three coordinated but tetrahedral arrangements 
+      (two donor and one acceptor hydrogen bonds with one vacant 
+      acceptor site) can slide through a planar arrangement to the 
+      vacant tetrahedral site without breaking. This flexibility 
+      in the hydrogen-bonding topology facilitates hydrogen-bonding 
+      rearrangements. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]    </p>
+    <h2><a name="recog" id="recog"></a>Hydrogen bonding and molecular recognition</h2>
+    <p>Hydrogen bonding between molecules in water is essential for life's processes. It is particularly relevant to <a href="nucleic.html">nucleic acid </a>and <a href="protein_hydration.html#rec">protein function</a> but also for recognition in other biological systems.. There is a 2020 review that discusses a range of<br />
+    synthetic receptors designed to bind organic molecules in aqueous media by combining hydrogen bonding with hydrophobic interactions.</p>
+    <h2><a name="bif" id="bif"></a>Bifurcated hydrogen bonds</h2>
+    <p align="center"><img src="images/bifurcations.gif" title="bifurcated hydrogen bonds easing hydrogen bond exchange" alt="bifurcated hydrogen bonds easing hydrogen bond exchange" width="600" height="172" /></p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><strong class="style15">Bifurcated hydrogen bonds easing hydrogen bond exchange</strong></p>
+    <p>&nbsp;</p>
+    <p>Bifurcated hydrogen bonds, where both hydrogen atoms from 
+      one water molecule are hydrogen-bonding to a single neighboring water molecule, or two hydrogen bonds from water molecules replace one original hydrogen bond (see above) or one hydrogen atom simultaneously forms 
+      hydrogen bonds to two other water molecules (see below right) have just under 
+      half the strength of a typical hydrogen bond (per half the 
+      bifurcated bond). They present a low-energy and fast route for hydrogen-bonding 
+      rearrangements (see above) [<a title="go to cited reference" href="ref3.html#r255">255</a>]. </p>
+    <p>&nbsp;</p>
+    <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Bifurcated hydrogen bond</p>
+<p align="center">&nbsp;</p>
+</figcaption> 
+<img src="images/bifurc.gif" title="Bifurcated hydrogen bond involving the hydrogen atonm of one water molecule" alt="Bifurcated hydrogen bond involving the hydrogen atonm of one water molecule" width="280" height="186" border="0" class="floatright" /></figure>
+    <p>Although they may be found at interfaces such as with proteins, they are  usually unstable transitional states that allow 
+      the constant randomization of the hydrogen bonding within 
+      a network. However, it should be noted that they often require 
+      the breakage of  two hydrogen bonds; one hydrogen bond to form 
+      the bifurcated arrangement and another to make way for a different 
+      hydrogen bond to form. Any necessary rotation may also involve 
+      bending or stretching other hydrogen bonds. Bifurcation of 
+      hydrogen bonds cannot cause their net breakage but just the exchange of hydrogen bonds  [<a title="go to cited reference" href="ref12.html#r1135">1135</a>]. Trifurcated hydrogen bonds 
+      (where one hydrogen atom simultaneously forms hydrogen bonds 
+      to three other water molecules, forming a tetrahedral face) 
+      may also form but only have about one-sixth the strength of 
+      a normal hydrogen bond per third of the bifurcated bond [<a title="go to cited reference" href="ref6.html#r573">573</a><a name="r573" id="r573"></a>]. They require free lone pairs on all three bound water molecules, 
+      and the rest of the local cluster must also be poorly hydrogen 
+      bonded. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+
+     <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Directive and extensive hydrogen bonds</p>
+<p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatright" border="0" src="images/hbond2.gif" title="directive and extensive properties of hydrogen-bonded water"  alt="directive and extensive properties of hydrogen-bonded water" width="300" height="308" /></figure>
+    <h2><a name="inf" id="inf"></a>Information transfer</h2>
+    <p align="left">Hydrogen-bonding carries information 
+      about solutes and surfaces over significant distances 
+      in liquid water. The effect is synergistic, directive 
+      and extensive. Thus in the diagram opposite, strong 
+      hydrogen bonding in molecule <span class="style12"><strong>1</strong></span>, 
+      caused by solutes or surfaces, will be transmitted to 
+      molecules <strong><span class="style12">2</span></strong> and <span class="style12"><strong>3</strong></span>, 
+      then to <span class="style12"><strong>5</strong></span> and <span class="style12"><strong>6,</strong></span> and then as combined power to <span class="style12"><strong>8</strong></span>.</p>
+    <p>&nbsp;</p>
+    <p align="left">The effect is reinforced by additional 
+      polarization effects and the resonant intermolecular 
+      transfer of O-H vibrational energy, mediated by dipole-dipole 
+      interactions and the hydrogen bonds [<a href="ref2.html#r142" name="r142" title="go to cited reference" id="r142">142</a>]. 
+      Reorientation of one molecule induces corresponding 
+      motions in the neighbors. </p>
+    <p>&nbsp;</p>
+    <p>Thus solute molecules can 'sense' (for example, affect each 
+      other's solubility) each other at distances of several nanometers, 
+      and surfaces may have effects extending to tens of nanometers. 
+      This long-range correlation of molecular orientation has  
+      been confirmed using hyper-Rayleigh light scattering [<a href="ref2.html#r152" name="r152" title="go to cited reference" id="r152">152</a>], classical density functional theory [<a href="ref28.html#r2762" name="r2762" title="go to cited reference" id="r2762">2762</a>] and excess entropy calculations [<a href="ref28.html#r2763" name="r2763" title="go to cited reference" id="r2763">2763</a>]. 
+      It is a reason for the high <a  title="more on microwaves and water"  href="dielectric_constant.html#dielectric">dielectric 
+      constant</a> of water and the consequential <a title="go to 'Water properties data' page"  href="water_properties.html#Dielectric_constant">reduction 
+      in this dielectric constant</a> as the temperature is raised 
+      and the number of hydrogen bonds is reduced [<a href="ref3.html#r239" name="r239" title="go to cited reference" id="r239">239</a>]. <a name="flat" id="flat"></a>Where water molecules are next to flat 
+      hydrophobic surfaces and unable to form extensive clathrate 
+      structuring, some hydrogen bonds must be broken, and the water 
+      molecules will tend to change orientation, from one hydrogen 
+      bond directed orthogonally away from the surface (as in clathrates) 
+      to one hydrogen bond directed orthogonally towards the surface, 
+      in order to minimize the energy requirement. Also, the water 
+      molecules tend to collapse into their <a href="clusters_overview.html#min" title="go to another page for further details">shallow 
+      energy minima</a> due to increased non-bonded interactions. 
+      Although there may be a consequentially increased density 
+      in the first water layer, the second and subsequent water 
+      shells compensate by forming stronger hydrogen bonds and a 
+      less dense structure. Consequences of this include differential 
+      solvation properties affecting surface absorption.</p>
+    <p>&nbsp;</p>
+    <figure class="floatright">
+<figcaption>
+<p align="center">Facilitated tautomerism in adenine</p>
+<p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatright" src="images/adenine.gif" title="Tautomerism in adenine facilitated by water hydrogen bonding" alt="Tautomerism in adenine facilitated by water hydrogen bonding" width="446" height="170" /></figure>
+    <p align="left">Hydrogen-bonding rearrangement offers a low energy pathway 
+      for the transfer of hydrogen atoms during tautomerism, 
+      in a way similar to <a title="go for more information"  href="grotthuss.html">Grotthuss 
+      mechanism</a> for hydrogen ion transport. Shown opposite 
+      is adenine tautomerism that can give rise to Adenine - 
+      Cytosine (mutation producing) pairing, which uses 
+      the rare tautomer on the left. </p>
+    <p align="left">&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <div style=" float:none; clear:both;"></div>
+    
+     <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Hydrogen-bonding acidity and basicity, from [<a title="go to cited reference" href="ref19.html#r1830">1830</a>]</p>
+<p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatright" src="images/solacid.gif" width="400" height="266" alt="changes in water's hydrogen bonding acidity and basicity with temperature [1830]" title="changes in water's hydrogen bonding acidity and basicity with temperature [1830]"/>  <a name="solacid" id="rear2"></a></figure>
+<h2> Hydrogen bonds and solubility </h2>
+    <p>As is clear from the origin of the words used ('hydrophilic', 'hydrophobic'), water is a good solvent for hydrophilic solutes (such as alcohols) but a poor solvent for hydrophobic solutes (such as the <a href="material_anomalies.html#min" title="go for a full description">noble gases</a>). hydrogen bonding is responsible for this property as they help the solubilization of molecules containing oxygen and nitrogen atoms. However, whereas water may be expected to be a good solvent by virtual of its small size, the extent and strength of its hydrogen-bonding limits this possibility. The solubilities change significantly with temperature, and these changes have been correlated with the hydrogen-bonding donation (acidity) and acceptance (basicity) changes in the water. Both of these factors reduce with increasing temperature but to different extents [<a title="go to cited reference" href="ref19.html#r1830">1830</a><a name="r1830" id="r1830"></a>]. At 300&nbsp;&deg;C, the solvent properties of water to hydrophilic solutes are similar to those of nitrobenzene or acetonitrile at 25&nbsp;&deg;C, but hydrophobic solutes remain poorly soluble [<a title="go to cited reference" href="ref19.html#r1830">1830</a>].</p>
+    <p align="right"> [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <p>&nbsp;</p>
+    <div style="float:none; clear:both;"></div>
+    <hr />
+    <h2>Footnotes </h2>
+    <p><sup>a</sup><a name="a" id="a"></a> The O-H vibrational frequency 
+      does not follow the O&middot;&middot;&middot;&middot;O hydrogen 
+      bond length exactly due to the dispersion of the hydrogen bond 
+      O-H&middot;&middot;&middot;&middot;O angle <a name="r439" id="r439"></a>[<a title="go to cited reference" href="ref5.html#r439">439</a>]. 
+      [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup>b</sup><a name="c" id="c"></a> The approximate bond energies (kJ  &#739; mol<sup>&minus;1</sup>) as derived from DO-H&middot;&middot;&middot;&middot;OD<sub>2</sub> in D<sub>2</sub>O <a name="r1932" id="r1932"></a>[<a title="go to cited reference" href="ref20.html#r1932">1932</a>].  The steps in H<sub>2</sub>O are likely to be closer to 5 kJ  &#739; mol<sup>&minus;1</sup>.  [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p><sup>c</sup><a name="d" id="d"></a> However, note that some hydrogen 
+      bonds may distort a hydrogen-bonded cluster. When 
+      such a bond breaks the detached cluster may form a more optimum 
+      tetrahedrally bonded arrangement with lower energy and thus 
+      reclaiming some or most of the energy lost by bond breakage. 
+      [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a title="go to 'Hydrogen bonding in water' page"  href="water_hydrogen_bonding.html">Water hydrogen-bonding (1)</a> | <a href="hydrogen_bonds.html">Hydrogen bonds</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2016 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->30 January, 2022<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

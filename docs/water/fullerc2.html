@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Interactive structure of the 13-molecule fullerene C60 cluster within an aqueous cluster (H2O)1020  (Jmol)" />
+<meta name="Keywords" content="C60, fullerene, aqueous, Jmol, colloid, cluster" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>The 13-molecule fullerene C60 cluster within an aqueous cluster (H2O)1020 
+(Jmol)</title>
+<script language="JavaScript" type="text/javascript" src="head.js"></script>
+<noscript>Your browser does not support JavaScript!</noscript> 
+<!-- Jmol library -->
+<script language="JavaScript" type="text/javascript" src="pdb/Jmol.js"></script>
+<noscript>Your browser does not support JavaScript!</noscript> 
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="menu1"></label><select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="menu1">
+        <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+      </select>
+
+    </form>
+  </div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/fullerc2.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+  </map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <h1>The 13-Molecule 
+      Fullerene C<sub>60</sub> Cluster within an Aqueous Cluster (H<sub>2</sub>O)<sub>1020</sub></h1>
+    <p>&nbsp;</p>
+    <div align="center">
+      <script>
+    		jmolInitialize("pdb");
+			//jmolCheckBrowser("redirect", "help.html", "now");
+			jmolSetParameter("useCommandThread", "TRUE")
+			jmolSetAppletColor("#FFFae2")
+			jmolApplet([640,640], "set frank off; set spinx 20; set spiny 30; set spinz 10; load pdb/fulh2o.pdb; calculate hbonds; spin on; s=true","applet1");
+    	</script>
+<noscript>Your browser does not support JavaScript!</noscript> 
+      <center>
+        <br />
+        <input type="checkbox" checked="true" onchange="jmolScript('s=!s; spin @s','applet1')" />
+        Spin <br />
+        <a href="pdb/fulh2o.pdb">get <abbr title="Protein Data Bank">PDB</abbr> file</a>
+      </center>
+    </div>
+    <p>&nbsp;</p>
+    <p align="left">For clarity, the hydrogen atoms associated with the water molecule 
+      network have been left out.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>These animations use <a href="http://jmol.sourceforge.net/" title="opens new site in a pop-up window"   target="otherWin11" onclick="newWin('otherWin11')">Jmol: an open-source Java viewer for chemical structures in 3D</a>. Use the mouse for control.</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:3px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p align="left"><span class="style3">&nbsp;</span></p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="fullerene_hydration.html">Back: Fullerenes</a> | <a href="fullerc.html">Aqueous 
+      C<sub>60</sub> clusters</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2002 and  last updated 
+      by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+      <!-- #BeginDate format:Sw1 -->18 September, 2018<!-- #EndDate -->
+      </span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+    </div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+  </div>
+</div>
+</body>
+</html>

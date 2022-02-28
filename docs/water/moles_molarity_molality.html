@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Moles, molarity and molalit" />
+<meta name="Keywords" content="mole,molarity,molality" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Moles, molarity and molalit</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+<style type="text/css">
+<!--
+p.MsoNormal {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+}
+.style16 {
+	font-weight: bold
+}
+-->
+</style>
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+(M)<a name="top" id="top"></a>
+ <div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/moles_molarity_molality.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+     <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Amedeo Avogadro</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img  src="images/Avogadro.gif" alt="Amedeo Avogadro, a drawing by C. Sentier in 1856" title="Amedeo Avogadro, a drawing by C. Sentier in 1856" width="200" height="243" class="floatright" /></figure>
+     <a name="top2" id="top2"> </a>
+<h1>Moles, molarity, and molality</h1>
+    <p class="style16"></p>
+    <p class="style16"><strong><span class="style16"><img src="images/redleft.gif" alt="&lt;" width="12" height="13" border="0"/></span><a href="pure_water.html" title="go to section"> Pure water and solubility</a></strong></p>
+    <p><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> </span><a href="#mole"><span class="style16">Moles and mole fraction</span></a><span class="style16"><br />
+        <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#molal" title="go to section below" class="style16">Molality and molarity</a><span class="style1621"><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#ww" title="go to section below" class="style16">% w/w , %w/v</a><a href="#ww"> and % v/v</a></span></span></p>
+    <p>&nbsp;    </p>
+    <div class="style10">
+      <p align="center"><em>&quot;...one mole (the molar or molecular weight of a substance expressed in grams)...&quot;</em>
+</p>
+</div>  
+    <div  class="style4">
+      <p align="right">W. Ostwald 1902&nbsp;&nbsp;&nbsp;</p>
+</div>
+    <h2><a name="mole" id="mole"></a>Moles and mole fraction</h2>
+    <p>A mole (mol)<sup><a href="#b" name="bb" id="bb">b</a></sup> is an amount (an official <em><em title="French-language text" lang="fr" xml:lang="fr">Syst&egrave;me international d'unit&eacute;s, </em></em><abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')">SI</a></abbr>, unit having mass) of a substance and was originally  defined as the amount that contains exactly the number of entities of that substance as there are <sup>12</sup>C atoms in 12 grams (exactly) of <sup>12</sup>C (this definition is now not used for the mole). The Dalton (Da) remains as defined as 1/12 of the mass of an&nbsp;unbound&nbsp;neutral atom of&nbsp;carbon-12; this is also known as an atomic mass unit, u. This number of entities in a mole is currently established as &nbsp;precisely 6.022&nbsp;140&nbsp;76&nbsp;&#739;&nbsp;10<sup>23</sup>  &#739; mol<sup>&minus;1 </sup> [<a title="go to cited reference"  href="ref24.html#r2395">2395</a><a name="r2395" id="r2395"></a>] and is known as the <a href="constants.html#avoga">Avogadro number</a> (see the portrait of Avogadro, above right). Thus, one mole of standard  (<abbr title="Vienna Standard Mean Ocean Water"><a href="http://isotopes.usgs.gov/lab/referencematerials/VSMOW.pdf">VSMOW</a></abbr>) water equals 18.015 265 g of  water and contains  6.022&nbsp;140&nbsp;76&nbsp;&#739;&nbsp;10<sup>23</sup> (exactly) molecules of  standard  (<abbr title="Vienna Standard Mean Ocean Water"><a href="http://isotopes.usgs.gov/lab/referencematerials/VSMOW.pdf">VSMOW</a></abbr>) water. The mole as an amount should not be confused with the exact but unitless number [<a title="go to cited reference"  href="ref41.html#r4026">4026</a><a name="r4026" id="r4026"></a>]. The <abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')">SI</a></abbr> unit of concentration is mol  &#739; m<sup>&minus;3</sup>.</p>
+    <p>&nbsp;</p>
+    <div style=" float:none; clear:both;"></div>
+    <p>The mole fraction (sometimes called molar fraction) of water (x<sub>w</sub>) is that (dimensionless) fraction of the molecules (and ions)  present that are water molecules; that is, </p>
+    <p>&nbsp;</p>
+    <p align="center">x<sub>w</sub> = moles water/(moles water + moles solute)</p>
+    <p align="center">&nbsp;</p>
+    <p align="left">or for dilute solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<sub>w</sub> = 55.5085/(55.5085 + 2   &#739; <a href="#molal">molality</a>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+    <p>at 25&nbsp;&deg;C, for 1 : 1 electrolytes assuming that no water is bound to any solutes and also that all electrolytes dissociate completely into their stoichiometric number of ions [<a  title="go to cited reference" href="ref41.html#r4100">4100</a><a name="r4100" id="r4100"></a>]. The <a href="#molal">molality</a> of natural isotopic mixture (<abbr title ="Vienna Standard Mean Ocean Water">VSMOW</abbr>) [<a href="http://www.iapws.org/relguide/fundam.pdf" title="opens new site in a pop-up window"   target="otherWin21" onclick="newWin('otherWin21')">IAPWS</a>] water 25&nbsp;&deg;C  is 55.5085 mol     &#739; kg <sup>-1</sup>.</p>
+    <p>&nbsp;</p>
+    <p>Thus, the mole fraction of 'free' water (x<sub>w</sub> ) in an m (molal) salt solution is given by, </p>
+    <p>&nbsp;</p>
+    <p align="center">x<sub>w</sub> = (m<sub>w</sub> - m &#739; H<sub>d</sub>)/(m<sub>w</sub> - m &#739; H<sub>d</sub> - m &#739; i<sub>e</sub>)</p>
+    <p>&nbsp;</p>
+    <p>where m<sub>w</sub> is the molality of pure water, m is the molality of the salt, H<sub>d</sub> is the<a href="ion_hydration.html#g"> hydrodesmic number</a> (the dynamic average number of strongly bound water to the ions), and i<sub>e</sub> is number of particles given by the extent of dissociation and ion pair formation [<a  title="go to cited reference" href="ref36.html#r3505">3505</a><a name="r3505" id="r3505"></a>].</p>
+    <p>&nbsp;</p>
+    <p>The mole fraction of a solute is the fraction of all the molecules (and ions) present that consist of that solute (that is, x<sub>S </sub>= moles solute/(moles water + moles solute + moles other materials). At low solute concentrations, x<sub>S</sub> may be approximated by    </p>
+    <p align="center">x<sub>S</sub> = moles solute/moles water = molality  &#739; molar mass of water = m<sub>S</sub> &#739; M<sub>H2O</sub> </p>
+    <p>&nbsp;</p>
+    <p>where m<sub>S</sub> is the molality, see below, and M<sub>H2O</sub> is the molar mass of water = 0.018015265 kg  &#739; mol<sup>&minus;1</sup>. This can be restated as </p>
+    <p align="center">m<sub>s</sub> = n<sub>s</sub> /(n<sub>H2O</sub>  &#739; M<sub>H2O</sub>) </p>
+    <p align="center">&nbsp;</p>
+    <p> where n<sub>s</sub> and n<sub>H2O</sub> are the numbers of moles of salt and water in the solution.</p>
+    <p>&nbsp;</p>
+    <p>Note that 'moles' here refer to independent species such as molecules or ions. Care should be taken to correct concentration terms when the solution consists of a mixture of solutes where x<sub>w</sub> = moles water/(moles water + moles solutes), or more precisely   <sup><a href="#a" name="ba" id="ba"> a</a></sup></p>
+    <p align="center">x<sub>w</sub> = moles 'free' water/(moles 'free' water + moles solutes)</p>
+    <p align="center">&nbsp;</p>
+    <p>When considering <a href="colligative_properties.html">colligative properties</a>, these water molecules must be 'free' (see <a href="colligative_properties.html#bound">elsewhere</a>), (that is, x<sub>w</sub> = moles 'free' water/(moles 'free' water + moles solute).  In contrast to the molality, <a href="polysaccharide_hydration.html">bound</a> water makes no difference to the numerical value of the molarity.    </p>
+    <h2><a name="molal" id="molal"></a> <strong>Molarity and molality</strong>. </h2>
+    <p>These are different measures of solution concentrations and care should be taken to differentiate these terms. </p>
+    <p>&nbsp;</p>
+    <p><strong>Molality </strong>(m, with a lowercase, 'm'; molal concentration, be careful not to confuse it with 'm' for mass) is defined as the number of gram-moles dissolved per kilogram solvent; e.g., mol &#739; (kg water)<sup>&minus;1</sup>. </p>
+    <p>&nbsp;</p>
+    <p><strong>Molarity</strong> (M, with an uppercase, 'M'; molar concentration) is defined as the number of gram-moles dissolved per liter of solution; mol &#739; L<sup>&minus;</sup><sup>1</sup>. </p>
+    <p>&nbsp;</p>
+    <p>Conversion of molarity to molality and vice versa is often incorrectly described. The formulas are</p>
+    <p align="center"><img src="images/molar.gif" alt="molarity=1000x molalityxdensity/(1000+molality x relative molecular mass)" width="173" height="50" align="middle" /> and <img src="images/molal.gif" alt="molality=1000x molarity/(1000xdensity-molarity x relative molecular mass)" width="173" height="50" align="middle" /></p>
+    <p>&nbsp;</p>
+    <figure class="floatright">
+<figcaption>
+<p align="center">Molality compared with molarity,  from [<a href="ref.html#r70">70</a>]</p>
+<p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatright" src="images/molality_molarity.gif" title="Molality compared with molarity, data is for methanol from ref 70" alt="Molality compared with molarity" width="400" height="236" /></figure>
+    <p>where &rho; is the experimentally determined density in g &#739; mL<sup>&minus;1</sup> and MWt is the relative molecular mass of the solute. Allowance must be made for other solutes (and co-ions) present. Also, these equations do not allow for corrections due to any water bound to the solutes.</p>
+    <p>&nbsp;</p>
+    <p>Opposite (shown red for methanol) are the very different values equivalent concentrations may have when expressed as molality or molarity. The lower blue dashed line indicates the relationship as the concentrations tend to zero and showing that there is little difference between molarity and molality at dilute concentrations.  Molality is always numerically greater than the molarity. Note that % w/w (see <a href="#ww">below</a>) on the top scale varies non-linearly with both molarity and molality.</p>
+<div style=" float:none; clear:both;"></div>
+    <figure class="floatleft">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Molarity versus molality for CsCl and LiCl</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/salt_molality.gif" alt="Molarity versus molality for CsCl and LiCl" title="Molarity versus molality for CsCl and LiCl" width="300" height="206" class="floatleft" /></figure>
+    <p>&nbsp;</p>
+    <p> The figure on the left shows the molarity/molality relationship for CsCl and LiCl. Mistakenly using molarity in place of molality or <em>vice versa</em>, can lead to errors of  about 2-4% for one molar solutions, 4-9% for two molar solutions and  10-30% for five molar solutions. At lower concentrations, such errors are primarily due to changes in the volume of the solution with temperature. The dependence of the molarity on temperature can be compensated by allowing for its thermal expansion. For small changes in temperature</p>
+    <p>&nbsp;</p>
+	  <p align="center">Molarity at T = Molarity at T<sub>0</sub>/(1 + &alpha;  &#739; &Delta;T)</p>
+    <p>&nbsp;</p>
+    <p>Where &alpha;&nbsp;is the&nbsp;thermal expansion coefficient (~0.000 25&nbsp;K<sup>&minus;1</sup> for dilute solutions) and &Delta;T is the temperature difference from the start temperature (T<sub>0</sub>)</p>
+    <p>&nbsp;</p>
+   
+    <p>Molarity is most often used as it is easy to measure out volumes. However, such solutions are often less accurately prepared  and dispensed due to the difficulties in attaining accurate volumes and the changes in volume that occur with temperature and pressure variation. Solutions with known molalities, prepared by weighing, are generally more precisely and accurately known and do not change concentration with temperature, pressure, or the addition of other solutes, so long as these solutes do not bind any of the 'free' (bulk) water present. Often, molarity is used for chemical reactions where the  number of moles of reagent present is simply calculated (moles = molarity &#739; volume in liters). In contrast, molality should be used when physical or thermodynamic determinations are made, such as the determination of the <a href="colligative_properties.html">colligative properties</a>. Where there is a choice in the solvent (e.g., <a href="aqueous_alcohol.html">aqueous alcohol solutions</a>), it is preferable to use the mole fraction rather than molality.</p>
+      <p>&nbsp;</p>
+      <p>The <abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')"><strong>SI</strong></a></abbr> unit of concentration is <span class="style6"><strong>mol  &#739; m<sup>&minus;3</sup></strong></span> with molarity (M) and molality (m)  being recommended for discontinuance by <abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')">SI</a>. It is expected that <span class="style6"><strong>molal</strong></span> be replaced by <span class="style6"><strong>mol  &#739; kg<sup>&minus;1</sup></strong></span> and the rarely used term <span class="style6"><strong>molality</strong></span> be discontinued as it may be confused with the more commonly used term <span class="style6"><strong>molarity</strong></span></abbr>. However, these recommendations have not yet been generally accepted.      </p>
+      <p>&nbsp;</p>
+      <p><a name="osm" id="osm"></a><strong>Osmolality</strong> is a variation of molality that only  considers  those solutes that contribute to a solution's <a href="osmotic_pressure.html" title="Osmotic pressure">osmotic pressure</a>. It is measured in osmoles of the solute per kilogram of water. This unit  can be determined simply from the <a href="colligative_properties.html">depression of the freezing point</a> of the solution. The term 'osmolarity' (although still in use in many textbooks) has been officially replaced by the term 'osmotic concentration' and is the product of the osmolality and the mass density of water.</p>
+      <p>&nbsp;</p>
+	  <p>The term '<strong>Normality</strong>' (N) is sometimes encountered. It is analogous to molarity but refers to the charge equivalents rather than mole equivalents; thus, 0.1 M Ca<sup>2+</sup> is the same as 0.2 N Ca<sup>2+</sup>.</p>
+   
+     
+     
+      <div class="spacer">    </div>
+    <h2><a name="ww" id="ww"></a>Weight per weight, weight per volume, and volume per volume</h2>
+	  <p>There are other concentration units (often confused), such as % w/w (wt %, % by weight, % weight fraction, g dissolved in 100 g solution) % w/v (g dissolved in 100 mL solution), v/v (volume fraction), <a href="constants.html#ppm">ppm</a> (parts per million, mg/L), parts per thousand (&permil;, per mil, ppt), and<a href="constants.html#ppb"> ppb</a> (parts per billion). The v/v is defined using the volume of a liquid component divided by the sum of   the volumes of all the liquid components in the mixture when they are measured separately (<a href="http://goldbook.iupac.org/html/V/V06643.html"  title="opens new site in a pop-up window"   target="otherWin1" onclick="newWin('otherWin1')">IUPAC Gold Book</a>). For example, 40 mL of ethanol + 60 mL of water is 0.4 v/v and a 40 % by volume solution but does not equal 100 mL of solution due to the reduction in volume on mixing. As it may be ambiguous (see below), it should be avoided wherever possible unless the molecular species present are not established. Note that mixing x mL of liquid material A with y mL of liquid material B rarely makes x + y mL of mixture unless they are  immiscible. Also,  note that ethanol's v/v (or % by volume) solutions are not the same as ABV  <a href="aqueous_alcohol.html#b">(Alcohol By Volume) as used in the drinks industry</a>. Unfortunately, this  possible confusion has propagated on the web and is yet another reason for  avoiding these units. For example, one may (<strong>correctly</strong>) make a  40% A by volume solution (40% v/v) by mixing 40 mL liquid A plus 60 mL water. Later this mixture may be made up to 100 mL by adding more water (i.e., the 100 mL mixture now contains more than 60 mL water). Another person sees that this 100 mL contains 40 mL of A and (<strong>mistakenly</strong>) calls it 40% A by volume  (40% v/v).</p>
+      <p>&nbsp;</p>
+      <p>The terms <a href="constants.html#ppm">ppm</a> and<a href="constants.html#ppb"> ppb</a> can be used for highly dilute solutions or for impurities in materials, and they should be used together with w/w or w/v, as appropriate.</p>
+      <p>&nbsp;</p>
+      <p>The  volumes are generally not additive by-volume dilutions of liquids should never  be made (i.e., the final volume is not the sum of the two volumes added). By-volume dilutions of by-weight concentrated solutions should never be made as the final concentrations  may only be determined using  knowledge of  the densities of the solutions concerned, and the volumes are generally not additive. </p>
+      <div style=" float:none; clear:both;">
+     
+      <p align="right"> <a href="#top" title="go to top of page" class="style16">[<span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" />] </a></p>
+</div>
+      <!-- print end -->
+    <div class="spacer">    </div>
+      <hr />
+    <h2>Footnotes</h2>
+      <p align="left"><sup><a name="a" id="a"> a</a></sup> In many older textbooks, another (equivalent) way of treating <em>moles 'free' water</em> is as &lambda;<sub>w</sub> times x<sub>w</sub> (&lambda;<sub>w</sub>.x<sub>w</sub>) where &lambda;<sub>w</sub> is the activity coefficient of water and x<sub>w</sub> is the calculated total mole fraction of water (i.e., 'free' water + 'bound' water). The activity coefficient (&lambda;<sub>w</sub> ) is just another way of specifying the 'free' fraction of water. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+      <p align="left"><sup><a name="b" id="b"> b</a></sup> The <abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')">SI</a></abbr> definition of the mole is: <em>'The mole, symbol mol, is the SI unit of amount of substance of a specified elementary entity, which may be an atom, molecule, ion, electron, any other particle or a specified group of such particles; its magnitude is set by fixing the numerical value of the Avogadro constant to be exactly 6.022 140 76 &#739; 10<sup>23</sup> when it is expressed in the SI unit mol<sup>&minus;1</sup></em> [<a title="go to cited reference"  href="ref24.html#r2395">2395</a>] (exactly). [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]</p>
+      <p>&nbsp;</p>
+    <div class="spacer">  </div>
+</div>
+</div>
+ <!-- print end -->
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="water_activity.html">Water activity</a> |<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html"> Pure water and solubility</a> | <a href="colligative_properties.html">Colligative properties</a> | <a href="water_anomalies.html">The anomalies of water</a> | <a href="clusters_introduction.html">Water: Introduction </a>|<a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University"> LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2015 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->10 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

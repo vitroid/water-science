@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Hofmeister series" />
+<meta name="Keywords" content="Hofmeister series,Hofmeister" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Hofmeister series</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="head.js"></script>
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://water.lsbu.ac.uk/water/hofmeister_series.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+     <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Franz Hofmeister plaque in Prague</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/hofmeister.gif" title="Franz Hofmeister plaque in Prague, 'Professor Franz Hofmeister (1850-1922), who carried out research in this building, predicted that amino acids in proteins are connected by a peptide bond and, in 1888, derived the lyotropic (Hofmeister) series of ions'" alt="Franz Hofmeister plaque in Prague, 'Professor Franz Hofmeister (1850-1922), who carried out research in this building, predicted that amino acids in proteins are connected by a peptide bond and, in 1888, derived the lyotropic (Hofmeister) series of ions'" width="400" height="325" class="floatright" /></figure>
+    <h1>Hofmeister 
+      Series</h1>
+    <p>The Hofmeister series is the ordering  of ions in terms of their ability to affect the solubility of proteins.</p>
+    <p>&nbsp;</p>
+    <p align="left"><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#pressure" title="go to section below">Rationale</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#prop" title="go to section below">Thermodynamic properties </a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#phys" title="go to section below">Effect on physical properties</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#ionpair" title="go to section below">Effect on solubility, ion pairs</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#prot" title="go to section below">Stabilization of proteins</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#ass" title="go to section below">Hydrophobic and hydrophilic associations</a></span></p>
+    <p align="left"><span class="style16">
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#part">The effect on biphasic partitioning</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#jd" title="go to section below">The Jones-Dole 
+        expression</a>
+    </span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="style10">
+    <p class="style10" align="center">'On perusal of the numerous articles on the physiological effect of salts, </p>
+    <p class="style10" align="center">one repeatedly encounters the same concept'</p>
+</div>
+    <div  class="style4">
+      <p align="right">&nbsp;</p>
+      <p align="right">Franz Hofmeister 1888&nbsp;&nbsp;&nbsp;<span class="style10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;</p>
+</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>The effects of ions on biological and chemical processes in aqueous solution,<sup><a href="#g" name="bg" id="bg"> f</a></sup> at sufficient concentration (&gt;10 mM; one ion per 6000 water molecules), usually depend on the particular ions involved. At similar temperatures, some salts (Mg<sup>2+</sup>, Al<sup>3+</sup>)  make water more viscous, while others (Cs<sup>+</sup>, NH<sub>4</sub><sup>+</sup>) make it less viscous (see also<a href="kosmotropes_chaotropes.html"> kosmotropes and chaotropes</a>). These specific ion effects make up the Hofmeister phenomena [<a href="ref19.html#r1827" name="r1827" title="go to cited reference" id="r1827">1827</a>, <a title="go to cited reference"  href="ref23.html#r2225">2225</a><a name="r2225" id="r2225"></a>, <a title="go to cited reference"  href="ref30.html#r2924">2924</a><a name="r2924" id="r2924"></a>, <a title="go to cited reference"  href="ref40.html#r3927">3927</a><a name="r3927" id="r3927"></a>]. <sup><a href="#h" name="bh" id="bh">g</a></sup> The Hofmeister series [<a href="ref.html#r85" name="r85" title="go to cited reference" id="r85">85</a>], 
+      below, originates from the <em><strong>empirical </strong></em>and <em><strong>qualitative</strong></em> ranking of various ions toward their 
+      ability to precipitate a mixture of hen egg white proteins.</p>
+    <p>&nbsp;</p>
+    <p align="left"><strong>Anions</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp; SO<sub>4</sub><sup>2&minus;</sup> &gt; HPO<sub>4</sub><sup>2 -</sup>&gt; 
+    acetate<sup>&minus;</sup> &gt; Cl<sup>&minus;</sup> &gt; NO<sub>3</sub><sup>&minus;</sup> </p>
+    <p align="left"><sup><br />
+      </sup><strong>Cations:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      Mg<sup>2+</sup> &gt; Li<sup>+</sup> &gt; Na<sup>+</sup> = K<sup>+</sup> &gt; NH<sub>4</sub><sup>+</sup> <sup>&nbsp;&nbsp;&nbsp;&nbsp;</sup></p>
+    <p>&nbsp;</p>
+    <p align="left">Note (i) that the ability 
+      to precipitate protein(s) depends on the protein(s) present, 
+      (ii) that some proteins exhibit opposite Hofmeister series 
+      behavior to others (which may be due to the protein's net 
+      charge [<a title="go to cited reference" href="ref9.html#r812">812</a><a name="r812" id="r812"></a>] and the <a href="water_dissociation.html#o">ionic strength</a> of the solution [<a title="go to cited reference" href="ref17.html#r1606">1606</a><a name="r1606" id="r1606"></a>]; 
+      ovalbumin being negatively charged in the key experiments) 
+      and (iii) the order of some of the ions may be reversed in 
+      some series depending on the application, the counter-ions 
+      used, the pH, and any ion-specific factors present. Always 
+      note the application, conditions, and method of comparison 
+      when examining the published 'Hofmeister series'. Experiments into Hofmeister (ion-specific) effects have been criticized in that  they often neglect the (possibly) confounding effects of the concentration of the ions (including counter-ions) present, the presence of other ions such as buffers, pH, and the temperature [<a title="go to cited reference" href="ref15.html#r1463">1463</a><a name="r1463" id="r1463"></a>]. Such effects must be taken into account if the relative effectiveness of the ions in any process is to be compared. The complete 
+      original series [<a title="go to cited reference" href="ref.html#r85">85</a>], given below 
+      in terms of molar effect, used a mixture of egg white proteins 
+      and did not control for pH changes. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Anions:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;citrate<sup>3- </sup>&gt; SO<sub>4</sub><sup>2- </sup>= tartrate<sup>2- </sup>&gt; 
+      HPO<sub>4</sub><sup>2- </sup>&gt; CrO<sub>4</sub><sup>2- </sup>&gt; 
+      acetate<sup>&minus;</sup> &gt; HCO<sub>3</sub><sup>&minus;</sup> &gt; Cl<sup>&minus;</sup> &gt; NO<sub>3</sub><sup>&minus;</sup> &gt; ClO<sub>3</sub><sup>&minus; </sup></p>
+    <p align="left"><sup><br />
+      </sup>Cations:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mg<sup>2+</sup> &gt; Li<sup>+</sup> &gt; Na<sup>+</sup> = K<sup>+</sup> &gt; NH<sub>4</sub><sup>+</sup> <sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</sup></p>
+    <p align="right"> </p>
+    <p align="left"><sup>&nbsp;&nbsp;&nbsp;&nbsp;</sup></p>
+    <p align="left">Simplistically,  protein precipitation can be 
+      explained by the extent of the ions binding to water (see 
+      also <a href="hydrophobic_hydration.html#salt">salting-out</a>).<sup><a href="#b" name="bb" id="bb"> a</a></sup> Thus, the effective concentration of the proteins increases (in the 
+      remaining 'free' (bulk) water), and they precipitate,  releasing low entropy 
+      surface water. The series has been shown to have a much more general 
+      utility with at least thirty-eight observed phenomena (given in the comprehensive 
+      review [<a href="ref2.html#r139" name="r139" title="go to cited reference" id="r139">139</a>], with the current 
+      state of play  reviewed [<a title="go to cited reference" href="ref7.html#r671">671</a><a name="r671" id="r671"></a>, <a title="go to cited reference" href="ref12.html#r1132">1132</a><a name="r1132" id="r1132"></a>]), 
+      including showing the graduated effects on the structuring or denaturation 
+      of biological macromolecules, effects on interfacial hydration [<a href="ref14.html#r1302" name="r1302" title="go to cited reference" id="r1302">1302</a>] and affecting pH measurements [<a title="go to cited reference" href="ref5.html#r481">481</a><a name="r481" id="r481"></a>]. 
+      Nowadays, the Hofmeister series is usually given in terms of the 
+      ability of the ions to stabilize the structure of proteins. A similar 
+      effect has been found with the salt-induced activation of lyophilized 
+      enzymes [<a href="ref3.html#r219" name="r204" title="go to cited reference" id="r204">204</a>]. They show 
+      opposite correlations for anions and cations with their degree of 
+      strong hydration. The relative positions (mainly corresponding to 
+      the degree of strong hydration [<a href="ref3.html#r250" name="r250" title="go to cited reference" id="r250">250</a>]) 
+      in the series should be considered  indicative only as there will 
+      be variation with protein, pH, and temperature, with acetate ions 
+      showing pronounced cation-specific effects. Due to ion 
+      pair effects, the relative order of 
+      cations may reverse with different anions (for example, NO<sub>3</sub><sup>&minus;</sup> rather than Cl<sup>&minus;</sup>) under some circumstances [<a title="go to cited reference" href="ref5.html#r431">431</a><a name="r431" id="r431"></a>]. The relative order of anions may reverse dependent on the hydrophobicity/hydrophilicity and charge on the interacting surfaces; with I<sup>&minus;</sup> &gt; Cl<sup>&minus;</sup> &gt; F<sup>&minus;</sup> on hydrophilic negatively charged and hydrophobic positively charged surfaces but  F<sup>&minus;</sup> &gt; Cl<sup>&minus;</sup> &gt; I<sup>&minus;</sup> on hydrophilic positively charged and hydrophobic negatively charged surfaces [<a href="ref17.html#r1659" name="r1659" title="go to cited reference" id="r1659">1659</a>]. Depending on the circumstances, NH<sub>4</sub><sup>+</sup> may occur out of order amongst the monovalent cations due to its hydrogen-bonding capacity [<a href="ref19.html#r1834" name="r1834" title="go to cited reference" id="r3">1834</a>]. Also, Li<sup>+</sup> often appears out of order as the water molecules within<a href="aqueous_hydrogen_halides.html"> its first hydration shell</a> are so tightly bound that its effective surface charge density  is decreased by its hydration water [<a href="ref19.html#r1834"  title="go to cited reference">1834</a>]. The different dispersion interactions may introduce a further factor on the specific effects of these ions [<a title="go to cited reference" href="ref22.html#r2162">2162</a><a name="r2162" id="r2162"></a>]. <span class="style15"></span></p>
+    <p align="center" class="style15"><strong>The Hofmeister series</strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><img name="hofmeister_series_1" src="images/hofmeister_series_1.gif" width="580" height="190" border="0" id="hofmeister_series_1" alt="Hofmeister series and protein stabilisation" /></p>
+    <p>&nbsp;</p>
+    <p align="left">Other ions can be introduced, for example,  Li<sup>+</sup> (between Na<sup>+</sup> and Ca<sup>2+</sup>), SCN<sup>&minus;</sup> (after ClO<sub>4</sub><sup>&minus;</sup>), CO<sub>3</sub><sup>2- </sup>(between citrate<sup>3 -</sup> and H<sub>2</sub>SO<sub>4</sub><sup>2&minus;</sup>), IO<sub>3</sub><sup>&minus;</sup> (between HPO<sub>4</sub><sup>2 -</sup> and F<sup> -</sup>), BrO<sub>3</sub><sup>&minus;</sup> (between F<sup> -</sup> and Cl<sup> -</sup>)and ClO<sub>3</sub><sup>&minus;</sup> (between Cl<sup> -</sup> and Br<sup> -</sup>)  [<a title="go to cited reference" href="ref27.html#r2618">2618</a><a name="r2618" id="r2618"></a>]. These three latter ions are all trigonal pyramidical, with the halogen atom at the top of the pyramid. They  behave differently from what might have been expected from their (erroneously) expected surface charge density or (erroneously) expected polarizability. This is due to the (reversed) triple hydration of the positively charged halogen atom in addition to the expected hydration of the negatively charged oxygen atoms  [<a title="go to cited reference" href="ref27.html#r2619">2619</a><a name="r2619" id="r2619"></a>]; thus preventing any clathrate cage-like hydration. The Hofmeister series has been  rewritten to show the main variations [<a href="ref31.html#r3007" name="r3007" title="go to cited reference" id="r3007">3007</a>] and has been investigated in polar non-aqueous solutions  [<a href="ref32.html#r3181" name="r3181" title="go to cited reference" id="r3181">3181</a>].</p>
+    <p align="right">&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]&nbsp;&nbsp;&nbsp;</p>
+    <h2><a name="pressure" id="pressure"></a>Rationale</h2>
+    <p align="left">Although some data indicate 
+      that ions destroy the natural hydrogen-bonded network of water, 
+      having effects similar to increased temperature or pressure 
+      [<a href="ref.html#r40" name="r40" title="go to cited reference" id="r40">40</a>] (for example, by 
+      lowering the pressure required to form high-pressure ice<a title="go to find more on structure"  href="ice_vii.html"> <span class="style1">VII</span></a> [<a title="go to cited reference" href="ref8.html#r705">705</a><a name="r705" id="r705"></a>]), another 
+      methodology indicates that ions cause negligible change to 
+      water's bulk structure [<a title="go to cited reference" href="ref6.html#r514">514</a><a name="r514" id="r514"></a>, <a title="go to cited reference" href="ref12.html#r1132">1132</a>]. 
+      These differences may be due to the ionic concentration used, the sensitivity 
+      of the methods to the scale of potential structural changes in the  bulk water, the difficulty in separating coexisting but opposite  effects (that is, <a href="kosmotropes_chaotropes.html">chaotropic and kosmotropic</a>, see later), the precise meaning of 'bulk' water, and the importance of the presence of surfaces in stabilizing effects [<a href="ref21.html#r2091" name="r2091" title="go to cited reference" id="r2091">2091</a>]. In particular, the effects of salts at lower concentrations may be smothered (in many studies) by the relatively large amount of unaffected 'bulk' water present. In contrast, at high concentrations, there may be insufficient water to show any specific effects properly.  Some techniques do pick up the more extensive clustering effects expected; for example, Fourier transform infrared studies show four well-defined hydration spheres around a proton with an additional outer hydration layer and more loosely bound water molecules further out [<a href="ref12.html#r1133" name="r1133" title="go to cited reference" id="r1133">1133</a>]. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Water in the hydration shell is vibrationally decoupled from its neighbors  [<a href="ref23.html#r2255" name="r2255" title="go to cited reference" id="r2255">2255</a>]. Moreover, the hydrogen-bond strength between these water molecules is ion-specific and varies as CO<sub>3</sub><sup>2 -</sup>&gt;      SO<sub>4</sub><sup>2&minus;</sup> &gt; bulk water &asymp;  Cl<sup>&minus;</sup> &gt; I<sup>&minus;</sup> whereas the librational energy varies in the reverse direction CO<sub>3</sub><sup>2 -</sup> &asymp;       SO<sub>4</sub><sup>2&minus;</sup> &lt; bulk water &lt; Cl<sup>&minus;</sup> &lt; I<sup>&minus;</sup> [<a href="ref23.html#r2255"  title="go to cited reference" >2255</a>], thus showing that the more kosmotropic ions form strongly hydrogen-bonded clusters with more rigid conformation (i.e., low librational freedom). The presence of strongly hydrated, kosmotropic anions (for example, SO<sub>4</sub><sup>2&minus;</sup>)  results in decreased<sup> 1</sup>H/<sup>2</sup>H exchange, suggesting less free water, decreased protein solvation, and increased protein stability, whereas increased <sup>1</sup>H/<sup>2</sup>H exchange is found in the presence of weakly hydrated, chaotropic anions (for example, ClO<sub>4</sub><sup>&minus;</sup>), correlating with increased protein solvation and decreased protein thermal stability  [<a href="ref23.html#r2293"  title="go to cited reference" >2293</a><a name="r2293" id="r2293"></a>], (see <a href="ion_hydration.html#so4">also</a>).<br />
+</p>
+    <p>&nbsp;</p>
+    <p align="left">The effect of ions 
+      has been successfully approximated by the equivalent osmotic 
+      pressure [<a href="ref3.html#r224" name="r224" title="go to cited reference" id="r224">224</a>] and 
+      by the equivalent effect on <a href="water_activity.html">water 
+      activity</a> (4 <a href="moles_molarity_molality.html" title="click for an explanation">molal</a> NaCl is equivalent to 0.14 GPa [<a title="go to cited reference" href="ref5.html#r457">457</a><a name="r457" id="r457"></a>]). 
+      Ions that have the greatest such effect (exhibiting weaker 
+      interactions with water than water itself) are known as structure-breakers 
+      or <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropes</a>, in contrast, ions having 
+      the opposite effect are known as structure-makers or <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropes</a> (exhibiting strong interactions with water molecules). Strongly 
+      hydrated ions considerably increase the difference between 
+      the hydrogen-bond donating capacity and the hydrogen-bond accepting capacity of the linked 
+      water molecules resulting in the breakdown of the tetrahedral 
+      network. Anions hydrate more strongly than cations for the 
+      same ionic radius as water hydrogen atoms can approach (about 
+      0.8 <a href="constants.html#ang" title="Angstrom">&Aring;</a>) more closely than the water oxygen atoms (but 
+      note that most anions are larger than most cations), giving 
+      rise to greater electrostatic potential. Also, anions are 
+      far more polarizable than cations (compare Na<sup>+</sup> 0.12; K<sup>+</sup> 0.78; Cl<sup>&minus;</sup> 4.00 [<a title="go to cited reference" href="ref8.html#r742">742</a><a name="r742" id="r742"></a>]) 
+      due to their more diffuse extra electron(s) and breaking hydrogen 
+      bonds round anions is relatively slow due to the difficulty 
+      in finding a new hydrogen-bonding partner [<a href="ref2.html#r190" name="r190" title="go to cited reference" id="r190">190</a>]. Anions are also thought more likely to promote the <a href="hydrophobic_hydration.html#salt">salting-out</a> of amphiphiles. Although we put forward the surface charge density as being the critical determinant of Hofmeister effects (as does   [<a href="ref15.html#r1469" name="r1469" title="go to cited reference" id="r1469">1469</a>], others state it is the  polarizability that is important  [<a href="ref12.html#r1113" name="r1113" title="go to cited reference" id="r1113">1113</a>]. However, a comprehensive study has shown the dominant role of charge density, but no correlation of polarizability, with thermal effects on either an acidic or basic protein  [<a href="ref16.html#r1525" name="r1525" title="go to cited reference" id="r1525">1525</a>].</p>
+    <p>&nbsp;</p>
+    <p align="left"><a title="go for more information" href="ion_hydration.html">Small ions are strongly hydrated</a>, with small 
+      or negative entropies of hydration, creating local order and 
+      higher local density. Small cations do not bind directly to polar surfaces, but small anions, which have lower surface charge density than the cations, may bind through ion-pairing [<a title="go to cited reference" href="ref16.html#r1535">1535</a><a name="r1535" id="r"></a>]. Large singly charged ions such as <span class="style1">I</span><sup>&minus;</sup>, SCN<sup>&minus;</sup> or Cs<sup>+</sup>, with more positive entropies of hydration, 
+      act like hydrophobic molecules, binding to surfaces dependent 
+      not only on charge but also on <a href="hydrogen_bonds.html#b" title="go for more information">van der Waals</a> forces [<a title="go to cited reference" href="ref6.html#r521">521</a><a name="r521" id="r521"></a>].      The large anions interact with the polypeptide backbone via a hybrid binding site that consists of the peptide nitrogen and the adjacent &alpha;-carbon  [<a href="ref20.html#r1914" name="r1914" title="go to cited reference" id="r1914">1914</a>]. These amide-backbone binding sites for weakly hydrated anions are the most significant locations for the <a href="#b">salting-in</a> of uncharged polypeptides. They may additionally be pushed on by strong water-water interactions and certainly induce a change in the surface hydration and interfacial aqueous clustering [<a href="ref16.html#r1575" name="r1575" title="go to cited reference" id="r1575">1575</a>].
+      Such large ions possess low surface charge density (<em>e.g., </em>for comparison, F<sup>&minus;</sup>, Cl<sup>&minus;</sup>, Br<sup>&minus;</sup> and <span class="style1">I</span><sup>&minus;</sup> have surface charge densities of -8.98 &#739; 10<sup>&minus;21</sup>, -4.42 &#739; 10<sup>&minus;21</sup>, 
+      -3.64 &#739; 10<sup>&minus;21</sup>, and -2.84 &#739; 10<sup>&minus;21</sup> Coulombs/<a href="constants.html#ang" title="Angstrom">&Aring;</a><sup>2</sup> respectively [<a title="go to cited reference" href="ref2.html#r139">139</a>]) and are able 
+      to sit comfortably within dodecahedral water clathrate shells 
+      and produce the lowest apparent<sup><a href="#c" name="bc" id="bc"> b</a></sup> density for the solution water [<a href="ref3.html#r223" name="r223" title="go to cited reference" id="r223">223</a>]. 
+      Moderately sized ions (for example, Rb<sup>+</sup>, K<sup>+</sup>, 
+      Br<sup>&minus;</sup>) cause the partial collapse of such clathrate 
+      structures through <a href="water_cluster_equilibria.html#pucker">puckering</a>. 
+      These ions allow rotations of the water molecule dipole towards 
+      the oppositely charged ions through weak interactions that 
+      would be prevented at genuinely <a href="hydrophobic_hydration.html#philic" title="go to find out more">hydrophobic</a> surfaces and produce greater localized water molecule mobility ('negative' 
+      hydration). </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Larger ions, such as the tetramethylammonium cation, 
+      form clathrate structures but do not allow these rotations 
+      in the surface water surface ('hydrophobic' hydration). The 
+      collapse, through <a href="water_cluster_equilibria.html#pucker">puckering</a>, 
+      of the water clathrate structures surrounding the smallest 
+      ions (for example, Na<sup>+</sup>, Li<sup>+</sup>, F<sup>&minus;</sup>) 
+      is tightly formed as these ions hold strongly to the first 
+      shell of their hydrating water molecules and hence there is 
+      less localized water molecule mobility [<a title="go to cited reference" href="ref14.html#r1358">1358</a><a name="r1358" id="r1358"></a>] (strong or 'positive' 
+      hydration) and higher apparent<sup><a href="#c" name="bc2" id="bc2"> b</a></sup> density for the solution water [<a title="go to cited reference" href="ref3.html#r223">223</a>]. 
+      There is also a less complete cluster structure due to the 
+      hydrogen-bonding defects <a href="#d" name="bd" id="bd"><sup>c</sup></a> caused by the inward-pointing primary hydrogen-bonding to 
+      anions or disoriented lone-pair electrons and electrostatic 
+      repulsion together with weakened hydrogen-bonding reducing 
+      inward-pointing secondary hydrogen bond donation near cations 
+      or acceptance near anions. Generally, the water surrounding 
+      anions tends to retain favorable water-water hydrogen-bonding, whereas that water surrounding small cations does not [<a title="go to cited reference" href="ref8.html#r741">741</a><a name="r741" id="r741"></a>]. Higher charge density anions, such as sulfate, are exceptions to this generalization.</p>
+    <p>&nbsp;</p>
+    <div align="left" style="width:160px; float:left;">
+      <p>&nbsp;</p>
+      <p align="left">that is, these hydrogen bonds 
+        possess a reduced strength</p>
+</div>
+    <div align="left" style="width:260px; float:left;"><img src="images/hofmei1.gif" alt="Unfavorable hydrogen bonding around ions; donation to water round cations" title="Unfavorable hydrogen bonding around ions; donation to water round cations" width="258" height="97" /></div>
+    <div align="left" style="width:60px; float:left;">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="center">and </p>
+</div>
+    <div align="left" style="width:240px; float:left;"> <img src="images/hofmei1r.gif" width="202" height="128" alt="Unfavorable hydrogen bonding around ions; acceptance from water bound to anions" title="Unfavorable hydrogen bonding around ions; acceptance from water bound to anions" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Note that such strong hydration round both 
+      anions and cations costs the equivalent of two hydrogen bonds (&asymp;  
+      46 kJ  &#739; mol<sup>&minus;1</sup>; that is, one replaced by the ion plus 
+      one chain of hydrogen-bonding with severely reduced strength) and is only 
+      found to form round ions where at least this enthalpic contribution 
+      is released [<a href="ref.html#r63" name="r63" title="go to cited reference" id="r63">63</a>].&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="prop" id="prop"></a>Thermodynamic properties </h2>
+    <p>Water cluster binding studies have shown that the 
+      ions possessing high charge density bind larger water clusters more 
+      strongly&nbsp; [<a href="ref4.html#r306" name="r306" title="go to cited reference" id="r306">306</a>]; see 
+      molar ionic volumes <a title="click for an explanation" href="#tab">below</a>. Electrostriction is an ion-specific effect whereby the ions cause a contraction in the volume of the water due to their high charge density. It is greatest where the ion's surface charge concentration  is the greatest. The Hofmeister effects follow this electrostriction effect, but it is unclear whether this is cause and effect. It is noteworthy that the same effect operates in other solvents such as ethanol or dimethylsulfoxide. In respect of electrostriction, water is not a &ldquo;special&rdquo; solvent, and electrostriction does not depend on hydrogen bonding [<a href="ref31.html#r3007" title="go to cited reference" >3007</a>]. </p>
+    <p>&nbsp;</p>
+    <p>The entropies of hydration 
+      correlate with the tendency for the ion to accumulate in low-density 
+      water (<a name="LDW" id="LDW"></a>LDW, for example, <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2">ES</a>; 
+      see values <a title="click for an explanation" href="#tab">below</a>). A gain in entropy 
+      of the ion on dissolution is countered by a loss in entropy of the 
+      water [<a href="ref.html#r4" name="r4" title="go to cited reference" id="r4">4</a>]. <a name="jones" id="jones"></a> Another correlation is with the <a href="#jd">Jones-Dole viscosity</a> <em><strong>B</strong></em> coefficient [<a href="ref3.html#r277" name="r277" title="go to cited reference" id="r277">277</a>] (see <a title="click for an explanation" href="#tab">below</a>). Ions that are weakly hydrated exhibit a smaller change in viscosity 
+      with concentration having negative <em><strong>B</strong></em> coefficients (<a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropes</a>), than strongly 
+      hydrated ions with positive <em><strong>B</strong></em> coefficients 
+      (<a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropes</a>). Such negative <em><strong>B</strong></em> coefficients are not shown by ions in any other solvent, except 
+      D<sub>2</sub>O where they are even more negative [<a href="ref4.html#r304" name="r304" title="go to cited reference" id="r304">304</a>]. 
+      They lose this effect under pressure [<a href="ref3.html#r299" name="r299" title="go to cited reference" id="r299">299</a>].</p>
+    <p>&nbsp;</p>
+    <p>Similar effects are seen with the ionic surface tension increments, k<sub>i</sub> = d&gamma;/dc<sub>i</sub> (mN &#739; m<sup>&minus;1</sup> &#739; M<sup>&minus;1</sup>) (see table below [<a href="ref20.html#r1981" name="r1981" title="go to cited reference" id="r1981" >1981</a>]), where more positive values indicate ions most repelled from the aqueous interface. Some exceptions exist where ions have ion-specific interfacial effects, such as the hydrogen ion. The effect of ions on the attenuated total reflection (ATR) spectra has been investigated (see Table below), where ions increase the lower (2,600 - 3,420 cm<sup>&minus;1</sup>) O-H stretch absorbances and reduce the higher (3,420 - 3,800 cm<sup>&minus;1</sup>) O-H stretch absorbances. Ions with positive <a href="#vii">&Delta;MA<sub>L&ndash;H</sub> values</a> are expected to strengthen the water-water hydrogen bonds in their hydration layers, whereas those ions with negative &Delta;MA<sub>L&ndash;H</sub> values weaken them [<a title="go to cited reference"  href="ref22.html#r2157">2157</a><a name="r2157" id="r2157"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>The number of <a href="colligative_properties.html#tight">strongly bound water molecules </a>obtained from colligative properties  correlates with the Hofmeister series, as shown by the <a href="#jd">Jones-Dole viscosity <em><strong>B</strong></em> coefficients</a>.<br />
+</p>
+    <p><a name="stinc" id="stinc"></a></p>
+    <table width="99%" border="0" cellspacing="0" cellpadding="0" summary="Key properties of aqueous ions">
+      <tr>
+        <th width="13%" scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Key properties of aqueous ions">
+            <tr>
+              <th width="8%" scope="col"><table width="100%" border="1" cellspacing="1" cellpadding="1" summary="Key properties of aqueous ions">
+                  <caption>
+                  <strong class="style15">Key properties of aqueous ions</strong>
+                  <br />
+                  <br />
+                  </caption>
+                  <tr>
+                    <th width="10%" scope="col"><strong><a name="tab" id="tab"></a>Cations</strong></th>
+                    <th width="8%" scope="col"><strong>Ionic volume<sup><a title="click for an explanation" href="#i">i</a><a name="bi" id="bi"></a></sup></strong></th>
+                    <th width="6%" scope="col"><strong>&Delta;S<a name="bii" id="bii"></a><sup><a title="click for an explanation" href="#ii">ii</a></sup></strong></th>
+                    <th width="10%" scope="col"><strong>Jones-Dole<a name="biii" id="biii"></a><sup><a title="click for an explanation" href="#iii">iii</a></sup></strong></th>
+                    <th width="8%" scope="col"><strong>k</strong><sub>i</sub><strong><a name="biv" id="biv"></a><sup><a title="click for an explanation" href="#iv">iv</a></sup></strong></th>
+                    <th width="7%" scope="col"><strong>&Delta;MA<a name="bvii" id="bv11"></a><sup><a title="click for an explanation" href="#vii">vii</a></sup></strong></th>
+                    <th width="9%" scope="col"><strong>Anions</strong></th>
+                    <th width="8%" scope="col"><strong>Ionic volume<sup><a title="click for an explanation" href="#i">i</a></sup></strong></th>
+                    <th width="7%" scope="col"><strong>&Delta;S<sup><a title="click for an explanation" href="#ii">ii</a></sup></strong></th>
+                    <th width="13%" scope="col"><strong>Jones-Dole<sup><a title="click for an explanation" href="#iii">iii</a></sup></strong></th>
+                    <th width="7%" scope="col"><strong>k</strong><sub>i</sub><strong><sup><a title="click for an explanation" href="#iv">iv</a></sup></strong></th>
+                    <th width="7%" scope="col"><strong>&Delta;MA<sup><a title="click for an explanation" href="#vii">vii</a></sup></strong></th>
+  </tr>
+                  <tr>
+                    <th scope="row">&nbsp;</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td align="center">&nbsp;</td>
+                    <th scope="row"><strong>Citrate<sup>3&minus;</sup></strong></th>
+                    <td><div align="center">+77<a name="bv" id="bv"></a><strong><sup><a title="click for an explanation" href="#v">v</a></sup></strong></div></td>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">+0.76<a name="bvi" id="bvi"></a><strong><sup><a title="click for an explanation" href="#vi">vi</a></sup></strong></div></td>
+                    <td><div align="center">na</div></td>
+                    <td align="center"><div align="center">na</div></td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Al<sup>3+</sup></strong></th>
+                    <td><div align="center">-58.7</div></td>
+                    <td><div align="center">-396</div></td>
+                    <td><div align="center">+0.67</div></td>
+                    <td><div align="center">2.65</div></td>
+                    <td align="center"><div align="center">na</div></td>
+                    <th scope="row"><strong>HPO<sub>4</sub><sup>2&minus;</sup></strong></th>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">+0.382</div></td>
+                    <td><div align="center">0.70</div></td>
+                    <td align="center"><div align="center">na</div></td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Mg<sup>2+</sup></strong></th>
+                    <td><div align="center">-32.2</div></td>
+                    <td><div align="center">-174</div></td>
+                    <td><div align="center">+0.385</div></td>
+                    <td><div align="center">2.25</div></td>
+                    <td align="center">+3522</td>
+                    <th scope="row"><strong>CO<sub>3</sub><sup>2&minus;</sup></strong></th>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">na</div></td>
+                    <td align="center">+0.29                     
+                      [<a href="ref4.html#r304"  title="go to cited reference" >304</a>]</td>
+                    <td><div align="center">na</div></td>
+                    <td align="center"><div align="center">na</div></td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Ca<sup>2+</sup></strong></th>
+                    <td><div align="center">-28.9</div></td>
+                    <td><div align="center">-132</div></td>
+                    <td><div align="center">+0.298</div></td>
+                    <td><div align="center">2.10</div></td>
+                    <td align="center">+1241</td>
+                    <th scope="row"><strong>SO<sub>4</sub><sup>2&minus;</sup></strong></th>
+                    <td><div align="center">+25</div></td>
+                    <td><div align="center">-126</div></td>
+                    <td><div align="center">+0.206</div></td>
+                    <td><div align="center">0.55</div></td>
+                    <td align="center">&nbsp;0.00</td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>N(CH<sub>3</sub>)<sub>4</sub><sup>+</sup></strong></th>
+                    <td><div align="center">+84.1</div></td>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">+0.123</div></td>
+                    <td><div align="center">-0.10</div></td>
+                    <td align="center"><div align="center">na</div></td>
+                    <th scope="row"><strong>F<sup>&minus;</sup></strong></th>
+                    <td><div align="center">+4.3</div></td>
+                    <td><div align="center">-70</div></td>
+                    <td><div align="center">+0.127</div></td>
+                    <td><div align="center">0.80</div></td>
+                    <td align="center"><div align="center">na</div></td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Na<sup>+</sup></strong></th>
+                    <td><div align="center">-6.7</div></td>
+                    <td><div align="center">-5</div></td>
+                    <td><div align="center">+0.085</div></td>
+                    <td><div align="center">1.20</div></td>
+                    <td align="center">-324</td>
+                    <th scope="row"><strong>HCO<sub>3</sub><sup>&minus;</sup></strong></th>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">na</div></td>
+                    <td align="center">+0.03 
+                      [<a href="ref4.html#r304"  title="go to cited reference" >304</a>]</td>
+                    <td><div align="center">na</div></td>
+                    <td align="center"><div align="center">na</div></td>
+  </tr>
+                  <tr>
+                    <th scope="row"><strong>H<sup>+</sup></strong></th>
+                    <td><div align="center">-5.5</div></td>
+                    <td><div align="center">na</div></td>
+                    <td><div align="center">+0.068</div></td>
+                    <td><div align="center">-1.05</div></td>
+                    <td align="center"><div align="center">na</div></td>
+                    <th scope="row"><strong>Cl<sup>&minus;</sup></strong></th>
+                    <td><div align="center">+23.3</div></td>
+                    <td><div align="center">+6</div></td>
+                    <td><div align="center">-0.005</div></td>
+                    <td><div align="center">0.90</div></td>
+                    <td align="center">-1224</td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>NH<sub>4</sub><sup>+</sup></strong></th>
+                    <td><div align="center">+12.4</div></td>
+                    <td><div align="center">+5</div></td>
+                    <td><div align="center">-0.008</div></td>
+                    <td><div align="center">0.70</div></td>
+                    <td align="center"><div align="center">na</div></td>
+                    <th scope="row"><strong>Br<sup>&minus;</sup></strong></th>
+                    <td><div align="center">+30.2</div></td>
+                    <td><div align="center">+28</div></td>
+                    <td><div align="center">-0.033</div></td>
+                    <td><div align="center">0.55</div></td>
+                    <td align="center">-1804</td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>K<sup>+</sup></strong></th>
+                    <td><div align="center">+3.5</div></td>
+                    <td><div align="center">+34</div></td>
+                    <td><div align="center">-0.009</div></td>
+                    <td><div align="center">1.10</div></td>
+                    <td align="center">-335</td>
+                    <th scope="row"><strong>NO<sub>3</sub><sup>&minus;</sup></strong></th>
+                    <td><div align="center">+34.5</div></td>
+                    <td><div align="center">+9</div></td>
+                    <td><div align="center">-0.045</div></td>
+                    <td><div align="center">0.15</div></td>
+                    <td align="center">-1770</td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Rb<sup>+</sup></strong></th>
+                    <td><div align="center">+8.6</div></td>
+                    <td><div align="center">+52</div></td>
+                    <td><div align="center">-0.033</div></td>
+                    <td><div align="center">0.95</div></td>
+                    <td align="center">-255</td>
+                    <th scope="row"><strong>ClO<sub>4</sub><sup>&minus;</sup></strong></th>
+                    <td><div align="center">+49.6</div></td>
+                    <td><div align="center">+30</div></td>
+                    <td><div align="center">-0.061</div></td>
+                    <td><div align="center">-0.70</div></td>
+                    <td align="center">-2584</td>
+              </tr>
+                  <tr>
+                    <th scope="row"><strong>Cs<sup>+</sup></strong></th>
+                    <td><div align="center">+15.8</div></td>
+                    <td><div align="center">+59</div></td>
+                    <td><div align="center">-0.047</div></td>
+                    <td><div align="center">0.80</div></td>
+                    <td align="center">-15</td>
+                    <th scope="row"><strong>I<sup>&minus;</sup></strong></th>
+                    <td><div align="center">+41.7</div></td>
+                    <td><div align="center">+55</div></td>
+                    <td><div align="center">-0.073</div></td>
+                    <td><div align="center">-0.05</div></td>
+                    <td align="center">-2405</td>
+              </tr>
+                  <tr>
+                    <td><div align="center">Data from</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128" name="r128" title="go to cited reference" id="r128">128</a>]</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128" title="go to cited reference" >128</a>]</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128"  title="go to cited reference" >128</a>]</div></td>
+                    <td><div align="center">[<a href="ref20.html#r1981" title="go to cited reference" >1981</a>]</div></td>
+                    <td>[<a title="go to cited reference"  href="ref22.html#r2157">2157</a>]</td>
+                    <td><div align="center">Data from</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128" title="go to cited reference" >128</a>]</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128" title="go to cited reference" >128</a>]</div></td>
+                    <td><div align="center"> [<a href="ref2.html#r128"  title="go to cited reference" >128</a>]</div></td>
+                    <td><div align="center">[<a href="ref20.html#r1981" title="go to cited reference" >1981</a>]</div></td>
+                    <td>[<a title="go to cited reference"  href="ref22.html#r2157">2157</a>]</td>
+            </tr>
+          </table>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+    <div align="left" style="width:90%; padding-left:4%;" class="style3">
+      <p><strong><sup>i<a name="i" id="i"></a></sup>&nbsp;&nbsp;&nbsp;</strong> Molar aqueous ionic volume, cm<sup>3</sup>   &#739; mol<sup>&minus;1</sup>, 
+        298.15 K; a negative value indicates a contraction in volume. 
+        [<a title="click for an explanation" href="#bi"><span title="go back to the text">Back</span></a>]<strong><br />
+        <sup>ii<a name="ii" id="ii"></a></sup>&nbsp;&nbsp;&nbsp;</strong>Entropy 
+        of hydration, kJ  &#739; mol<sup>&minus;1</sup>, 298.15 K; standard molar 
+        entropy less the entropy of the primary hydrating water 
+        (that is, its immobilization). [<a title="click for an explanation" href="#bii"><span title="go back to the text">Back</span></a>]<strong><br />
+        <sup>iii<a name="iii" id="iii"></a></sup></strong>&nbsp;&nbsp;Viscosity <a href="#jd">Jones-Dole</a> <em>B</em>-coefficient, dm<sup>3</sup>  &#739; mol<sup>&minus;1</sup>, 298.15 K; results from 
+        the degree of water structuring by the ions. The accuracy and precision 
+        of this data may be overstated, but the values are indicative. 
+        [<a title="click for an explanation" href="#biii"><span title="go back to the text">Back</span></a>]<br />
+        <strong><sup>iv<a name="iv" id="iv"></a></sup></strong>&nbsp;&nbsp;Ionic surface tension increments, k<sub>i</sub> = d&gamma;/dc<sub>i</sub> (mN   &#739; m<sup>&minus;1</sup>   &#739; M<sup>&minus;1</sup>) over the range 0.1 M - 1.0 M, values from [<a href="ref20.html#r1981" title="go to cited reference" >1981</a>]. [<a title="click for an explanation" href="#biv"><span title="go back to the text">Back</span></a>]<br />
+        <strong><sup>v<a name="v" id="v"></a></sup></strong>&nbsp;&nbsp;Trisodium 
+        citrate value from [<a title="go to cited reference" href="ref8.html#r743">743</a><a name="r743" id="r5"></a>] 
+        less Na<sup>+</sup> values from this table. [<a title="click for an explanation" href="#bv"><span title="go back to the text">Back</span></a>]<br />
+        <strong><sup>vi<a name="vi" id="vi"></a></sup></strong>&nbsp;&nbsp;Calculated 
+        from [<a title="go to cited reference" href="ref.html#r70">70</a><a name="r70" id="r70"></a>] at 293.15 K. [<a title="click for an explanation" href="#bvi"><span title="go back to the text">Back</span></a>]<br />
+        <strong><sup>vii<a name="vii" id="vii"></a></sup></strong>&nbsp;&nbsp;&Delta;MA<sub>L&ndash;H</sub> is difference in area between the lower (2,600 &ndash; 3,420 cm<sup>&minus;1</sup>) and the higher (3,420 &ndash; 3,800 cm<sup>&minus;1</sup>) infrared frequency regions, compared with SO<sub>4</sub><sup>2&minus;</sup> (= 0) [<a title="go to cited reference"  href="ref22.html#r2157">2157</a>]. [<a title="click for an explanation" href="#bvii"><span title="go back to the text">Back</span></a>]<br />
+        na&nbsp;&nbsp;not available&nbsp;&nbsp;</p>
+      <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+</div>
+    <h2><a name="phys" id="phys"></a>Effect on physical properties </h2>
+    <p align="left">As weakly hydrated ions accumulate in low-density 
+      (<abbr title="Expanded icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">ES</a></abbr>) 
+      water, ions can fit into the icosahedral network without affecting 
+      its hydrogen-bonding and, therefore,  less effect on its viscosity 
+      as the concentration increases. Pressure shifts the </p>
+    <p align="left"><abbr title="Expanded icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">ES</a>&nbsp;</abbr><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2"><img border="0" src="images/rarrow.gif" width="20" height="12"  alt="reversible arrow" /></a><abbr title="Collapsed icosahedral water cluster structure">&nbsp;<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS</a></abbr><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2"> equilibrium</a> towards <abbr title="Collapsed icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS</a> formation</abbr>, so reducing this viscosity effect. It is clear 
+      from the experimental data that although the weakly hydrated ions 
+      encourage <abbr title="Expanded icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">ES</a></abbr> formation, the resultant structure is not more strongly hydrogen-bonded (as expected in <a title="go to find more information"  href="phase_anomalies.html#cool">supercooled water</a>), 
+      or else the viscosity would  be higher (larger <em><strong>A</strong></em> coefficients), which is not found [<a title="go to cited reference" href="ref4.html#r304">304</a>]. 
+      The low viscosity is at least partially due to the lower density 
+      reducing non-bonded inter-molecular attractions. Similar correlations 
+      are seen with <a title="go to find more information"  href="physical_anomalies.html#JR">surface tension</a> changes 
+      (more strongly hydrated ions increasing the surface tension more 
+      [<a title="go to cited reference" href="ref7.html#r671">671</a>]) and dissolved gas concentrations 
+      (more strongly hydrated ions reducing the solubility more) [<a name="r512" id="r512"></a><a title="go to cited reference" href="ref6.html#r512">512</a>]; 
+      both effects are due to the shift to <abbr title="Collapsed icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS</a> formation</abbr>. The increased <a href="hydrogen_bonds.html#b" title="go for more information">van der Waals</a> dispersion forces 
+      of large ions also increase the pull on the gas/liquid surface 
+      [<a title="go to cited reference" href="ref6.html#r513">513</a><a name="r513" id="r513"></a>] and confuse 
+      the surface tension effects. As such dispersion forces correlate 
+      well with lower charge density for similarly charged ions, it may 
+      be challenging to separate these effects. A theory has been presented that considers both the ionic hydration and the polarizability to allow calculation of the surface tensions of various sodium salts [<a href="ref17.html#r1663" name="r1663" title="go to cited reference" id="r1663">1663</a>].&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="ionpair" id="ionpair"></a>Effect on solubility; ion pairs</h2>
+    <p align="left"><a  title="go for more information" href="ion_hydration.html">Arrangement of water around ions</a> is not restricted 
+      to the first hydration layer (<a title="go for more information" href="ion_hydration.html#mg">for example, magnesium ions</a> [<a href="ref3.html#r253" name="r253" title="go to cited reference" id="r253">253</a>, <a href="ref4.html#r378" name="r378" title="go to cited reference" id="r378">378</a>], see also the <a href="ion_hydration.html#mg">ion puckered clusters</a>) except 
+      at high concentrations. The apparent number of hydrating water molecules 
+      and their  exchange rates depend not only on the ion 
+      but also on the method of determination and the ionic concentration [<a  title="go to cited reference" href="ref11.html#r1064">1064</a><a name="r1064" id="r1064"></a>]; 
+      a review is available [<a title="go to cited reference" href="ref10.html#r936">936</a><a name="r936" id="r936"></a>]. Oppositely charged salt ions generally show two energy minima in their radial separation, one of which will be the global minimum. These involve close contact (ion-pair, CIP) [<a title="go to cited reference"  href="ref31.html#r3075">3075</a><a name="r3075" id="r3075"></a>], solvent shared ion-pairs (SIP), and solvent-separated contact (solvent-separated ion pair, 2SIP). The relative energy of these minima depends on the ions, their concentration, other solutes, and the prevailing physical conditions.  An anion-cation pair may form all of these to varying extents together with well-separated ions dependent on the concentration and temperature. The relationship between the reaction coordinates, the ion-pair distance, the kinetics, and the coordination numbers have been examined  for shifts between the CIP and SIP/2SIP states [<a  title="go to cited reference" href="ref31.html#r3009">3009</a><a name="r3009" id="r3009"></a>]. Surprisingly, the degree of association does not follow the expected equilibria and is relatively independent of concentration   [<a  title="go to cited reference" href="ref27.html#r2654">2654</a>]. There is  not enough water  in very concentrated solutions to allow well-separated ions, and all ions will be forced to form pairs. </p>
+    <p align="left">&nbsp;</p>
+    <p align="center" class="style15"><strong><a name="ip" id="ip"></a>Ion pairing</strong></p>
+    <p align="center"><img src="images/ionpair.gif" width="720" height="229" title="Different ion pairing" alt="Different ion pairing" /></p>
+    <p>&nbsp;</p>
+    <p>The tendency to form inner-sphere ion-pairs  is reflected 
+      in the salt's solubility;  CaF<sub>2</sub>, 
+      AgI, CaI<sub>2</sub>, and AgF are 0.016, 0.0000016, 2090, 
+      and 1820 g &#739; kg<sup>&minus;1</sup> water respectively [<a title="go to cited reference" href="ref.html#r63">63</a>] with ion-pairing  
+      AgI &#x226B; CaF<sub>2</sub>  &#x226B; AgF &ge; CaI<sub>2</sub>. These different types may be quantified using<a href="water_methods.html#diel"> dielectric  spectroscopy</a> [<a title="go to cited reference"  href="ref27.html#r2631">2631</a><a name="r2631" id="r2631"></a>]. The effective ion-pair concentration may also be determined by freezing point depression [<a  title="go to cited reference" href="ref29.html#r2864">2864</a><a name="r2864" id="r2864"></a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The types of ions present in a solution 
+      control their overall properties. Inner sphere ion-pairs (that is, close contact CIP) may 
+      be formed between two small ions of high charge density (for example, CaF<sub>2</sub>), where the strong ionic attraction overcomes 
+      the hydration shells, or between two large ions of small charge 
+      density (for example, AgI; monovalent cations &gt;1.06 <a href="constants.html#ang" title="Angstrom">&Aring;</a>, 
+      monovalent anions &gt; 1.78 <a href="constants.html#ang" title="Angstrom">&Aring;</a>), where there are no strong 
+      hydration shells (i.e., when the ions have similar water affinities 
+      [<a title="go to cited reference" href="ref7.html#r667">667</a><a name="r667" id="r667"></a>]) and where there is substantial dispersion interaction between the ions [<a name="r2164" id="r2164"></a><a title="go to cited reference" href="ref22.html#r2162">2162</a>].</p>
+<p>&nbsp;</p>
+        <figure  class="floatright">
+<figcaption>
+      <p align="center">Volcano plot, from [<a title="go to cited reference"  href="ref12.html#r1190">1190</a>]</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/volcano_plot.gif" alt="Volcano plot of heat of solvation against the difference in the absolute heats of hydration of anion and cation, from ref 1190" width="360" height="282" usemap="#map" border="0" /></figure>
+    <map name="map" id="map">
+      <area shape="rect" coords="218,213,359,232" href="kosmotropes_chaotropes.html" alt="go to explanation of kosmotrope and chaotrope" title="go to explanation of kosmotrope and chaotrope" />
+      <area shape="rect" coords="12,212,153,231" href="kosmotropes_chaotropes.html" alt="go to explanation of kosmotrope and chaotrope" title="go to explanation of kosmotrope and chaotrope" />
+      <area shape="rect" coords="112,113,261,133" href="kosmotropes_chaotropes.html" alt="go to explanation of kosmotrope and chaotrope" title="go to explanation of kosmotrope and chaotrope" />
+      <area shape="rect" coords="123,48,254,67" href="kosmotropes_chaotropes.html" alt="go to explanation of kosmotrope and chaotrope" title="go to explanation of kosmotrope and chaotrope" />
+</map>
+    <p align="left">An equivalent but alternative way of looking at this (see 'volcano plot' opposite) is that when the anion and cation have similar affinities for water, they can remove the water from each other most easily, to become ion-paired [<a title="go to cited reference"  href="ref12.html#r1190">1190</a><a name="r1190" id="r1190"></a>] (see<a href="water_activity.html#salt_activity" title="go for a graph of activities" > ion activities</a>). A small 
+      ion of high charge density plus a large counter-ion of low 
+      charge density form a highly soluble, solvent-separated hydrated 
+      but clustered ion-pair [<a title="go to cited reference" href="ref5.html#r407">407</a><a name="r407" id="r407"></a>]. This is
+      as the large ion cannot break through its counter-ion's hydration 
+      shell (for example, CaI<sub>2</sub>, AgF, and LiI [<a title="go to cited reference"  href="ref16.html#r1547">1547</a><a name="r1547" id="r1547"></a>]). However, it prefers 
+      to sit within the disturbed hydrogen-bonding at an intermediate 
+      distance between the ordered but poorly hydrogen-bonded strongly-held 
+      first hydration shell and the more disordered but strongly 
+      hydrogen-bonded bulk phase water. This effect also enhances 
+      strongly-hydrating ion-hydrophobe interactions [<a title="go to cited reference" href="ref6.html#r522">522</a><a name="r522" id="r522"></a>].</p>
+    <p>&nbsp;</p>
+    <p align="left">The heterogeneous ice nucleation temperature of ice is lowered most by strongly hydrating ions in the order that they are found in the Hofmeister series [<a title="go to cited reference" href="ref27.html#r2642">2642</a><a name="r2642" id="r2642"></a>]. This is supposedly due to the difficulty that more tightly bound water molecules possess when reorienting to form the ice structure. The tendency to form inner-sphere ion-pairs  is reflected 
+      in the salt's solubility; the solubility of CaF<sub>2</sub>, 
+      AgI, CaI<sub>2</sub>, and AgF being 0.016, 0.0000016, 2090, 
+      and 1820 g/kg water, respectively [<a title="go to cited reference" href="ref.html#r63">63</a>].<a href="#f" name="bf" id="bf"><sup>e</sup></a> Such ion-pair effects also cause partial raising (Cl<sup>&minus;</sup> &gt; Br<sup>&minus;</sup> &gt; <span class="style1">I</span><sup>&minus;</sup>) 
+      of the homogeneous nucleation temperature of ice that has 
+      been lowered by increasingly hydrated (smaller) alkali cations 
+      (Cs<sup>+</sup> &lt; Rb<sup>+</sup> &lt; K<sup>+</sup> &lt; 
+    Na<sup>+</sup> &lt; Li<sup>+</sup>) [<a href="ref4.html#r341" name="r341" title="go to cited reference" id="r341">341</a>]. <a name="activity" id="activity"></a></p>
+    <p>&nbsp;</p>
+        <figure  class="floatleft">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Ion activity of bromides and acetates</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/ion_activities.gif" alt="Ion activity of bromides and acetates"  title="Ion activity of bromides and acetates" width="420" height="265" class="floatleft" /></figure>
+    <p>The activity coefficients of salts vary in a complex ion-specific manner [<a title="go to cited reference"  href="ref23.html#r2225">2225</a>] (see <a href="hofmeister_series.html" title="go for more information" >Hofmeister series</a>). For example, at a given concentration, the activity of bromide and iodide salts decreases in the sequence: Li<sup>+</sup> &gt; Na<sup>+</sup> &gt; K<sup>+</sup> &gt; Rb<sup>+</sup> &gt; Cs<sup>+</sup> (see left), whereas the activity of acetate or fluoride salts decreases in the opposite sequence: Cs<sup>+</sup> &gt; Rb<sup>+</sup> &gt; K<sup>+</sup> &gt; Na<sup>+</sup> &gt; Li<sup>+ </sup>[<a title="go to cited reference"  href="ref23.html#r2224">2224</a><a name="r2224" id="r2224"></a>]. The behavior of the acetate ion appears to be governed by the thermal rotation of its methyl group [<a title="go to cited reference"  href="ref33.html#r3241">3241</a><a name="r3241" id="r3241"></a>]. The activity coefficients can rise greatly at high molality, such that the activity coefficient for 20 molal LiBr is nearly 500. The form of the curves involves a drop in activity due to direct contact ion-pairing reducing the apparent salt concentration, counteracted by an increase in activity due to the binding of water by the salt and its consequential loss from the dissolving solution, so increasing the apparent concentration. The order of the salts is governed by their tendency to form direct contact ion-pair as opposed to solvent separated ion-pairs.    The ion specificity of macromolecules may be altered significantly by changing from dilute solutions to crowded environments [<a title="go to cited reference"  href="ref43.html#r4243">4243</a><a name="r4243" id="r4243"></a>].</p>
+    <p align="center">&nbsp;</p>
+    <p align="center" class="style15">The solubilities of the alkali metal halides (and ammonium halides) <sup><a href="#j" name="bj" title="click for more information" id="bj">g</a></sup></p>
+    <p align="center" class="style15">&nbsp;</p>
+    <table align="center" width="565" border="1">
+      <tbody>
+        <tr>
+          <td colspan="2" align="center">Solubilities g &#739; L<sup>&minus;1 </sup>(20&nbsp;&deg;C) </td>
+          <td width="120" align="center">F<sup>&minus;</sup></td>
+          <td width="120" align="center">Cl<sup>&minus;</sup></td>
+          <td width="120" align="center">Br<sup>&minus;</sup></td>
+          <td width="120" align="center">I<sup>&minus;</sup></td>
+        </tr>
+        <tr>
+          <td width="93" align="center">&nbsp;</td>
+          <td width="95" align="center">ionic radius, pm</td>
+          <td align="center"><p>119</p></td>
+          <td align="center">167</td>
+          <td align="center">182</td>
+          <td align="center">206</td>
+        </tr>
+        <tr>
+          <td align="center">NH<sub>4</sub><sup>+</sup></td>
+          <td align="center">152</td>
+          <td align="center">850 (25&nbsp;&deg;C)</td>
+          <td align="center">370</td>
+          <td align="center">760</td>
+          <td align="center">1630</td>
+        </tr>
+        <tr>
+          <td align="center">Li<sup>+</sup></td>
+          <td align="center"><p>90</p></td>
+          <td align="center">3</td>
+          <td align="center">840</td>
+          <td align="center">1600</td>
+          <td align="center">1650</td>
+        </tr>
+        <tr>
+          <td align="center"><p>Na<sup>+</sup></p></td>
+          <td align="center"><p>116</p></td>
+          <td align="center">40</td>
+          <td align="center">360</td>
+          <td align="center">910</td>
+          <td align="center">1780</td>
+        </tr>
+        <tr>
+          <td align="center">K<sup>+</sup></td>
+          <td align="center"><p>152</p></td>
+          <td align="center">950</td>
+          <td align="center">340</td>
+          <td align="center">650</td>
+          <td align="center">1440</td>
+        </tr>
+        <tr>
+          <td align="center">Rb<sup>+</sup></td>
+          <td align="center"><p>166</p></td>
+          <td align="center">1310</td>
+          <td align="center">910</td>
+          <td align="center">1080</td>
+          <td align="center">1440</td>
+        </tr>
+        <tr>
+          <td align="center">Cs<sup>+</sup></td>
+          <td align="center"><p>181</p></td>
+          <td align="center">3220</td>
+          <td align="center">1870</td>
+          <td align="center">1060</td>
+          <td align="center">770 </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+    <p align="right">&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+       <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">&nbsp;</p>
+      <p align="center">Effect of NaClO<sub>4</sub> and KH<sub>2</sub>PO<sub>4</sub> on  RNase; from [<a  href="ref28.html#r2723" title="go to cited reference">2723</a>] </p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/hofm-T.gif" alt="Effect of NaClO4 and KH2PO4 on the excess heat capacities of RNase
+A in 50 mM citrate buffer at pH 5.0; from [2723]" title="Effect of NaClO4 and KH2PO4 on the excess heat capacities of RNase
+A in 50 mM citrate buffer at pH 5.0; from [2723]" width="360" height="224"  class="floatright" /></figure> 
+<h2><a name="prot" id="prot"></a>Stabilization of proteins </h2>
+    <p>Proteins are most stable in solution when surrounded by fully hydrogen-bonded water molecules, as water molecules with spare hydrogen-bonding capacity have higher entropy and are more aggressive. Such reactive water behaves similarly to that on raising the temperature and is the cause of the <a  title="more on protein denaturation" href="protein_denatured.html#tm">denaturing behavior of proteins</a> on heating. Salt ions must be evenly distributed in solution as osmotic gradients control their distribution. Thus, the <a  title="more on kosmotropes and chaotropes" href="kosmotropes_chaotropes.html">chaotropic ions</a> (with their weak aqueous interactions) should be closer to the protein and the <a  title="more on kosmotropes and chaotropes" href="kosmotropes_chaotropes.html">kosmotropic ions</a>  in the bulk (with their strong aqueous interactions). Thus ammonium sulfate is often a suitable salt for stabilizing protein structure and bioactivity.&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>The Hofmeister series (cation and anion) are temperature-dependent [<a  href="ref28.html#r2723" name="r2723" title="go to cited reference" id="r27237">2723</a>] (see above right for ribonuclease A in buffered solutions) and will vary with the temperature chosen for study. Also, protein <a  title="more on protein denaturation" href="protein_denatured.html#tm">&lsquo;&lsquo;melting temperatures&rsquo;&rsquo; (T<sub>m</sub> )</a> may go down, or up, or down then up with the concentration of the various ions. Thus the Hofmeister series may additionally vary (slightly) with the concentration chosen for the comparisons [<a  href="ref28.html#r2723"  title="go to cited reference">2723</a>].
+      As an example, the following series (as 4 M chlorides) are found for ribonuclease A in buffered solutions: </p>
+    <p>&nbsp;</p>
+    <p align="center">buffer &gt; (CH<sub>3</sub>)<sub>4</sub>N<sup>+</sup> &gt; Na<sup>+</sup>
+    &gt; Cs<sup>+</sup>at 285 K <br />
+      buffer &gt; Na<sup>+</sup> &gt;(CH<sub>3</sub>)<sub>4</sub>N<sup>+</sup> &gt; Cs<sup>+</sup> at 310 K <br />
+      Na<sup>+</sup>
+    &gt; Cs<sup>+</sup>&gt; buffer &gt; (CH<sub>3</sub>)<sub>4</sub>N<sup>+ </sup>at 342 K </p>
+    <p align="center">Cs<sup>+</sup>
+    &gt; Na<sup>+</sup>&gt; (CH<sub>3</sub>)<sub>4</sub>N<sup>+ </sup>&asymp;   buffer at 395 K </p>
+    <p align="center">&nbsp;</p>
+    <p align="left
+   ">Thus, while (CH<sub>3</sub>)<sub>4</sub>N<sup>+</sup> is the least stabilizing cation at high temperatures, it is the most stabilizing cation at low temperatures. The rankings are qualitative only, with the stabilizing effect of Cs<sup>+</sup> at 285 K being greater than the stabilizing effect of Na<sup>+</sup> at 310 K.</p>
+    <p align="left
+   ">&nbsp;</p>
+    <p align="left
+   ">It has been established that the Hofmeister effects on myoglobin stability are modulated by the heterogeneous physico-chemical nature of the unfolded state    [<a title="go to cited reference"  href="ref44.html#r4399">4399</a><a name="r4399" id="r4399"></a>]. </p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="ass" id="ass"></a>Hydrophobic and hydrophilic associations </h2>
+    <p>The Hofmeister series also shows the promotion of hydrophobic associations. 
+      The ions are in order of stabilizing structured low-density water 
+      that, in turn, stabilizes both the hydrophobic interactions of large molecules and the solubility of small hydrophobic molecules   [<a  href="ref14.html#r1324" name="r1324" title="go to cited reference" id="r1324">1324</a>]. Note that <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">ionic 
+      chaotropes</a> prefer low-density water, which is not required to 
+      break hydrogen bonds to accommodate them. However, <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">ionic 
+      kosmotropes</a> are attracted to aqueous environments providing 
+      more-available hydration sites (<abbr title="Collapsed icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS-</a></abbr>like) and are excluded from low-density water (and hence also much of the protein's surface [<a href="ref12.html#r1158" name="r1158" title="go to cited reference" id="r1158">1158</a>]). <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">Ionic 
+      chaotropes</a>, therefore, tend to higher concentrations next to a protein's hydrophobic surfaces. In contrast,  <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">ionic 
+      kosmotropes</a> tend to higher concentrations near  protein residues that break up the local water structure, such as typical carboxylates.</p>
+    <p>&nbsp;</p>  
+<p align="center" class="style15"><strong>Hofmeister series and low-density water</strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><img src="images/hofmeister_series_2.gif" alt="Hofmeister series and low density water" title="Hofmeister series and low density water" width="500" height="91" /></p>
+    <p>&nbsp;</p>
+    <p align="left">Hydrophilic polymers in solution are surrounded by 
+      water with varying <abbr title="low-density water">LDW</abbr> content; for example, proteins may be surrounded by <abbr title="low-density water">LDW</abbr> out to about 15 <a href="constants.html#ang" title="Angstrom">&Aring;</a> from the surface [<a href="ref.html#r89" name="r89" title="go to cited reference" id="r89">89</a>], 
+      equivalent to the radius of a complete icosahedral water cluster. 
+      Generally, this <abbr title="low-density water">LDW</abbr> acts to separate such molecules, but this process is also dependent 
+      on the ions present. Ions that only weakly interact with water (<a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">ionic 
+      chaotropes</a>) partition into <abbr title="low-density water">LDW</abbr>, 
+      so stabilizing it and structures that depend on it [<a title="go to cited reference" href="ref.html#r4">4</a>]. 
+      However, <abbr title="low-density water">LDW</abbr> is labile 
+      and may be abolished by solutes it accumulates due to the micro-osmotic 
+      gradients that may be fleetingly established. If both ions accumulate 
+       micro-osmosis destroys the <abbr title="low-density water">LDW</abbr>, and oscillations may occur. NH<sub>4</sub>I and NH<sub>4</sub>NO<sub>3</sub> destabilize <abbr title="low-density water">LDW</abbr> because 
+      both ions favor <abbr title="low-density water">LDW</abbr>. 
+      MgSO<sub>4</sub> destabilizes <abbr title="low-density water">LDW</abbr> because both ions favor unstructured normal-density water (followed 
+      by a tendency to form ion pairs). (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> stabilizes <abbr title="low-density water">LDW</abbr>, as 
+      the ions are distributed evenly, and hence also stabilizes proteins 
+      and hydrophobic <a  title="more on junction zones" href="polysaccharide_hydration.html#junct">junction zones</a>. 
+      This behavior has been shown to also enhance the activity of lyophilized 
+      enzymes for use in organic liquids [<a title="go to cited reference" href="ref3.html#r204">204</a>], 
+      where the formation of enhanced clathrate structuring may encourage 
+      a more fluid surface environment given the restricted water content. 
+      Net <abbr title="low-density water">LDW</abbr> formers increase 
+      the viscosity of poly-electrolyte solutions due to the increased <abbr title="low-density water">LDW</abbr> created between 
+      the polymers, whereas net <abbr title="low-density water">LDW</abbr> destroyers (for example, NaCl, MgCl<sub>2</sub>) reduce this viscosity. 
+      It should be noted that strongly hydrated salts alone, without polymer, 
+      have the opposite effect and increase viscosity due to their tightly 
+      bound high-density ordered water.&nbsp;<a title="go to top of page" href="#top"><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a></p>
+    <p>&nbsp;</p>
+    <p align="left">Ions distribute in aqueous <a href="aqueous_biphasic.html">two-phase 
+      systems</a> according to their affinity for the more-LDW phase. 
+      Thus iodide ions prefer the polyethylene glycol (PEG) phase  producing 
+      a charged interface in <a href="aqueous_biphasic.html">PEG/dextran systems</a>.&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <h2><a name="part" id="part"></a>The effect on biphasic partitioning</h2>
+    <p>Salting-out extraction is a simple and efficient way to purify highly water-soluble compounds. <a href="aqueous_biphasic.html">Aqueous biphasic</a> systems may also be used. The distribution of the material (A) between the organic and aqueous phases is described using the partition coefficient (<em><strong>P</strong></em>) where<em><strong> P</strong></em> = [A]<sub>org</sub> /[A]<sub>aq</sub>. Different ions give different degrees of salting-out (from the aqueous phase into the organic phase) that reflect the <a href="water_activity.html">activity</a> of the aqueous solution. Anions are more effective than cations. The salting-out process involves the salts removing water from the fully water-solvated states causing them to aggregate and then exit the aqueous phase. When the system contains a partially water-miscible solvent, the ratios of the phase volumes may be very different  from the starting volumes. The partition coefficient must be multiplied by the volume ratio  to obtain the mass distribution ratio<em><strong> (Dm</strong></em>), where <em><strong>Dm</strong></em> =<strong><em> P</em></strong> &#739; <em><strong>V</strong></em><sub>org</sub> /<em><strong>V</strong></em><sub>aq</sub>. The salting-out effect shows a similar trend to the Hofmeister series [<a  href="ref31.html#r3080" name="r3080" title="go to cited reference" id="r3080">3080</a>]:</p>
+    <p>&nbsp;</p>
+    <p align="center">Anions:&nbsp;most precipitating;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style15">CO<sub>3</sub><sup>2&minus;</sup> &gt; SO<sub>4</sub><sup>2- </sup>&gt; 
+    H<sub>2</sub>PO<sub>4</sub><sup>&minus; </sup>&gt; F<sup>&minus;</sup> &gt; Cl<sup>&minus;</sup> &gt; Br<sup>&minus;</sup> &asymp; NO<sub>3</sub><sup>&minus;</sup> &gt; l<sup> -</sup> &gt; ClO<sub>4</sub><sup>&minus; </sup>&gt; SCN<sup> -</sup></span> <sup>&nbsp;&nbsp;&nbsp;&nbsp;</sup>least precipitating</p>
+    <p align="center"><br />
+      Cations: most precipitating;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style15">&nbsp;N(CH<sub>3</sub>)<sub>4</sub><sup>+ </sup>&gt; Cs<sup>+ </sup>&gt; Rb<sup>+</sup> &gt; NH<sub>4</sub><sup>+</sup> &gt; K<sup>+</sup> &gt; Na<sup>+</sup> &gt; Li<sup>+</sup> &gt; Mg<sup>2+</sup> &gt;&nbsp;Ca<sup>2+</sup></span>&nbsp;&nbsp; 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;least precipitating<br />
+    </p>
+    <p>&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="e" id="e"></a><a name="jd" id="jd"></a>The Jones-Dole 
+      expression. </h2>
+    <p align="left">The viscosity (<abbr title="eta (viscosity)">&eta;</abbr>) 
+      of an aqueous salt solution (up to about 0.1 - 1 mol  &#739; kg<sup>-1</sup>), relative to the 
+      viscosity of water at the same temperature (<abbr title="eta zero (viscosity of water)">&eta;<sub>0</sub></abbr>), 
+      varies with the salt concentration (c, <a href="moles_molarity_molality.html">molality</a>) according to the Jones-Dole 
+      expression: <sup><a href="#k" name="bk" id="bk">h</a></sup></p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><abbr title="eta (viscosity)">&eta;</abbr>/<abbr title="eta zero (viscosity of water)">&eta;<sub>0</sub></abbr> = 1 + <em><strong>A</strong></em>&nbsp; &#739;&nbsp;c<sup>0.5</sup> + <strong><em>B</em></strong>&nbsp; &#739; c</p>
+    <p align="center">&nbsp;</p>
+    <p align="left">by plotting <abbr title="eta (viscosity)">(&eta;</abbr> -<abbr title="eta zero (viscosity of water)"> &eta;<sub>0</sub></abbr>)/<abbr title="eta zero (viscosity of water)">(&eta;<sub>0</sub> &#739; c<sup>0.5</sup>)</abbr> against c<sup>0.5</sup> as </p>
+    <p align="center"><abbr title="eta (viscosity)">(&eta; </abbr>- <abbr title="eta zero (viscosity of water)">&eta;<sub>0</sub></abbr>)/<abbr title="eta zero (viscosity of water)">(&eta;<sub>0</sub> &#739; c<sup>0.5</sup></abbr>) = <em><strong>A</strong></em> + <em><strong>B&nbsp; &#739; &nbsp;</strong></em><abbr title="eta zero (viscosity of water)">c<sup>0.5</sup></abbr> </p>
+    <p>&nbsp;</p>
+    <p align="left"><strong><em>A</em></strong> is always positive (in theory; fitted data may be slightly negative),
+      related to the ion&minus;ion interactions, and is greater for strongly hydrated ions (except H<sup>+</sup> and OH<sup>&minus;</sup>). It is associated 
+      with counter-ion screening and only appreciably affects the 
+      viscosity at low concentrations (&lt; 0.05 M) [<a title="go to cited reference" href="ref4.html#r304">304</a>].                    The <em><strong>B</strong></em> coefficient results from the 
+      degree of water structuring by the ions relative to bulk water interactions and can be positive or negative. The <em><strong>B</strong></em> coefficient is also understood as the relative strength of the ion-water interactions and varying linearly with the solute-water distance for monovalent electrolytes  [<a title="go to cited reference" href="ref18.html#r1764">1764</a><a name="r1764" id="r1764"></a>]. At higher concentrations (&gt; 1 M), the Jones-Dole 
+    expression fails, with the viscosity of solutions greatly increasing due to interference between the first solvation shells [<a title="go to cited reference" href="ref32.html#r3189">3189</a><a name="r3189" id="r3189"></a>]. Zavitsas  [<a  title="go to cited reference" href="ref27.html#r2654">2654</a><a name="r2654" id="r2654"></a>] has shown that the (molecular volume) <em><strong>B</strong></em> coefficient (m<sup>3</sup>  &#739; mol<sup>&minus;1</sup>) may be given a physical explanation from Einstein&#8223;s equation [<a  title="go to cited reference" href="ref27.html#r2655">2655</a><a name="r2655" id="r6"></a>]: <abbr title="eta (viscosity)">&nbsp;</abbr></p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><abbr title="eta (viscosity)">&eta;</abbr>/<abbr title="eta zero (viscosity of water)">&eta;<sub>0</sub></abbr> - 1 = 2.5 &#739; (V/V<sub>0</sub> )</p>
+    <p align="center">&nbsp;</p>
+    <p align="left">at infinite dilution, where V/V<sub>0</sub> is the total volume of the solute     (V) divided by the volume of the solvent (V<sub>0</sub>). In this case, <em><strong>B</strong></em> is proportional to the volume of the solute including its <a href="colligative_properties.html#tight">tightly bound water</a> [<a  title="go to cited reference" href="ref27.html#r2654">2654</a>] up to about 0.5 M. The <em><strong>B</strong></em>-coef&#64257;cients  are additive for the cation(s) and anion(s) with ionic contributions given by assuming the <em><strong>B</strong></em>-coef&#64257;cients of the aqueous rubidium and bromide ions are equal  [<a title="go to cited reference" href="ref4.html#r304">304</a>]. This assumption is justi&#64257;ed by the mobilities of these ions being equal over a considerable temperature range around ambient. Ions with negative <em><strong>B</strong></em> coefficients have appreciably more negative <em><strong>B</strong></em> coefficients in D<sub>2</sub>O, but those with positive <em><strong>B</strong></em> coefficients show little change in D<sub>2</sub>O [<a title="go to cited reference" href="ref4.html#r304">304</a>]. At higher concentrations (above about 0.5 M, or lower with multiply charged ions), a further 
+      term (<em><strong>D</strong></em><em><strong>&nbsp; </strong></em>&#739; c<sup>2</sup>), or terms, may be added 
+      to the right-hand side as the <a title="go for more information" href="physical_anomalies.html#f">viscosity increases more rapidly with concentration</a>. <strong><em>A</em></strong>,<em><strong> B, </strong></em>and <em><strong>D</strong></em> all depend on temperature; <em><strong>B</strong></em> particularly so with <em><strong>B</strong></em> generally increasing with increasing temperature for the ionic chaotropes and reducing with increasing temperature for the ionic kosmotropes [<a title="go to cited reference" href="ref12.html#r1165">1165</a><a name="r1165" id="r1165"></a>]. Salts, where both <em>Jones-Dole <strong>B</strong></em> coefficients are negative, show a reduction in viscosity with increasing concentrations at higher concentrations; for example, KI solutions at 20&nbsp;&deg;C show reductions in viscosity with increasing concentrations above 2 mM, reaching a minimum relative viscosity of &asymp; 0.888 at &asymp; 2.7 M [<a title="go to cited reference" href="ref.html#r70">70</a>].  When used with non-electrolytes, the <strong><em>A</em></strong> and <em><strong>D</strong></em> coefficients are often neglected, and <strong><em>B</em></strong> depends on the shape and solvated molar volume. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The structural relaxation time is related to the breakage of water's hydrogen bonds to associate with different water molecules. It is longer than the hydrogen-bond lifetime. Kosmotropes (e.g., NaCl in D<sub>2</sub>O) increases this structural relaxation time and so increases the viscosity with concentration, whereas chaotropes (e.g., CsCl in D<sub>2</sub>O) decrease this structural relaxation time and so decreases the viscosity  [<a title="go to cited reference" href="ref12.html#r4162">4162</a><a name="r4162" id="r4162"></a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <hr />
+    <h2>Footnotes </h2>
+    <p><a name="b" id="b"><sup>a</sup></a> Protein '<a href="hydrophobic_hydration.html#salt">salting 
+      out</a>' and '<a href="hydrophobic_hydration.html#salt">salting in</a>' are discussed in detail <a href="hydrophobic_hydration.html#salt">elsewhere</a>..  [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="c" id="c"><sup>
+      b</sup></a> The apparent density for the solution water is the weight 
+      of the water in the solution (that is, the weight of the solution 
+      less the weight of the salt) divided by the volume of the water 
+      in the solution (that is, the volume of the solution less the 
+      volume of the salt). The conclusion is irrespective of whether the 
+      'dead space' around the ions is included (as in [<a title="go to cited reference" href="ref3.html#r224">224</a>]) 
+      or not (as in [<a title="go to cited reference" href="ref3.html#r223">223</a>]). [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>, <a title="click for an explanation" href="#bc2">2</a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="d" id="d"> c</a></sup> Cluster defects are water 
+      molecules (<a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig1">labeled b-type previously) </a>within the <a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2">icosahedral cluster</a> structure, with only three rather than four hydrogen bonds as the fourth 
+      site cannot accept/donate a hydrogen bond from/to either (a) a water 
+      molecule already possessing four hydrogen bonds;</p>
+    <p>&nbsp;</p>
+    <div align="left" style="width:160px; float:left">
+      <p>&nbsp;</p>
+      <p align="left">that is, the fourth site 
+        has the arrangement </p>
+</div>
+    <div align="right" style="width:236px; float:left"><img src="images/hofmei2.gif" width="226" height="70" alt="Cluster defect], water bound to anion" /> </div>
+    <div align="left" style="width:100px; float:left">
+      <p>&nbsp;</p>
+      <p align="center">rather than</p>
+</div>
+    <div align="left" style="width:223px; float:left"><img src="images/hofmei2r.gif" width="223" height="73" alt="no defect; anion ineffective" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>or (b) a bound atom that already possesses three hydrogen bonds such 
+      as the oxygen atoms in <a title="click for an explanation" href="ion_hydration.html#so4">SO<sub>4</sub><sup>2&minus;</sup></a>.<sup> </sup>[<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="f" id="f"><sup>d</sup></a> An equivalent but alternative 
+      viewpoint is that salts that are exclusively kosmotropic or chaotropic. 
+      That is, <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropic</a> cation with <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">kosmotropic</a> anion or <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropic</a> cation with <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">chaotropic</a> anion [<a title="go to cited reference" href="ref3.html#r277">277</a>] 
+      are less soluble than salts formed from ions with differing properties 
+      (for example, CsI (1.7 M, 0&nbsp;&deg;C) and LiF (0.1 M, 18&nbsp;&deg;C). Both are less soluble than CsF (24 M, 18&nbsp;&deg;C) despite Li<sup>+</sup> and F<sup>&minus;</sup> ions generally hydrating most strongly [<a href="ref3.html#r276" name="r276" title="go to cited reference" id="r276">276</a>], 
+      due to the energy cost of hydration shifting the <abbr title="Expanded icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#ES">ES</a></abbr><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#Fig2"><img border="0" src="images/rarrow.gif" width="20" height="12"  alt="reversible arrow" /></a><abbr title="Collapsed icosahedral water cluster structure"><a title="go to 'Water clusters' page"  href="icosahedral_water_clusters.html#CS">CS</a></abbr> equilibrium. [<a title="click for an explanation" href="#bf"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="g" id="g"><sup>e</sup></a> The ions also show similar, if not identical, series behavior in non-aqueous solvents, such as methanol, acetone,  and formamide [<a href="ref27.html#r2672" name="r2672" title="go to cited reference" id="r2672">2672</a>]. This is possibly due to a similar mechanism to that proposed by Zavitsas for water   [<a  title="go to cited reference" href="ref27.html#r2654">2654</a>]. [<a title="click for an explanation" href="#bg"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="h" id="h"><sup>f</sup></a> Related to the empirical Hofmeister series is the empirical Lyotropic series [<a href="ref31.html#r3008" name="r3008" title="go to cited reference" id="r3008">3008</a>], a qualitative ranking of various ions toward their 
+      ability to salt 
+      out 
+      (flocculate)  lyophilic colloids. Lyophilic colloids are colloids that are easily formed in water, such as <a href="agar.html"  title="go for more on agar">agar</a> and <a href="gelatin.html" title="go for more on gelatin">gelatin</a>. The two series are similar but only identical for particular ions. Sometimes these terms are mistakenly used interchangeably. It should be noted that both series overlap and may vary with the experimental conditions [<a href="ref31.html#r3007" title="go to cited reference">3007</a>]. [<a title="click for an explanation" href="#bh"><span title="go back to the text">Back</span></a>]</p>
+    <p align="left">&nbsp;</p>
+    <p><sup><a name="j" id="j"> g</a></sup> From the Wikipedia entry. [<a href="#bj"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><sup><a name="k" id="k"> h</a></sup> G. Jones and M. Dole, The viscosity of aqueous solutions of strong electrolytes with particular reference to barium chloride. <em>Journal of the American Chemical Society</em>,<strong> 51</strong> (1929) 2950-2964. [<a href="#bk"><span title="go back to the text">Back</span></a>] </p>
+    <p align="left">&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]
+      <!-- print end -->
+</p>
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a href="ion_hydration.html" title="more on ion solvation">Ions</a> | <a href="kosmotropes_chaotropes.html" title="more on kosmotropes and chaotropes">Kosmotropes and chaotropes</a> | <a href="polysaccharide_hydration.html#ionic">Polysaccharide hydration</a> | <a href="aqueous_biphasic.html">Aqueous biphasic systems</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2001 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->20 February, 2022<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

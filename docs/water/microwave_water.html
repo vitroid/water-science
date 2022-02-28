@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Water dielectric, microwave radiation and dielectric loss" />
+<meta name="Keywords" content="water,microwave,microwave radiation,dielectric permittivity,dielectric loss,2.45 GHz" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Water and microwaves</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body>
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+  </select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/microwave_water.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+    <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Caution </p>
+<p align="center">Non-ionizing radiation symbol		</p>
+</figcaption>
+<img  src="images/rwaves.gif" alt="Non-ionizing radiation" title="Non-ionizing radiation" width="180" height="165" class="floatright" /></figure>
+    <h1>Water 
+      and Microwaves</h1>
+    <p>Liquid water absorbs microwave radiation  strongly enough to enable cooking.</p>
+    <p>&nbsp;</p>
+    <p align="left"><span class="style16"><img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a  title="more on background" href="dielectric_constant.html">Dielectric constant and polarization</a><br />
+      <img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a  title="more on dielectric permittivity"  href="complex_dielectric.html">Complex dielectric permittivity</a><br />
+      <img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a href="water_methods.html#diel" title="go for more details of this method">Dielectric spectroscopy</a></span></p>
+    <p align="left"><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#microw">Water 
+    and microwaves</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#loss" title="go to section below">Dielectric loss</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#salt" title="go to section below">Effect of salt</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#pen" title="go to section below">Electromagnetic penetration</a></span> </p>
+    <p>&nbsp;</p>
+    <p class="style10"><em><span class="style10">&nbsp;'The radiation left over   from the Big Bang is the same as that in your microwave oven but very   much less powerful.</span></em>'</p>
+    <p align="right">&nbsp;<span class="style4">&nbsp;Stephen Hawking</span>&nbsp;&nbsp;&nbsp;</p>
+    <h2><a name="microw" id="microw"></a>Water 
+      and microwaves</h2>
+    <p align="left">Unlike  conventional  ovens, microwave ovens do not rely on temperature gradients (outside to inside) for heat transfer but involve penetrative and instantaneous heating. The microwave oven is part of modern life, but how do the microwaves interact with water in food to efficiently heat the food? Non-equilibrium molecular dynamics simulations have been used to investigate the hydrogen-bond dynamics in bulk water upon microwave heating [<a title="go to cited reference" href="ref39.html#r3898">3898</a><a name="3898" id="r3898"></a>]. The water dipole<sup><a href="#a" name="ba" id="ba">a</a></sup> attempts 
+      to continuously reorient in electromagnetic radiation's oscillating 
+      electric field (see <a href="http://www.colorado.edu/physics/2000/applets/h2o.html" title="opens new site in a pop-up window"   target="otherWin1" onclick="newWin('otherWin1')">external 
+      applet</a>). Dependent on the frequency, the dipole may move in time 
+      to the field, lag behind it or remain apparently unaffected. When  the dipole lags behind the field, interactions between the dipole and the field  lead to an energy loss by heating, which depends on the phase difference of  these fields; heating is maximal twice each cycle  [<a title="go to cited reference" href="ref5.html#r455">455</a><a name="r455" id="r455"></a>].<sup><a href="#d" name="bd" id="bd"> d</a></sup> The ease of the movement depends on the viscosity and the mobility 
+      of the electron clouds. In water, these rely on the strength 
+      and extent of the hydrogen-bonded network.&nbsp;In free liquid water, 
+      this movement occurs at GHz frequencies (microwaves), whereas in 
+      more restricted 'bound' water it occurs at MHz frequencies (short 
+      radio waves) and in ice at kHz frequencies (long radio waves). The 
+      re-orientation process may be modeled using a 'wait-and-switch' 
+      process where the water molecule has to wait for a while 
+      until a favorable orientation of neighboring molecules occurs, and 
+      then the hydrogen bonds switch to the new molecule [<a href="ref4.html#r343" name="r343" title="go to cited reference" id="r343">343</a>]. 
+      Microwave heating has been modeled using the <abbr title="Transferable Intermolecular Potential with 4 Points and Fluctuating charge"><a title="more information on molecular models for water" href="water_models.html">TIP4P-FQ</a></abbr> potential [<a title="go to cited reference" href="ref6.html#r570">570</a><a name="r570" id="r570"></a>] and is due to the interaction of these moving dipoles. Although molecular vibrations of biomolecules may have microwave frequencies, it is not thought that such resonant coupling is significant due to their low energy compared with thermal energy and the strongly dampening aqueous environment [<a title="go to cited reference" href="ref14.html#r1331">1331</a><a name="r1331" id="r1331"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>The applied field potential (E, volts) of electromagnetic radiation 
+      is given by;</p>
+    <p>&nbsp;</p>
+    <p align="center">E = E<sub>max</sub>.cos(&omega;t)</p>
+    <p>&nbsp;</p>
+    <p>where E<sub>max</sub> is the amplitude of the potential, <abbr title="omega">&omega;</abbr> is the angular frequency in radians.second<sup>&minus;1</sup>, and t is 
+      the time (seconds). If the polarization lags behind the field by 
+      the phase (<abbr title="delta">&delta;</abbr>, 
+      radians) then the polarization (P, coulombs) varies 
+      as </p>
+    <p>&nbsp;</p>
+        <figure class="floatright">
+<figcaption>
+<p align="center">Lagging cosine wave of the resultant polarisation</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" border="0" src="images/hyphase1.gif" title="lagging cosine wave of the resultant polarisation" alt="lagging cosine wave of the resultant polarisation; figure from Rainald Koch" width="314" height="141" /></figure>
+    <p align="center">P = P<sub>max</sub>.cos(<abbr title="omega">&omega;</abbr>t 
+      - <abbr title="delta">&delta;</abbr>)</p>
+    <p>&nbsp;</p>
+    <p align="left">where P<sub>max</sub> is the maximum value of 
+      the polarization.</p>
+    <p align="left">Hence the current (I, amperes) varies as</p>
+    <p>&nbsp;</p>
+    <p align="center">I = (dP/dt) = -<abbr title="omega">&omega;</abbr>P<sub>max</sub>.sin(&omega;t 
+      - &delta;)</p>
+    <p>&nbsp;</p>
+    <p align="left">The power (<strong><em>P</em></strong>, watts) given 
+      out as heat is the average value of (current &#739; potential). This 
+      is zero if there is no lag (that is, if &delta; = 0), otherwise&nbsp;</p>
+    <p>&nbsp;</p>
+    <p align="center"><strong><em>P</em></strong> = 0.5 P<sub>max</sub>E<sub>max</sub><abbr title="omega">&omega;</abbr>.sin(&delta;)</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]&nbsp;&nbsp;&nbsp;</p>
+    <h2><a name="loss" id="loss"></a>Dielectric loss</h2>
+    <p><a name="i" id="i"></a>It is convenient to express the relative permittivity (dielectric constant) 
+      in terms of a complex number (&epsilon;<sub>r</sub>*, complex dielectric permittivity) defined as:</p>
+    <p align="center">&epsilon;<sub>r</sub>* = &epsilon;<sub>r</sub>&acute; 
+      - i<strong>Lf&nbsp;</strong></p>
+    <p>&nbsp;</p>
+    <p>Where &epsilon;<sub>r</sub>&acute; is the  
+       material's ability to be polarized by the external electric field, <strong>Lf</strong> (the loss factor, sometimes given as &epsilon;&quot;) quantifies the efficiency 
+      with which the electromagnetic energy is converted to heat and i 
+      = <img src="images/hyrhe2.gif" alt="i" align="bottom" width="24" height="20" />. This equation may be visualized 
+      by considering the total current as the vector sum of the charging 
+      current and the loss current; the angle <abbr title="delta">&delta;</abbr> as the phase difference (lag) between the electric field and the 
+      resultant (orientation) polarization of the material (see <a href="rheology.html#i">similar 
+      treatment in rheology</a>).</p>
+            <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Tan(&delta;) = loss current/charging current</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/microw16.gif" alt="tan(delta) = loss current/charging current" title="tan(delta) = loss current/charging current" align="left" width="243" height="155" /></figure>
+    <p>&nbsp;</p>
+    <p align="center">tan(&delta;) 
+      = loss current/charging current = <strong>Lf</strong>/&epsilon;<sub>r</sub>&acute;</p>
+    <p>(see <a  title="more on microwaves and water"  href="complex_dielectric.html#polariz">derivation</a>)</p>
+    <p>&nbsp;</p>
+    <p>The terms (&epsilon;<sub>r</sub>*, &epsilon;<sub>r</sub>&acute;, <strong>Lf </strong>) are all affected by the frequency of radiation; 
+      the relative permittivity (&epsilon;<sub>r</sub>&acute;, 
+      dielectric constant) at low frequencies (&epsilon;<sub>S</sub>, 
+      static region<sup><a title="click for an explanation" href="#c"> c</a></sup><a name="bc" id="bc"></a>) and 
+      at high ( visible) frequencies the (&epsilon;<sub>&infin;</sub>, 
+      optical permittivity) are the limiting values. The relative permittivity 
+      changes with the wavelength (and hence frequency):</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw8.gif" alt="relative permittivity = optical permittivity + ((static permittivity - optical permittivity)/(1 + (critical frequency/frequency)squared)))" width="150" height="44" /></p>
+    <p>&nbsp;</p>
+    <p>where &epsilon;<sub>S</sub> is the relative 
+      permittivity at low frequencies (static region), and &lambda;<sub>S</sub> is the critical wavelength (maximum dielectric loss).</p>
+    <p align="center"><a name="relax" id="relax"></a><img src="images/microw9.gif" alt="relative permittivity = optical permittivity + ((static permittivity - optical permittivity)/(1 +  angular frequency squared x relaxation time squared))" align="middle" width="150" height="46" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (<a  title="go to another page"  href="complex_dielectric.html">see more on complex dielectric permittivity</a>)</p>
+    <p>where <abbr title="tau">&tau;</abbr> is the relaxation time (a measure of the time required for 
+      water to rotate (<img src="images/microw10.gif" align="middle" alt="relaxation time = 4 x pi x viscosity x radius cubed/(Boltzman constant x temperature)" width="71" height="44" />where&nbsp; 
+      r is the molecular radius, k is the Boltzmann constant, and &eta; is the viscosity), also considered 
+      as the delay for the particles to respond to the field change, 
+      or for reversion after disorientation. The maximum loss occurs 
+      when <abbr title="omega">&omega;</abbr> = 1/<abbr title="tau">&tau;</abbr> <sup><a href="#b" name="bb" id="bb"> b</a></sup>. For water at 25&nbsp;&deg;C, <abbr title="tau">&tau;</abbr> is 
+      8.27 ps (for hexagonal ice at 0&nbsp;&deg;C, <abbr title="tau">&tau;</abbr> &asymp; 20 &micro;s) and r is half the (diffraction-determined) inter-oxygen 
+      distance (1.4 <a href="constants.html#ang" title="Angstrom">&Aring;</a>).</p>
+    <p>&nbsp;</p>
+<hr />
+    
+    <div align="center">
+      <div align="center">
+        <p><span class="style15"> <a name="fig1" id="fig1"></a>Shows the dimensionless dielectric and dielectric loss reducing with temperature </span></p>
+        <p><span class="style15">at the microwave oven frequency 2.45 GHz</span></p>
+        <p>&nbsp;</p>
+        <p><img border="0" src="images/dielectric_loss_1.gif" title="Shows the dimensionless dielectric and dielectric loss reducing with temperature at the microwave oven frequency 2.45 GHz" alt="Shows the dimensionless dielectric and dielectric loss reducing with temperature at the microwave oven frequency 2.45 GHz" width="720" height="429" /></p>
+  </div>
+      <div class="style3" style="width:90%; padding-left:5%; padding-right:5%;" align="left">
+        <p>&nbsp;</p>
+        <p><strong>Figure 1.</strong> Dielectric permittivity 
+          and dielectric loss of water between 0&nbsp;&deg;C and 100&nbsp;&deg;C, 
+          the arrows showing the effect of increasing temperature 
+          
+          or increasing <a href="water_activity.html" title="go for more on water activity">water activity</a>.. Data is indicative only but based on [<a href="ref.html#r64" name="r64" title="go to cited reference" id="r64">64</a>, <a href="ref2.html#r135" name="r135" title="go to cited reference" id="r135">135</a>]; exact 
+          data is <a title="click to go there" href="#equ">plotted below</a> and has been reviewed  [<a title="go to cited reference" href="ref31.html#r3089">3089</a><a name="r3089" id="r3089"></a>]. 
+          The wavelength range 0.01 - 100 cm is equivalent to 3 <a href="constants.html#thz" title="go for more details"><abbr title="terahertz">THz</abbr></a> - 0.3 GHz, respectively. As the temperature increases, the strength and extent 
+          of the hydrogen bonding both decrease. This (1) lowers 
+          both the static and optical dielectric permittivities, 
+          (2) lessens the difficulty for the movement dipole 
+          and so allows the water molecule to oscillate at higher 
+          frequencies, and (3) reduces the drag to the rotation 
+          of the water molecules, so reducing the friction and 
+          hence the dielectric loss. Note that &epsilon;<sub>&infin;</sub> (the dielectric permittivity at short wavelengths) does not change significantly with temperature. Most of the dielectric 
+          loss is within the microwave range of electromagnetic 
+          radiation (&asymp; 1 - &asymp; 300 GHz, with wavenumber 0.033 cm<sup>&minus;1</sup> - 10 cm<sup>&minus;1</sup>, and wavelength 0.3 m - 1.0 mm, respectively). The frequency for maximum 
+          dielectric loss (about 20 GHz) lies higher than the 2.45 GHz (wavenumber 0.0817 
+          cm<sup>&minus;1</sup>, wavelength 12.24 cm) produced by most microwave ovens. 
+          This is so that the radiation is not wholly absorbed 
+          by the first layer of water it encounters and may 
+          penetrate further into the foodstuff, heating it more 
+          evenly; unabsorbed radiation passing through is mainly 
+          reflected back, due to the design of the microwave 
+          oven, and absorbed on later passes. The rationale for the ~20 GHz peak has been investigated using <em>ab initio</em> molecular dynamics [<a title="go to cited reference" href="ref44.html#r4336">4336</a><a name="r4336" id="r4336"></a>].</p>
+  </div>
+<hr />
+      <div style=" float:none; clear:both;"></div>
+      <figure class="floatleft">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center"><a name="delice" id="delice"></a>Dielectric behavior of water and ice, from [<a title="go to cited reference" href="ref22.html#r2171">2171</a>]</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/dielectric_ice.gif" alt="Dielectric behavior of water and ice [2171]" title="Dielectric behavior of water and ice [2171]"  width="400" height="267"  class="floatleft" /></figure>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="left">Water and ice Ih  show similar dielectric behavior at the melting point but separated by about 10<sup>6</sup> Hz, see left  [<a title="go to cited reference" href="ref22.html#r2171">2171</a><a name="r2171" id="r2171"></a>].<sup><a href="#d" > d</a></sup> At higher frequencies (in the infrared regime), the behaviors are more complex but similar with respect to frequency for both ice and water [<a title="go to cited reference" href="ref36.html#r3571">3571</a><a name="r3571" id="r3571"></a>].</p>
+      <div style=" float:none; clear:both;"></div>
+              <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center"><a name="cole" id="cole"></a>Cole-Cole plots for liquid water and ice</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+      <img class="floatright" src="images/cole_cole.gif" title="
+Cole-Cole plots for liquid water and ice
+" alt="
+Cole-Cole plots for liquid water and ice
+" width="520" height="322" /></figure>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p align="left">The above data can also be plotted using a Cole-Cole plot, as shown right, of the dielectric permittivity (the real part of the dielectric permittivity) versus the dielectric loss (the imaginary part of the dielectric permittivity). The red circular arcs show the effects of temperature varied by 20&nbsp;&deg;C amounts from O&nbsp;&deg;C to 100&nbsp;&deg;C, whereas the thin blue lines show the variations with the temperatures at fixed wavelengths (1.3 - 201 GHz). Also shown for comparison is the plot (blue dashed lines) for pure bulk ice [<a href="ref13.html#r1230" name="r1230" title="go to cited reference" id="r1230">1230</a>] (note the ~10<sup>6 </sup> &#739;
+       lower frequencies). <a title="go to top of page" href="#top"><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a></p>
+      <div style=" float:none; clear:both;">
+        <figure class="floatleft">
+<figcaption>
+<p>&nbsp;</p>
+
+<p align="center"> Shows dielectric and dielectric loss changing with temperature </p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatleft" src="images/dielectric_loss_2.gif" width="480" height="328" title="Shows dielectric and dielectric loss changing with temperature" alt="Shows dielectric and dielectric loss changing with temperature ; includes the microwave oven frequency 2.45 GHz" /></figure>
+        <p><a name="equ" id="equ"></a>&nbsp;</p>
+        <p align="left">&nbsp;</p>
+        <p align="left">Note that the shifts in the dielectric properties 
+          with temperature give rise to <a title="go to find more information"  href="material_anomalies.html#dielmax">maxima 
+          in the temperature behavior at a constant frequency</a>.</p>
+        <p>&nbsp;</p>
+        <p align="left"> Plotted opposite are equations derived for 
+          pure water over the range for -20&nbsp;&deg;C &asymp;  +40&nbsp;&deg;C 
+          [<a name="r683" id="r683"></a><a title="go to cited reference" href="ref7.html#r683">683</a>], 
+          extrapolated (dashed lines) to indicate trends. 
+          The equations that generate these curves involve 
+          15 optimized parameters.  Further data has been published [<a title="go to cited reference"  href="ref12.html#r1185">1185</a><a name="r1185" id="r1185"></a>].</p>
+        <p>&nbsp;</p>
+        <p align="left">The <a title="go to another page"  href="complex_dielectric.html#Trelax">temperature effect on the dielectric relaxation time</a> is shown on another page.</p>
+  </div>
+</div>
+    <div style=" float:none; clear:both;">
+      <p>The dielectric loss factor (<strong>Lf</strong>) increases 
+        to a maximum at the critical frequency.</p>
+</div>
+    <p>&nbsp;</p>
+    <div align="center">
+      <p><img src="images/microw11.gif" alt="Loss factor= (static permittivity - optical permittivity) x (critical frequency/frequency))/(1 + (critical frequency/frequency)squared)" width="150" height="49" />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/microw12.gif" alt="Loss factor = (static permittivity - optical permittivity) x angular frequency x relaxation time /(1 +  angular frequency squared x relaxation time squared" width="150" height="45" /></p>
+      <p>&nbsp;</p>
+      <p align="left">Pressure has a considerable effect on the dielectric behavior of water. The effect of increased pressure on the dielectric and dielectric loss is to shift the curves to lower frequencies, such that the peak in the dielectric loss shifts to about 4 kHz at about -20&nbsp;&deg;C and 200 MPa [<a title="go to cited reference"  href="ref21.html#r2072">2072</a><a name="r2072" id="r2072"></a>].</p>
+</div>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]&nbsp;&nbsp;&nbsp;</p>
+    <h2><a name="salt" id="salt"></a>Effect of salt</h2>
+    <p>Dissolved salt depresses the relative permittivity (dielectric constant) dependent on its 
+      concentration (C ) and the average hydration number of the individual 
+      ions (H<sub>N</sub>)</p>
+    <p align="center"><img src="images/microw14.gif" alt="relative permittivity = optical permittivity + ((static permittivity - (2 x ion hydration number x concentration) - optical permittivity)/(1 +  angular frequency squared x relaxation time squared))" width="180" height="43" /></p>
+    <p>&nbsp;</p>
+<hr />
+    <div align="center">
+      <div align="center">
+        <p>&nbsp;</p>
+        <p><span class="style15">Dielectric reducing but dielectric loss increasing with temperature </span></p>
+        <p><span class="style15">at the microwave oven frequency, 2.45 GHz</span></p>
+        <p>&nbsp;</p>
+        <p><img border="0" src="images/dielectric_loss_salt_1.gif" title="Dielectric reducing but dielectric loss increasing with temperature at the microwave oven frequency, 2.45 GHz" alt="Shows dielectric reducing but dielectric loss increasing with temperature at the microwave oven frequency, 2.45 GHz" width="720" height="429" /></p>
+  </div>
+      <div class="style3" style="width:90%; padding-left:5%; padding-right:5%;" align="left">
+        <p>&nbsp;</p>
+        <p><strong>Figure 2. </strong>Dielectric 
+          and dielectric loss of a dilute salt solution between 
+          0&nbsp;&deg;C and 100&nbsp;&deg;C (dashed lines; the solid lines 
+          show the pure water curves as <a title="go there" href="#fig1">Figure 
+        1</a> above), the arrows showing the effect of increasing 
+          temperature. Data is indicative only; exact data is <a title="go there" href="#equ2">plotted below</a>. The salt decreases 
+          the natural structuring of the water so reducing the 
+          static dielectric permittivity in a similar manner 
+          to increased temperature. At the lower frequencies, 
+          the ions can respond and move with the changing 
+          potential,  producing frictional heat and increasing 
+          the loss factor (<strong>Lf</strong>). Thus whereas 
+          water becomes a poorer microwave absorber with rising 
+          temperature, a lossy salty food such as salt beef 
+          becomes a better microwave absorber with increasing temperature. 
+          The rate that the temperature of such lossy salty 
+          food increases on microwaving increases as it is proportional 
+          to this increasing loss factor and inversely proportional 
+          to the density times specific heat (which changes less 
+          with temperature); that is, the hotter it gets, 
+          the quicker it gets hotter.&nbsp;<a title="go to top of page" href="#top"><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a></p>
+  </div>
+<hr />
+<p>&nbsp;</p>
+      <div style=" float:none; clear:both;">        
+<figure class="floatright">
+<figcaption>
+<p align="center">Dielectric and dielectric loss changing with temperature  for a 1% w/w  salt solution</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/dielectric_loss_salt_2.gif" title="Dielectric and dielectric loss changing with temperature  for a 1% w/w  salt solution" alt="Shows dielectric and dielectric loss changing with temperature  for a 1% w/w  salt solution" width="480" height="328" /></figure>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p align="left"><a name="equ2" id="equ2"></a>Plotted opposite are equations derived at ten 
+          parts per thousand w/w (ppt) salinity for the 
+          range for -20&nbsp;&deg;C &asymp;  +40&nbsp;&deg;C [<a title="go to cited reference" href="ref7.html#r683">683</a>] 
+          extrapolated (dashed lines) to indicate trends. Further data is available [<a title="go to cited reference" href="ref11.html#r1074">1074</a><a name="r1074" id="r1074"></a>]. </p>
+  </div>
+      <div style=" float:none; clear:both;">        
+<figure class="floatleft">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Dielectric and dielectric loss changing with temperature and salinity </p>
+<p align="center">at the microwave oven frequency 2.45 GHz</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatleft" src="images/dielectric_loss_3.gif" title="Dielectric and dielectric loss changing with temperature and salinity at the microwave oven frequency 2.45 GHz" alt="Dielectric and dielectric loss changing with temperature and salinity at the microwave oven frequency 2.45 GHz" width="456" height="328" /></figure>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p align="left">&nbsp;</p>
+        <p align="left">&nbsp;</p>
+        <p align="left">Plotted opposite are equations derived at 2.45 
+          GHz (typical microwave oven frequency) for different 
+          parts per thousand w/w (ppt) salinity for the 
+          range for -20&nbsp;&deg;C &asymp;  +40&nbsp;&deg;C [<a title="go to cited reference" href="ref7.html#r683">683</a>], 
+          extrapolated (dashed lines) to indicate trends. 
+          The equations that generate these curves involve 
+          46 optimized parameters.</p>
+  </div>
+</div>
+    <div style=" float:none; clear:both;">
+      <p>The dielectric loss is increased by a factor that depends on the 
+        conductivity (&Lambda;, S cm<sup>2</sup> mol<sup>&minus;1</sup>; 
+        S = siemens = mho), concentration, and frequency. It increases with a 
+        rise in temperature and decreasing frequency.</p>
+</div>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw20.gif" alt="Loss factor = ((static permittivity - (2 x ion hydration number x concentration) - optical permittivity) x (angular frequency x relaxation time)/(1 +  angular frequency squared x relaxation time squared)) + conductivity x concentration/(1000 x angular frequency x vacuum permittivity)" width="278" height="45" /></p>
+    <p>&nbsp;</p>
+    <p>Ensuring that all units are<abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')"> SI</a></abbr>, 
+      the 1000 factor in the denominator is important.This 1000 is a conversion 
+      between<abbr title="Le Syst&egrave;me International d'Unit&eacute;s"><a href="http://physics.nist.gov/Pubs/SP330/sp330.pdf"   target="otherWin213" onclick="newWin('otherWin213')"> SI</a></abbr> and cm, mol, L units. This emphasizes that careful consideration 
+      must be given to the units used in the microwave literature. Bound water and ice have critical frequencies (&lambda;<sub>S</sub>) 
+      at about 10 MHz (&tau; about 0.1 &mu;s) 
+      with raised static dielectric permittivities (&epsilon;<sub>S</sub>). 
+      At the much higher frequency of microwave ovens, such water has a 
+      low dielectric permittivity (for example, <a title="go to find more on structure"  href="hexagonal_ice.html">ice-1h</a>, &epsilon;<sub>&infin;</sub> = 3.1; compare <a title="go to find more on structure"  href="hexagonal_ice.html">ice-1h</a>, &epsilon;<sub>S</sub> = 97.5 [<a href="ref.html#r94" name="r94" title="go to cited reference" id="r94">94</a>];&nbsp; <a title="go to 'Water properties data' page"  href="water_properties.html#Dielectric_constant">&epsilon;</a><a title="go to 'Water properties data' page"  href="water_properties.html#Dielectric_constant"><sub>S </sub>water</a> (0&nbsp;&deg;C) = 87.9),<sub> </sub>and is almost transparent, 
+      absorbing little energy. This is particularly noticed on thawing, 
+      where the thawed material may get very hot while unthawed material 
+      stays frozen. Therefore for balanced heating, the thermal effects 
+      must be evenly distributed; that is, there should not be pockets 
+      of salty water within a poorly conducting matrix.&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="pen" id="pen"></a>Electromagnetic penetration</h2>
+    <p>The electromagnetic penetration is infinite in a perfectly transparent 
+      substance and zeroes in a reflective material (for example, metals). 
+      At the microwave oven frequency (2.45 GHz, &lambda; = 12.24 cm), most energy is absorbed 
+      by water. The attenuation (&alpha;) is given 
+      by:</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw21.gif" width="199" height="54" alt="Attenuation = (2 x pi/wavelength) x square root of half (relative permittivity x  (square root of (1 + tan delta squared) - 1))" /></p>
+    <div class="floatleft" style="width:240px;">
+      <p>As</p>
+</div>
+    <div class="floatright" style="width:240px;">
+      <p>&nbsp;</p>
+      <p>if tan&delta; is <span class="style16">&laquo;</span> 1</p>
+</div>
+    <div align="center"><img src="images/microw41.gif" width="164" height="45" alt="(square root of (1 + tan delta squared) - 1) approximately equals  tan delta squared" /></div>
+    <p>&nbsp;</p>
+    <p>This equation may be approximated where the attenuation is (approximately) 
+      directly proportional to the loss factor and inversely proportional 
+      to the wavelength times the square root of the relative dielectric 
+      constant:</p>
+    <p>&nbsp;</p>
+    <p class="MsoNormal" align="center"><img src="images/microw17.gif" width="179" height="55" alt="Attenuation = pi x loss factor/(wavelength x square root of (relative permittivity)) = (pi x tan delta x square root of (relative permittivity ))/frequency" /></p>
+    <p class="MsoNormal" align="center">&nbsp;</p>
+    <p>For a plane wave, incident microwaves decrease to 1/e (0.36788; that is, 63% absorbed) in a penetration distance Dp given approximately 
+      by:</p>
+    <p>&nbsp;</p>
+    <div align="center">
+      <div class="floatleft" style="width:240px;"><img src="images/microw18.gif" width="179" height="49" alt="Penetration distance = 1/(2 x attenuation) = wavelength/(2 x pi x tan delta x square root of (relative permittivity ))]" /> </div>
+      <div class="floatright" style="width:240px;"><img src="images/microw19.gif" width="151" height="48" alt="Penetration distance in cm = 1.947 x square root of relative permittivity/loss factor" /> </div>
+      <p>&nbsp;</p>
+      <p>and so at 2.45 GHz: </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+</div>
+    <p>Thus, using water at 25&nbsp;&deg;C, &epsilon;<sub>r</sub>&acute; 
+      = 78. <strong>Lf</strong> =12, tan&delta; = 
+      0.15, &lambda; = 12.24 cm and Dp = 1.4 cm but the effect is much greater in supercooled water (that may be present in frozen food) where at  -17.78&nbsp;&deg;C (that is, 0 &deg;F), &epsilon;<sub>r</sub>&acute; 
+      = 74.4. <strong>Lf</strong> =40.1, tan&delta; = 
+      0.54 and Dp = 0.43 cm [<a title="go to cited reference" href="ref11.html#r1074">1074</a>].</p>
+    <p>&nbsp;</p>
+    <p>The amount of power (P, in watts m<sup>&minus;3</sup>) that is absorbed 
+      is given by:</p>
+    <p>&nbsp;</p>
+    <p align="center"><strong><em>P</em></strong> = 2&pi;f&epsilon;<sub>0</sub><strong>Lf</strong>E<sup>2</sup></p>
+    <p>&nbsp;</p>
+    <p>where &epsilon;<sub>0</sub> = 8.854x10<sup>&minus;12</sup> <a href="constants.html#F">F</a> m<sup>&minus;1</sup>, f is the frequency (Hz, = &omega;/2&pi;) 
+      and E is the potential gradient (V m<sup>&minus;1</sup>).&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <p>&nbsp;</p>
+    <hr />
+    <h2>Footnotes</h2>
+    <p align="left"><a name="a" id="a"><sup>a</sup></a> Hydroxyl groups in sugars 
+      and polysaccharides behave similarly, creating a high shear environment. 
+      Fats exhibit a lesser effect, but their lower specific heat gives 
+      rise to rapid heating. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="b" id="b"> b</a></sup> Note the relaxation time 
+      is the reciprocal of the frequency in radians per second, whereas 
+      the electromagnetic frequency is commonly reported in cycles per 
+      second (Hz). [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="c" id="c"> c</a></sup> The change of static 
+      permittivity with temperature (-35&nbsp;&deg;C &lt; t &lt; 100&nbsp;&deg;C) 
+      may be approximated by the equation</p>
+    <p align="center"> &epsilon;<sub>S</sub>(t)=A.e<sup>&minus;bt</sup> </p>
+    <p align="left">where A= 87.85306 and b=0.00456992 [<a title="go to cited reference" href="ref6.html#r588">588</a><a name="r588" id="r588"></a>]. 
+      [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="d" id="d"> d</a></sup> Due to the observed similarity of the dielectric spectra of water and ice (as  they show the graphics, only shifted along the frequency axis by six decades), the dielectric spectra have been explained using the assumption of a random-walk diffusion of protons without considering the H<sub>2</sub>O dipole orientations. This is shown to be sufficient to describe both the experimental dielectric spectra of water and ice, as well as their transformation at the freezing-melting point of 0&nbsp;&deg;C [<a title="go to cited reference" href="ref22.html#r2171">2171</a>]. 
+      [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>]</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a  title="more on microwaves and water"  href="dielectric_constant.html">Theory and definitions</a> | <a  title="more on microwaves and water"  href="complex_dielectric.html">Complex dielectric permittivity</a> | <a href="magnetic_electric_effects.html#health">Microwaves and health</a> | <a title="go to 'Water molecular structure' page"  href="water_molecule.html">Water molecule</a>&nbsp; | <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">Water 
+      spectra</a> | <a href="water_faq.html">Notes</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2001 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->9 October, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Complex dielectric permittivity of water and polarization" />
+<meta name="Keywords" content="water,dielectric,complex permittivity,polarization,complex dielectric,dielectric constant,dielectric permittivity,microwave" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Water complex dielectric and polarization</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://water.lsbu.ac.uk/water/complex_dielectric.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+   <figure class="floatright">
+<figcaption>
+<p align="center">&nbsp;</p>
+<p align="center">Caution </p>
+<p align="center">Non-ionizing radiation symbol		</p>
+</figcaption>
+<img  src="images/rwaves.gif" alt="Non-ionizing radiation" title="Non-ionizing radiation" width="180" height="165" class="floatright" /></figure>
+    <h1>Water Complex Dielectric 
+      and Polarization</h1>
+    <p align="left"><span class="style16"><img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a  title="go to Introduction to microwaves" href="microwave_water.html">Microwave introduction</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#comp" title="go to section below">The complex dielectric permittivity</a><br />
+      <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#polariz" title="go to section below">Polarization</a><br />
+      <img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a  title="more on background" href="dielectric_constant.html">Relative permittivity (dielectric constant) and polarization</a><br />
+      <img border="0" src="images/redleft.gif" alt="link" width="12" height="13" />&nbsp;<a href="water_methods.html#diel" title="go for more details of this method">Dielectric spectroscopy</a></span> </p>
+    <h2><a name="comp" id="comp"></a>The complex dielectric permittivity</h2>
+    <p align="left">A bimodal relaxation time 
+      expression is the most appropriate description of the dielectric 
+      properties of water [<a  href="ref2.html#r135" name="r135" title="go to cited reference" id="r135">135</a>].<sup><a href="#b" name="bb" id="bb"> b</a>, <a href="#c" name="bc" id="bc"> c</a></sup></p>
+    <p align="center"><a name="equ1" id="equ1"><img src="images/microw31.gif" alt="complex permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  i times angular frequency x first relaxation time) + ((intermediate permittivity - optical permittivity)/(1 +  i times angular frequency x second relaxation time))" title="complex permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  i times angular frequency x first relaxation time) + ((intermediate permittivity - optical permittivity)/(1 +  i times angular frequency x second relaxation time))" align="middle" width="220" height="47" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (1)</p>
+    <p>&nbsp;</p>
+    <p align="left">where <abbr title="epsilon">&epsilon;</abbr><sub>r</sub>* 
+      is the complex permittivity,&nbsp;<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> is the relative permittivity at low frequencies (static region), <abbr title="epsilon">&epsilon;</abbr><sub>2</sub> is the intermediate relative permittivity, <abbr title="epsilon">&epsilon;</abbr><sub>&infin; </sub>is the relative permittivity at high frequencies 
+      (optical permittivity), <abbr title="omega">&omega;</abbr> is the angular frequency in radians.second<sup>&minus;1</sup>, <abbr title="tau">&tau;</abbr><sub>D</sub> and <abbr title="tau">&tau;</abbr><sub>2</sub> are relaxation times, and i =&nbsp; <img src="images/hyrhe2.gif" alt="i" align="bottom" width="24" height="20" />. <abbr title="tau">&tau;</abbr><sub>D</sub> is relatively long (18 ps at 0&nbsp;&deg;C [<a title="go to cited reference"  href="ref2.html#r135">135</a>]), 
+      due primarily to the rotational relaxation within a hydrogen-bonded cluster, but reduces considerably with temperature 
+      (8 ps at 25&nbsp;&deg;C [<a href="ref26.html#r2503">2503</a><a name="r2503" id="r2503"></a>]) as hydrogen bonds are weakened and broken. <abbr title="tau">&tau;</abbr><sub>2 </sub>is small (&asymp; 1.0 ps [<a title="go to cited reference"  href="ref2.html#r135">135</a>], [<a href="ref26.html#r2503">2503</a>] or 
+      0.2 ps [<a  href="ref4.html#r343" name="r343" title="go to cited reference" id="r343">343</a>])<sup><a href="#a" name="ba" id="ba"> a</a></sup> and less 
+      temperature-dependent being determined primarily by the translational 
+      vibrations (near 200 cm<sup>&minus;1</sup>) within the hydrogen-bonded cluster [<a  href="ref3.html#r240" name="r240" title="go to cited reference" id="r240">240</a>]. </p>
+    <p><a name="Trelax" id="Trelax"></a>&nbsp;</p>
+     <figure  class="floatright">
+<figcaption>
+      <p align="center">Variation of the dielectric parameters with temperature</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/dielps.gif" title="Variation of the dielectric parameters with temperature" alt="Variation of the dielectric parameters with temperature" width="600" height="323" /> </figure>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Plotted opposite are equations derived for pure water 
+      over the range for -20&nbsp;&deg;C &asymp;  +40&nbsp;&deg;C [<a title="go to cited reference"  href="ref7.html#r683">683</a><a name="r683" id="r683"></a>], 
+      extrapolated (dashed lines) to indicate trends; relaxation 
+      times are in ps. Further data has been published [<a title="go to cited reference"  href="ref12.html#r1185">1185</a><a name="r1185" id="r1185"></a>]. </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p align="left">Equation (<a title="click for an explanation" href="#equ1">1</a>) may be simplified:</p>
+    <p align="center"><img src="images/microw32.gif" alt="simplifying the complex expression" width="364" height="47" /></p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw34.gif" alt="gathering real and imaginary terms" width="400" height="47" /></p>
+   <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Tan(&delta;) = loss factor/real permittivity</p>
+      <p align="center">&nbsp;</p>
+</figcaption> 
+<img class="floatright" border="0" src="images/microw33.gif" alt="tan(delta) = loss factor/real permittivity" title="tan(delta) = loss factor/real permittivity" width="243" height="154" /></figure>
+    <p>&nbsp;</p>
+    <p align="left">and the complex permittivity 
+      rearranged to give the real permittivity and imaginary (the loss 
+      factor) parts:</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw35.gif" alt="complex permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  angular frequency squared x first relaxation time squared)) + ((intermediate permittivity - optical permittivity)/(1 +  angular frequency squared x second relaxation time squared))+i times (static permittivity - intermediate permittivity) x angular frequency x first relaxation time /(1 +  angular frequency squared x first relaxation time squared] +(intermediate permittivity - optical permittivity) x angular frequency x second relaxation time /(1 +  angular frequency squared x second relaxation time squared" width="450" height="54" /></p>
+    <p>&nbsp;</p>
+    <p align="left">The real part corresponds to the relative permittivity (dielectric constant):</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw36.gif" alt="relative permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  angular frequency squared x first relaxation time squared)) + ((intermediate permittivity - optical permittivity)/(1 +  angular frequency squared x second relaxation time squared))" width="240" height="48" /></p>
+    <p>&nbsp;</p>
+    <p align="left">and the imaginary part corresponds to the loss factor 
+      (<strong>Lf</strong>):</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw37.gif" alt="Loss factor = (static permittivity - intermediate permittivity) x angular frequency x first relaxation time /(1 +  angular frequency squared x first relaxation time squared] +(intermediate permittivity - optical permittivity) x angular frequency x second relaxation time /(1 +  angular frequency squared x second relaxation time squared" width="250" height="50" /></p>
+    <p>&nbsp;</p>
+    <p align="left">As (<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> - <abbr title="epsilon">&epsilon;</abbr><sub>2</sub>) 
+      &gt;&gt; (<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> - <abbr title="epsilon">&epsilon;</abbr><sub>&infin;</sub>) 
+      the permittivity may be approximated to within the accuracy of current 
+      instrumentation by:</p>
+    <p>&nbsp;</p>
+    <p align="center"><a name="equ2" id="equ2"></a><img src="images/microw38.gif" alt="relative permittivity = optical permittivity + ((static permittivity - optical permittivity)/(1 +  angular frequency squared x relaxation time squared))" align="middle" width="140" height="43" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (2)</p>
+    <p>&nbsp;</p>
+    <p align="left">As <abbr title="tau">&tau;</abbr><sub>D</sub> &gt;&gt; <abbr title="tau">&tau;</abbr><sub>2</sub> and (<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> - <abbr title="epsilon">&epsilon;</abbr><sub>2</sub>) 
+      &gt;&gt; (<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> - <abbr title="epsilon">&epsilon;</abbr><sub>&infin;</sub>) 
+      the permittivity may be approximated by:&nbsp;</p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="images/microw39.gif" alt="Loss factor = (static permittivity - optical permittivity) x angular frequency x relaxation time /(1 +  angular frequency squared x relaxation time squared" width="124" height="46" /></p>
+    <p>&nbsp;</p>
+    <p align="left">which shows minor deviations between about 100 - 1000 
+      GHz that reduce with temperature increase.&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="polariz" id="polariz"></a>Polarization</h2>
+    <p>The polarization (P) of a substance is its 
+      electric dipole moment density (<a href="dielectric_constant.html#polar">see also</a>). It varies with the applied field 
+      (E = E<sub>max</sub>e<sup>&minus;i</sup><abbr title="omega"><sup>&omega;t</sup>)</abbr> and the permittivity. The real part of the expression gives P,</p>
+    <p>&nbsp;</p>
+    <p align="center">P = E <abbr title="epsilon">&epsilon;</abbr><sub>r</sub>*&epsilon;<sub>0</sub></p>
+    <p>&nbsp;</p>
+    <p>As&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E = E<sub>max</sub>{cos(<abbr title="omega">&omega;</abbr>t) 
+      - i.sin(<abbr title="omega">&omega;</abbr>t)} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and&nbsp;&nbsp;&nbsp;&nbsp; &epsilon;<sub>r</sub>* 
+      = &epsilon;<sub>r</sub>&acute; - i.<strong>Lf&nbsp;</strong></p>
+    <p>&nbsp;</p>
+    <p align="center">P = E<sub>max</sub>.&epsilon;<sub>0</sub>(&epsilon;<sub>r</sub>&acute; 
+      - i.<strong>Lf</strong>){cos(<abbr title="omega">&omega;</abbr>t) 
+      - i.sin(<abbr title="omega">&omega;</abbr> t)}</p>
+    <p>&nbsp;</p>
+    <p align="left">Therefore, taking only the 
+      real part:</p>
+    <p align="center">P = E<sub>max</sub>.&epsilon;<sub>0</sub>{(&epsilon;<sub>r</sub>&acute;cos(<abbr title="omega">&omega;t)</abbr> - <strong>Lf</strong>&nbsp;sin(<abbr title="omega">&omega;t)}</abbr></p>
+    <p>&nbsp;</p>
+    <p align="left">where &epsilon;<sub>r</sub>&acute; 
+      varies with frequency as <a title="click for an explanation" href="#equ2">equation (2)</a> above. 
+      This equation is equivalent to:</p>
+    <p>&nbsp;</p>
+    <p align="center">P = P<sub>max</sub>.cos(<abbr title="omega">&omega;</abbr>t 
+      - <abbr title="delta">&delta;</abbr>)</p>
+    <p>&nbsp;</p>
+    <p align="left">where&nbsp; <abbr title="delta">&delta;</abbr> = atan(<strong>Lf</strong>/&epsilon;<sub>r</sub>&acute;) 
+      and P<sub>max</sub> increases by a factor&nbsp; <strong>secant(<abbr title="delta">&delta;</abbr>)</strong>.&nbsp;[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <hr />
+    <h2>Footnotes</h2>
+    <p align="left"><sup><a name="a" id="a"> a</a></sup> The different values for <abbr title="tau">&tau;</abbr><sub>2</sub> correspond to different frequency ranges, and the  most appropriate  relaxation time 
+      expression is trimodal [<a  href="ref13.html#r1247" name="r1247" title="go to cited reference" id="r1247">1247</a>]. 
+      This analysis gives relaxation times <abbr title="tau">&tau;</abbr><sub>D</sub>, <abbr title="tau">&tau;</abbr><sub>2</sub> and <abbr title="tau">&tau;</abbr><sub>3</sub> at 25&nbsp;&deg;C of 8.26 ps, 1.05 ps  and 0.135 ps respectively, and &nbsp;<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> = 78.4, <abbr title="epsilon">&epsilon;</abbr><sub>2</sub> = 5.85, <abbr title="epsilon">&epsilon;</abbr><sub>3</sub> = 3.65, <abbr title="epsilon">&epsilon;</abbr><sub>&infin;</sub> = 2.4. <abbr title="tau">&tau;</abbr><sub>D</sub> (19.3 GHz) corresponds to cooperative relaxation of long-range hydrogen-bond-mediated dipole-dipole interactions. <abbr title="tau">&tau;</abbr><sub>2</sub> (150 GHz) is perhaps associated with dipole-dipole interactions due to the free rotation of water molecules having no more than one hydrogen bond. <abbr title="tau">&tau;</abbr><sub>3</sub> (1.18 THz) is possibly associated with dipole-dipole interactions due to the free rotation of water molecules having no  hydrogen bonds. These values may be compared with the bimodal  relaxation times <abbr title="tau">&tau;</abbr><sub>D</sub> and <abbr title="tau">&tau;</abbr><sub>2</sub> at 25&nbsp;&deg;C of 8.21 ps (19.3 GHz, corresponding to cooperative relaxation of long-range hydrogen-bond-mediated dipole-dipole interactions) and 0.392 ps (406 GHz, possibly associated with dipole-dipole interactions due to the free rotation of water molecules having broken hydrogen bonds), respectively, and &nbsp;<abbr title="epsilon">&epsilon;</abbr><sub>S</sub> = 78.4, <abbr title="epsilon">&epsilon;</abbr><sub>2</sub> = 5.54, <abbr title="epsilon">&epsilon;</abbr><sub>&infin;</sub> = 3.04 [<a  title="go to cited reference"  href="ref13.html#r1247">1247</a>]. A strong case has been proposed that the<a href="water_dissociation.html"> ionization of water</a> can lead to the rearrangement of the water clusters and the values of both <abbr title="tau">&tau;</abbr><sub>1</sub> and <abbr title="tau">&tau;</abbr><sub>2</sub> [<a  href="ref25.html#r2423" name="r2423" title="go to cited reference" id="r2423">2423</a>]. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+   <figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Full dielectric spectrum (20&nbsp;&deg;C), from [<a href="ref15.html#r1497" title="go to cited reference">1497</a>], note the log-log scale.</p>
+      <p align="center">mouse over for log-linear scale, from &nbsp;[<a  href="ref44.html#r4368" name="r4368" title="go to cited reference" id="r4368">4368</a>]</p>
+<p align="center">&nbsp;</p>
+</figcaption>
+<img class="floatright" src="images/dielectric_spectrum.gif" name="loglog" id="loglog" alt="Full dielectric spectrum, after ref. 1497" title="Full dielectric spectrum, after ref. 1497" width="400" height="325"  onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('loglog','','images/dielectric_spectrum2.gif',1)"/></figure>		
+    <p>&nbsp;</p>
+    <p><sup><a name="b" id="b"> b</a></sup> For use at higher frequencies up to 100 THz (that is, through the <a href="water_methods.html#tera">terahertz</a> into the <a title="go for more information" href="water_vibrational_spectrum.html">far infrared</a>), two additional terms, representing the intermolecular stretch (V<sub>S</sub>) and intermolecular librations (V<sub>L</sub>), may be added  [<a  href="ref15.html#r1497" name="r1497" title="go to cited reference" id="r1497">1497</a>]. This spectrum has also been calculated [<a title="go to cited reference"  href="ref45.html#r4415">4415</a><a name="r4415" id="r4415"></a>]. When the intermolecular stretching vibration is included, the following equation has been used  [<a  href="ref16.html#r1563" name="r1563" title="go to cited reference" id="r1563">1563</a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><img width="315" height="47" src="images/streq.gif" alt="complex permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  i times angular frequency x first relaxation time) + ((intermediate permittivity - optical permittivity)/(1 +  i times angular frequency x second relaxation time)) + stretch term" title="complex permittivity = optical permittivity + ((static permittivity - intermediate permittivity)/(1 +  i times angular frequency x first relaxation time) + ((intermediate permittivity - optical permittivity)/(1 +  i times angular frequency x second relaxation time)) + stretch term" /></p>
+    <p align="left">&nbsp;</p>
+    <p align="left">with the following values determined  [<a  href="ref16.html#r1563" title="go to cited reference">1563</a>]</p>
+    <p align="left">&nbsp;</p>
+    <table width="314" border="2" align="left" cellpadding="4">
+      <tr>
+        <td width="37" align="center">&nbsp;</td>
+        <td width="58" align="center">A<sub>S</sub>, THz<sup>2</sup></td>
+        <td width="51" align="center">&omega;<sub>S</sub>, THz</td>
+        <td width="51" align="center">&lambda;<sub>S</sub>, THz</td>
+        <td width="51" align="center">&epsilon;<sub>&infin;</sub></td>
+</tr>
+      <tr>
+        <td align="center">H<sub>2</sub>O</td>
+        <td align="center">1386</td>
+        <td align="center">33.3</td>
+        <td align="center">33.9</td>
+        <td align="center">2.34</td>
+</tr>
+      <tr>
+        <td align="center">D<sub>2</sub>O</td>
+        <td align="center">1248</td>
+        <td align="center">33.7</td>
+        <td align="center">31.8</td>
+        <td align="center">2.29</td>
+</tr>
+      <tr>
+        <td align="center">H<sub>2</sub><sup>18</sup>O</td>
+        <td align="center">1184</td>
+        <td align="center">31.1</td>
+        <td align="center">26.7</td>
+        <td align="center">2.28</td>
+</tr>
+</table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>The &tau;<sub>1</sub> and V<sub>S</sub> peaks become  lower  and move to higher frequency at higher temperatures,
+		whereas the V<sub>S
+		</sub> peak becomes higher and moves to lower frequency   [<a  href="ref37.html#r3620" name="r3620" title="go to cited reference" id="r3620">3620</a>].</p>
+    <p align="right">[<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]&nbsp;</p>
+    <p> Bulk water aligns efficiently by an 11.7 THz laser field, using terahertz radiation. This giant THz Kerr effect, upon librational excitation  (V<sub>L</sub>), results in an efficient alignment of the bulk water molecules [<a  href="ref35.html#r3436" name="r3436" title="go to cited reference" id="r3436">3436</a>]. </p>
+    <p>&nbsp;</p>
+    <p>Combined results from dielectric relaxation  and neutron scattering measurements  gave the 20-GHz peak (&tau;<sub>1</sub>)   as being due to molecular diffusion. In contrast, two high-frequency peaks at 0.15 (&tau;<sub>2</sub>) and 2 THz originate from local motions of hydrogen and oxygen atoms, respectively   [<a  href="ref34.html#r3321" name="r3321" title="go to cited reference" id="r3321">3321</a>].</p>
+    <p>&nbsp;</p>
+    <p align="left"><sup><a name="c" id="c"> c</a></sup> A 2015 model shows improved behavior in the supercooled region for use in atmospheric cloud measurements   [<a  href="ref23.html#r2262" name="r2262" title="go to cited reference" id="r2262">2262</a>].  [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]&nbsp;&nbsp;</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a  title="more on microwaves and water"  href="microwave_water.html">Back: Microwaves</a> | <a  title="more on microwaves and water"  href="dielectric_constant.html">Theory and definitions</a> | <a title="go to 'Water molecular structure' page"  href="water_molecule.html">Water 
+      molecule</a>&nbsp; | <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">Water spectra</a> | <a href="magnetic_electric_effects.html">Magnetic effects</a> | <a href="water_faq.html">Notes</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2001 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->2 February, 2022<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>

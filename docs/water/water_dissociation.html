@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="Description" content="Water dissociation" />
+<meta name="Keywords" content="water dissociation,self ionization,self ionisation,pH,pKw,Kw" />
+<meta name="author" content="martin chaplin: martin.chaplin@btinternet.com" />
+
+<title>Water ionization,the ionic product (Kw) of water and pH</title>
+<script language="javascript" type="text/javascript" src="head.js"></script>
+</head>
+<noscript>
+Your browser does not support JavaScript!
+</noscript>
+<head>
+<link rel="shortcut icon" href="/water/favicon.ico" type="image/x-icon" />
+<link rel="ToC" href="/water/water_structure_science.html" />
+<link rel="stylesheet" href="water.css" type="text/css" />
+
+</head>
+<body onload="mm_preloadImages('images/seab1.gif','images/seab3.gif','images/seab4.gif','images/top2.gif', 'images/top3.gif')">
+<a name="top" id="top"></a>
+<div style="width:761px; height:93px; background-color:#006868;padding-top:3px;border:0px;margin:0px;">
+  <div style="padding:0px;border:0px;margin:0px;padding-left:3px;width:140px; height:22px; background-color:#006868; float:left; display:inline;">
+    <form class="quicklinkform" action=" ">
+      <label for="&rdquo;menu1&rdquo;"></label>
+      <select class="quicklink"
+            onchange="mm_jumpMenu('parent',this,0)" name="menu1" id="&rdquo;menu1&rdquo;">
+       <option  value="index.html" selected="selected">Quick links</option>
+        <option value="index.html">......................................</option>
+        <option value="water_molecule.html">Water molecule</option>
+        <option value="water_hydrogen_bonding.html">hydrogen-bonding</option>
+        <option value="water_phase_diagram.html">Phase diagram</option>
+        <option value="water_vibrational_spectrum.html">Water spectrum</option>
+        <option value="water_dissociation.html">Dissociation</option>
+        <option value="water_anomalies.html">Anomalies</option>
+        <option value="water_properties.html">Water properties</option>
+        <option value="index.html">......................................</option>
+        <option value="clusters_overview.html">Water clusters</option>
+        <option value="protein_hydration.html">Protein hydration</option>
+        <option value="hydrocolloids_gums.html">Hydrocolloids</option>
+        <option value="ion_hydration.html">Ions</option>
+        <option value="index.html">......................................</option>
+        <option value="water_structure_science.html">Table of Contents</option>
+        <option value="water_sitemap.html">Site map</option>
+</select>
+</form>
+</div>
+  <div style="padding:0px;border:0px;margin:0px; height:22px; background-color:#006868; float:left; display:inline;"><a href="search.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('search','','images/seab1.gif',1)"><img src="images/sear1.gif" border="0" name="search" id="search"  width="72" height="22" title="Go to Search page" alt="Water site header" /></a><a href="water_sitemap.html"><img src="images/sear2.gif" width="432" height="22" title="Masthead Island, Great Barrier Reef: Go to Water Site map" alt="Masthead Island, Great Barrier Reef" border="0" /></a><img src="images/sean3.gif" alt=" " width="36" height="22" /><a href="/php-cgiwrap/water/pfp.php3?page=http://www1.lsbu.ac.uk/water/water_dissociation.html" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('printer','','images/seab4.gif',1)"  ><img src="images/sear4.gif" width="36" height="22"  title="Click here to print page" alt="Print-me key" name="printer"  border="0" id="printer" /></a><a href="add1.html"><img src="images/sear5.gif" width="39" height="22"  title="go to Water Visitor Book contributions"  alt="go to Water Visitor Book contributions" border="0"  /></a></div>
+  <map name="topmap" id="topmap">
+    <area shape="poly" coords="322,42,429,42,429,61,322,61" href="martin_chaplin.html" title="Go to my page" alt="Go to my page" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top3.gif',1)"  />
+      <area shape="poly" coords="553,3,554,30,693,30,717,8,747,32,717,56,690,33,204,35,204,3" href="water_structure_science.html" title="Go to Water Structure and Science site contents" alt="Water Structure and Science" onmouseout="mm_swapImgRestore()" onmouseover="mm_swapImage('topi','','images/top2.gif',1)" />
+</map>
+  <div style="padding:0px;border:0px; margin-left:3px; width:755px; background-color:#006868;"><img src="images/top1.gif" width="755" height="68" name="topi" id="topi" usemap="#topmap" border="0" alt=" " /></div>
+</div>
+<div style="width:761px; background-color:#006868;padding:0px;border:0px;margin:0px;">
+  <div style="width:751px; background-image:url('images/bg.gif');margin-left:3px;padding-left:4px;border:0px;padding-top:0px;padding-bottom:0px; background-color:#FFFae2;">
+    <!-- print begin -->
+       <div class="floatright" style="width:180px;">
+<figure  class="floatright">
+<figcaption>
+      <p align="center">&nbsp;</p>
+      <p align="center">Water dissociation</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img  src="images/water_dissociation.gif" title="Water dissociation to give hydrogen ions and hydroxide ions " alt="Water dissociation to give hydrogen ions and hydroxide ions " width="180" height="151" class="floatright" /></figure>
+<img src="images/autod.gif" alt="from Manuel Almagro Riva" title="from Manuel Almagro Riva" width="180" height="92" class="floatright"/></div> 
+<h1>Water dissociation and pH</h1>
+    <p>A remarkable property of pure water is that it dissociates to form hydrogen ions (H<sub>3</sub>O<sup>+</sup>) and hydroxide (OH<sup>&minus;</sup>) ions.</p>
+    <p>&nbsp;</p>
+   
+    <p class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#prod">The ionic product,  K<sub>w</sub></a></p>
+    <p class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#pH">pH</a></p>
+    <p class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#temp">Variation in K<sub>w</sub> with temperature and pressure </a></p>
+    <p class="style16"><span class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#acid">Acidity, basicity, and the p<em>K</em><sub>a</sub> of water</a></span></p>
+    <p class="style161"></p>
+    <p class="style16"><img src="images/redown.gif" alt="V" width="13" height="12" border="0"/> <a href="#k">Weak acids</a><br />
+      <img src="images/redleft.gif" alt="link;" width="12" height="13" border="0"/><a href="hydrogen_ions.html"> Hydrogen ions</a><br />
+      <img src="images/redleft.gif" alt="link;" width="12" height="13" border="0"/><a href="ionisoh.html" title="go to section below"> Hydroxide ions</a><br />
+    <img src="images/redleft.gif" alt="link;" width="12" height="13" border="0"/><a href="grotthuss.html" title="go to section below"> Grotthuss mechanism</a><br />
+    <img src="images/redown.gif" alt="V" width="13" height="12" border="0"/><a href="#o" title="go to section below"> Ionic strength</a></p>
+    <p >&nbsp;</p>
+ <div class="style10">
+    <p align="center">'I  will  employ  the  name  &ldquo;hydrogen  ion  exponent&rdquo;   and</p>
+ 
+    <p align="center">the  symbol pH   for  the  numerical  value  of the  exponent  of this power'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ </div>
+    <div  class="style4">
+      <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style4">S&oslash;ren S&oslash;rensen, 1909</span></p>
+</div>
+    <h2><a name="prod" id="prod"></a>The ionic product,  K<sub>w</sub></h2>
+    <p align="left">Water  dissociation (autoionization; self-ionization) occurs endothermically <a href="#d" name="bd" id="bd"><sup>d</sup></a> due to electric field fluctuations between neighboring molecules. Dipole <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html#lib">librations</a> [<a href="ref2.html#r191" name="r191" title="go to cited reference" id="r191">191</a>], 
+      resulting from thermal effects and favorable localized hydrogen 
+      bonding [<a title="go to cited reference" href="ref6.html#r567">567</a><a name="r567" id="r567"></a>], together with nuclear quantum effects [<a title="go to cited reference" href="ref21.html#r2025">2025</a><a name="r2025" id="r2025"></a>], cause these fluctuations. The process may be facilitated by exciting the O-H <a title="go to 'Molecular vibration and absorption of water molecules' page" href="water_vibrational_spectrum.html">stretch 
+      overtone vibration</a> [<a title="go to cited reference" href="ref4.html#r393">393</a><a name="r393" id="r393"></a>]. Once formed (at an average concentration of about 1 M H<sub>2</sub>O-H<sup>+</sup>&middot;&middot;&middot;OH<sup>&minus;</sup> at femtosecond timescales, as reported by Vasily  Artemov's group [<a href="ref20.html#r1984" name="r1984" title="go to cited reference" id="r1984">1984</a>]),<a href="#h" name="bh" id="bh"><sup>h</sup></a> the ions may separate through the <a title="click for an explanation" href="grotthuss.html">Grotthuss mechanism</a>. Usually (&gt;99.9%), these ion-clusters rapidly recombine (&asymp; 20 ps [<a title="go to cited reference" href="ref22.html#r2171">2171</a><a name="r2171" id="r2171"></a>]) with a frequency in the terahertz range to give the long-lived ions conventionally found. Thus the    exact hydrogen ion concentrations depend on the time scale at which these are probed. Rarely (about once every eleven hours per molecule at 25&nbsp;&deg;C, 
+      or less than once a week at 0&nbsp;&deg;C), the localized hydrogen 
+      bonding arrangement breaks before allowing the separated ions 
+      to return [<a title="go to cited reference" href="ref2.html">191</a>]. The pair of ions 
+      (H<sup>+</sup>, OH<sup>&minus;</sup>)<a href="#g" name="bg" id="bg"><sup>g</sup></a> hydrate independently and 
+      continue their separate existence<a href="#a" name="ba" id="ba"><sup>a</sup></a> for about 70 &mu;s (this lifetimeis also dependent on the extent of hydrogen bonding, being shorter 
+      at lower temperatures). They tend to recombine when separated 
+    by only one or two water molecules. </p>
+    <p align="left">&nbsp;</p>
+    <p align="center">H<sub>2</sub>O <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp; 
+      H<sup>+</sup> + OH<sup>&minus; <br />
+</sup>K<sub>w</sub> = [H<sup>+</sup>] &#739; [OH<sup>&minus;</sup>]</p>
+    <p>&nbsp;</p>
+    <p>pK<sub>w</sub> is a dimensionless number (= 13.995, 25&nbsp;&deg;C<sub> </sub>[<a href="http://www.iapws.org/relguide/Ionization.pdf" title="opens new site in a pop-up window"   target="otherWin2" onclick="newWin('otherWin2')">IAPWS</a>]) as the included concentrations are relative to the molal standard states (e.g., 1 mol  &#739; Kg<sup>&minus;1</sup>). <a href="#n" name="n" id="bn"><sup>n</sup></a> This low occurrence 
+      of the ions means that at neutrality (pH 7, at 25&nbsp;&deg;C)<sup><a title="click for an explanation" href="#c"> c</a><a name="bc" id="bc2"></a></sup>, 
+      similarly charged ions are, on average, separated by vast 
+      distances (&asymp; 0.255 &mu;m) in molecular 
+      terms and (for example)  bacteria contain only a few tens of free hydrogen 
+      ions (~ 30 in an <em>Escherichia coli</em>). Contributing to this effect is the high dielectric 
+      constant (encouraging charge separation) and high concentration of H<sub>2</sub>O      (&asymp; 55.5 M; increasing the absolute amount dissociated). The 
+      mean lifetime of a hydroxonium ion (1 ps; about the same as 
+      that of a <a title="go for more details"  href="water_hydrogen_bonding.html">hydrogen bond</a>) is such 
+      that the charge could be associated with over 10<sup>7</sup> molecules of water before neutralization. </p>
+    <p>&nbsp;</p>
+    <p>Although the extent of dissociation is tiny ([H<sup>+</sup>]/[H<sub>2</sub>O]&nbsp;=&nbsp;2.8&nbsp; &#739; &nbsp;10<sup>&minus;9</sup> at 37&nbsp;&deg;C), the dissociation and consequential changes in the tiny concentrations 
+      of hydrogen ions have absolute importance to living processes. 
+      Hydrogen and hydroxyl ions are produced already hydrated.</p>
+    <p>&nbsp;</p>
+    <p align="center">H<sub>2</sub>O (liq) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp; 
+      H<sup>+</sup>(aq) + OH<sup>&minus; </sup>(aq) </p>
+    <p align="center">&nbsp;</p>
+    <p align="left">where the subscripts, 'liq' and &lsquo;aq&rsquo;, indicate that the species are in or within the aqueous liquid phase.<sup><a title="click for an explanation" href="#l">l</a><a name="bl" id="bl"></a></sup></p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">Hydration enthalpies of protons and hydroxides, from [<a title="go to cited reference" href="ref20.html#r1938">1938</a>b]</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/ionh2o.gif" width="360" height="254"  alt="Hydration enthalpies of protons and hydroxides, from [1938b]" title="Hydration enthalpies of protons and hydroxides, from [1938b]" class="floatright"  /></figure>
+    <p>The protons (H<sup>+</sup>, hydrons) initially hydrate as hydroxonium ions, H<sub>3</sub>O<sup>+</sup> (also called 
+      oxonium or hydronium ions) and  do not exist 
+      as naked protons in the gas phase, or liquid, or solid water, where they interact extremely strongly with electron clouds. All three hydrogen atoms in the hydroxonium 
+      ion are held by strong covalent bonds and are equivalent (C<sub>3v</sub> symmetry in a vacuum). The thermodynamic properties of the dissociation at 25&nbsp;&deg;C and 0.1 MPa are &Delta;U&deg; = 59.5 kJ  &#739; mol<sup>&minus;1</sup>, &Delta;V&deg; = 22.13 cm<sup>3</sup>   &#739; mol<sup>&minus;1</sup>, &Delta;H&deg; = 55.8 kJ  &#739; mol<sup>&minus;1</sup>, &Delta;G&deg; = 79.9 kJ  &#739; mol<sup>&minus;1</sup>, &Delta;S&deg; = -80.8 J   &#739; K<sup>&minus;1</sup>  &#739; mol<sup>&minus;1 </sup>[<a title="go to cited reference" href="ref20.html#r1938">1938</a><a name="r1938" id="r1938"></a>]. The proton is never found unhydrated in an aqueous solution, and the hydroxonium ions, H<sub>3</sub>O<sup>+</sup>, also have negligible independent existence in an aqueous environment [<a title="go to cited reference" href="ref22.html#r2134">2134</a><a name="r2134" id="r2134"></a>]. All the hydroxonium ion protons   are predominantly hydrogen-bonded, causing further hydration to H<sub>3</sub>O<sup>+</sup>(H<sub>2</sub>O)<sub>n</sub>, where n depends on the conditions such as temperature, solutes, pressure, and method of determination. [H<sup>+</sup>] is often written instead of [H<sub>3</sub>O<sup>+</sup>].</p>
+    <p>&nbsp;</p>
+    <p>To avoid the misleading presumption of the existence of bare protons similar to other bare cations (but see [<a title="go to cited reference" href="ref22.html#r2132">2132</a><a name="r2132" id="r2132"></a>] for an alternative view), the above equations are better written 
+      as:</p>
+    <p>&nbsp;</p>
+    <p align="center">2 H<sub>2</sub>O(aq) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp; 
+      H<sub>3</sub>O<sup>+</sup>(aq) + OH<sup>&minus;</sup>(aq)</p>
+    <p align="center"><br />
+      K<sub>w</sub> = [H<sub>3</sub>O<sup>+</sup>] &#739; [OH<sup>&minus;</sup>]</p>
+    <p>&nbsp;</p>
+<figure  class="floatright">
+<figcaption>
+      <p align="center">Change in volume on water dissociation, from  [<a title="go to cited reference" href="ref20.html#r1946">1946</a>]</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/dvion.gif" alt="Change in volume on water dissociation, data from [1946]" title="Change in volume on water dissociation, data from [1946]" width="360" height="230"  class="floatright"  /></figure>
+<p><a name="dv" id="dv"></a> Both ions are<a title="go to find more information" href="kosmotropes_chaotropes.html"> ionic kosmotropes</a>, hydrating and creating order in forming stronger hydrogen 
+      bonds with surrounding water molecules than the water molecules form between themselves and creating short chains of hydrogen-bonded water molecules  [<a title="go to cited reference" href="ref21.html#r2025">2025</a>]. Remarkably, the volume change in this reaction </p>
+    <p>&nbsp;</p>
+    <p align="left">2 H<sub>2</sub>O<sub>(l)</sub> <img src="images/farrow.gif" width="47" height="13" alt="-&gt;" />&nbsp; 
+      H<sub>3</sub>O<sup>+</sup><sub>(aq)</sub> + OH<sup>&minus;</sup><sub>(aq)</sub> &nbsp;&Delta;V = -22.3 cm<sup>3</sup> mol<sup>&minus;1</sup> </p>
+    <p>&nbsp;</p>
+    <p align="left">at 25&nbsp;&deg;C and infinite dilution, [<a title="go to cited reference" href="ref20.html#r1946">1946</a><a name="r1946" id="r1946"></a>], see Figure right,</p>
+    <p align="left">due to the change in the hydration strength plus electrostriction, is about the same as one molecule of water (18.1 cm<sup>3</sup>  &#739;  mol<sup>&minus;1</sup>); when one water molecule ionizes, its volume effectively disappears.</p>
+    <p>&nbsp;</p>
+    <p align="left">The concentrations of H<sub>3</sub>O<sup>+</sup> and OH<sup>&minus;</sup> are normally taken as the total concentrations of all 
+      the singly charged small clusters including these species. As other water molecules 
+      are required to promote the hydrolysis, the equations below includes 
+      the most important.&nbsp;None of these hydrated ions should be considered as 'fixed' structures, with further water molecules continually coming and going in aqueous solution with timescales of picoseconds. No bare protons occur, however.</p>
+    <p>&nbsp;</p>
+    <p align="center">4 H<sub>2</sub>O <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp; 
+      H<sub>5</sub>O<sub>2</sub><sup>+</sup> + H<sub>3</sub>O<sub>2</sub><sup>&minus;</sup></p>
+    <p align="center">10 H<sub>2</sub>O <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp; 
+      H<sub>13</sub>O<sub>6</sub><sup>+</sup> + H<sub>7</sub>O<sub>4</sub><sup>&minus;</sup></p>
+    <p>&nbsp;</p>
+    <p align="left">The concentration of hydroxonium and hydroxide 
+      ions produced is  equal to the square root of the 
+      dissociation constant (K<sub>w</sub>). </p>
+    <p>&nbsp;</p>
+    <p align="left">A wide range of  values for K<sub>w</sub> has been calculated using Quantum Cluster Equilibrium (QCE) theory with  various  <em>ab initio</em> and density functional methods [<a name="r3025" id="r3025"></a><a href="ref31.html#r3025">3025</a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The reverse reaction</p>
+    <p align="center"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>3</sub>O<sup>+</sup><sub>(aq)</sub> + OH<sup>&minus;</sup><sub>(aq)</sub> &nbsp;<img src="images/farrow.gif" width="47" height="13" alt="-&gt;" /> 2 H<sub>2</sub>O<sub>(aq)</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K<sub>eq </sub>= 10<sup>14</sup> 
+    ; 25&nbsp;&deg;C</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">greatly favors the neutralization reactions of acids and bases.    </p>
+    <p>&nbsp;</p>
+    <p align="left">Aqueous OH<sup>&minus;</sup> does not ionize further as (O<sup>2&minus;</sup> + H<sub>2</sub>O <img src="images/farrow.gif" width="47" height="13" alt="-&gt;" /> 2 OH<sup>&minus;</sup>, 
+    K &gt; 10<sup>22</sup>). H<sub>3</sub>O<sup>+</sup> does not protonate further to the tetrahedral H<sub>4</sub>O<sup>2+</sup> ion as although H<sub>4</sub>O<sup>2+</sup> may be metastable in the gas phase, it is thermodynamically unstable to loss of a proton [<a title="go to cited reference" href="ref22.html#r2133">2133</a><a name="r2133" id="rr2133"></a>], and would immediately dissociate in aqueous solution. [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>]</p>
+    <h2><a name="pH" id="pH"></a>pH</h2>
+    <figure  class="floatright">
+<figcaption>
+      <p align="center">pH of common materials</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/indicator.gif" alt="Approximate pH of common materials" title="Approximate pH of common materials" width="182" height="320"  class="floatright" /></figure>
+<p align="left">The hydronium (oxonium) ion concentration 
+      (commonly called 'hydrogen ion concentration') is often given 
+      in terms of the pH, where</p>
+<p align="left">&nbsp;</p>
+    <p align="center"> <strong>pH&nbsp;=&nbsp;Log<sub>10</sub>(1/[H<sub>3</sub>O<sup>+</sup>]) 
+      =&nbsp;-Log<sub>10</sub>([H<sub>3</sub>O<sup>+</sup>]) </strong></p>
+    <p>&nbsp;</p>
+    <p align="left">(that is, [H<sub>3</sub>O<sup>+</sup>]&nbsp;=&nbsp;10<sup>&minus;pH</sup>) <a href="#f" name="bf" id="bf"><sup>f</sup></a> with the concentration of  H<sub>3</sub>O<sup>+</sup> in mol   &#739; L<sup>&minus;1</sup>. This equation is adequate for most solutions but may fail under higher solute concentrations.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">More accurately and as determined using a <a href="#meter">pH meter</a>, </p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><strong>pH&nbsp;=&nbsp;-Log<sub>10</sub>(<em>a</em><sub>H</sub>)&nbsp;=&nbsp;-Log<sub>10</sub>(<em>m</em><sub>H</sub> &#739; &lambda;<sub>H</sub>/m&deg;) </strong></p>
+    <p align="left">&nbsp;</p>
+    <p align="left">where <em>a</em><sub>H, </sub><em>m</em><sub>H</sub>, &lambda;<sub>H</sub>, and m&deg; are the relative (<a href="moles_molarity_molality.html" title="click for an explanation">molality</a> based) <a title="go for more details" href="water_activity.html">activity</a>, molality, 
+      molal activity coefficient<a href="#j" name="bj" id="bj"><sup>j</sup></a>, and standard molality (1 mol  &#739; [kg solvent]<sup>&minus;1</sup>) 
+      of the hydrogen ions. This equation is correct under higher solute concentrations. Proof that the use of the equation pH&nbsp;=&nbsp;-Log<sub>10</sub>([H<sup>+</sup>]) may give misleading results (and pH&nbsp;=&nbsp;-Log<sub>10</sub>(<em>a</em><sub>H</sub>) is preferred) is easily shown as the pH of 0.1 M HCl decreases (i.e., it apparently becomes more acidic) when it is diluted with 5% M LiCl  
+      [<a href="ref12.html#r1107">1107</a><a name="r1107" id="r1107"></a>]. Also, the -Log<sub>10</sub>([H<sub>3</sub>O<sup>+</sup>]) for average seawater at 25&nbsp;&deg;C  is 8.19, but its -Log<sub>10</sub>(<em>a</em><sub>H</sub>) is 8.32. As pH involves activities, the [H<sub>3</sub>O<sup>+</sup>] calculated from pH&nbsp;=&nbsp;-Log<sub>10</sub>([H<sup>+</sup>]) is often not the [H<sub>3</sub>O<sup>+</sup>] concentration experimentally determined by titration. The   hydrogen ion activity cannot be evaluated thermodynamically   [<a href="ref34.html#r3376">3376</a>] but may be determined kinetically.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">Water can thus support acid-base equilibria over a range of about 16 pH units (see above right). At the low concentrations usually found, 
+      the molarity-based hydrogen ion concentration is close enough to the 
+      relative (molality based) activity for its use in most circumstances. 
+      The presence of salts and other solutes will generally reduce this activity, and the activity varies with temperature. The molal activity of hydrogen ions cannot be determined directly 
+      but may be determined using a glass electrode standardized to 
+      the response of standard buffer solutions of comparable ionic 
+      strength. <a href="#o" name="bo" id="bo"><sup>o</sup></a> Glass electrode-determined pH values are error-prone, 
+      and calculated hydrogen ion concentrations should be treated 
+      with caution, particularly at the extremes of pH [<a href="ref19.html#r1890">1890</a><a name="r1890" id="r1890"></a>]. For more information and a list of primary pH standards, see [<a title="go to cited reference" href="ref9.html#r813">813</a><a name="r813" id="r813"></a>]. </p>
+    <figure  class="floatright">
+<figcaption>
+  <p>&nbsp;</p>
+  <p align="center"><a name="meter" id="meter"></a>Typical pH electrode</p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/pH.gif" alt="typical pH electrode" title="typical pH electrode" width="400" height="124" class="floatright" /></figure>
+    <p>&nbsp;</p>
+    <p align="left">The pH scale was first introduced by S&oslash;rensen (as p<sub>H&middot;</sub>) in 1909 
+      [<a href="ref11.html#r1036">1036</a><a name="r1036" id="r1036"></a>] using colorimetric measurements and the <a href="water_redox.html#a">hydrogen electrode</a>, which generates an electrode potential 
+      proportional to pH. Today, we commonly use the glass electrode [<a href="ref34.html#r3377">3377</a><a name="r3377" id="r3377"></a>] (see right), which also gives an electrode potential dependent on the activity of the H<sup>+</sup>and proportional to pH in dilute solution,</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><img src="images/ph11.gif" alt="pH=pHS+(E-ES)X(F/2.303RT)" title="pH=pHS+(E-ES)X(F/2.303RT)"  width="208" height="36" /></p>
+    <p align="center">&nbsp;</p>
+    <p align="left">where <a href="constants.html#far">F</a>, <a href="constants.html#gas">R</a>, and T are the Faraday constant, the gas constant, and absolute temperature, respectively. E refers to the potential (<a href="constants.html#V">V</a>) of the &ldquo;unknown&rdquo; solution being determined, and E<sub>S</sub> and pH<sub>S</sub> refer to the standard reference electrode solution. Once calibrated with a solution of Known pH</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"> <strong>pH &prop; E</strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="left">with a proportionality correction being applied for the temperature. The pH's are reasonably accurate where the pH meter is calibrated close to the pH at issue and with a solution of approximately the same ionic strength [<a href="ref34.html#r3378">3378</a><a name="r3378" id="r3378"></a>].</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The pH meter can be used to estimate hydrogen ion concentrations without concern for knowing activities  [<a href="ref34.html#r3376">3376</a><a name="r3376" id="r3376"></a>]. pH electrodes are now commonly used to determine the pH (see right).<a href="#i" name="bi" id="bi"><sup>i</sup></a> The pH scale extends to negative numbers (for example, concentrated HCl has a pH of about -1.1) and to greater than 14 (for example, saturated NaOH has a pH of about 15.0) [<a href="ref12.html#r1187">1187</a><a name="r1187" id="r1187"></a>]; although the glass electrode cannot be used at such extreme pH's. There is a  review of the pH of natural water [<a href="ref18.html#r1712">1712</a><a name="r1712" id="r1712"></a>]. </p>
+    <p>&nbsp;</p>
+    <p align="left">Similarly to pH, pK<sub>w</sub>&nbsp;is defined by</p>
+    <p align="center"> <strong>pK<sub>w</sub> =&nbsp;Log<sub>10</sub>(1/K<sub>w</sub>)&nbsp;=&nbsp;-Log<sub>10</sub>(K<sub>w</sub>)</strong></p>
+    <p align="left">&nbsp;</p>
+    <p align="left">utilizing concentrations in mol &#739;  L<sup>&minus;1</sup>.</p>
+    <p>&nbsp;</p>
+    <p align="left">Where the solution contains significant amounts of heavy water (D<sub>2</sub>O),  the measured pH will differ slightly from that expected from the sum of the amounts of the protonated species H<sub>3</sub>O<sup>+</sup> + H<sub>2</sub>DO<sup>+</sup> + HD<sub>2</sub>O<sup>+</sup> + D<sub>3</sub>O<sup>+</sup> [<a href="ref30.html#r2953">2953</a><a name="r2953" id="r2953"></a>].</p>
+    <p>&nbsp;</p>
+    <p align="right">[<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    <div class="floatright" style="width:360px;">
+     
+          <figure  class="floatright">
+<figcaption>
+  <p align="center">&nbsp;</p>
+  <p align="center">pK<sub>w</sub> versus temperature</p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img  src="images/water_pkw_2.gif" alt="PKw versus temperature at 0.1MPa or saturated pressure (&gt;100C)"  title="PKw versus temperature at 0.1MPa or saturated pressure (&gt;100C)" width="360" height="240" /></figure>
+      <div align="center"><strong>pK<sub>w</sub> = 
+        -log<sub>10</sub>(K<sub>w</sub> ) [<a href="http://www.iapws.org/relguide/Ionization.pdf" title="opens new site in a pop-up window"   target="otherWin2" onclick="newWin('otherWin2')">IAPWS</a>] </strong></div>
+</div>
+    <h2><a name="temp" id="temp"></a>Variation in K<sub>w</sub> with T and P </h2>
+    <p align="left"> K<sub>w</sub> is very <a title="go to find more information"  href="material_anomalies.html#elec">temperature 
+      dependent</a>, increasing with temperature (that is, from 0.001 &#739; 10<sup>&minus;14</sup> mol<sup>2</sup> &#739; L<sup>&minus;2</sup> at -35&nbsp;&deg;C (<abbr title="-Log10([H+])">pH</abbr> 8.5) [<a href="ref2.html#r112" name="r112" title="go to cited reference" id="r112">112</a>], 
+      0.112 &#739; 10<sup>&minus;14</sup> mol<sup>2</sup> &#739; L<sup>&minus;2</sup> at 0&nbsp;&deg;C (<abbr title="-Log10([H+])">pH</abbr> 7.5), to 0.991 &#739; 10<sup>&minus;14</sup> mol<sup>2</sup> &#739; L<sup>&minus;2</sup> at 25&nbsp;&deg;C (pH 7.0), to 9.311 &#739; 10<sup>&minus;14</sup>  &#739; mol<sup>2</sup> &#739; L<sup>&minus;2</sup> at 60&nbsp;&deg;C (<abbr title="-Log10([H+])">pH</abbr> 6.5) [<a href="ref.html#r87" name="r87" title="go to cited reference" id="r87">87</a>]), to 
+      10<sup>&minus;12</sup>  &#739; mol<sup>2</sup> &#739; L<sup>&minus;2</sup> at 
+      300&nbsp;&deg;C (<abbr title="-Log10([H+])">pH</abbr> 6.0, &asymp; 50 MPa) [<a title="go to cited reference" href="ref5.html#r456">456</a><a name="r456" id="r456"></a>] 
+      in agreement with the high<a title="go to 'Water properties data' page"  href="water_properties.html#dgion"> positive standard free energy</a>.<sup><a title="click for an explanation" href="#b"> b</a><a name="bb" id="bb"></a></sup> There is a minimum at about 249&nbsp;&deg;C along the saturated pressure line for H<sub>2</sub>O and at about 257&nbsp;&deg;C for D<sub>2</sub>O (see right  [<a href="ref19.html#r1865">1865</a><a name="r1865" id="r1865"></a>]). The pK<sub>w</sub> H<sub>2</sub>O minimum is about 0.74 lower than that for D<sub>2</sub>O [<a href="ref19.html#r1865">1865</a>]. (see also <a  title="go to find more information"  href="material_anomalies.html#elec">conductivity maximum</a>). </p>
+    <p>&nbsp;</p>
+    <p align="left">A theoretical treatment of this temperature dependence 
+      is available [<a title="go to cited reference" href="ref8.html#r763">763</a><a name="r763" id="r763"></a>]. </p>
+    <div class="spacer">
+      <p>&nbsp;</p>
+</div>
+    <div style=" float:none; clear:both;">
+      <div class="floatleft" style="width:360px;">     
+<figcaption>
+      <p align="center">Variation in pK<sub>w</sub> ( p<em>K</em><sub>a</sub>)</p>
+      <p align="center">&nbsp;</p>
+</figcaption>
+<img  src="images/water_pkw_1.gif" width="360" height="345" title="Water ionization; variation in pKw and p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; with respect to temperature and pressure" alt="Water ionization; variation in pKw and p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; with respect to temperature and pressure"  border="0" usemap="#supercrit" /></div>
+      <map name="supercrit" id="supercrit">
+        <area shape="rect" coords="156,1,353,301" alt="supercritical conditions" title="supercritical conditions"/>
+</map>
+               <figure  class="floatright">
+<figcaption>
+  <p align="center">pK<sub>w</sub> versus pressure</p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/pKw_pressure.gif" alt="pKw (and p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt;) versus pressure at 25&nbsp;&deg;C" title="pKw  (and p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt;) versus pressure at 25&nbsp;&deg;C" width="360" height="256" /></figure>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+               <p>&nbsp;</p>
+        <p>Temperature and density dependence of dissociation have been examined [<a title="go to cited reference" href="ref14.html#r1321">1321</a><a name="r1321" id="r1321"></a>]. Dissociation depends on the pressure, with K<sub>w </sub>doubling 
+        at about 100 MPa; unsurprising given the negative &Delta;V associated with the 
+        dissociation, -18.1 cm<sup>3</sup> &#739; mol<sup>&minus;1</sup>. </p>
+        <p>&nbsp;</p>
+      <figure  class="floatright">
+<figcaption>
+  <p align="center">pK<sub>w</sub> versus water density, changing T and P</p>
+  <p align="center"> towards and past critical point,<span class="style4"> from [<a title="go to cited reference" href="ref42.html#r4121">4121</a>]</span></p>
+  <p align="center">&nbsp;</p>
+</figcaption><img src="images/pkw-dens.gif" width="360" height="227" alt="pKw versus water density from [4121]" title="pKw versus water density from [4121]"/> </figure>
+      <p>Using the different methodology of direct, conductivity measurements, the results from the University of Guelph [<a title="go to cited reference" href="ref42.html#r4121">4121</a><a name="r4121" id="r4121"></a>] show discrepancies from these values between 350&nbsp;&deg;C, and 401&nbsp;&deg;C, and between 5.75 MPa and 31.15 MPa,  which reach between two and five orders of magnitude near the critical point.</p>
+         <p>&nbsp;</p>
+      <p>The actual pK<sub>w</sub> of solutions is rarely 14.0  [<a  href="ref43.html#r4245" name="r4245" title="go to cited reference" id="r4245">4245</a>] as dissociation also varies with solute concentration and ionic strength; for example, K<sub>w </sub>goes through a maximum of about 
+        2 &#739; 10<sup>&minus;14 </sup>mol<sup>2</sup>   &#739; L<sup>&minus;2 </sup>(minimum pK<sub>w</sub> ~13.7)  at about 
+        0.25 M ionic strength (using tetramethylammonium chloride, 
+        where possibly the change in hydrogen-bonding caused by <a title="go to 'Evidence for water clusters' page"  href="cluster_evidence.html#clathr">clathrate 
+        formation</a> encourages dissociation) before dropping to a 
+        value of about 1 &#739; 10<sup>&minus;16 </sup>mol<sup>2</sup> &#739; L<sup>&minus;2</sup>at 
+        5 M (with higher concentrations disrupting the hydrogen-bonding). Similar maxima occur with other salts such as NaCl (&asymp; 0.6 M), KCl (&asymp; 0.45 M), KNO<sub>3</sub> (&asymp; 0.5 M) and NaClO<sub>4</sub> (&asymp; 0.5 M) [<a title="go to cited reference"  href="ref23.html#r2234">2234</a><a name="r2234" id="r2234"></a>]. Dissociation will also be different at interfaces; for example, it is greater at lipid membrane surfaces  [<a title="go to cited reference"  href="ref20.html#r1964">1964</a><a name="r1964" id="r1964"></a>].</p>
+      <p>&nbsp;</p>
+      <p>In ice, where the local hydrogen-bonding rarely breaks to 
+        separate the continually forming and re-associating ions, the 
+        dissociation constant is much lower (for example, at -4&nbsp;&deg;C, K<sub>w</sub> = 2&nbsp;x&nbsp;10<sup>&minus;20</sup> mol<sup>2</sup> &#739; L<sup>&minus;2</sup> ). [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+      <h2><a name="acid" id="acid"></a> Acidity, basicity, and the p<em>K</em><sub>a</sub> of water</h2>
+      <p align="left">There has been controversy and confusion for the last 90 years over the acidity<sup><a name="be" id="be"></a><a title="click for an explanation" href="#e">e</a></sup> of water and its p<em>K</em><sub>a</sub>; a confusion that is yet to be fully clarified. Does the p<em>K</em><sub>a</sub> of H<sub>2</sub>O equal 15.74  [<a href="ref30.html#r2966">2966</a><a name="r2966" id="r2966"></a>] or 14.00  [<a href="ref30.html#r2965">2965</a><a name="r2965" id="r2965"></a>]? The answer depends on the  standard state used for the solvent water.<a href="#m" name="bm" id="bm"><sup>m</sup></a></p>
+      <p>&nbsp;</p>
+      <p align="left">The acidity constant 
+        (K<sub>a</sub>) of  weak acid HA,<a href="#k" name="bk" id="bk"><sup>k</sup></a> </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;<strong>HA (aq)+ H<sub>2</sub>O (l)<img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;A<sup>&minus;</sup> (aq) + H<sub>3</sub>O<sup>+</sup></strong><strong>(aq)</strong>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>&Delta;G&deg;</strong></p>
+      <p align="center">&nbsp;</p>
+      <p align="left">where <strong>HA </strong>is an acid having its conjugate base <strong>A<sup>&minus;</sup></strong>; also <strong>H<sub>2</sub>O</strong> is acting as a base with its conjugate acid <strong>H<sub>3</sub>O<sup>+</sup></strong></p>
+      <p align="center">&nbsp;</p>
+      <p align="cleft">K<sub>a</sub> is defined by </p>
+      <p align="center"><strong>K<sub>a</sub>= [H<sub>3</sub>O<sup>+</sup>][A<sup>&minus;</sup>]/[HA]</strong></p>
+      <p align="center"><strong>pK<sub>a</sub>= &nbsp;-Log<sub>10</sub>(K<sub>a</sub>)</strong><strong> </strong></p>
+      <p align="left">therefore,</p>
+      <p align="center"><strong>&Delta;G&deg;&nbsp;  = - RT Ln( K<sub>a</sub>)&nbsp;</strong></p>
+      <p align="center"><strong>pK<sub>a</sub>= &nbsp;&Delta;G&deg;/(ln(10) &#739; RT)</strong></p>
+      <p align="center">&nbsp;</p>
+      <p align="left">Together with its conjugate base A<sup>&minus;</sup>, we get,</p>
+      <p align="left">&nbsp;</p>
+      <p align="center"> &nbsp;&nbsp;&nbsp;HA (aq) + H<sub>2</sub>O (l) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;A<sup>&minus;</sup> (aq)+ H<sub>3</sub>O<sup>+ </sup>(aq)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &Delta;G<sub>a</sub>&deg;&nbsp;  = - RT Ln( K<sub>a</sub>)&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;</p>
+      <p align="center"> &nbsp;&nbsp;&nbsp;&nbsp;A<sup>&minus;</sup> (aq)+ H<sub>2</sub>O (l) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;HA (aq) + OH<sup>&minus;</sup> (aq)&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&Delta;G<sub>b</sub>&deg;&nbsp;= - RT Ln( K<sub>b</sub>)&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;</p>
+      <p align="center"><sup>_________________________________________________________</sup></p>
+      <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H<sub>2</sub>O (l) + H<sub>2</sub>O (l) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;H<sub>3</sub>O<sup>+</sup>(aq) + OH<sup>&minus;</sup> (aq)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&Delta;G<sub>w</sub>&deg;  = - RT Ln( K<sub>w</sub>)&nbsp;= 79.89 kJ &#739; mol<sup>&minus;1</sup> [<a href="ref30.html#r2967">2967</a><a name="r2967" id="r2967"></a>]</p>
+      <p>&nbsp;</p>
+      <p align="left">Where the &Delta;G&deg; values are the standard Gibbs free energies for the equilibria.</p>
+      <p align="left">&nbsp;</p>
+      <p align="left">Therefore, as &Delta;G<sub>w</sub>&deg; = &Delta;G<sub>a</sub>&deg; + &Delta;G<sub>b</sub>&deg;, Ln( K<sub>w</sub>) = Ln( K<sub>a</sub>) + Ln( K<sub>b</sub>) and </p>
+      <p align="left">&nbsp;</p>
+      <p align="center"><strong>pK<sub>a</sub></strong>+<strong> pK<sub>b</sub> </strong>=<strong> pK<sub>w</sub></strong> &nbsp;&nbsp;   &nbsp;&nbsp;and &nbsp;&nbsp;   &nbsp;&nbsp;<strong>K<sub>w</sub> </strong>=<strong> K<sub>a</sub> &#739; </strong><strong> K<sub>b</sub></strong>    </p>
+      <p>&nbsp;</p>
+      <p align="left">H<sub>2</sub>O, as a weak acid, may be treated in the same way</p>
+      <p align="left">&nbsp;</p>
+      <p align="center"><strong>H<sub>2</sub>O  (l) + H<sub>2</sub>O (l)<img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />H<sub>3</sub>O<sup>+</sup>(aq) + OH<sup>&minus;</sup> (aq) </strong></p>
+      <p align="center">&nbsp;</p>
+      <p align="left">Its p<em>K</em><sub>a</sub> has been (mistakenly) derived as </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">K<sub>a</sub>= [H<sub>3</sub>O<sup>+</sup>][OH<sup>&minus;</sup>]/[H<sub>2</sub>O] 
+        = K<sub>w</sub>/[H<sub>2</sub>O] = K<sub>w</sub>/55.345 (at 
+        25&nbsp;&deg;C) </p>
+      <p align="center">&nbsp;</p>
+      <p align="left">and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p<em>K</em><sub>a</sub> = pK<sub>w</sub> +1.743&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (= 15.738 at 25&nbsp;&deg;C) </p>
+      <p align="left">&nbsp;</p>
+      <p align="left">However, in this derivation, the H<sub>2</sub>O is treated both as an acid ([H<sub>2</sub>O] in the denominator, equaling about 55.345 mol &#739; L<sup>&minus;1</sup>), and the solvent (internalized in the K<sub>a</sub> definition with a value of unity). This disparity in values introduces conflict.</p>
+      <p>&nbsp;</p>
+      <p align="left">The alternative (and <a href="https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Fundamentals/What_is_the_pKa_of_water?"  title="opens new site in a pop-up window"  target="otherWin9" onclick="newWin('otherWin9')">correct</a>) derivation utilizes the activity of water (equals unity) in the denominator [<a href="ref14.html#r1321">1321</a>, <a href="ref30.html#r2965">2965</a>]</p>
+      <p align="left">&nbsp;</p>
+      <p align="center"><strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K<sub>a (H2O)</sub>= [H<sub>3</sub>O<sup>+</sup>][OH<sup>&minus;</sup>] = K<sub>w</sub> = 10<sup>&minus;13.995</sup></strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a number without units) </p>
+      <p align="center">&nbsp;</p>
+      <p align="center"><strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pK<sub>a</sub> = pK<sub>w</sub> = 13.995</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(H<sub>2</sub>O, 25&nbsp;&deg;C) </p>
+      <p align="left">&nbsp; </p>
+      <p align="left">H<sub>2</sub>O is a very weak acid; compare with the p<em>K</em><sub>a</sub>s of H<sub>2</sub>Te, H<sub>2</sub>Se, and H<sub>2</sub>S that are 2.6, 3.89, and 7.04, respectively. The pK<sub>b</sub> (= pK<sub>w</sub> - p<em>K</em><sub>a</sub> = 0.00) related to this K<sub>a</sub> concerns the conjugate base (OH<sup>&minus;</sup>), and not H<sub>2</sub>O, as commonly mistakenly cited. OH<sup>&minus;</sup> is a strong base, whereas H<sub>2</sub>O is a very weak base.    The pK<sub>b</sub> of H<sub>2</sub>O is derived exactly as p<em>K</em><sub>a</sub> (above, as the equation generates both an acid and a base) and gives the same value (= 13.995 at 25&nbsp;&deg;C). </p>
+      <p align="left">&nbsp;</p>
+      <p align="left">Although a true ionization constant is a thermodynamic quantity related to the standard free energy change and should be independent of the concentration used for its determination, in practice, it will vary (a little) with this concentration due to interactions between the ions (i.e, their activities). </p>
+      <p>&nbsp;</p>
+      <p align="left">H<sub>3</sub>O<sup>+</sup> is a strong acid with associated K<sub>a (H3O+)</sub> equaling unity exactly (see the equation below). pK<sub>a (H3O+)</sub> equals zero exactly and is invariant with temperature,  as &Delta;G&deg; is necessarily zero. </p>
+      <p align="left">&nbsp;</p>
+      <p align="center">&nbsp;H<sub>3</sub>O<sup>+</sup>(aq) + H<sub>2</sub>O (l) <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;H<sub>2</sub>O  (l) + H<sub>3</sub>O<sup>+</sup>(aq)&nbsp;   &nbsp;&Delta;G&deg; &nbsp;&nbsp; = - RT Ln(K<sub>a (H3O+)</sub>) &nbsp;&nbsp;&nbsp;= 0.00 kJ &#739; mol<sup>&minus;1</sup> [<a href="ref30.html#r2967">2967</a>]</p>
+      <p>&nbsp;</p>
+      <p align="left">There is a difficulty that has been ignored in these definitions as  K<sub>a</sub> and K<sub>b</sub> would normally be expressed in terms of activities rather than concentrations [<a href="ref12.html#r1188">1188</a><a name="r1188" id="r1188"></a>], and the activity of pure H<sub>2</sub>O is defined as unity, whereas that of solutes is defined relative to their standard state (1 mol &#739; kg<sup>&minus;1</sup>) rather than the concentration of water (&asymp; 55.345 mol &#739; L<sup>&minus;1</sup>). It is essential that the chosen value  (pK<sub>a</sub> = 13.995 for H<sub>2</sub>O)  fits in with the known acidity and basicity of water compared with other materials. While older published materials reported methanol as being more acidic (pK<sub>a</sub> = 15.3) than water [<a href="ref22.html#r2107">2107</a><a name="r2107" id="r5"></a>] (and so mistakenly favoring a p<em>K</em><sub>a</sub> for water of 15.74), a  re-analysis [<a href="ref30.html#r2965">2965</a>] shows that water is 35-fold more acidic than methanol. This  value  fits well with the p<em>K</em><sub>a</sub> of H<sub>2</sub>O being &asymp; 14. This value (pK<sub>a</sub> = 14.00) may be separately determined from thermodynamic &Delta;G data  [<a href="ref30.html#r2967">2967</a>].</p>
+      <p align="left">&nbsp;</p>
+      <p align="left">Where weak acids with similar p<em>K</em><sub>a</sub>s are adjacent (and therefore the pKa values of the H-bond donor and acceptor groups are nearly equal), they may form low-barrier hydrogen bonds with easy exchange of the proton' for example,</p>
+      <p align="left">&nbsp;</p>
+      <p align="center">CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>COO<sup>&minus;</sup> <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" /> CH<sub>3</sub>COO<sup>&minus;</sup> + C<sub>2</sub>H<sub>5</sub>COOH</p>
+      <p align="right"> [<a title="go to top of page" href="#top"><span class="style16">Back to Top&nbsp;</span><img src="images/rtup.gif" border="0" alt="to top of page" width="13" height="12" /></a>] </p>
+    </div>
+    <div style=" float:none; clear:both;">
+      <p>&nbsp;</p>
+</div>
+    <hr />
+    <h2>Footnotes</h2>
+    <p align="left"><a name="a" id="a"><sup>a</sup></a> It follows that pure water droplets containing less than about 10<sup>8</sup> water molecules (&asymp; 0.1 &mu;m radius) would usually (i.e., on average) contain no ions in the absence of surface effects. [<a title="click for an explanation" href="#ba"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="b" id="b"><sup>b</sup></a> A bulk energy diagram 
+      for the dissociation in bulk water has been described [<a title="go to cited reference" href="ref7.html#r604">604</a><a name="r604" id="r"></a>]. 
+      [<a title="click for an explanation" href="#bb"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="c" id="c"><sup>c </sup></a>Note that acid-base neutrality 
+      only occurs when the concentration of hydrogen ions equals 
+      the concentration of hydroxyl ions (whatever the pH). This 
+      only occurs at pH 7 in pure water when at 25&nbsp;&deg;C. A solution 
+      is acidic when the hydrogen ion concentration is greater than 
+      the hydroxide ion concentration, whatever the pH. The pH of a neutral solution is numerically equal to half the pK<sub>w</sub> of the solution. Therefore a pH of 7 at 0&nbsp;&deg;C indicates a slightly acid solution (neutrality is pH 7.5), whereas a  pH of 7 at 50&nbsp;&deg;C indicates a slightly alkaline solution (neutrality is pH 6.6). [<a title="click for an explanation" href="#bc"><span title="go back to the text">Back</span></a>]</p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="d" id="d"><sup>d </sup></a>In a vacuum the 
+      reaction </p>
+    <p align="center">H<sub>2</sub>O (g) <img src="images/reg.gif" alt="-&gt;" width="22" height="10" />&nbsp;H<sup>+ </sup>(g)&nbsp;+&nbsp;OH<sup>&minus;</sup> (g) </p>
+    <p align="center">&nbsp;</p>
+    <p align="left">requires over three times more energy (1.66 MJ mol<sup>&minus;1</sup>; K<sub>w</sub> = 1 &#739; 10<sup>&minus;285</sup> mol<sup>2</sup> &#739; L<sup>&minus;2</sup> [<a href="ref31.html#r3025">3025</a>]) 
+      than dissociation</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"> H<sub>2</sub>O (g) &nbsp;<img src="images/reg.gif" alt="-&gt;" width="22" height="10" />&nbsp;H<strong>&middot;</strong> (g) +&nbsp;<strong>&middot;</strong>OH       (g) </p>
+    <p align="center">&nbsp;</p>
+    <p align="left">(531 kJ  &#739; mol<sup>&minus;1</sup>). In liquid water, the hydration of the ions (H<sup>+</sup> &Delta;G&deg; hydration -1112.5 kJ  &#739; mol<sup>&minus;1</sup>, this includes H<sub>3</sub>O<sup>+</sup> &Delta;G&deg; hydration -461.1 kJ  &#739; mol<sup>&minus;1</sup>; OH<sup>&minus;</sup> &Delta;G&deg; hydration -437.6 kJ &#739; mol<sup>&minus;1</sup> [<a href="ref11.html#r1067">1067</a><a name="r1067" id="r2"></a>])                     reduces the &Delta;G&deg; of the reaction </p>
+    <p align="left">&nbsp;</p>
+    <p align="center">2&nbsp;H<sub>2</sub>O (l)&nbsp;<img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;H<sub>3</sub>O<sup>+</sup>&nbsp;(aq) +&nbsp;OH<sup>&minus;</sup> (aq)</p>
+    <p align="center">&nbsp;</p>
+    <p align="lef">to +99.78 kJ &#739; mol<sup>&minus;1</sup> (These calculations assume that  the standard state of the solvent water is taken as 1.0 M. If the standard state of the solvent water is the unit activity or mole fraction (= 1.0), the &Delta;G&deg; is +79.907 
+      kJ &#739; mol<sup>&minus;1</sup> as given <a href="#acid">above</a>). The dissociated radicals (H<strong>&middot;</strong>,&nbsp;<strong>&middot;</strong>OH) are also somewhat stabilized in liquid water, as shown by the occasional dissociation of water [<a name="r1066" id="r3"></a><a href="ref11.html#r1066">1066</a>, see <a href="memory_of_water.html#vibr">equations</a>]. [<a title="click for an explanation" href="#bd"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p><a name="e" id="e"><sup>e</sup></a> Note that the 'acidity' of a material is commonly its pH and depends both on its p<em>K</em><sub>a</sub> and its concentration. The 'acidity' of drinks and foodstuffs, however, also depends on the response of our taste buds.  [<a title="click for an explanation" href="#be"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="f" id="f"><sup>f</sup></a> As Logarithms may only be taken of dimensionless numbers, all the concentrations (activities, partial pressures, etc.) in any Logarithmic expression are actually divided by unit values in the same units of that concentration  (activity, partial pressure, etc.); thus, for example, here [H<sub>3</sub>O<sup>+</sup>] (concentration of  H<sub>3</sub>O<sup>+</sup> in mol  &#739; L<sup>&minus;1</sup>) is actually [H<sub>3</sub>O<sup>+</sup>]/(1.0 mol  &#739; L<sup>&minus;1</sup>).</p>
+    <p>&nbsp;</p>
+    <p align="left">The p in pH originated as the arbitrary choice for the naming of the electrode solutions 'p' and 'q' by S&oslash;rensen  
+      [<a href="ref11.html#r1036">1036</a>, <a href="ref19.html#r1891">1891</a><a name="r1891" id="r1891"></a>], but is now taken to mean the  'logarithm to the base 10 of the reciprocal of' (cologarithm) as in the <a href="#pH">function described above</a>. [<a title="click for an explanation" href="#bf"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="g" id="g"><sup>g</sup></a> Strictly speaking, these equations should be expressed in terms of activities rather than concentrations; thus </p>
+    <p align="left">&nbsp;</p>
+    <p align="center">K<sub>w</sub> = [a<sub>H</sub>+] &#739; [a<sub>OH</sub>&minus;]</p>
+    <p align="center">&nbsp;</p>
+    <p align="left">The derivations are easier to follow as given, and usually the concentrations are so small that the difference is inconsequential. [<a title="click for an explanation" href="#bg"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="h" id="h"><sup>h</sup></a> Similar concentrations are found for ice [<a title="go to cited reference" href="ref22.html#r2171">2171</a>]. [<a title="click for an explanation" href="#bh"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="i" id="i"><sup>i</sup></a> Different membrane glasses may be used dependent on the solution to be analyzed (e.g., high temperatures, strong alkali or HF).</p>
+    <p>&nbsp;</p>
+    <p align="left">The electrode reaction for the Ag/AgCl/saturated KCl reference electrode is</p>
+    <p align="left">&nbsp;</p>
+    <p align="center">AgCl + e<sup>&minus;</sup> <img src="images/farrow.gif" width="47" height="13" alt="--&gt;" /> Ag<sup>0</sup> + Cl<sup>&minus;</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>E</em> = +0.197 V (in saturated KCl)</p>
+    <p align="right"> [<a title="click for an explanation" href="#bi"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <p align="left"><a name="j" id="j"><sup>j</sup></a> The activity coefficient of hydrogen ions depends on the acid concentration, temperature,  ionic strength, the dielectric constant, the size of the ions,  and the density  of the medium. [<a title="click for an explanation" href="#bj"><span title="go back to the text">Back</span></a>] </p>
+    <p>&nbsp;</p>
+    <figure  class="floatright">
+<figcaption>
+  <p align="center">Titration curve of a weak acid with p<em>K</em><sub>a</sub> = 7</p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/titrate3.gif" alt="Titration curve of a weak acid with p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; = 7" title="Titration curve of a weak acid with p&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;a&lt;/sub&gt; = 7" width="320" height="283" class="floatright" /></figure>  
+<p align="left"><a name="k" id="k"><sup>k </sup></a><strong>Weak acids</strong> A weak acid is only partially dissociated, with both the undissociated   acid and its dissociation product(s) being present, in solution, and in   equilibrium with each other. The dissociation constant (K<sub>a</sub>) may be determined by titration (see right). </p>
+<p align="left">&nbsp;</p>
+<p align="left">If we consider the situation where the  acid is one half dissociated, in other words where [A<sup>&minus;</sup>] is equal to [HA], then the solution's pH equals the acid's p<em>K</em><sub>a</sub>. This means that an acid is half  dissociated when the pH of the solution is numerically equal to the p<em>K</em><sub>a</sub> of the acid. Therefore acids with the lowest p<em>K</em><sub>a</sub> values are able to dissociate in  solutions of low pH, i.e., even where the hydrogen ion concentration is high.  Acids with higher p<em>K</em><sub>a</sub> values dissociate only in solutions of high (more alkaline) pH. The p<em>K</em><sub>a</sub> values of carboxylic acids are examined <a href="intracellular_water.html#carboxy">elsewhere</a> as are those <a href="co2.html">associated with CO<sub>2</sub></a>. A compilation of weak acid p<em>K</em><sub>a</sub> values is <a href="https://www.chem.wisc.edu/areas/reich/pkatable/pKa_compilation-1-Williams.pdf" title="opens new site in a pop-up window"   target="otherWin1" onclick="newWin('otherWin1')">available</a>.</p>
+<p align="center">&nbsp;</p>
+    <p align="left">For any weak monoprotic acid (HA) of concentration c, the equilibrium is, </p>
+    <p align="center"> HA <strong><img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" /></strong>[H<sup>+</sup>] + [A<sup>&minus;</sup>]</p>
+    <p align="center">&nbsp;</p>
+    <p align="left">The concentration of hydrogen ions [H<sup>+</sup>] is given by the following four equations,</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><strong>K<sub>a</sub>= [H<sup>+</sup>] &#739; [A<sup>&minus;</sup>]/[HA]</strong></p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><strong>K<sub>w</sub> = [H<sup>+</sup>] &#739; [OH<sup>&minus;</sup>]</strong></p>
+    <p align="left">Balancing charges</p>
+    <p align="center"><strong>[H<sup>+</sup>] =  [OH<sup>&minus;</sup>] +   [A<sup>&minus;</sup>] </strong></p>
+    <p align="left">Mass balance of the acid</p>
+    <p align="center"><strong>c = [A<sup>&minus;</sup>] + [HA] </strong></p>
+    <p align="left">Eliminating [A<sup>&minus;</sup>], [HA] and [OH<sup>&minus;</sup>] gives</p>
+    <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[H<sup>+</sup>]<sup>3</sup> + K<sub>a</sub>
+     &#739; [H<sup>+</sup>]<sup>2</sup> &minus; (K<sub>a </sub>
+     &#739; c + K<sub>w</sub>)
+      &#739; [H<sup>+</sup>] &minus; K<sub>a</sub>
+     &#739; K<sub>w</sub> = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(A) </p>
+    <p align="left">The pH is, </p>
+    <p align="center"> <img src="images/weakacid.gif" title="pH=-log[[-Ka + (Ka&sup2; + 4CKa)^&frac12;]/2]" alt="pH=-log[[-Ka + (Ka&sup2; + 4CKa)^&frac12;]/2]" width="356" height="49" align="absmiddle" /> </p>
+    
+    <figure  class="floatright">
+<figcaption>
+  <p align="center">&nbsp;</p>
+  <p align="center">Comparison of actual pH with its approximation for acetic acid</p>
+  <p align="center">&nbsp;</p>
+</figcaption>
+<img src="images/aceticpH.gif" alt="Comparison of actual pH with its approximation for acetic acid" title="Comparison of actual pH with its approximation for acetic acid" width="400" height="272" class="floatright"/></figure> 
+<p align="left">so long as c &#8811; K<sub>a</sub> and c &#739; K<sub>a</sub> &gt; K<sub>w</sub>. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">The pH, calculated using a numerical iterative method from the above exact equation (A), is compared with its approximation -0.5 &#739; Log<sub>10</sub>(c &#739; K<sub>a</sub>) for acetic acid (pK<sub>a</sub> = 4.76, 25&nbsp;&deg;C) is shown on the right. </p>
+    <p align="left">&nbsp;</p>
+    <p align="left">It can be seen that the approximation should not be used for concentrations below about 0.1  &#739; K<sub>a</sub>. At  very low acid concentrations (&lt; 10<sup>&minus;7</sup> M), the pH cannot rise above pH 7.0.</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="left">&nbsp;</p>
+    <p align="right">&nbsp;</p>  
+    <div class="spacer">
+      <p>An extremely useful  relationship between pH and p<em>K</em><sub>a</sub> can  be obtained simply by taking logarithms of </p>
+      <p>&nbsp;</p>
+      <p align="center">K<sub>a</sub>= [H<sup>+</sup>] &#739; [A<sup>&minus;</sup>]/[HA] </p>
+      <p align="center">&nbsp;</p>
+      <p align="center"> log<sub>10</sub>(K<sub>a</sub>) = log<sub>10</sub>[H<sup>+</sup>] + log<sub>10</sub>([A<sup>&minus;</sup>]/[HA])</p>        
+      <p>&nbsp;</p>
+      <p>as p<em>K</em><sub>a</sub> = -log<sub>10</sub>(K<sub>a</sub>) and pH = -log<sub>10</sub>[H<sup>+</sup>], this gives the Henderson-Hasselbalch  equation, </p>
+      <p align="center"><img src="images/hheq.gif" alt="pH=pKa+log([A-]/[HA])" title="pH=pKa+log([A-]/[HA])" width="181" height="56" /></p>
+      <p>This equation may break down at high (&gt; 1 M) and low (&lt; 1 mM) concentrations and where the pH is more than two units distant from the p<em>K</em><sub>a</sub>.</p>
+      <p>&nbsp;</p>
+      <p>The  most convenient form of this Henderson-Hasselbalch equation is</p>
+      <p>&nbsp;</p>
+      <p align="center"><img src="images/hheq2.gif" alt="pH=pKa+log([conjugate base]/[conjugate acid])=pKa+log([proton acceptor]/[proton donor])"   title="pH=pKa+log([conjugate base]/[conjugate acid])=pKa+log([proton acceptor]/[proton donor])"   width="455" height="48" /></p>
+      <p>&nbsp;</p>    
+      <p>Using p<em>K</em><sub>a</sub> values, one can express the  strength of an acid (i.e., its tendency to dissociate) with reference to the pH  scale. A weak acid  only slightly  dissociates in solution and has a low K<sub>a</sub> and high p<em>K</em><sub>a</sub>. </p>
+      <p>&nbsp;</p>
+      <p><strong>A strong acid </strong>  is mostly,  perhaps wholly, dissociated and  therefore has a high K<sub>a</sub> value and a low, perhaps even  negative,&nbsp; p<em>K</em><sub>a</sub> value. If the K<sub>a</sub> is  large, then p<em>K</em><sub>a</sub> will  have a small (or negative) numerical value. There is no generally accepted dividing  line between weak and strong acids, but as a rough guide, it is suggested that a  strong acid would be at least 25% dissociated in a 0.1 M solution; this  correspondis to a K<sub>a</sub> of about 0.01 (p<em>K</em><sub>a</sub> ~2). It has been found that the strong acids HCl, HBr, and HI are 91%, 95%, and 99 % dissociated, respectively  [<a  title="go to cited reference" href="ref36.html#r3505">3505</a><a name="r3505" id="r3505"></a>] (see also <a href="aqueous_hydrogen_halides.html">elsewhere</a>). At high concentrations ( &gt; ~0.1 M), the activities of the ions and water deviate increasingly from unity, and the pH is best <a href="aqueous_hydrogen_halides.html#a">experimentally determined</a>.</p>
+      <p>&nbsp;</p>
+      <p><strong>Strong bases</strong> remove protons from  molecules of  acid, including even a very weak acid, and they also dissociate fully in water. Examples are the hydroxides of the alkali metal ions, e.g., LiOH, NaOH, and KOH.</p>
+      <p>&nbsp;</p>
+      <p>pK<sub>a</sub> values are used both for acids and for the conjugate acids of bases. Thus NH<sub>3</sub> has p<em>K</em><sub>a</sub> for the dissociation </p>
+      <p>&nbsp;</p>
+      <p align="center">NH<sub>4</sub><sup>+</sup>&nbsp;<strong><img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" /></strong> H<sup>+</sup> + NH<sub>3</sub> </p>
+      <p>of about 9.3. </p>
+      <p align="right">[<a title="click for an explanation" href="#bk"><span title="go back to the text">Back</span></a>] </p>
+      <p>&nbsp;</p>    
+  </div>
+    <p align="left"><a name="l" id="l"><sup>l</sup></a> Auto-ionization is not restricted to water but can occur with a few other substances. An example is  liquid ammonia with ionization equilibrium<br />
+</p>
+    <p align="left">&nbsp;</p>
+    <p align="center"><strong>NH<sub>3</sub> + NH<sub>3</sub> <img border="0" src="images/ionis5.gif" alt="equilibrium arrows" width="32" height="10" />&nbsp;NH<sub>2</sub><sup>&minus;</sup>(in <span class="style15">NH<sub>3</sub></span>) + NH<sub>4</sub><sup>+</sup></strong><strong>(in <span class="style15">NH<sub>3</sub></span>)</strong></p>
+    <p align="cleft">&nbsp;</p>
+      <p align="center"><strong>K<sub>NH3</sub>= [NH<sub>4</sub><sup>+</sup>][NH<sub>2</sub><sup>&minus;</sup>]</strong>    </p>
+    <p align="left">&nbsp;</p>
+    <p align="left"> The self-ionization constant (K<sub>NH3</sub>) of ammonia (at &asymp; 10<sup>&minus;30</sup>) is sixteen orders of magnitude smaller than that of water. [<a title="click for an explanation" href="#bl"><span title="go back to the text">Back</span></a>] </p>
+    <p align="left">&nbsp;</p>
+    <!-- print end -->
+    <div class="spacer">
+      <p><a name="m" id="m"><sup>m</sup></a> Water p<em>K</em><sub>a</sub> has been calculated using first-principles to a value 1.0 units different from the experimental value [<a title="go to cited reference"  href="ref39.html#r3839">3839</a><a name="r3839" id="r3839"></a>]. [<a title="click for an explanation" href="#bm"><span title="go back to the text">Back</span></a>] </p>
+      <p>&nbsp;</p>
+      <p><a name="n" id="n"><sup>n</sup></a> Some reports give this unit as 1 mol  &#739; L<sup>&minus;1</sup>. [<a title="click for an explanation" href="#bn"><span title="go back to the text">Back</span></a>] </p>
+      <p>&nbsp;</p>
+      <p><a name="o" id="o"><sup>o</sup></a> <strong>Ionic strength</strong>. The ionic strength of a solution is a measure of its ionic concentration. The ionic strength (<em>I</em>, mol  &#739; L<sup>&minus;1</sup>) of a solution is defined (empirically) as,</p>
+      <p>&nbsp;</p>
+      <p align="center"><img width="134" height="49" src="images/water_d7.gif" alt="I=&frac12;(the sum of all the ionic concentrations x their charge squared)" title="I=&frac12;(the sum of all the ionic concentrations x their charge squared)"/></p>
+<p>&nbsp;</p>
+<p>where the factor of &frac12; is to include both cations and anions, <em>c</em><sub>i</sub> is the molar concentration of ion i (mol  &#739; L<sup>&minus;1</sup>), <em>z</em><sub>i</sub> is the charge on that ion, and the sum is taken over all ions in the solution. The term was introduced by G. N. Lewis and M. Randal  in 1921 (G.  N. Lewis and M. Randall,    The activity coefficient of strong electrolytes,<em> Journal of the American  Chemical  Society</em>,  <strong>43</strong> (1921) 1112-1154). For a 1:1 electrolyte such as sodium chloride, where each ion is singly-charged, the ionic strength is equal to the concentration (c).  For a 1:2 electrolyte such as magnesium chloride,  the ionic strength is equal to three times the concentration of the salt as </p>
+<p>&nbsp;</p>
+<p align="center"><em>I</em> = 0.5 &#739; {c  &#739; (&minus;1)<sup>2</sup> + c  &#739; (&minus;1)<sup>2 </sup>+ c   &#739; (+2)<sup>2</sup>} = 3   &#739; c</p>
+<p>&nbsp;</p>
+      <p>The ionic strength of the solution reflects its charge density. It affects many properties, such as the solubility and dissociation of  its ionic components and the activity and solubility of  contained biological molecules. As the usefulness of the concept of 'activity' diminishes with the increased understanding of the molecular structuring of water by itself and surrounding solutes, the concept of 'ionic strength still retains its usefulness in such areas as the control of biological processes.</p>
+      <p>&nbsp;</p>
+      <p>As volumes of solutions are not generally additive, it may be useful to use the molal ionic strength, where all the concentrations are in <a href="moles_molaity_molality.html">molalities</a> (as in its original definition). [<a title="click for an explanation" href="#bo"><span title="go back to the text">Back</span></a>] </p>
+      <p>&nbsp;</p>
+    </div>
+</div>
+</div>
+<div style="width:761px; background-color:#006868;padding-top:0px;padding-bottom:3px;border:0px;margin:0px;">
+  <div style="width:753px; background-image:url('images/bg2.gif');margin-left:3px;padding-left:2px;border:0px;padding-top:0px;padding-bottom:0px;background-color:#D8F0d8;">
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3"><a title="Home page" href="index.html">Home</a> | <a title="go to our 'Site index'" href="water_structure_science.html" accesskey="I">Site Index</a> | <a title="go to 'Water molecular structure' page"  href="water_molecule.html">The water molecule</a> | <a href="ions_orbitals.html">Hydrogen ions</a> | <a href="ionisoh.html">Hydroxide ions</a> | <a href="grotthuss.html">Grotthuss mechanism</a> | <a title="go to 'Hydrogen bonding in water' page"  href="hydrogen_ions.html">Hydrogen bond</a> | <a href="http://www.lsbu.ac.uk/" ><abbr title="London South Bank University">LSBU</abbr></a> | <a title="go to top of page" href="#top">Top</a></span></p>
+    <p>&nbsp;</p>
+    <p align="center"><span class="style3">This page was established in 2000 and  last updated 
+        by <a title="email me" href="mailto:martin.chaplin@btinternet.com?subject=from_water_web_site">Martin Chaplin</a> on
+        <!-- #BeginDate format:Sw1 -->1 November, 2021<!-- #EndDate -->
+</span></p>
+    <br />
+    <div class="floatleft" style="width:320px;">
+      <div align="right"><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/2.0/uk/88x31.png" /></a></div>
+</div>
+   <span class="style4">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/uk/">Creative Commons Attribution<br />
+    -Noncommercial-No Derivative Works 2.0 UK: England &amp; Wales License</a></span>
+    <p>&nbsp;</p>
+
+    <div class="spacer"></div>
+</div>
+</div>
+</body>
+</html>
