@@ -1,0 +1,238 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-gb">
+<meta name="description" content="Determination of Vmax and Km">
+
+<meta name="Keywords" content="graphical, determination, Vmax, Km">
+
+<title>Determination of Vmax and Km</title>
+<script language="JavaScript" type="text/javascript" src="head.js"></script><link rel="stylesheet" type="text/css" >
+<script language="JavaScript" src="general.js" type="text/JavaScript"></script>
+<noscript>Your browser does not support JavaScript!</noscript> 
+</head>
+<body><table width="770" border="0" align="center" cellpadding="0" cellspacing="0"> 
+<tr> 
+  <td> </td>
+</tr>
+<tr> 
+  <td bgcolor="#557DA5"> <table border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+
+
+      </tr>
+    </table></td>
+</tr>
+<tr>    <td align="left" valign="top" bgcolor="#FFFFFF"> <table width="770" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+
+          <td width="20%" bgcolor="#547EA6" align="center" Valign="baseline"> 
+            <a  id="determination.html">
+            </a> <br>  
+          </td>
+
+        </tr>
+      </table>
+      <table width="770" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td align="left" valign="top" bgcolor="#FFFFFF"><!-- print begin -->
+  <center>
+<b><font face="Arial" color="#006666" size="+3">Enzyme Technology</font></b>
+
+</center>
+
+
+
+<center><h1> <font face="Arial"> <B>Determination
+of V<sub>max</sub> and K<sub>m</sub></B></font></h1></center>
+<p> <font face="Arial"> It is important to have as thorough
+  knowledge as is possible of the performance characteristics of enzymes, if they
+  are to be used most efficiently. The kinetic parameters V<sub>max</sub>,
+  K<sub>m</sub> and k<sub>cat</sub>/K<sub>m</sub> should, therefore, be determined.
+  There are two approaches to this problem using either the reaction progress
+  curve (integral method) or the initial rates of reaction (differential method).
+  Use of either method depends on prior knowledge of the mechanism for the
+  reaction and, at least approximately, the optimum conditions for the reaction.
+  If the mechanism is known and complex then the data must be reconciled to the
+  appropriate model (hypothesis), usually by use of a computer-aided analysis
+  involving a weighted least-squares fit. Many such computer programs are
+  currently available and, if not, the programming skill involved is usually
+  fairly low. If the mechanism is not known, initial attempts are usually made to
+  fit the data to the Michaelis-Menten kinetic model. Combining equations (<a href="kinetics.html#1_1">1.1</a>) and
+  (<a href="kinetics.html#eq1_8">1.8</a>),</font></p>
+
+<p align="center"><a name="1_99"></a><img src="images/determ17.gif" align="absmiddle" alt="d[P]/dt = v = Vmax[S]/( Km + [S])" width="138" height="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.99)</p>
+
+<p> <font face="Arial"> which, on integration, using
+the boundary condition that the product is absent at time zero and by
+substituting [S] by ([S]<sub>0</sub> - [P]), becomes</font></p>
+
+<p align="center"> <img src="images/determ18.gif" align="absmiddle" alt="t = [P]/Vmax - Km Ln(([S]0 - [P])/( [S]0 ))/Vmax" width="204" height="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.100)</p>
+
+<p> <font face="Arial"> If the fractional conversion (</font><B><font face="Times New Roman"><i>X</i></font></B><font face="Arial">) is introduced,
+where</font></p>
+
+<p align="center"> <img src="images/determ19.gif" align="absmiddle" alt="X = ([S0] - [S])/[S]0" width="102" height="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.101)</p>
+
+<p> <font face="Arial"> then equation (1.100) may be simplified to give:</font></p>
+
+<p align="center"> <a name="1_102"></a><img src="images/determ20.gif" align="absmiddle" alt=" t = X[S]0/Vmax - Km Ln(1 - x)/Vmax" width="170" height="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.102)</p>
+
+<p> <font face="Arial">&nbsp;Use of equation (<a href="determination.html#1_99">1.99</a>)
+involves the determination of the initial rate of reaction over a wide range of
+substrate concentrations. The initial rates are used, so that [S] =
+[S]<sub>0</sub>, the predetermined and accurately known substrate concentration
+at the start of the reaction. Its use also ensures that there is no effect of
+reaction reversibility or product inhibition which may affect the integral
+method based on equation (<a href="determination.html#1_102">1.102</a>). Equation (<a href="determination.html#1_99">1.99</a>) can be utilised directly using a
+computer program, involving a weighted least-squares fit, where the parameters
+for determining the hyperbolic relationship between the initial rate of reaction
+and initial substrate concentration (i.e., K<sub>m</sub> and V<sub>max</sub>) are
+chosen in order to minimise the errors between the data and the model, and the
+assumption is made that the errors inherent in the practically determined data
+are normally distributed about their mean (error-free) value.</font></p>
+
+<p> <font face="Arial"> Alternatively the direct linear plot may be used (<a href="determination.html#fig1_10">Figure
+1.10</a>). This is a powerful non-parametric statistical method which
+depends upon the assumption that any errors in the experimentally derived data
+are as likely to be positive (i.e., too high) as negative (i.e., too low). It is
+common practice to show the data obtained by the above statistical methods on
+one of three linearised plots, derived from equation (<a href="determination.html#1_99">1.99</a>) (<a href="determination.html#fig1_11">Figure
+1.11</a>). Of
+these, the double reciprocal plot is preferred to test for the qualitative
+correctness of a proposed mechanism, and the Eadie-Hofstee plot is preferred for
+discovering deviations from linearity.</font></p>
+
+<hr>
+
+<p align="center"><font face="Arial"><img border="0" src="images/determ.gif" width="620" height="378" alt="graph"></font></p>
+
+            <p><font face="Arial"><b><a name="fig1_10"></a>Figure 1.10.</b> The 
+              direct linear plot. A plot of the initial rate of reaction against 
+              the initial substrate concentration also showing the way estimates 
+              can be directly made of the K<sub>m</sub> and V<sub>max</sub>. Every 
+              pair of data points may be utilised to give a separate estimate 
+              of these parameters (i.e., n(n-1)/2 estimates from n data points 
+              with differing [S]<sub>0</sub>). These estimates are determined 
+              from the intersections of lines passing through the (x,y) points 
+              (-[S]<sub>0</sub>,0) and (0,v); each intersection forming a separate 
+              estimate of K<sub>m</sub> and V<sub>max</sub>. The intersections 
+              are separately ranked in order of increasing value of both K<sub>m</sub> 
+              and V<sub>max</sub> and the median values taken as the best estimates 
+              for these parameters. The error in these estimates can be simply 
+              determined from sub-ranges of these estimates, the width of the 
+              sub-range dependent on the accuracy required for the error and the 
+              number of data points in the analysis. In this example there are 
+              7 data points and, therefore, 21 estimates for both K<sub>m</sub> 
+              and V<sub>max</sub>. The ranked list of the estimates for K<sub>m</sub> 
+              (mM) is 0.98,1.65, 1.68, 1.70, 1.85, 1.87, 1.89, 1.91, 1.94, 1.96, 
+              <b>1.98</b>, 1.99, 2.03, 2.06, 1.12, 2.16, 2.21, 2.25, 2.38, 2.40, 
+              2.81, with a median value of 1.98 mM. The K<sub>m</sub> must lie 
+              between the 4th (1.70 mM) and 18th (2.25 mM) estimate at a confidence 
+              level of 97% (Cornish-Bowden <I>et al.</I>, 1978). The list of the 
+              estimates for V<sub>max</sub> (<font face="Symbol">m</font>M.min<sup>&minus;1</sup>) 
+              is ranked separately as 3.45, 3.59, 3.80, 3.85, 3.87, 3.89, 3.91, 
+              3.94, 3.96, 3.96, <b>3.98</b>, 4.01, 4.03, 4.05, 4.13, 4.14, 4.18, 
+              4.26, 4.29, 4.35, with a median value of 3.98 <font face="Symbol">m</font>M.min<sup>&minus;1</sup>. 
+              The V<sub>max</sub> must lie between the 4th (3.85 <font face="Symbol">m</font>M.min<sup>&minus;1</sup>) 
+              and 18th (4.18 <font face="Symbol">m</font>M.min<sup>&minus;1</sup>) estimate 
+              at a confidence level of 97%. It can be seen that outlying estimates 
+              have little or no influence on the results. This is a major advantage 
+              over the least-squared statistical procedures where rogue data points 
+              cause heavily biased effects.</font></p>
+
+<hr align="center">
+
+<p><font face="Arial"><b><a name="fig1_11"></a>Figure 1.11.</b> Three ways in which the
+hyperbolic relationship between the initial rate of reaction and the initial
+substrate concentration</font></p>
+
+<p align="center"><img src="images/determ50.gif" align="absmiddle" alt="v =Vmax[S]0/(Km+[S]0)" width="96" height="46"></p>
+
+<p><font face="Arial"> can be
+rearranged to give linear plots. The examples are drawn using
+K<sub>m</sub> = 2 mM and V<sub>max</sub> = 4 </font><font face="Symbol">m</font><font face="Arial">M min<sup>&minus;1</sup>.</font></p>
+
+<p><font face="Arial">(a) Lineweaver-Burk (double-reciprocal) plot of 1/v against 1/[S]<sub>0</sub> giving
+intercepts at 1/V<sub>max</sub> and -1/K<sub>m</sub></font></p>
+<p align="center"><img src="images/determ14.gif" align="absmiddle" alt="1/v = Km/Vmax [S]0 + 1/ Vmax" width="152" height="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.103)</p>
+<p align="center"><font face="Arial"><img border="0" src="images/lineweaver.gif" width="620" height="378" alt="graph"></font></p>
+<p align="left"><font face="Arial">(b) Eadie-Hofstee plot of v
+against v/[S]<sub>0</sub> giving intercepts at V<sub>max</sub> and
+V<sub>max</sub>/K<sub>m</sub></font></p>
+<p align="center"><img src="images/determ16.gif" align="absmiddle" alt="v = -Km. v/[S]0 + Vmax" width="142" height="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.104)</p>
+<p align="center"><font face="Arial"><img border="0" src="images/eadie.gif" width="620" height="378" alt="graph"></font></p>
+<p align="center"><font face="Arial">c) Hanes-Woolf (half-reciprocal) plot
+of [S]<sub>0</sub>/v against [S]<sub>0</sub> giving intercepts at
+K<sub>m</sub>/V<sub>max</sub> and K<sub>m</sub>.</font></p>
+<p align="center"><img src="images/determ15.gif" align="absmiddle" alt="[S]0/v = [S]0/Vmax + Km/Vmax " width="164" height="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1.105)</p>
+<p align="center"><font face="Arial"><img border="0" src="images/hanes.gif" width="620" height="378" alt="graph"></font></p>
+
+<hr align="center">
+
+<p> <font face="Arial"> 
+The progress curve of the reaction (<a href="determination.html#fig1_12">Figure 1.12</a>) can be
+used to determine the specificity constant (k<sub>cat</sub>/K<sub>m</sub>) by
+making use of the relationship between time of reaction and fractional
+conversion (see equation (<a href="determination.html#1_102">1.102</a>). This has the advantage over the use of the
+initial rates (above) in that fewer determinations need to be made, possibly
+only one progress curve is necessary, and sometimes the initial rate of reaction
+is rather difficult to determine due to its rapid decline. If only the early
+part of the progress curve, or its derivative, is utilised in the analysis, this
+procedure may even be used in cases where there is competitive inhibition by the
+product, or where the reaction is reversible.</font></p>
+
+<hr>
+<p align="center"><img border="0" src="images/prod.gif" alt="{productivity-time curve showing linear increase in product formation with time at the beginning but reaching a maximum product formation after some time]" width="480" height="259"></p>
+
+<p><font face="Arial"><b><a name="fig1_12"></a>Figure 1.12.</b> A
+schematic plot showing the amount of product formed (productivity) against the
+time of reaction, in a closed system. The specificity constant may be determined
+by a weighted least-squared fit of the data to the relationship given by
+equation (1.102).</font></p>
+
+<hr>
+
+<p> <font face="Arial"> The type of inhibition and the inhibition constants may be
+determined from the effect of differing concentrations of inhibitor on the
+apparent K<sub>m</sub>, V<sub>max</sub> and k<sub>cat</sub>/K<sub>m</sub>, although
+some more specialised plots do exist (e.g., <a href="summary1.html#cb"> Cornish-Bowden,
+1974</a>).</font></p>
+
+<center>
+
+<p>&nbsp;
+
+<!-- print end --><p align="center"><font face="Arial"><a href="index.html" accesskey="H">Home</a>
+| <a href="inhibition.html"> Back</a> | <a href="summary1.html"> Next</a></font></p>
+      
+
+<p align="center"><font face="Arial">This page was established in 2004 and  last updated by <a href="../martin_chaplin.html">Martin
+Chaplin</a> <br>on <b> 
+        <!-- #BeginDate format:Sw1 -->6 August, 2014<!-- #EndDate -->
+        </b>
+</font>
+</p>
+
+</center>
+
+</td>
+        </tr>
+      </table>
+     </tr></td>
+</table>
+</body>
+</html>
+
+
+
+
