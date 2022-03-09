@@ -9,13 +9,13 @@ WGETOPTIONS=--recursive \
 
 
 retry:
-	wget $(WGETOPTIONS) --no-clobber https://water.lsbu.ac.uk/water
+#	-wget $(WGETOPTIONS) --no-clobber https://water.lsbu.ac.uk/water
 # --no-clobber avoids overwriting the existing file.
 	cp history.txt @; date +'* %Y-%m-%d' | cat - @ > history.txt
 	make README.md
-     git all .
-     git commit -m "."
-     git push
+	git add .
+	git commit -m "."
+	git push
 
 initial:
 	wget $(WGETOPTIONS) https://water.lsbu.ac.uk/water
