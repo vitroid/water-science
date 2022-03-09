@@ -20,5 +20,5 @@ retry:
 initial:
 	wget $(WGETOPTIONS) https://water.lsbu.ac.uk/water
 
-%.md: %.0.md
+%.md: %.0.md history.txt
 	python replacer.py < $< > $@
