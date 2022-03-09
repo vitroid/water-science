@@ -9,7 +9,7 @@ Access the contents from [here](https://vitroid.github.io/water-science/water/wa
 
 ## History
 
-* Feb 28, 2022 First retrieval.
+* 2022-02-28
 
 ## References
 
