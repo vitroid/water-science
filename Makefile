@@ -9,7 +9,7 @@ WGETOPTIONS=--recursive \
 
 
 retry:
-#	-wget $(WGETOPTIONS) --no-clobber https://water.lsbu.ac.uk/water
+	-wget $(WGETOPTIONS) --no-clobber https://water.lsbu.ac.uk/water
 # --no-clobber avoids overwriting the existing file.
 	cp history.txt @; date +'* %Y-%m-%d' | cat - @ > history.txt
 	make README.md
