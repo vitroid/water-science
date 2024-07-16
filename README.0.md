@@ -7,12 +7,6 @@ The original web pages are licensed under the [Creative Commons Attribution
 
 Access the contents from [here](https://vitroid.github.io/water-science/water/water_sitemap.html) when the original site is offline.
 
-## Translations
-
-* [English](https://vitroid.github.io/water-science/water.html)
-* [日本語](https://vitroid.github.io/water-science/ja/water.html)
-
-
 ## History
 
 {{history}}
