@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/matto/Unison/github/water-science'
-wget --recursive --page-requisites --html-extension --convert-links --restrict-file-names=unix --domains water.lsbu.ac.uk --no-parent --wait=5  --no-clobber https://water.lsbu.ac.uk/water
+wget --recursive --page-requisites --html-extension --convert-links --restrict-file-names=unix --domains water.lsbu.ac.uk --no-parent --wait=5 --no-check-certificate --no-clobber https://water.lsbu.ac.uk/water
 cp history.txt @; date +'* %Y-%m-%d' | cat - @ > history.txt
 make README.md
 git add .
