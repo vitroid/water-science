@@ -9,8 +9,8 @@ Access the contents from [here](https://vitroid.github.io/water-science/water/wa
 
 ## Translations
 
-* [https://vitroid.github.io/water-science/](English)
-* [https://vitroid.github.io/water-science/ja](日本語)
+* [English](https://vitroid.github.io/water-science/water.html)
+* [日本語](https://vitroid.github.io/water-science/ja/water.html)
 
 
 ## History
