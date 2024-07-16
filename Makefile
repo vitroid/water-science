@@ -35,3 +35,6 @@ docs/ja:
 docs/ja/%.html: docs/%.html
 	python translate.py JA < $< > $@
 
+ja-all:
+	ls docs/*.html docs/water/*.html | sed -e 's@^docs@docs/ja@'
+
