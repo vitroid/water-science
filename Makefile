@@ -28,14 +28,14 @@ initial:
 	python replacer.py < $< > $@
 
 
-docs/ja:
-	-mkdir docs/ja
-	-mkdir docs/ja/water
-	-cd docs/ja; ln -s ../../water/images; ln -s ../../water/enztech; ln -s ../../water/pdb; ln -s ../../water/files
+# docs/ja:
+# 	-mkdir docs/ja
+# 	-mkdir docs/ja/water
+# 	-cd docs/ja; ln -s ../../water/images; ln -s ../../water/enztech; ln -s ../../water/pdb; ln -s ../../water/files
 
-docs/ja/%.html: docs/%.html
-	python translate.py JA < $< > $@
+# docs/ja/%.html: docs/%.html
+# 	python translate.py JA < $< > $@
 
-ja-all: docs/ja
-	ls docs/*.html docs/water/*.html | sed -e 's@^docs@docs/ja@' | xargs make -k
+# ja-all: docs/ja
+# 	ls docs/*.html docs/water/*.html | sed -e 's@^docs@docs/ja@' | xargs make -k
 
