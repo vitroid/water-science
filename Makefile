@@ -29,12 +29,13 @@ initial:
 
 
 docs/ja:
-	# source_dirが存在する親ディレクトリで実行する
-	rsync -a --include='*/' --exclude='*' docs/water docs/ja/
+	-mkdir docs/ja
+	-mkdir docs/ja/water
+	-cd docs/ja; ln -s ../../water/images; ln -s ../../water/enztech; ln -s ../../water/pdb; ln -s ../../water/files
 
 docs/ja/%.html: docs/%.html
 	python translate.py JA < $< > $@
 
-ja-all:
-	ls docs/*.html docs/water/*.html | sed -e 's@^docs@docs/ja@'
+ja-all: docs/ja
+	ls docs/*.html docs/water/*.html | sed -e 's@^docs@docs/ja@' | xargs make -k
 
