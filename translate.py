@@ -5,7 +5,7 @@ import requests
 source_lang = "EN"
 target_lang = sys.argv[1]
 
-text = sys.stdin.readlines()
+text = "".join(sys.stdin.readlines())
 with open("deepl_api.json") as f:
     API_KEY = json.load(f)["key"]
 
